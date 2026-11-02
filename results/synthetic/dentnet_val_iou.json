@@ -1,0 +1,9 @@
+{
+  "checkpoint": "best_dentnet_real_scale.pth",
+  "n_samples": 6000,
+  "mean_iou_all": 0.9742092245989087,
+  "median_iou_all": 0.982782310729325,
+  "std_iou_all": 0.04331837704591821,
+  "n_dented": 4835,
+  "mean_iou_dented": 0.9679949012602796
+}

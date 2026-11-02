@@ -1,0 +1,2978 @@
+{
+ "n_defective": 295,
+ "definitions": {
+  "bbox_max_side": {
+   "median_all": 4.5148556300000005,
+   "median_sub": 5.168464659999998,
+   "n_sub": 23,
+   "p10_all": 2.283266829999995,
+   "p90_all": 12.384645076000002
+  },
+  "bbox_diagonal": {
+   "median_all": 5.997595564162437,
+   "median_sub": 7.0197434067121,
+   "n_sub": 23,
+   "p10_all": 3.091292169848752,
+   "p90_all": 15.21593574806844
+  },
+  "max_pairwise": {
+   "median_all": 4.893780310317236,
+   "median_sub": 5.861990957082634,
+   "n_sub": 23,
+   "p10_all": 2.6760506061311546,
+   "p90_all": 13.593157512988835
+  }
+ },
+ "per_item": [
+  {
+   "bbox_max_side": 6.125053410000007,
+   "bbox_diagonal": 7.908835145803795,
+   "max_pairwise": 6.479949604464202,
+   "cat": "airplane",
+   "stem": "363_bulge",
+   "label": "bulge",
+   "n_defect_points": 6044,
+   "enum_index": 0
+  },
+  {
+   "bbox_max_side": 3.2710383,
+   "bbox_diagonal": 5.238036676540905,
+   "max_pairwise": 3.9713693745660965,
+   "cat": "airplane",
+   "stem": "370_bulge",
+   "label": "bulge",
+   "n_defect_points": 2555,
+   "enum_index": 1
+  },
+  {
+   "bbox_max_side": 2.7512054400000068,
+   "bbox_diagonal": 4.2603219510091845,
+   "max_pairwise": 3.0756535881401375,
+   "cat": "airplane",
+   "stem": "385_bulge",
+   "label": "bulge",
+   "n_defect_points": 2652,
+   "enum_index": 2
+  },
+  {
+   "bbox_max_side": 3.402351379999999,
+   "bbox_diagonal": 4.867859951449052,
+   "max_pairwise": 3.69784663156001,
+   "cat": "airplane",
+   "stem": "392_bulge",
+   "label": "bulge",
+   "n_defect_points": 2775,
+   "enum_index": 3
+  },
+  {
+   "bbox_max_side": 6.133053780000001,
+   "bbox_diagonal": 8.532647558904038,
+   "max_pairwise": 6.708766523220123,
+   "cat": "airplane",
+   "stem": "399_bulge",
+   "label": "bulge",
+   "n_defect_points": 6472,
+   "enum_index": 4
+  },
+  {
+   "bbox_max_side": 3.9272241599999997,
+   "bbox_diagonal": 5.360942947947622,
+   "max_pairwise": 4.310315108962137,
+   "cat": "airplane",
+   "stem": "461_bulge",
+   "label": "bulge",
+   "n_defect_points": 3717,
+   "enum_index": 5
+  },
+  {
+   "bbox_max_side": 1.975883490000001,
+   "bbox_diagonal": 2.666033656581811,
+   "max_pairwise": 2.030523410149477,
+   "cat": "airplane",
+   "stem": "468_bulge",
+   "label": "bulge",
+   "n_defect_points": 852,
+   "enum_index": 6
+  },
+  {
+   "bbox_max_side": 3.4553146399999974,
+   "bbox_diagonal": 5.098610724959093,
+   "max_pairwise": 4.010051931836455,
+   "cat": "airplane",
+   "stem": "482_bulge",
+   "label": "bulge",
+   "n_defect_points": 3110,
+   "enum_index": 7
+  },
+  {
+   "bbox_max_side": 6.991661070000001,
+   "bbox_diagonal": 9.465584719423406,
+   "max_pairwise": 7.867423362101068,
+   "cat": "airplane",
+   "stem": "497_bulge",
+   "label": "bulge",
+   "n_defect_points": 8983,
+   "enum_index": 8
+  },
+  {
+   "bbox_max_side": 3.0390310299999985,
+   "bbox_diagonal": 4.872261257722689,
+   "max_pairwise": 3.8190248210874507,
+   "cat": "airplane",
+   "stem": "504_bulge",
+   "label": "bulge",
+   "n_defect_points": 1820,
+   "enum_index": 9
+  },
+  {
+   "bbox_max_side": 6.182952880000016,
+   "bbox_diagonal": 8.381823332844897,
+   "max_pairwise": 7.109689126907268,
+   "cat": "airplane",
+   "stem": "519_bulge",
+   "label": "bulge",
+   "n_defect_points": 6464,
+   "enum_index": 10
+  },
+  {
+   "bbox_max_side": 2.128379819999992,
+   "bbox_diagonal": 2.806109720326719,
+   "max_pairwise": 2.482418873257064,
+   "cat": "airplane",
+   "stem": "536_bulge",
+   "label": "bulge",
+   "n_defect_points": 2582,
+   "enum_index": 11
+  },
+  {
+   "bbox_max_side": 1.6256103500000165,
+   "bbox_diagonal": 2.334337816032985,
+   "max_pairwise": 2.0055315912953287,
+   "cat": "airplane",
+   "stem": "554_bulge",
+   "label": "bulge",
+   "n_defect_points": 1270,
+   "enum_index": 12
+  },
+  {
+   "bbox_max_side": 1.3565578500000015,
+   "bbox_diagonal": 1.8530761745756903,
+   "max_pairwise": 1.4768505609238283,
+   "cat": "airplane",
+   "stem": "559_bulge",
+   "label": "bulge",
+   "n_defect_points": 1008,
+   "enum_index": 13
+  },
+  {
+   "bbox_max_side": 1.9257507399999838,
+   "bbox_diagonal": 2.8596655783963763,
+   "max_pairwise": 2.2346907997384786,
+   "cat": "airplane",
+   "stem": "573_bulge",
+   "label": "bulge",
+   "n_defect_points": 1777,
+   "enum_index": 14
+  },
+  {
+   "bbox_max_side": 2.9735412599999904,
+   "bbox_diagonal": 4.659634005937551,
+   "max_pairwise": 4.053305936073845,
+   "cat": "airplane",
+   "stem": "583_bulge",
+   "label": "bulge",
+   "n_defect_points": 5341,
+   "enum_index": 15
+  },
+  {
+   "bbox_max_side": 5.18894195,
+   "bbox_diagonal": 7.73690973638982,
+   "max_pairwise": 6.186044471052572,
+   "cat": "airplane",
+   "stem": "607_bulge",
+   "label": "bulge",
+   "n_defect_points": 21490,
+   "enum_index": 16
+  },
+  {
+   "bbox_max_side": 3.88483525,
+   "bbox_diagonal": 5.021085512876549,
+   "max_pairwise": 4.2268420475408535,
+   "cat": "airplane",
+   "stem": "614_bulge",
+   "label": "bulge",
+   "n_defect_points": 8956,
+   "enum_index": 17
+  },
+  {
+   "bbox_max_side": 5.168464659999998,
+   "bbox_diagonal": 7.0197434067121,
+   "max_pairwise": 5.192870887552929,
+   "cat": "airplane",
+   "stem": "621_bulge",
+   "label": "bulge",
+   "n_defect_points": 18712,
+   "enum_index": 18
+  },
+  {
+   "bbox_max_side": 4.62554169,
+   "bbox_diagonal": 6.966026629169401,
+   "max_pairwise": 5.202992077761151,
+   "cat": "airplane",
+   "stem": "628_bulge",
+   "label": "bulge",
+   "n_defect_points": 15888,
+   "enum_index": 19
+  },
+  {
+   "bbox_max_side": 4.545944210000002,
+   "bbox_diagonal": 5.237441157224679,
+   "max_pairwise": 4.814535528784337,
+   "cat": "airplane",
+   "stem": "635_sink",
+   "label": "sink",
+   "n_defect_points": 4825,
+   "enum_index": 20
+  },
+  {
+   "bbox_max_side": 4.03626251,
+   "bbox_diagonal": 4.861686345983731,
+   "max_pairwise": 4.717200054107842,
+   "cat": "airplane",
+   "stem": "642_sink",
+   "label": "sink",
+   "n_defect_points": 4981,
+   "enum_index": 21
+  },
+  {
+   "bbox_max_side": 3.465713500000021,
+   "bbox_diagonal": 4.485115234350334,
+   "max_pairwise": 3.7821225445321773,
+   "cat": "airplane",
+   "stem": "649_sink",
+   "label": "sink",
+   "n_defect_points": 4202,
+   "enum_index": 22
+  },
+  {
+   "bbox_max_side": 4.41199016,
+   "bbox_diagonal": 5.735708800731365,
+   "max_pairwise": 5.312033593082239,
+   "cat": "airplane",
+   "stem": "656_sink",
+   "label": "sink",
+   "n_defect_points": 5093,
+   "enum_index": 23
+  },
+  {
+   "bbox_max_side": 2.2217636100000107,
+   "bbox_diagonal": 3.019932507311137,
+   "max_pairwise": 2.7067948760062484,
+   "cat": "airplane",
+   "stem": "676_sink",
+   "label": "sink",
+   "n_defect_points": 2607,
+   "enum_index": 24
+  },
+  {
+   "bbox_max_side": 3.0352630599999912,
+   "bbox_diagonal": 4.713439849063797,
+   "max_pairwise": 3.7921177328157873,
+   "cat": "candybar",
+   "stem": "347_bulge",
+   "label": "bulge",
+   "n_defect_points": 1708,
+   "enum_index": 25
+  },
+  {
+   "bbox_max_side": 4.753044130000006,
+   "bbox_diagonal": 5.955022058999214,
+   "max_pairwise": 5.038408092586483,
+   "cat": "candybar",
+   "stem": "354_bulge",
+   "label": "bulge",
+   "n_defect_points": 2915,
+   "enum_index": 26
+  },
+  {
+   "bbox_max_side": 5.695785520000001,
+   "bbox_diagonal": 8.236001958528608,
+   "max_pairwise": 6.380508494855762,
+   "cat": "candybar",
+   "stem": "361_bulge",
+   "label": "bulge",
+   "n_defect_points": 4448,
+   "enum_index": 27
+  },
+  {
+   "bbox_max_side": 2.695352549999999,
+   "bbox_diagonal": 4.240172116366829,
+   "max_pairwise": 3.6044417948007617,
+   "cat": "candybar",
+   "stem": "368_bulge",
+   "label": "bulge",
+   "n_defect_points": 1505,
+   "enum_index": 28
+  },
+  {
+   "bbox_max_side": 3.381378180000013,
+   "bbox_diagonal": 5.495552401026372,
+   "max_pairwise": 4.7221724304248776,
+   "cat": "candybar",
+   "stem": "375_bulge",
+   "label": "bulge",
+   "n_defect_points": 2185,
+   "enum_index": 29
+  },
+  {
+   "bbox_max_side": 2.8243408200000033,
+   "bbox_diagonal": 4.2360047113331545,
+   "max_pairwise": 3.223579707847573,
+   "cat": "candybar",
+   "stem": "382_bulge",
+   "label": "bulge",
+   "n_defect_points": 1377,
+   "enum_index": 30
+  },
+  {
+   "bbox_max_side": 11.301864629999997,
+   "bbox_diagonal": 17.49880525298706,
+   "max_pairwise": 16.219808637734754,
+   "cat": "candybar",
+   "stem": "389_bulges",
+   "label": "bulge",
+   "n_defect_points": 2357,
+   "enum_index": 31
+  },
+  {
+   "bbox_max_side": 2.492858890000008,
+   "bbox_diagonal": 3.8004478486016664,
+   "max_pairwise": 2.8440794689345297,
+   "cat": "candybar",
+   "stem": "396_bulge",
+   "label": "bulge",
+   "n_defect_points": 1290,
+   "enum_index": 32
+  },
+  {
+   "bbox_max_side": 3.09437561,
+   "bbox_diagonal": 4.103931042182081,
+   "max_pairwise": 3.1550918912917174,
+   "cat": "candybar",
+   "stem": "403_bulge",
+   "label": "bulge",
+   "n_defect_points": 1216,
+   "enum_index": 33
+  },
+  {
+   "bbox_max_side": 2.6288070700000077,
+   "bbox_diagonal": 4.049535808728007,
+   "max_pairwise": 3.4732953684928733,
+   "cat": "candybar",
+   "stem": "410_bulge",
+   "label": "bulge",
+   "n_defect_points": 1534,
+   "enum_index": 34
+  },
+  {
+   "bbox_max_side": 3.5657958999999977,
+   "bbox_diagonal": 5.178744938693544,
+   "max_pairwise": 4.0730462088132615,
+   "cat": "candybar",
+   "stem": "417_bulge",
+   "label": "bulge",
+   "n_defect_points": 1859,
+   "enum_index": 35
+  },
+  {
+   "bbox_max_side": 3.651412960000002,
+   "bbox_diagonal": 5.771876456243569,
+   "max_pairwise": 4.6542867265303505,
+   "cat": "candybar",
+   "stem": "424_bulge",
+   "label": "bulge",
+   "n_defect_points": 2038,
+   "enum_index": 36
+  },
+  {
+   "bbox_max_side": 4.797466280000002,
+   "bbox_diagonal": 6.8858728543132335,
+   "max_pairwise": 6.003972297185693,
+   "cat": "candybar",
+   "stem": "431_bulge",
+   "label": "bulge",
+   "n_defect_points": 3136,
+   "enum_index": 37
+  },
+  {
+   "bbox_max_side": 4.6294479399999915,
+   "bbox_diagonal": 6.768164474352652,
+   "max_pairwise": 4.9982040879148215,
+   "cat": "candybar",
+   "stem": "438_bulge",
+   "label": "bulge",
+   "n_defect_points": 3925,
+   "enum_index": 38
+  },
+  {
+   "bbox_max_side": 12.986429220000002,
+   "bbox_diagonal": 17.370767396998485,
+   "max_pairwise": 16.815107255142408,
+   "cat": "candybar",
+   "stem": "445_bulges",
+   "label": "bulge",
+   "n_defect_points": 3091,
+   "enum_index": 39
+  },
+  {
+   "bbox_max_side": 13.15449619,
+   "bbox_diagonal": 18.534998913849158,
+   "max_pairwise": 17.55379433989885,
+   "cat": "candybar",
+   "stem": "452_bulges",
+   "label": "bulge",
+   "n_defect_points": 4051,
+   "enum_index": 40
+  },
+  {
+   "bbox_max_side": 4.609420780000008,
+   "bbox_diagonal": 7.161447033260512,
+   "max_pairwise": 5.857901463071531,
+   "cat": "candybar",
+   "stem": "459_bulge",
+   "label": "bulge",
+   "n_defect_points": 2801,
+   "enum_index": 41
+  },
+  {
+   "bbox_max_side": 24.28852272,
+   "bbox_diagonal": 35.36970398782089,
+   "max_pairwise": 34.31468798599288,
+   "cat": "candybar",
+   "stem": "466_bulges",
+   "label": "bulge",
+   "n_defect_points": 4089,
+   "enum_index": 42
+  },
+  {
+   "bbox_max_side": 3.027992239999989,
+   "bbox_diagonal": 3.9100257992268297,
+   "max_pairwise": 3.3983160081038064,
+   "cat": "candybar",
+   "stem": "473_bulge",
+   "label": "bulge",
+   "n_defect_points": 1074,
+   "enum_index": 43
+  },
+  {
+   "bbox_max_side": 5.309257500000001,
+   "bbox_diagonal": 5.816793489737699,
+   "max_pairwise": 5.3978152234741055,
+   "cat": "candybar",
+   "stem": "480_sink",
+   "label": "sink",
+   "n_defect_points": 1612,
+   "enum_index": 44
+  },
+  {
+   "bbox_max_side": 3.2704009999999926,
+   "bbox_diagonal": 4.524423751953157,
+   "max_pairwise": 4.261498548614825,
+   "cat": "candybar",
+   "stem": "494_sink",
+   "label": "sink",
+   "n_defect_points": 639,
+   "enum_index": 45
+  },
+  {
+   "bbox_max_side": 5.842346190000001,
+   "bbox_diagonal": 7.396733789650075,
+   "max_pairwise": 6.1898093739291316,
+   "cat": "candybar",
+   "stem": "508_sinks",
+   "label": "sink",
+   "n_defect_points": 1196,
+   "enum_index": 46
+  },
+  {
+   "bbox_max_side": 5.0532989499999985,
+   "bbox_diagonal": 6.435585608917733,
+   "max_pairwise": 5.995663198276781,
+   "cat": "candybar",
+   "stem": "515_sink",
+   "label": "sink",
+   "n_defect_points": 2231,
+   "enum_index": 47
+  },
+  {
+   "bbox_max_side": 6.012580869999994,
+   "bbox_diagonal": 6.669012506696259,
+   "max_pairwise": 6.165846139448996,
+   "cat": "candybar",
+   "stem": "522_sink",
+   "label": "sink",
+   "n_defect_points": 1965,
+   "enum_index": 48
+  },
+  {
+   "bbox_max_side": 11.07592009999999,
+   "bbox_diagonal": 14.134873045641237,
+   "max_pairwise": 13.026222421194722,
+   "cat": "candybar",
+   "stem": "529_sinks",
+   "label": "sink",
+   "n_defect_points": 1880,
+   "enum_index": 49
+  },
+  {
+   "bbox_max_side": 4.170539859999991,
+   "bbox_diagonal": 6.37539827024194,
+   "max_pairwise": 5.295756385267666,
+   "cat": "car",
+   "stem": "444_bulge",
+   "label": "bulge",
+   "n_defect_points": 3072,
+   "enum_index": 50
+  },
+  {
+   "bbox_max_side": 16.297012329999987,
+   "bbox_diagonal": 19.040403180639146,
+   "max_pairwise": 18.69789575762814,
+   "cat": "car",
+   "stem": "453_bulges",
+   "label": "bulge",
+   "n_defect_points": 2787,
+   "enum_index": 51
+  },
+  {
+   "bbox_max_side": 2.185203549999997,
+   "bbox_diagonal": 3.0091583498519423,
+   "max_pairwise": 2.5965342836425584,
+   "cat": "car",
+   "stem": "462_bulge",
+   "label": "bulge",
+   "n_defect_points": 741,
+   "enum_index": 52
+  },
+  {
+   "bbox_max_side": 3.2719326000000013,
+   "bbox_diagonal": 5.385861522171009,
+   "max_pairwise": 4.237312205933173,
+   "cat": "car",
+   "stem": "471_bulge",
+   "label": "bulge",
+   "n_defect_points": 2131,
+   "enum_index": 53
+  },
+  {
+   "bbox_max_side": 19.272827150000012,
+   "bbox_diagonal": 22.39920215447095,
+   "max_pairwise": 21.22790890729117,
+   "cat": "car",
+   "stem": "480_bulges",
+   "label": "bulge",
+   "n_defect_points": 2370,
+   "enum_index": 54
+  },
+  {
+   "bbox_max_side": 4.299911499999993,
+   "bbox_diagonal": 6.19239860043746,
+   "max_pairwise": 4.377682270913435,
+   "cat": "car",
+   "stem": "489_bulge",
+   "label": "bulge",
+   "n_defect_points": 3445,
+   "enum_index": 55
+  },
+  {
+   "bbox_max_side": 4.293848039999997,
+   "bbox_diagonal": 5.915886192735663,
+   "max_pairwise": 5.238684564360474,
+   "cat": "car",
+   "stem": "498_bulge",
+   "label": "bulge",
+   "n_defect_points": 2751,
+   "enum_index": 56
+  },
+  {
+   "bbox_max_side": 5.084457400000005,
+   "bbox_diagonal": 6.905234229464678,
+   "max_pairwise": 5.878474721425684,
+   "cat": "car",
+   "stem": "507_bulge",
+   "label": "bulge",
+   "n_defect_points": 2878,
+   "enum_index": 57
+  },
+  {
+   "bbox_max_side": 6.311592099999999,
+   "bbox_diagonal": 7.354174128267198,
+   "max_pairwise": 6.598457336970299,
+   "cat": "car",
+   "stem": "516_bulge",
+   "label": "bulge",
+   "n_defect_points": 2278,
+   "enum_index": 58
+  },
+  {
+   "bbox_max_side": 6.44542693999999,
+   "bbox_diagonal": 9.254954980844952,
+   "max_pairwise": 7.3834846883919845,
+   "cat": "car",
+   "stem": "525_bulge",
+   "label": "bulge",
+   "n_defect_points": 5991,
+   "enum_index": 59
+  },
+  {
+   "bbox_max_side": 6.925986289999999,
+   "bbox_diagonal": 8.389697663657152,
+   "max_pairwise": 7.70996471940939,
+   "cat": "car",
+   "stem": "534_bulges",
+   "label": "bulge",
+   "n_defect_points": 681,
+   "enum_index": 60
+  },
+  {
+   "bbox_max_side": 2.0382156300000105,
+   "bbox_diagonal": 2.755504354643522,
+   "max_pairwise": 2.270765749017689,
+   "cat": "car",
+   "stem": "543_bulge",
+   "label": "bulge",
+   "n_defect_points": 629,
+   "enum_index": 61
+  },
+  {
+   "bbox_max_side": 5.236524589999998,
+   "bbox_diagonal": 7.452742962274471,
+   "max_pairwise": 6.078710181692301,
+   "cat": "car",
+   "stem": "552_bulge",
+   "label": "bulge",
+   "n_defect_points": 4575,
+   "enum_index": 62
+  },
+  {
+   "bbox_max_side": 3.581840509999992,
+   "bbox_diagonal": 4.832880933853803,
+   "max_pairwise": 3.9001406128755116,
+   "cat": "car",
+   "stem": "561_bulge",
+   "label": "bulge",
+   "n_defect_points": 1505,
+   "enum_index": 63
+  },
+  {
+   "bbox_max_side": 7.30713463,
+   "bbox_diagonal": 10.9925116870448,
+   "max_pairwise": 9.350202677800317,
+   "cat": "car",
+   "stem": "570_bulge",
+   "label": "bulge",
+   "n_defect_points": 8978,
+   "enum_index": 64
+  },
+  {
+   "bbox_max_side": 4.440040589999995,
+   "bbox_diagonal": 5.997595564162437,
+   "max_pairwise": 4.568172215100713,
+   "cat": "car",
+   "stem": "579_bulge",
+   "label": "bulge",
+   "n_defect_points": 2236,
+   "enum_index": 65
+  },
+  {
+   "bbox_max_side": 7.7170372,
+   "bbox_diagonal": 9.868612654399476,
+   "max_pairwise": 9.501074294249952,
+   "cat": "car",
+   "stem": "588_bulge",
+   "label": "bulge",
+   "n_defect_points": 5905,
+   "enum_index": 66
+  },
+  {
+   "bbox_max_side": 6.601058959999989,
+   "bbox_diagonal": 7.563542627664023,
+   "max_pairwise": 6.896668693187096,
+   "cat": "car",
+   "stem": "597_sinks",
+   "label": "sink",
+   "n_defect_points": 1637,
+   "enum_index": 67
+  },
+  {
+   "bbox_max_side": 1.3322601299999945,
+   "bbox_diagonal": 2.13884442151062,
+   "max_pairwise": 1.7072921133750685,
+   "cat": "car",
+   "stem": "606_sink",
+   "label": "sink",
+   "n_defect_points": 477,
+   "enum_index": 68
+  },
+  {
+   "bbox_max_side": 1.6012115399999942,
+   "bbox_diagonal": 1.921192463297564,
+   "max_pairwise": 1.6179718700435342,
+   "cat": "car",
+   "stem": "615_sink",
+   "label": "sink",
+   "n_defect_points": 363,
+   "enum_index": 69
+  },
+  {
+   "bbox_max_side": 3.1968078600000354,
+   "bbox_diagonal": 3.669659777820306,
+   "max_pairwise": 3.2602189050807953,
+   "cat": "car",
+   "stem": "624_sink",
+   "label": "sink",
+   "n_defect_points": 456,
+   "enum_index": 70
+  },
+  {
+   "bbox_max_side": 1.7271080099999985,
+   "bbox_diagonal": 2.4456368192055518,
+   "max_pairwise": 2.008920106745814,
+   "cat": "car",
+   "stem": "633_sink",
+   "label": "sink",
+   "n_defect_points": 662,
+   "enum_index": 71
+  },
+  {
+   "bbox_max_side": 6.3936309799999975,
+   "bbox_diagonal": 7.440704332970562,
+   "max_pairwise": 6.501485890465982,
+   "cat": "car",
+   "stem": "642_bulge",
+   "label": "bulge",
+   "n_defect_points": 2998,
+   "enum_index": 72
+  },
+  {
+   "bbox_max_side": 4.094289779999997,
+   "bbox_diagonal": 5.828684055008201,
+   "max_pairwise": 4.827597179089238,
+   "cat": "car",
+   "stem": "651_bulge",
+   "label": "bulge",
+   "n_defect_points": 2425,
+   "enum_index": 73
+  },
+  {
+   "bbox_max_side": 4.753082280000001,
+   "bbox_diagonal": 6.529595226080079,
+   "max_pairwise": 5.054311281015744,
+   "cat": "car",
+   "stem": "660_bulge",
+   "label": "bulge",
+   "n_defect_points": 4536,
+   "enum_index": 74
+  },
+  {
+   "bbox_max_side": 6.6088819500000024,
+   "bbox_diagonal": 10.05757158150547,
+   "max_pairwise": 7.620139078985138,
+   "cat": "chicken",
+   "stem": "202_bulge",
+   "label": "bulge",
+   "n_defect_points": 51292,
+   "enum_index": 75
+  },
+  {
+   "bbox_max_side": 7.696014399999996,
+   "bbox_diagonal": 12.254666489015642,
+   "max_pairwise": 9.72810993099693,
+   "cat": "chicken",
+   "stem": "280_bulge",
+   "label": "bulge",
+   "n_defect_points": 15581,
+   "enum_index": 76
+  },
+  {
+   "bbox_max_side": 7.515457149999975,
+   "bbox_diagonal": 11.96282517668027,
+   "max_pairwise": 10.040486875822731,
+   "cat": "chicken",
+   "stem": "281_bulges",
+   "label": "bulge",
+   "n_defect_points": 28781,
+   "enum_index": 77
+  },
+  {
+   "bbox_max_side": 5.016464240000005,
+   "bbox_diagonal": 7.381731976851009,
+   "max_pairwise": 5.7504377181612165,
+   "cat": "chicken",
+   "stem": "509_bulge",
+   "label": "bulge",
+   "n_defect_points": 24938,
+   "enum_index": 78
+  },
+  {
+   "bbox_max_side": 9.08188629,
+   "bbox_diagonal": 13.619127999064924,
+   "max_pairwise": 12.842719695228418,
+   "cat": "chicken",
+   "stem": "579_bulges",
+   "label": "bulge",
+   "n_defect_points": 4881,
+   "enum_index": 79
+  },
+  {
+   "bbox_max_side": 5.835285669999999,
+   "bbox_diagonal": 7.87138371073438,
+   "max_pairwise": 7.510233774688778,
+   "cat": "chicken",
+   "stem": "594_sink",
+   "label": "sink",
+   "n_defect_points": 2176,
+   "enum_index": 80
+  },
+  {
+   "bbox_max_side": 8.487396239999995,
+   "bbox_diagonal": 11.615392334167806,
+   "max_pairwise": 9.652698632824379,
+   "cat": "chicken",
+   "stem": "699_bulges",
+   "label": "bulge",
+   "n_defect_points": 7608,
+   "enum_index": 81
+  },
+  {
+   "bbox_max_side": 13.20961952,
+   "bbox_diagonal": 15.849332800854162,
+   "max_pairwise": 14.238325726601522,
+   "cat": "chicken",
+   "stem": "700_sinks",
+   "label": "sink",
+   "n_defect_points": 10691,
+   "enum_index": 82
+  },
+  {
+   "bbox_max_side": 8.70313979,
+   "bbox_diagonal": 11.772467610730876,
+   "max_pairwise": 10.002586965889423,
+   "cat": "chicken",
+   "stem": "702_bulges",
+   "label": "bulge",
+   "n_defect_points": 7847,
+   "enum_index": 83
+  },
+  {
+   "bbox_max_side": 5.844696049999996,
+   "bbox_diagonal": 9.24427974925509,
+   "max_pairwise": 7.359852277110949,
+   "cat": "chicken",
+   "stem": "703_bulge",
+   "label": "bulge",
+   "n_defect_points": 57931,
+   "enum_index": 84
+  },
+  {
+   "bbox_max_side": 6.2420806899999945,
+   "bbox_diagonal": 10.548612987037508,
+   "max_pairwise": 8.20159854446074,
+   "cat": "chicken",
+   "stem": "704_bulge",
+   "label": "bulge",
+   "n_defect_points": 59245,
+   "enum_index": 85
+  },
+  {
+   "bbox_max_side": 12.77607632,
+   "bbox_diagonal": 17.054327515102045,
+   "max_pairwise": 15.638008056863104,
+   "cat": "chicken",
+   "stem": "705_bulge",
+   "label": "bulge",
+   "n_defect_points": 6592,
+   "enum_index": 86
+  },
+  {
+   "bbox_max_side": 8.866271969999985,
+   "bbox_diagonal": 11.73085712190661,
+   "max_pairwise": 10.549155900911126,
+   "cat": "chicken",
+   "stem": "706_sink",
+   "label": "sink",
+   "n_defect_points": 3832,
+   "enum_index": 87
+  },
+  {
+   "bbox_max_side": 2.4171295100000236,
+   "bbox_diagonal": 3.3963779568929344,
+   "max_pairwise": 2.6929934024356306,
+   "cat": "chicken",
+   "stem": "707_sink",
+   "label": "sink",
+   "n_defect_points": 1197,
+   "enum_index": 88
+  },
+  {
+   "bbox_max_side": 3.2562561100000096,
+   "bbox_diagonal": 5.120102987435871,
+   "max_pairwise": 3.7497613955755704,
+   "cat": "chicken",
+   "stem": "708_sink",
+   "label": "sink",
+   "n_defect_points": 10357,
+   "enum_index": 89
+  },
+  {
+   "bbox_max_side": 5.203468319999999,
+   "bbox_diagonal": 7.724246836762762,
+   "max_pairwise": 5.861990957082634,
+   "cat": "chicken",
+   "stem": "709_bulge",
+   "label": "bulge",
+   "n_defect_points": 7275,
+   "enum_index": 90
+  },
+  {
+   "bbox_max_side": 15.757339479999999,
+   "bbox_diagonal": 23.36688480599152,
+   "max_pairwise": 18.51533750667928,
+   "cat": "chicken",
+   "stem": "710_sinks",
+   "label": "sink",
+   "n_defect_points": 24308,
+   "enum_index": 91
+  },
+  {
+   "bbox_max_side": 14.79408264,
+   "bbox_diagonal": 21.09348589954056,
+   "max_pairwise": 19.600268968166805,
+   "cat": "chicken",
+   "stem": "711_sinks",
+   "label": "sink",
+   "n_defect_points": 6090,
+   "enum_index": 92
+  },
+  {
+   "bbox_max_side": 13.18055343,
+   "bbox_diagonal": 21.280342269063773,
+   "max_pairwise": 17.2895705969323,
+   "cat": "chicken",
+   "stem": "712_sinks",
+   "label": "sink",
+   "n_defect_points": 9863,
+   "enum_index": 93
+  },
+  {
+   "bbox_max_side": 12.50621796,
+   "bbox_diagonal": 17.745332563331107,
+   "max_pairwise": 14.37622609802741,
+   "cat": "chicken",
+   "stem": "713_bulges",
+   "label": "bulge",
+   "n_defect_points": 25876,
+   "enum_index": 94
+  },
+  {
+   "bbox_max_side": 4.6252212600000036,
+   "bbox_diagonal": 7.223486787954751,
+   "max_pairwise": 5.524329089773976,
+   "cat": "chicken",
+   "stem": "714_bulge",
+   "label": "bulge",
+   "n_defect_points": 20964,
+   "enum_index": 95
+  },
+  {
+   "bbox_max_side": 10.272415159999994,
+   "bbox_diagonal": 13.069571237596367,
+   "max_pairwise": 11.060279648018563,
+   "cat": "chicken",
+   "stem": "730_bulge",
+   "label": "bulge",
+   "n_defect_points": 67686,
+   "enum_index": 96
+  },
+  {
+   "bbox_max_side": 3.6007900300000024,
+   "bbox_diagonal": 5.506718078277209,
+   "max_pairwise": 4.463170856189454,
+   "cat": "chicken",
+   "stem": "792_bulge",
+   "label": "bulge",
+   "n_defect_points": 2605,
+   "enum_index": 97
+  },
+  {
+   "bbox_max_side": 6.966133119999995,
+   "bbox_diagonal": 8.79799157406035,
+   "max_pairwise": 7.087185520923481,
+   "cat": "chicken",
+   "stem": "806_bulge",
+   "label": "bulge",
+   "n_defect_points": 4509,
+   "enum_index": 98
+  },
+  {
+   "bbox_max_side": 5.092887880000006,
+   "bbox_diagonal": 6.75146590952745,
+   "max_pairwise": 5.441211668278271,
+   "cat": "diamond",
+   "stem": "365_bulge",
+   "label": "bulge",
+   "n_defect_points": 5056,
+   "enum_index": 99
+  },
+  {
+   "bbox_max_side": 3.2105255100000107,
+   "bbox_diagonal": 4.661015835201811,
+   "max_pairwise": 4.151982362945678,
+   "cat": "diamond",
+   "stem": "370_bulge",
+   "label": "bulge",
+   "n_defect_points": 2351,
+   "enum_index": 100
+  },
+  {
+   "bbox_max_side": 3.3037118900000007,
+   "bbox_diagonal": 5.076548975926657,
+   "max_pairwise": 4.033262576198522,
+   "cat": "diamond",
+   "stem": "375_bulge",
+   "label": "bulge",
+   "n_defect_points": 2486,
+   "enum_index": 101
+  },
+  {
+   "bbox_max_side": 4.338819979999999,
+   "bbox_diagonal": 6.438078611185293,
+   "max_pairwise": 4.7908670033311616,
+   "cat": "diamond",
+   "stem": "380_bulge",
+   "label": "bulge",
+   "n_defect_points": 4368,
+   "enum_index": 102
+  },
+  {
+   "bbox_max_side": 4.808097840000002,
+   "bbox_diagonal": 6.431617425190143,
+   "max_pairwise": 5.0419140531069635,
+   "cat": "diamond",
+   "stem": "385_bulge",
+   "label": "bulge",
+   "n_defect_points": 4524,
+   "enum_index": 103
+  },
+  {
+   "bbox_max_side": 5.59979797,
+   "bbox_diagonal": 6.871011199667234,
+   "max_pairwise": 5.9116750331841414,
+   "cat": "diamond",
+   "stem": "390_bulge",
+   "label": "bulge",
+   "n_defect_points": 4457,
+   "enum_index": 104
+  },
+  {
+   "bbox_max_side": 2.8664932300000032,
+   "bbox_diagonal": 4.282944927296652,
+   "max_pairwise": 3.1844720691896264,
+   "cat": "diamond",
+   "stem": "395_bulge",
+   "label": "bulge",
+   "n_defect_points": 2138,
+   "enum_index": 105
+  },
+  {
+   "bbox_max_side": 5.751304619999999,
+   "bbox_diagonal": 6.872006991260953,
+   "max_pairwise": 5.765957643546395,
+   "cat": "diamond",
+   "stem": "400_bulge",
+   "label": "bulge",
+   "n_defect_points": 5217,
+   "enum_index": 106
+  },
+  {
+   "bbox_max_side": 2.9876785299999966,
+   "bbox_diagonal": 4.004234362471672,
+   "max_pairwise": 3.110557780381788,
+   "cat": "diamond",
+   "stem": "405_bulge",
+   "label": "bulge",
+   "n_defect_points": 1713,
+   "enum_index": 107
+  },
+  {
+   "bbox_max_side": 14.37608814,
+   "bbox_diagonal": 20.639534921740715,
+   "max_pairwise": 15.551480227096736,
+   "cat": "diamond",
+   "stem": "415_bulge",
+   "label": "bulge",
+   "n_defect_points": 6774,
+   "enum_index": 108
+  },
+  {
+   "bbox_max_side": 14.708442689999998,
+   "bbox_diagonal": 21.397138066814772,
+   "max_pairwise": 15.734623692105151,
+   "cat": "diamond",
+   "stem": "427_bulge",
+   "label": "bulge",
+   "n_defect_points": 14926,
+   "enum_index": 109
+  },
+  {
+   "bbox_max_side": 2.7763852499999997,
+   "bbox_diagonal": 3.918118389842074,
+   "max_pairwise": 3.31574048042132,
+   "cat": "diamond",
+   "stem": "434_bulge",
+   "label": "bulge",
+   "n_defect_points": 1276,
+   "enum_index": 110
+  },
+  {
+   "bbox_max_side": 16.102043149999986,
+   "bbox_diagonal": 17.704933369575745,
+   "max_pairwise": 16.605905027205445,
+   "cat": "diamond",
+   "stem": "441_bulge",
+   "label": "bulge",
+   "n_defect_points": 3594,
+   "enum_index": 111
+  },
+  {
+   "bbox_max_side": 3.275772090000004,
+   "bbox_diagonal": 5.365314958985531,
+   "max_pairwise": 4.086491742079537,
+   "cat": "diamond",
+   "stem": "448_bulge",
+   "label": "bulge",
+   "n_defect_points": 2752,
+   "enum_index": 112
+  },
+  {
+   "bbox_max_side": 9.640243529999992,
+   "bbox_diagonal": 15.222249859752024,
+   "max_pairwise": 12.3794418055281,
+   "cat": "diamond",
+   "stem": "470_bulge",
+   "label": "bulge",
+   "n_defect_points": 9300,
+   "enum_index": 113
+  },
+  {
+   "bbox_max_side": 8.802406320000003,
+   "bbox_diagonal": 9.744210572449246,
+   "max_pairwise": 8.809488502433787,
+   "cat": "diamond",
+   "stem": "491_bulge",
+   "label": "bulge",
+   "n_defect_points": 4403,
+   "enum_index": 114
+  },
+  {
+   "bbox_max_side": 4.5174713199999985,
+   "bbox_diagonal": 7.581633656924437,
+   "max_pairwise": 5.753551267300746,
+   "cat": "diamond",
+   "stem": "498_bulge",
+   "label": "bulge",
+   "n_defect_points": 5532,
+   "enum_index": 115
+  },
+  {
+   "bbox_max_side": 4.360176080000002,
+   "bbox_diagonal": 6.014501927931254,
+   "max_pairwise": 5.03586143048148,
+   "cat": "diamond",
+   "stem": "510_bulge",
+   "label": "bulge",
+   "n_defect_points": 3532,
+   "enum_index": 116
+  },
+  {
+   "bbox_max_side": 10.533844000000002,
+   "bbox_diagonal": 13.362012796386697,
+   "max_pairwise": 13.151260520777132,
+   "cat": "diamond",
+   "stem": "515_sink",
+   "label": "sink",
+   "n_defect_points": 2847,
+   "enum_index": 117
+  },
+  {
+   "bbox_max_side": 2.7823519700000006,
+   "bbox_diagonal": 4.3352248351788,
+   "max_pairwise": 3.32424956684531,
+   "cat": "diamond",
+   "stem": "520_sink",
+   "label": "sink",
+   "n_defect_points": 1499,
+   "enum_index": 118
+  },
+  {
+   "bbox_max_side": 2.4050742400000003,
+   "bbox_diagonal": 3.537765269249583,
+   "max_pairwise": 2.900064229948532,
+   "cat": "diamond",
+   "stem": "525_sink",
+   "label": "sink",
+   "n_defect_points": 1306,
+   "enum_index": 119
+  },
+  {
+   "bbox_max_side": 3.48818683,
+   "bbox_diagonal": 4.609466119466339,
+   "max_pairwise": 3.5602500711659237,
+   "cat": "diamond",
+   "stem": "530_sink",
+   "label": "sink",
+   "n_defect_points": 1571,
+   "enum_index": 120
+  },
+  {
+   "bbox_max_side": 2.4859762200000013,
+   "bbox_diagonal": 3.373156089082004,
+   "max_pairwise": 3.149021952627652,
+   "cat": "diamond",
+   "stem": "535_sink",
+   "label": "sink",
+   "n_defect_points": 913,
+   "enum_index": 121
+  },
+  {
+   "bbox_max_side": 5.334526060000002,
+   "bbox_diagonal": 6.285641338252441,
+   "max_pairwise": 5.818275686598654,
+   "cat": "duck",
+   "stem": "532_bulge",
+   "label": "bulge",
+   "n_defect_points": 4114,
+   "enum_index": 122
+  },
+  {
+   "bbox_max_side": 3.506813050000005,
+   "bbox_diagonal": 5.06746778407227,
+   "max_pairwise": 4.3589242991912,
+   "cat": "duck",
+   "stem": "541_bulge",
+   "label": "bulge",
+   "n_defect_points": 3036,
+   "enum_index": 123
+  },
+  {
+   "bbox_max_side": 5.7741842299999995,
+   "bbox_diagonal": 7.928847812763283,
+   "max_pairwise": 6.761867561826756,
+   "cat": "duck",
+   "stem": "550_bulge",
+   "label": "bulge",
+   "n_defect_points": 7626,
+   "enum_index": 124
+  },
+  {
+   "bbox_max_side": 6.2966461200000055,
+   "bbox_diagonal": 8.145798943669933,
+   "max_pairwise": 6.444722457663305,
+   "cat": "duck",
+   "stem": "559_bulge",
+   "label": "bulge",
+   "n_defect_points": 9346,
+   "enum_index": 125
+  },
+  {
+   "bbox_max_side": 3.0312376000000008,
+   "bbox_diagonal": 4.341466851567378,
+   "max_pairwise": 3.8171987511239682,
+   "cat": "duck",
+   "stem": "568_bulge",
+   "label": "bulge",
+   "n_defect_points": 3112,
+   "enum_index": 126
+  },
+  {
+   "bbox_max_side": 3.24001408,
+   "bbox_diagonal": 4.50126611402739,
+   "max_pairwise": 3.5686247580248547,
+   "cat": "duck",
+   "stem": "577_bulge",
+   "label": "bulge",
+   "n_defect_points": 3596,
+   "enum_index": 127
+  },
+  {
+   "bbox_max_side": 3.0610046400000073,
+   "bbox_diagonal": 4.46448932926832,
+   "max_pairwise": 3.5487079453055705,
+   "cat": "duck",
+   "stem": "586_bulge",
+   "label": "bulge",
+   "n_defect_points": 2851,
+   "enum_index": 128
+  },
+  {
+   "bbox_max_side": 3.9817085300000024,
+   "bbox_diagonal": 6.428809533977746,
+   "max_pairwise": 5.223100332434362,
+   "cat": "duck",
+   "stem": "595_bulge",
+   "label": "bulge",
+   "n_defect_points": 4134,
+   "enum_index": 129
+  },
+  {
+   "bbox_max_side": 3.21812439,
+   "bbox_diagonal": 4.903544429464536,
+   "max_pairwise": 3.823759462739725,
+   "cat": "duck",
+   "stem": "621_bulge",
+   "label": "bulge",
+   "n_defect_points": 3653,
+   "enum_index": 130
+  },
+  {
+   "bbox_max_side": 4.572463989999989,
+   "bbox_diagonal": 7.461137793670066,
+   "max_pairwise": 5.5387058594890695,
+   "cat": "duck",
+   "stem": "630_bulge",
+   "label": "bulge",
+   "n_defect_points": 5677,
+   "enum_index": 131
+  },
+  {
+   "bbox_max_side": 4.34264335,
+   "bbox_diagonal": 6.549106126163741,
+   "max_pairwise": 4.990228462146751,
+   "cat": "duck",
+   "stem": "639_bulge",
+   "label": "bulge",
+   "n_defect_points": 6897,
+   "enum_index": 132
+  },
+  {
+   "bbox_max_side": 15.206451420000008,
+   "bbox_diagonal": 19.13576263476897,
+   "max_pairwise": 17.334902248502235,
+   "cat": "duck",
+   "stem": "648_bulge",
+   "label": "bulge",
+   "n_defect_points": 12145,
+   "enum_index": 133
+  },
+  {
+   "bbox_max_side": 5.025093080000005,
+   "bbox_diagonal": 7.0633832286532545,
+   "max_pairwise": 5.904806713794719,
+   "cat": "duck",
+   "stem": "657_bulge",
+   "label": "bulge",
+   "n_defect_points": 6845,
+   "enum_index": 134
+  },
+  {
+   "bbox_max_side": 17.207687379999996,
+   "bbox_diagonal": 21.202383369095276,
+   "max_pairwise": 18.765244044723712,
+   "cat": "duck",
+   "stem": "666_bulge",
+   "label": "bulge",
+   "n_defect_points": 10015,
+   "enum_index": 135
+  },
+  {
+   "bbox_max_side": 2.1721334499999996,
+   "bbox_diagonal": 2.6266003485569227,
+   "max_pairwise": 2.2701129190290525,
+   "cat": "duck",
+   "stem": "675_bulge",
+   "label": "bulge",
+   "n_defect_points": 1043,
+   "enum_index": 136
+  },
+  {
+   "bbox_max_side": 1.6717529299999967,
+   "bbox_diagonal": 2.397460003353861,
+   "max_pairwise": 1.8918632630253782,
+   "cat": "duck",
+   "stem": "684_bulge",
+   "label": "bulge",
+   "n_defect_points": 736,
+   "enum_index": 137
+  },
+  {
+   "bbox_max_side": 3.0075302099999988,
+   "bbox_diagonal": 4.18356928681232,
+   "max_pairwise": 3.2590818426864465,
+   "cat": "duck",
+   "stem": "693_bulge",
+   "label": "bulge",
+   "n_defect_points": 2570,
+   "enum_index": 138
+  },
+  {
+   "bbox_max_side": 2.3548812899999945,
+   "bbox_diagonal": 3.4089725387134884,
+   "max_pairwise": 3.0126604042054983,
+   "cat": "duck",
+   "stem": "702_bulge",
+   "label": "bulge",
+   "n_defect_points": 1650,
+   "enum_index": 139
+  },
+  {
+   "bbox_max_side": 1.7290206000000006,
+   "bbox_diagonal": 2.419179639271183,
+   "max_pairwise": 2.0298981048044764,
+   "cat": "duck",
+   "stem": "711_bulge",
+   "label": "bulge",
+   "n_defect_points": 831,
+   "enum_index": 140
+  },
+  {
+   "bbox_max_side": 1.9816513100000037,
+   "bbox_diagonal": 2.938258350032941,
+   "max_pairwise": 2.168439668453317,
+   "cat": "duck",
+   "stem": "720_bulge",
+   "label": "bulge",
+   "n_defect_points": 1418,
+   "enum_index": 141
+  },
+  {
+   "bbox_max_side": 3.1198716200000005,
+   "bbox_diagonal": 3.9062511331630323,
+   "max_pairwise": 3.1665709562197044,
+   "cat": "duck",
+   "stem": "729_bulge",
+   "label": "bulge",
+   "n_defect_points": 1808,
+   "enum_index": 142
+  },
+  {
+   "bbox_max_side": 12.460258479999993,
+   "bbox_diagonal": 14.42272498750121,
+   "max_pairwise": 13.528258524388884,
+   "cat": "duck",
+   "stem": "738_sink",
+   "label": "sink",
+   "n_defect_points": 5813,
+   "enum_index": 143
+  },
+  {
+   "bbox_max_side": 3.914695739999999,
+   "bbox_diagonal": 6.259373537654213,
+   "max_pairwise": 6.0018354078896765,
+   "cat": "duck",
+   "stem": "747_sink",
+   "label": "sink",
+   "n_defect_points": 1526,
+   "enum_index": 144
+  },
+  {
+   "bbox_max_side": 11.47548651,
+   "bbox_diagonal": 12.326941235720756,
+   "max_pairwise": 11.879324393460287,
+   "cat": "duck",
+   "stem": "756_sink",
+   "label": "sink",
+   "n_defect_points": 4384,
+   "enum_index": 145
+  },
+  {
+   "bbox_max_side": 2.268669129999992,
+   "bbox_diagonal": 3.4253203628559206,
+   "max_pairwise": 2.937852241636122,
+   "cat": "duck",
+   "stem": "765_sink",
+   "label": "sink",
+   "n_defect_points": 1251,
+   "enum_index": 146
+  },
+  {
+   "bbox_max_side": 4.7307052599999935,
+   "bbox_diagonal": 6.167048334426818,
+   "max_pairwise": 5.1008496256928115,
+   "cat": "fish",
+   "stem": "273_bulge",
+   "label": "bulge",
+   "n_defect_points": 5017,
+   "enum_index": 147
+  },
+  {
+   "bbox_max_side": 4.528793329999999,
+   "bbox_diagonal": 6.687008223743958,
+   "max_pairwise": 4.85120910120673,
+   "cat": "fish",
+   "stem": "274_bulge",
+   "label": "bulge",
+   "n_defect_points": 4352,
+   "enum_index": 148
+  },
+  {
+   "bbox_max_side": 6.39073943999999,
+   "bbox_diagonal": 9.016595606894926,
+   "max_pairwise": 7.039357967174007,
+   "cat": "fish",
+   "stem": "275_bulge",
+   "label": "bulge",
+   "n_defect_points": 7325,
+   "enum_index": 149
+  },
+  {
+   "bbox_max_side": 4.788955680000001,
+   "bbox_diagonal": 7.010932653790562,
+   "max_pairwise": 5.300954545549568,
+   "cat": "fish",
+   "stem": "282_bulge",
+   "label": "bulge",
+   "n_defect_points": 5042,
+   "enum_index": 150
+  },
+  {
+   "bbox_max_side": 3.068962099999993,
+   "bbox_diagonal": 4.348241805260818,
+   "max_pairwise": 3.282598702094379,
+   "cat": "fish",
+   "stem": "283_bulge",
+   "label": "bulge",
+   "n_defect_points": 2297,
+   "enum_index": 151
+  },
+  {
+   "bbox_max_side": 2.6994247499999915,
+   "bbox_diagonal": 3.944818938581452,
+   "max_pairwise": 3.2948378177444337,
+   "cat": "fish",
+   "stem": "284_bulge",
+   "label": "bulge",
+   "n_defect_points": 1942,
+   "enum_index": 152
+  },
+  {
+   "bbox_max_side": 3.5969314499999996,
+   "bbox_diagonal": 4.64453437863853,
+   "max_pairwise": 3.6029663444660307,
+   "cat": "fish",
+   "stem": "291_bulge",
+   "label": "bulge",
+   "n_defect_points": 2936,
+   "enum_index": 153
+  },
+  {
+   "bbox_max_side": 2.741203310000003,
+   "bbox_diagonal": 4.179393758474653,
+   "max_pairwise": 3.625357661314936,
+   "cat": "fish",
+   "stem": "292_bulge",
+   "label": "bulge",
+   "n_defect_points": 2501,
+   "enum_index": 154
+  },
+  {
+   "bbox_max_side": 2.3666458200000022,
+   "bbox_diagonal": 3.199210044331163,
+   "max_pairwise": 2.545455760278025,
+   "cat": "fish",
+   "stem": "293_bulge",
+   "label": "bulge",
+   "n_defect_points": 770,
+   "enum_index": 155
+  },
+  {
+   "bbox_max_side": 18.575935369999996,
+   "bbox_diagonal": 25.682034763092588,
+   "max_pairwise": 23.526204291715327,
+   "cat": "fish",
+   "stem": "300_bulges",
+   "label": "bulge",
+   "n_defect_points": 4427,
+   "enum_index": 156
+  },
+  {
+   "bbox_max_side": 6.020774840000001,
+   "bbox_diagonal": 7.1270531995433135,
+   "max_pairwise": 6.38472507483106,
+   "cat": "fish",
+   "stem": "301_sinks",
+   "label": "sink",
+   "n_defect_points": 2063,
+   "enum_index": 157
+  },
+  {
+   "bbox_max_side": 3.178550720000004,
+   "bbox_diagonal": 3.8141715727303804,
+   "max_pairwise": 3.3591440673946678,
+   "cat": "fish",
+   "stem": "302_sink",
+   "label": "sink",
+   "n_defect_points": 1148,
+   "enum_index": 158
+  },
+  {
+   "bbox_max_side": 2.9089567699999996,
+   "bbox_diagonal": 4.450315645509975,
+   "max_pairwise": 3.9192208390875276,
+   "cat": "fish",
+   "stem": "309_sink",
+   "label": "sink",
+   "n_defect_points": 1566,
+   "enum_index": 159
+  },
+  {
+   "bbox_max_side": 3.52055478,
+   "bbox_diagonal": 4.81377833060255,
+   "max_pairwise": 3.863178903985336,
+   "cat": "fish",
+   "stem": "310_bulge",
+   "label": "bulge",
+   "n_defect_points": 2781,
+   "enum_index": 160
+  },
+  {
+   "bbox_max_side": 4.19871473,
+   "bbox_diagonal": 5.989955848712232,
+   "max_pairwise": 4.449470502782712,
+   "cat": "fish",
+   "stem": "311_bulge",
+   "label": "bulge",
+   "n_defect_points": 4550,
+   "enum_index": 161
+  },
+  {
+   "bbox_max_side": 4.6541460699999995,
+   "bbox_diagonal": 6.502901402811443,
+   "max_pairwise": 5.136922602748539,
+   "cat": "fish",
+   "stem": "318_bulge",
+   "label": "bulge",
+   "n_defect_points": 4768,
+   "enum_index": 162
+  },
+  {
+   "bbox_max_side": 3.046043399999988,
+   "bbox_diagonal": 4.171175445589467,
+   "max_pairwise": 3.136172671710801,
+   "cat": "fish",
+   "stem": "319_bulge",
+   "label": "bulge",
+   "n_defect_points": 2098,
+   "enum_index": 163
+  },
+  {
+   "bbox_max_side": 3.18265152,
+   "bbox_diagonal": 4.070315210130364,
+   "max_pairwise": 3.5801584784184417,
+   "cat": "fish",
+   "stem": "320_bulge",
+   "label": "bulge",
+   "n_defect_points": 2053,
+   "enum_index": 164
+  },
+  {
+   "bbox_max_side": 14.237486299999999,
+   "bbox_diagonal": 15.408595905243992,
+   "max_pairwise": 15.157771021862118,
+   "cat": "fish",
+   "stem": "327_bulges",
+   "label": "bulge",
+   "n_defect_points": 3138,
+   "enum_index": 165
+  },
+  {
+   "bbox_max_side": 13.563941960000008,
+   "bbox_diagonal": 14.197405854019767,
+   "max_pairwise": 13.636423505388798,
+   "cat": "fish",
+   "stem": "328_bulges",
+   "label": "bulge",
+   "n_defect_points": 2881,
+   "enum_index": 166
+  },
+  {
+   "bbox_max_side": 9.37514311,
+   "bbox_diagonal": 12.105447572021472,
+   "max_pairwise": 10.63114380945015,
+   "cat": "fish",
+   "stem": "329_bulges",
+   "label": "bulge",
+   "n_defect_points": 4232,
+   "enum_index": 167
+  },
+  {
+   "bbox_max_side": 2.3051633799999998,
+   "bbox_diagonal": 3.074387341916941,
+   "max_pairwise": 2.9330464657344444,
+   "cat": "fish",
+   "stem": "336_sink",
+   "label": "sink",
+   "n_defect_points": 894,
+   "enum_index": 168
+  },
+  {
+   "bbox_max_side": 3.637687679999999,
+   "bbox_diagonal": 4.614111213481223,
+   "max_pairwise": 3.8786547282313597,
+   "cat": "fish",
+   "stem": "337_sink",
+   "label": "sink",
+   "n_defect_points": 2592,
+   "enum_index": 169
+  },
+  {
+   "bbox_max_side": 5.317901609999993,
+   "bbox_diagonal": 6.346701419922943,
+   "max_pairwise": 5.717134816365456,
+   "cat": "fish",
+   "stem": "338_sink",
+   "label": "sink",
+   "n_defect_points": 2786,
+   "enum_index": 170
+  },
+  {
+   "bbox_max_side": 5.881172180000007,
+   "bbox_diagonal": 7.267795730387249,
+   "max_pairwise": 6.133634948601583,
+   "cat": "fish",
+   "stem": "345_bulge",
+   "label": "bulge",
+   "n_defect_points": 5956,
+   "enum_index": 171
+  },
+  {
+   "bbox_max_side": 9.15460348,
+   "bbox_diagonal": 10.874208318660711,
+   "max_pairwise": 9.825284559683007,
+   "cat": "gemstone",
+   "stem": "244_sink",
+   "label": "sink",
+   "n_defect_points": 6579,
+   "enum_index": 172
+  },
+  {
+   "bbox_max_side": 2.65776825,
+   "bbox_diagonal": 3.5877058659566963,
+   "max_pairwise": 2.878326153002989,
+   "cat": "gemstone",
+   "stem": "251_bulge",
+   "label": "bulge",
+   "n_defect_points": 1224,
+   "enum_index": 173
+  },
+  {
+   "bbox_max_side": 2.750823969999999,
+   "bbox_diagonal": 3.3633858015480316,
+   "max_pairwise": 2.7767802743321415,
+   "cat": "gemstone",
+   "stem": "279_bulge",
+   "label": "bulge",
+   "n_defect_points": 1306,
+   "enum_index": 174
+  },
+  {
+   "bbox_max_side": 2.61886001,
+   "bbox_diagonal": 3.8981963186448048,
+   "max_pairwise": 3.1648699080118665,
+   "cat": "gemstone",
+   "stem": "300_bulge",
+   "label": "bulge",
+   "n_defect_points": 1592,
+   "enum_index": 175
+  },
+  {
+   "bbox_max_side": 1.6452941900000013,
+   "bbox_diagonal": 2.27521750505169,
+   "max_pairwise": 1.7360005628697648,
+   "cat": "gemstone",
+   "stem": "314_bulge",
+   "label": "bulge",
+   "n_defect_points": 525,
+   "enum_index": 176
+  },
+  {
+   "bbox_max_side": 1.7330570199999995,
+   "bbox_diagonal": 2.5026825031215365,
+   "max_pairwise": 2.039965661230947,
+   "cat": "gemstone",
+   "stem": "321_bulge",
+   "label": "bulge",
+   "n_defect_points": 674,
+   "enum_index": 177
+  },
+  {
+   "bbox_max_side": 1.8583056899999995,
+   "bbox_diagonal": 2.6725678765930465,
+   "max_pairwise": 2.1531717369832952,
+   "cat": "gemstone",
+   "stem": "342_bulge",
+   "label": "bulge",
+   "n_defect_points": 616,
+   "enum_index": 178
+  },
+  {
+   "bbox_max_side": 2.403845789999999,
+   "bbox_diagonal": 3.1166494117464683,
+   "max_pairwise": 2.461137625492199,
+   "cat": "gemstone",
+   "stem": "349_bulge",
+   "label": "bulge",
+   "n_defect_points": 886,
+   "enum_index": 179
+  },
+  {
+   "bbox_max_side": 1.853828429999993,
+   "bbox_diagonal": 2.8682225085735986,
+   "max_pairwise": 2.2148417669425644,
+   "cat": "gemstone",
+   "stem": "385_sink",
+   "label": "sink",
+   "n_defect_points": 770,
+   "enum_index": 180
+  },
+  {
+   "bbox_max_side": 2.197875979999992,
+   "bbox_diagonal": 3.0329851446876037,
+   "max_pairwise": 2.3593651647034153,
+   "cat": "gemstone",
+   "stem": "399_sink",
+   "label": "sink",
+   "n_defect_points": 816,
+   "enum_index": 181
+  },
+  {
+   "bbox_max_side": 1.7176055900000051,
+   "bbox_diagonal": 2.283131007597639,
+   "max_pairwise": 1.9389337113888214,
+   "cat": "gemstone",
+   "stem": "427_sink",
+   "label": "sink",
+   "n_defect_points": 362,
+   "enum_index": 182
+  },
+  {
+   "bbox_max_side": 2.130249020000008,
+   "bbox_diagonal": 2.6816687610607817,
+   "max_pairwise": 2.2158476973025327,
+   "cat": "gemstone",
+   "stem": "434_sink",
+   "label": "sink",
+   "n_defect_points": 625,
+   "enum_index": 183
+  },
+  {
+   "bbox_max_side": 1.5861816500000003,
+   "bbox_diagonal": 2.478112477638727,
+   "max_pairwise": 1.7735635776269385,
+   "cat": "gemstone",
+   "stem": "469_sink",
+   "label": "sink",
+   "n_defect_points": 811,
+   "enum_index": 184
+  },
+  {
+   "bbox_max_side": 1.926124569999999,
+   "bbox_diagonal": 2.2788871109402953,
+   "max_pairwise": 2.0233064014902045,
+   "cat": "gemstone",
+   "stem": "476_sink",
+   "label": "sink",
+   "n_defect_points": 373,
+   "enum_index": 185
+  },
+  {
+   "bbox_max_side": 4.644459009999999,
+   "bbox_diagonal": 5.887259957112165,
+   "max_pairwise": 4.66036855235614,
+   "cat": "gemstone",
+   "stem": "483_sink",
+   "label": "sink",
+   "n_defect_points": 1290,
+   "enum_index": 186
+  },
+  {
+   "bbox_max_side": 3.668128970000012,
+   "bbox_diagonal": 5.381738468092278,
+   "max_pairwise": 4.066938357129048,
+   "cat": "gemstone",
+   "stem": "490_sink",
+   "label": "sink",
+   "n_defect_points": 1324,
+   "enum_index": 187
+  },
+  {
+   "bbox_max_side": 2.604133609999991,
+   "bbox_diagonal": 3.015460881109267,
+   "max_pairwise": 2.6882277636766263,
+   "cat": "gemstone",
+   "stem": "751_bulge",
+   "label": "bulge",
+   "n_defect_points": 810,
+   "enum_index": 188
+  },
+  {
+   "bbox_max_side": 4.5148556300000005,
+   "bbox_diagonal": 5.876246439308211,
+   "max_pairwise": 4.619070311210305,
+   "cat": "gemstone",
+   "stem": "765_bulge",
+   "label": "bulge",
+   "n_defect_points": 2962,
+   "enum_index": 189
+  },
+  {
+   "bbox_max_side": 3.4941802,
+   "bbox_diagonal": 5.044463853965595,
+   "max_pairwise": 4.365663641072256,
+   "cat": "gemstone",
+   "stem": "772_bulge",
+   "label": "bulge",
+   "n_defect_points": 2123,
+   "enum_index": 190
+  },
+  {
+   "bbox_max_side": 2.76857209,
+   "bbox_diagonal": 4.138769732705729,
+   "max_pairwise": 3.5168115043372024,
+   "cat": "gemstone",
+   "stem": "793_bulge",
+   "label": "bulge",
+   "n_defect_points": 2407,
+   "enum_index": 191
+  },
+  {
+   "bbox_max_side": 11.45319676,
+   "bbox_diagonal": 12.094468658614527,
+   "max_pairwise": 11.660918862928613,
+   "cat": "gemstone",
+   "stem": "800_sink",
+   "label": "sink",
+   "n_defect_points": 1155,
+   "enum_index": 192
+  },
+  {
+   "bbox_max_side": 7.80010677,
+   "bbox_diagonal": 9.368452596316745,
+   "max_pairwise": 8.134873345658782,
+   "cat": "gemstone",
+   "stem": "807_sink",
+   "label": "sink",
+   "n_defect_points": 2244,
+   "enum_index": 193
+  },
+  {
+   "bbox_max_side": 6.969863889999999,
+   "bbox_diagonal": 7.844531839420619,
+   "max_pairwise": 7.417754054708691,
+   "cat": "gemstone",
+   "stem": "814_sink",
+   "label": "sink",
+   "n_defect_points": 2165,
+   "enum_index": 194
+  },
+  {
+   "bbox_max_side": 2.18726254,
+   "bbox_diagonal": 3.2464402403812413,
+   "max_pairwise": 2.8247815501510316,
+   "cat": "gemstone",
+   "stem": "821_sink",
+   "label": "sink",
+   "n_defect_points": 1233,
+   "enum_index": 195
+  },
+  {
+   "bbox_max_side": 8.51647878,
+   "bbox_diagonal": 11.688105220124273,
+   "max_pairwise": 10.839196273853023,
+   "cat": "gemstone",
+   "stem": "828_sink",
+   "label": "sink",
+   "n_defect_points": 2339,
+   "enum_index": 196
+  },
+  {
+   "bbox_max_side": 3.68395996000001,
+   "bbox_diagonal": 5.907092386835991,
+   "max_pairwise": 4.629090349427669,
+   "cat": "seahorse",
+   "stem": "265_bulge",
+   "label": "bulge",
+   "n_defect_points": 3576,
+   "enum_index": 197
+  },
+  {
+   "bbox_max_side": 19.203506469999994,
+   "bbox_diagonal": 25.51514434222129,
+   "max_pairwise": 24.120289019604282,
+   "cat": "seahorse",
+   "stem": "266_bulges",
+   "label": "bulge",
+   "n_defect_points": 7453,
+   "enum_index": 198
+  },
+  {
+   "bbox_max_side": 13.847101689999999,
+   "bbox_diagonal": 18.943758139237936,
+   "max_pairwise": 17.74075676720809,
+   "cat": "seahorse",
+   "stem": "267_bulges",
+   "label": "bulge",
+   "n_defect_points": 3535,
+   "enum_index": 199
+  },
+  {
+   "bbox_max_side": 4.920448300000004,
+   "bbox_diagonal": 6.766110403295897,
+   "max_pairwise": 5.194897495635968,
+   "cat": "seahorse",
+   "stem": "274_bulge",
+   "label": "bulge",
+   "n_defect_points": 4553,
+   "enum_index": 200
+  },
+  {
+   "bbox_max_side": 4.207338330000001,
+   "bbox_diagonal": 6.241100156002179,
+   "max_pairwise": 4.267057407770519,
+   "cat": "seahorse",
+   "stem": "275_bulge",
+   "label": "bulge",
+   "n_defect_points": 3410,
+   "enum_index": 201
+  },
+  {
+   "bbox_max_side": 4.824531560000011,
+   "bbox_diagonal": 7.064383815415689,
+   "max_pairwise": 4.987744065479958,
+   "cat": "seahorse",
+   "stem": "276_bulge",
+   "label": "bulge",
+   "n_defect_points": 4993,
+   "enum_index": 202
+  },
+  {
+   "bbox_max_side": 6.347816469999998,
+   "bbox_diagonal": 8.9619709381401,
+   "max_pairwise": 6.7505829014710415,
+   "cat": "seahorse",
+   "stem": "283_bulge",
+   "label": "bulge",
+   "n_defect_points": 8356,
+   "enum_index": 203
+  },
+  {
+   "bbox_max_side": 8.727867129999993,
+   "bbox_diagonal": 10.023575171451986,
+   "max_pairwise": 9.305197019516731,
+   "cat": "seahorse",
+   "stem": "284_bulges",
+   "label": "bulge",
+   "n_defect_points": 3037,
+   "enum_index": 204
+  },
+  {
+   "bbox_max_side": 3.2023468100000088,
+   "bbox_diagonal": 4.575225627367614,
+   "max_pairwise": 3.508672992469383,
+   "cat": "seahorse",
+   "stem": "285_bulge",
+   "label": "bulge",
+   "n_defect_points": 2678,
+   "enum_index": 205
+  },
+  {
+   "bbox_max_side": 6.319969180000001,
+   "bbox_diagonal": 8.031722627468397,
+   "max_pairwise": 7.698704848141238,
+   "cat": "seahorse",
+   "stem": "292_sink",
+   "label": "sink",
+   "n_defect_points": 2217,
+   "enum_index": 206
+  },
+  {
+   "bbox_max_side": 3.1554842499999998,
+   "bbox_diagonal": 4.801579005860872,
+   "max_pairwise": 4.484847342165376,
+   "cat": "seahorse",
+   "stem": "293_sink",
+   "label": "sink",
+   "n_defect_points": 1260,
+   "enum_index": 207
+  },
+  {
+   "bbox_max_side": 3.205558780000004,
+   "bbox_diagonal": 4.42544623517755,
+   "max_pairwise": 3.5332602606661485,
+   "cat": "seahorse",
+   "stem": "294_bulge",
+   "label": "bulge",
+   "n_defect_points": 2263,
+   "enum_index": 208
+  },
+  {
+   "bbox_max_side": 6.29789639,
+   "bbox_diagonal": 7.704068177850391,
+   "max_pairwise": 6.735646099991367,
+   "cat": "seahorse",
+   "stem": "301_sinks",
+   "label": "sink",
+   "n_defect_points": 1556,
+   "enum_index": 209
+  },
+  {
+   "bbox_max_side": 3.783652309999999,
+   "bbox_diagonal": 5.188598090806492,
+   "max_pairwise": 4.0743706413092164,
+   "cat": "seahorse",
+   "stem": "302_bulge",
+   "label": "bulge",
+   "n_defect_points": 2441,
+   "enum_index": 210
+  },
+  {
+   "bbox_max_side": 3.3105468700000102,
+   "bbox_diagonal": 4.815224128982554,
+   "max_pairwise": 3.720900403252744,
+   "cat": "seahorse",
+   "stem": "303_bulge",
+   "label": "bulge",
+   "n_defect_points": 2609,
+   "enum_index": 211
+  },
+  {
+   "bbox_max_side": 6.24859452,
+   "bbox_diagonal": 8.789586572887355,
+   "max_pairwise": 7.2549525322410995,
+   "cat": "seahorse",
+   "stem": "310_bulge",
+   "label": "bulge",
+   "n_defect_points": 6781,
+   "enum_index": 212
+  },
+  {
+   "bbox_max_side": 4.917924880000001,
+   "bbox_diagonal": 6.890076366451869,
+   "max_pairwise": 5.668575484846293,
+   "cat": "seahorse",
+   "stem": "311_bulge",
+   "label": "bulge",
+   "n_defect_points": 4144,
+   "enum_index": 213
+  },
+  {
+   "bbox_max_side": 3.5964286999999997,
+   "bbox_diagonal": 4.758652364324455,
+   "max_pairwise": 4.075772278590552,
+   "cat": "seahorse",
+   "stem": "312_bulge",
+   "label": "bulge",
+   "n_defect_points": 2214,
+   "enum_index": 214
+  },
+  {
+   "bbox_max_side": 12.22180938000001,
+   "bbox_diagonal": 12.903648235360878,
+   "max_pairwise": 12.372209002174483,
+   "cat": "seahorse",
+   "stem": "319_bulge",
+   "label": "bulge",
+   "n_defect_points": 9670,
+   "enum_index": 215
+  },
+  {
+   "bbox_max_side": 4.093549490000001,
+   "bbox_diagonal": 5.683571837705455,
+   "max_pairwise": 4.635031364453479,
+   "cat": "seahorse",
+   "stem": "320_bulge",
+   "label": "bulge",
+   "n_defect_points": 4265,
+   "enum_index": 216
+  },
+  {
+   "bbox_max_side": 16.194274899999996,
+   "bbox_diagonal": 19.36657971323862,
+   "max_pairwise": 17.373526770305013,
+   "cat": "seahorse",
+   "stem": "321_bulges",
+   "label": "bulge",
+   "n_defect_points": 7144,
+   "enum_index": 217
+  },
+  {
+   "bbox_max_side": 3.6671385800000005,
+   "bbox_diagonal": 5.303882448565016,
+   "max_pairwise": 5.014750840107418,
+   "cat": "seahorse",
+   "stem": "328_sink",
+   "label": "sink",
+   "n_defect_points": 1348,
+   "enum_index": 218
+  },
+  {
+   "bbox_max_side": 12.271224970000006,
+   "bbox_diagonal": 15.206464580543063,
+   "max_pairwise": 12.352406326771877,
+   "cat": "seahorse",
+   "stem": "329_sinks",
+   "label": "sink",
+   "n_defect_points": 2395,
+   "enum_index": 219
+  },
+  {
+   "bbox_max_side": 2.9021301300000033,
+   "bbox_diagonal": 4.025457329953219,
+   "max_pairwise": 3.6841544243320965,
+   "cat": "seahorse",
+   "stem": "330_sink",
+   "label": "sink",
+   "n_defect_points": 1628,
+   "enum_index": 220
+  },
+  {
+   "bbox_max_side": 5.55229604,
+   "bbox_diagonal": 7.414423263981752,
+   "max_pairwise": 7.163990350073579,
+   "cat": "seahorse",
+   "stem": "337_sink",
+   "label": "sink",
+   "n_defect_points": 1799,
+   "enum_index": 221
+  },
+  {
+   "bbox_max_side": 2.6481704699999966,
+   "bbox_diagonal": 4.289496757755398,
+   "max_pairwise": 3.6092071828253607,
+   "cat": "shell",
+   "stem": "495_bulge",
+   "label": "bulge",
+   "n_defect_points": 1818,
+   "enum_index": 222
+  },
+  {
+   "bbox_max_side": 2.8558660799999993,
+   "bbox_diagonal": 4.160289433838574,
+   "max_pairwise": 3.0499459457349403,
+   "cat": "shell",
+   "stem": "502_bulge",
+   "label": "bulge",
+   "n_defect_points": 1494,
+   "enum_index": 223
+  },
+  {
+   "bbox_max_side": 5.810485839999984,
+   "bbox_diagonal": 7.384623193143423,
+   "max_pairwise": 7.171201206192467,
+   "cat": "shell",
+   "stem": "509_bulge",
+   "label": "bulge",
+   "n_defect_points": 3203,
+   "enum_index": 224
+  },
+  {
+   "bbox_max_side": 2.71220949,
+   "bbox_diagonal": 3.7735091629540327,
+   "max_pairwise": 3.055752032292599,
+   "cat": "shell",
+   "stem": "516_bulge",
+   "label": "bulge",
+   "n_defect_points": 1385,
+   "enum_index": 225
+  },
+  {
+   "bbox_max_side": 5.213926310000001,
+   "bbox_diagonal": 6.954177350690051,
+   "max_pairwise": 5.6673012858610665,
+   "cat": "shell",
+   "stem": "523_bulge",
+   "label": "bulge",
+   "n_defect_points": 5242,
+   "enum_index": 226
+  },
+  {
+   "bbox_max_side": 16.182792660000004,
+   "bbox_diagonal": 18.041189127117097,
+   "max_pairwise": 16.799971677872996,
+   "cat": "shell",
+   "stem": "530_bulge",
+   "label": "bulge",
+   "n_defect_points": 5606,
+   "enum_index": 227
+  },
+  {
+   "bbox_max_side": 3.098968510000006,
+   "bbox_diagonal": 4.609363119402547,
+   "max_pairwise": 3.7118489987136396,
+   "cat": "shell",
+   "stem": "537_bulge",
+   "label": "bulge",
+   "n_defect_points": 3127,
+   "enum_index": 228
+  },
+  {
+   "bbox_max_side": 4.745498650000002,
+   "bbox_diagonal": 5.799672347984675,
+   "max_pairwise": 5.212497447876345,
+   "cat": "shell",
+   "stem": "544_bulge",
+   "label": "bulge",
+   "n_defect_points": 2295,
+   "enum_index": 229
+  },
+  {
+   "bbox_max_side": 9.36920929,
+   "bbox_diagonal": 13.669849540711477,
+   "max_pairwise": 12.364559140606803,
+   "cat": "shell",
+   "stem": "551_bulge",
+   "label": "bulge",
+   "n_defect_points": 4649,
+   "enum_index": 230
+  },
+  {
+   "bbox_max_side": 4.14518956,
+   "bbox_diagonal": 5.501810000128489,
+   "max_pairwise": 4.701965209333238,
+   "cat": "shell",
+   "stem": "558_bulge",
+   "label": "bulge",
+   "n_defect_points": 3518,
+   "enum_index": 231
+  },
+  {
+   "bbox_max_side": 3.0928649899999954,
+   "bbox_diagonal": 4.106496343958855,
+   "max_pairwise": 3.4448442593088338,
+   "cat": "shell",
+   "stem": "565_bulge",
+   "label": "bulge",
+   "n_defect_points": 2082,
+   "enum_index": 232
+  },
+  {
+   "bbox_max_side": 14.321101670000001,
+   "bbox_diagonal": 16.62076905785489,
+   "max_pairwise": 15.555113253186827,
+   "cat": "shell",
+   "stem": "572_bulge",
+   "label": "bulge",
+   "n_defect_points": 4449,
+   "enum_index": 233
+  },
+  {
+   "bbox_max_side": 2.3448991800000005,
+   "bbox_diagonal": 2.724586473639858,
+   "max_pairwise": 2.40827176965994,
+   "cat": "shell",
+   "stem": "579_bulge",
+   "label": "bulge",
+   "n_defect_points": 828,
+   "enum_index": 234
+  },
+  {
+   "bbox_max_side": 6.69701051,
+   "bbox_diagonal": 8.057123854095396,
+   "max_pairwise": 7.397956886415943,
+   "cat": "shell",
+   "stem": "586_bulge",
+   "label": "bulge",
+   "n_defect_points": 5056,
+   "enum_index": 235
+  },
+  {
+   "bbox_max_side": 3.36510849,
+   "bbox_diagonal": 5.068946668568679,
+   "max_pairwise": 4.683078084814821,
+   "cat": "shell",
+   "stem": "593_bulge",
+   "label": "bulge",
+   "n_defect_points": 2024,
+   "enum_index": 236
+  },
+  {
+   "bbox_max_side": 12.252746579999993,
+   "bbox_diagonal": 13.092851331369678,
+   "max_pairwise": 12.38566233801896,
+   "cat": "shell",
+   "stem": "600_sink",
+   "label": "sink",
+   "n_defect_points": 2144,
+   "enum_index": 237
+  },
+  {
+   "bbox_max_side": 2.1643218999999903,
+   "bbox_diagonal": 2.939066716411026,
+   "max_pairwise": 2.4226999700345977,
+   "cat": "shell",
+   "stem": "607_sink",
+   "label": "sink",
+   "n_defect_points": 1258,
+   "enum_index": 238
+  },
+  {
+   "bbox_max_side": 4.320411679999992,
+   "bbox_diagonal": 6.142808391215091,
+   "max_pairwise": 4.7415865737409035,
+   "cat": "shell",
+   "stem": "614_bulge",
+   "label": "bulge",
+   "n_defect_points": 3956,
+   "enum_index": 239
+  },
+  {
+   "bbox_max_side": 3.11712718,
+   "bbox_diagonal": 4.131608645832417,
+   "max_pairwise": 3.6959275540765395,
+   "cat": "shell",
+   "stem": "631_sink",
+   "label": "sink",
+   "n_defect_points": 1308,
+   "enum_index": 240
+  },
+  {
+   "bbox_max_side": 5.182685849999999,
+   "bbox_diagonal": 5.819016813318645,
+   "max_pairwise": 5.494961677669786,
+   "cat": "shell",
+   "stem": "638_sink",
+   "label": "sink",
+   "n_defect_points": 1545,
+   "enum_index": 241
+  },
+  {
+   "bbox_max_side": 3.69247967,
+   "bbox_diagonal": 5.188206774627312,
+   "max_pairwise": 4.577423578264148,
+   "cat": "shell",
+   "stem": "645_sink",
+   "label": "sink",
+   "n_defect_points": 1652,
+   "enum_index": 242
+  },
+  {
+   "bbox_max_side": 10.880973820000008,
+   "bbox_diagonal": 11.300952042009419,
+   "max_pairwise": 10.923201007959708,
+   "cat": "shell",
+   "stem": "652_sink",
+   "label": "sink",
+   "n_defect_points": 4047,
+   "enum_index": 243
+  },
+  {
+   "bbox_max_side": 6.7106506800000005,
+   "bbox_diagonal": 10.525543136061872,
+   "max_pairwise": 8.875041519880812,
+   "cat": "shell",
+   "stem": "666_sink",
+   "label": "sink",
+   "n_defect_points": 3415,
+   "enum_index": 244
+  },
+  {
+   "bbox_max_side": 4.85966968,
+   "bbox_diagonal": 6.075591024877761,
+   "max_pairwise": 5.6026087442776396,
+   "cat": "shell",
+   "stem": "673_sink",
+   "label": "sink",
+   "n_defect_points": 1941,
+   "enum_index": 245
+  },
+  {
+   "bbox_max_side": 5.054024460000001,
+   "bbox_diagonal": 6.72159699231927,
+   "max_pairwise": 5.680485983570054,
+   "cat": "starfish",
+   "stem": "389_bulge",
+   "label": "bulge",
+   "n_defect_points": 5507,
+   "enum_index": 246
+  },
+  {
+   "bbox_max_side": 5.8013668,
+   "bbox_diagonal": 8.109095759935226,
+   "max_pairwise": 6.711074082360009,
+   "cat": "starfish",
+   "stem": "396_bulge",
+   "label": "bulge",
+   "n_defect_points": 6664,
+   "enum_index": 247
+  },
+  {
+   "bbox_max_side": 5.8077738199999995,
+   "bbox_diagonal": 7.783854257145747,
+   "max_pairwise": 6.614803299634164,
+   "cat": "starfish",
+   "stem": "405_bulge",
+   "label": "bulge",
+   "n_defect_points": 5526,
+   "enum_index": 248
+  },
+  {
+   "bbox_max_side": 3.149070739999999,
+   "bbox_diagonal": 4.833143580927235,
+   "max_pairwise": 3.6315130373318807,
+   "cat": "starfish",
+   "stem": "414_bulge",
+   "label": "bulge",
+   "n_defect_points": 2774,
+   "enum_index": 249
+  },
+  {
+   "bbox_max_side": 6.88970947,
+   "bbox_diagonal": 8.90357204740006,
+   "max_pairwise": 7.058017651558912,
+   "cat": "starfish",
+   "stem": "433_bulge",
+   "label": "bulge",
+   "n_defect_points": 11880,
+   "enum_index": 250
+  },
+  {
+   "bbox_max_side": 4.561355590000005,
+   "bbox_diagonal": 6.359836672253334,
+   "max_pairwise": 4.565861505985859,
+   "cat": "starfish",
+   "stem": "442_bulge",
+   "label": "bulge",
+   "n_defect_points": 3703,
+   "enum_index": 251
+  },
+  {
+   "bbox_max_side": 4.1431426999999985,
+   "bbox_diagonal": 5.964067158061946,
+   "max_pairwise": 4.666357522787311,
+   "cat": "starfish",
+   "stem": "461_bulge",
+   "label": "bulge",
+   "n_defect_points": 3955,
+   "enum_index": 252
+  },
+  {
+   "bbox_max_side": 14.791297920000005,
+   "bbox_diagonal": 16.62695467697022,
+   "max_pairwise": 15.358591692723301,
+   "cat": "starfish",
+   "stem": "470_bulges",
+   "label": "bulge",
+   "n_defect_points": 6407,
+   "enum_index": 253
+  },
+  {
+   "bbox_max_side": 4.224014280000006,
+   "bbox_diagonal": 5.385021231938779,
+   "max_pairwise": 4.511790648734132,
+   "cat": "starfish",
+   "stem": "479_bulge",
+   "label": "bulge",
+   "n_defect_points": 4953,
+   "enum_index": 254
+  },
+  {
+   "bbox_max_side": 4.75219345,
+   "bbox_diagonal": 6.725802732011268,
+   "max_pairwise": 5.462345176044465,
+   "cat": "starfish",
+   "stem": "488_bulge",
+   "label": "bulge",
+   "n_defect_points": 5130,
+   "enum_index": 255
+  },
+  {
+   "bbox_max_side": 2.082183839999999,
+   "bbox_diagonal": 2.992414308944929,
+   "max_pairwise": 2.237762651460834,
+   "cat": "starfish",
+   "stem": "497_bulge",
+   "label": "bulge",
+   "n_defect_points": 1440,
+   "enum_index": 256
+  },
+  {
+   "bbox_max_side": 14.811042790000002,
+   "bbox_diagonal": 16.86495282543745,
+   "max_pairwise": 15.431823331326829,
+   "cat": "starfish",
+   "stem": "506_bulges",
+   "label": "bulge",
+   "n_defect_points": 8955,
+   "enum_index": 257
+  },
+  {
+   "bbox_max_side": 5.080894470000004,
+   "bbox_diagonal": 7.017216242688891,
+   "max_pairwise": 5.201700406064635,
+   "cat": "starfish",
+   "stem": "525_bulge",
+   "label": "bulge",
+   "n_defect_points": 7080,
+   "enum_index": 258
+  },
+  {
+   "bbox_max_side": 4.70298004,
+   "bbox_diagonal": 6.5292509736969935,
+   "max_pairwise": 4.707611072846251,
+   "cat": "starfish",
+   "stem": "534_bulge",
+   "label": "bulge",
+   "n_defect_points": 5354,
+   "enum_index": 259
+  },
+  {
+   "bbox_max_side": 6.0105056800000085,
+   "bbox_diagonal": 7.661943676330683,
+   "max_pairwise": 6.490972340805903,
+   "cat": "starfish",
+   "stem": "543_bulge",
+   "label": "bulge",
+   "n_defect_points": 5726,
+   "enum_index": 260
+  },
+  {
+   "bbox_max_side": 2.5753784199999927,
+   "bbox_diagonal": 3.4598585711980667,
+   "max_pairwise": 2.8398657631701494,
+   "cat": "starfish",
+   "stem": "552_sink",
+   "label": "sink",
+   "n_defect_points": 2318,
+   "enum_index": 261
+  },
+  {
+   "bbox_max_side": 1.7366633400000007,
+   "bbox_diagonal": 2.689518504881184,
+   "max_pairwise": 2.0167038591022406,
+   "cat": "starfish",
+   "stem": "561_sink",
+   "label": "sink",
+   "n_defect_points": 1541,
+   "enum_index": 262
+  },
+  {
+   "bbox_max_side": 2.586112969999988,
+   "bbox_diagonal": 3.502061081330228,
+   "max_pairwise": 2.835530565134909,
+   "cat": "starfish",
+   "stem": "570_sink",
+   "label": "sink",
+   "n_defect_points": 1147,
+   "enum_index": 263
+  },
+  {
+   "bbox_max_side": 3.0665130600000055,
+   "bbox_diagonal": 3.7787569684475364,
+   "max_pairwise": 3.4519069751759592,
+   "cat": "starfish",
+   "stem": "579_sink",
+   "label": "sink",
+   "n_defect_points": 842,
+   "enum_index": 264
+  },
+  {
+   "bbox_max_side": 2.700729370000005,
+   "bbox_diagonal": 3.4627451050462494,
+   "max_pairwise": 2.7559025964187756,
+   "cat": "starfish",
+   "stem": "588_sink",
+   "label": "sink",
+   "n_defect_points": 1236,
+   "enum_index": 265
+  },
+  {
+   "bbox_max_side": 3.231773379999993,
+   "bbox_diagonal": 4.418632428832524,
+   "max_pairwise": 3.943305364099556,
+   "cat": "starfish",
+   "stem": "597_sink",
+   "label": "sink",
+   "n_defect_points": 1650,
+   "enum_index": 266
+  },
+  {
+   "bbox_max_side": 10.593452460000009,
+   "bbox_diagonal": 12.969530295649097,
+   "max_pairwise": 12.709807308501054,
+   "cat": "starfish",
+   "stem": "606_sinks",
+   "label": "sink",
+   "n_defect_points": 1201,
+   "enum_index": 267
+  },
+  {
+   "bbox_max_side": 2.249969489999998,
+   "bbox_diagonal": 3.559602937571693,
+   "max_pairwise": 3.0079286986394287,
+   "cat": "starfish",
+   "stem": "615_sink",
+   "label": "sink",
+   "n_defect_points": 1252,
+   "enum_index": 268
+  },
+  {
+   "bbox_max_side": 2.64127016,
+   "bbox_diagonal": 4.146092628301234,
+   "max_pairwise": 3.6508418330421346,
+   "cat": "starfish",
+   "stem": "624_sink",
+   "label": "sink",
+   "n_defect_points": 1815,
+   "enum_index": 269
+  },
+  {
+   "bbox_max_side": 5.215972899999997,
+   "bbox_diagonal": 5.731222252892108,
+   "max_pairwise": 5.708484406816328,
+   "cat": "starfish",
+   "stem": "642_sink",
+   "label": "sink",
+   "n_defect_points": 1287,
+   "enum_index": 270
+  },
+  {
+   "bbox_max_side": 3.7180261700000017,
+   "bbox_diagonal": 5.251169622825952,
+   "max_pairwise": 4.634783224927589,
+   "cat": "toffees",
+   "stem": "441_bulge",
+   "label": "bulge",
+   "n_defect_points": 2273,
+   "enum_index": 271
+  },
+  {
+   "bbox_max_side": 3.016380309999988,
+   "bbox_diagonal": 4.534612534426151,
+   "max_pairwise": 3.5106042324289426,
+   "cat": "toffees",
+   "stem": "448_bulge",
+   "label": "bulge",
+   "n_defect_points": 2796,
+   "enum_index": 272
+  },
+  {
+   "bbox_max_side": 5.538841250000004,
+   "bbox_diagonal": 7.261627745265524,
+   "max_pairwise": 5.766313206560031,
+   "cat": "toffees",
+   "stem": "455_bulge",
+   "label": "bulge",
+   "n_defect_points": 5222,
+   "enum_index": 273
+  },
+  {
+   "bbox_max_side": 4.552528140000001,
+   "bbox_diagonal": 5.397777113420974,
+   "max_pairwise": 4.798287523771204,
+   "cat": "toffees",
+   "stem": "462_bulge",
+   "label": "bulge",
+   "n_defect_points": 3157,
+   "enum_index": 274
+  },
+  {
+   "bbox_max_side": 6.335258490000001,
+   "bbox_diagonal": 8.473479431343746,
+   "max_pairwise": 6.742002374992734,
+   "cat": "toffees",
+   "stem": "469_bulge",
+   "label": "bulge",
+   "n_defect_points": 7058,
+   "enum_index": 275
+  },
+  {
+   "bbox_max_side": 4.542327880000002,
+   "bbox_diagonal": 6.585065736944187,
+   "max_pairwise": 4.752202155385397,
+   "cat": "toffees",
+   "stem": "476_bulge",
+   "label": "bulge",
+   "n_defect_points": 4041,
+   "enum_index": 276
+  },
+  {
+   "bbox_max_side": 4.305038449999998,
+   "bbox_diagonal": 5.648614054082186,
+   "max_pairwise": 4.434396584072015,
+   "cat": "toffees",
+   "stem": "483_bulge",
+   "label": "bulge",
+   "n_defect_points": 3472,
+   "enum_index": 277
+  },
+  {
+   "bbox_max_side": 6.31835937000001,
+   "bbox_diagonal": 7.865799141153431,
+   "max_pairwise": 6.898902258345182,
+   "cat": "toffees",
+   "stem": "490_bulges",
+   "label": "bulge",
+   "n_defect_points": 5468,
+   "enum_index": 278
+  },
+  {
+   "bbox_max_side": 4.5023759,
+   "bbox_diagonal": 6.1093682533775215,
+   "max_pairwise": 4.729488495542047,
+   "cat": "toffees",
+   "stem": "497_bulge",
+   "label": "bulge",
+   "n_defect_points": 4040,
+   "enum_index": 279
+  },
+  {
+   "bbox_max_side": 3.16732287,
+   "bbox_diagonal": 4.847400875103386,
+   "max_pairwise": 4.077980224141208,
+   "cat": "toffees",
+   "stem": "504_bulge",
+   "label": "bulge",
+   "n_defect_points": 2639,
+   "enum_index": 280
+  },
+  {
+   "bbox_max_side": 7.59563875,
+   "bbox_diagonal": 10.553530179084447,
+   "max_pairwise": 9.041463623641297,
+   "cat": "toffees",
+   "stem": "511_bulge",
+   "label": "bulge",
+   "n_defect_points": 9734,
+   "enum_index": 281
+  },
+  {
+   "bbox_max_side": 2.446456909999995,
+   "bbox_diagonal": 3.4567740364212534,
+   "max_pairwise": 2.6679325011008403,
+   "cat": "toffees",
+   "stem": "518_bulge",
+   "label": "bulge",
+   "n_defect_points": 1549,
+   "enum_index": 282
+  },
+  {
+   "bbox_max_side": 2.867996210000001,
+   "bbox_diagonal": 3.5963576879862758,
+   "max_pairwise": 3.14430119298369,
+   "cat": "toffees",
+   "stem": "528_bulge",
+   "label": "bulge",
+   "n_defect_points": 1168,
+   "enum_index": 283
+  },
+  {
+   "bbox_max_side": 3.3336105300000014,
+   "bbox_diagonal": 4.842759543406256,
+   "max_pairwise": 3.580662267418425,
+   "cat": "toffees",
+   "stem": "533_bulge",
+   "label": "bulge",
+   "n_defect_points": 2527,
+   "enum_index": 284
+  },
+  {
+   "bbox_max_side": 5.11776734,
+   "bbox_diagonal": 6.572471302414749,
+   "max_pairwise": 5.940442928268532,
+   "cat": "toffees",
+   "stem": "538_sink",
+   "label": "sink",
+   "n_defect_points": 2060,
+   "enum_index": 285
+  },
+  {
+   "bbox_max_side": 17.003204350000004,
+   "bbox_diagonal": 23.49550570135059,
+   "max_pairwise": 21.78867577391524,
+   "cat": "toffees",
+   "stem": "550_bulges",
+   "label": "bulge",
+   "n_defect_points": 7900,
+   "enum_index": 286
+  },
+  {
+   "bbox_max_side": 6.30342579,
+   "bbox_diagonal": 6.8061819903613205,
+   "max_pairwise": 6.636414533841785,
+   "cat": "toffees",
+   "stem": "557_sink",
+   "label": "sink",
+   "n_defect_points": 1170,
+   "enum_index": 287
+  },
+  {
+   "bbox_max_side": 3.373535149999995,
+   "bbox_diagonal": 4.002449925352693,
+   "max_pairwise": 3.975375168482194,
+   "cat": "toffees",
+   "stem": "564_sink",
+   "label": "sink",
+   "n_defect_points": 318,
+   "enum_index": 288
+  },
+  {
+   "bbox_max_side": 5.019844050000003,
+   "bbox_diagonal": 5.827144548678834,
+   "max_pairwise": 5.701731979629655,
+   "cat": "toffees",
+   "stem": "571_sink",
+   "label": "sink",
+   "n_defect_points": 788,
+   "enum_index": 289
+  },
+  {
+   "bbox_max_side": 17.14706611,
+   "bbox_diagonal": 19.064323593959006,
+   "max_pairwise": 18.411576091393382,
+   "cat": "toffees",
+   "stem": "578_bulges",
+   "label": "bulge",
+   "n_defect_points": 4470,
+   "enum_index": 290
+  },
+  {
+   "bbox_max_side": 18.48396015,
+   "bbox_diagonal": 20.78312344742997,
+   "max_pairwise": 20.343250843349747,
+   "cat": "toffees",
+   "stem": "585_bulges",
+   "label": "bulge",
+   "n_defect_points": 3625,
+   "enum_index": 291
+  },
+  {
+   "bbox_max_side": 4.706535340000002,
+   "bbox_diagonal": 5.546662113954641,
+   "max_pairwise": 4.893780310317236,
+   "cat": "toffees",
+   "stem": "592_bulge",
+   "label": "bulge",
+   "n_defect_points": 3937,
+   "enum_index": 292
+  },
+  {
+   "bbox_max_side": 5.379076489999999,
+   "bbox_diagonal": 7.7407502768264225,
+   "max_pairwise": 6.2183071536769825,
+   "cat": "toffees",
+   "stem": "599_bulge",
+   "label": "bulge",
+   "n_defect_points": 6981,
+   "enum_index": 293
+  },
+  {
+   "bbox_max_side": 4.565078729999996,
+   "bbox_diagonal": 6.476130809085309,
+   "max_pairwise": 5.099035443410896,
+   "cat": "toffees",
+   "stem": "606_bulge",
+   "label": "bulge",
+   "n_defect_points": 4388,
+   "enum_index": 294
+  }
+ ]
+}

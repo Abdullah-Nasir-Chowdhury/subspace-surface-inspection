@@ -1,0 +1,2225 @@
+{
+ "r2.5": {
+  "n_items": 597,
+  "n_defective": 295,
+  "n_good": 302,
+  "n_bulge": 213,
+  "n_sink": 82,
+  "median_seeds": 495.0,
+  "prop1_max_abs_diff": 4.440892098500626e-15,
+  "pooled": {
+   "sv2": {
+    "object_auroc_all": 0.5280671231339096,
+    "object_auroc_all_ci": [
+     0.48159682483589006,
+     0.5715836692410958
+    ],
+    "object_auroc_edgefilt": 0.5280671231339096,
+    "object_auroc_edgefilt_ci": [
+     0.48111291924095323,
+     0.5741190472887191
+    ],
+    "point_auroc": 0.629716299107274,
+    "point_auroc_ci": [
+     0.6073965444508092,
+     0.653514116843113
+    ],
+    "loc_median_dist_mm": 8.121929392173893,
+    "loc_hit_rate": 0.1864406779661017,
+    "loc_hit_rate_ci": [
+     0.1423728813559322,
+     0.23389830508474577
+    ],
+    "loc_median_rank_frac": 0.059431524547803614,
+    "n_defective_items": 295
+   },
+   "z_sv2": {
+    "object_auroc_all": 0.5165170052755641,
+    "object_auroc_all_ci": [
+     0.4698387534590631,
+     0.5656860290162671
+    ],
+    "object_auroc_edgefilt": 0.5165170052755641,
+    "object_auroc_edgefilt_ci": [
+     0.47085315806698347,
+     0.5625333587590493
+    ]
+   },
+   "surfvar": {
+    "object_auroc_all": 0.5285722303288809,
+    "object_auroc_all_ci": [
+     0.48353480090823575,
+     0.5745064852064744
+    ],
+    "object_auroc_edgefilt": 0.5285722303288809,
+    "object_auroc_edgefilt_ci": [
+     0.48166570189023794,
+     0.573863415458032
+    ],
+    "point_auroc": 0.6303360081911202,
+    "point_auroc_ci": [
+     0.6091689541876263,
+     0.6586134506726841
+    ],
+    "loc_median_dist_mm": 8.121929392173893,
+    "loc_hit_rate": 0.18983050847457628,
+    "loc_hit_rate_ci": [
+     0.1490677966101695,
+     0.23398305084745716
+    ],
+    "loc_median_rank_frac": 0.05722070844686648,
+    "n_defective_items": 295
+   },
+   "z_surfvar": {
+    "object_auroc_all": 0.518559883264115,
+    "object_auroc_all_ci": [
+     0.4714813370061048,
+     0.5631474432860375
+    ],
+    "object_auroc_edgefilt": 0.518559883264115,
+    "object_auroc_edgefilt_ci": [
+     0.47114414653114073,
+     0.5652288952023667
+    ]
+   },
+   "magd_nb": {
+    "object_auroc_all": 0.5341957570995622,
+    "object_auroc_all_ci": [
+     0.4864525153343585,
+     0.580581073327054
+    ],
+    "object_auroc_edgefilt": 0.5341957570995622,
+    "object_auroc_edgefilt_ci": [
+     0.4848465204971048,
+     0.5789536433921691
+    ],
+    "point_auroc": 0.5919026190725352,
+    "point_auroc_ci": [
+     0.5595126762420772,
+     0.612978522580674
+    ],
+    "loc_median_dist_mm": 9.148500541634869,
+    "loc_hit_rate": 0.18983050847457628,
+    "loc_hit_rate_ci": [
+     0.14567796610169492,
+     0.23728813559322035
+    ],
+    "loc_median_rank_frac": 0.01996007984031936,
+    "n_defective_items": 295
+   },
+   "z_magd_nb": {
+    "object_auroc_all": 0.5341957570995622,
+    "object_auroc_all_ci": [
+     0.4882808509581766,
+     0.5777542234384796
+    ],
+    "object_auroc_edgefilt": 0.5341957570995622,
+    "object_auroc_edgefilt_ci": [
+     0.48865425567338827,
+     0.5804097703003382
+    ]
+   },
+   "ds_ref": {
+    "object_auroc_all": 0.5523796161185318,
+    "object_auroc_all_ci": [
+     0.5079146390229836,
+     0.5974651321071113
+    ],
+    "object_auroc_edgefilt": 0.5523796161185318,
+    "object_auroc_edgefilt_ci": [
+     0.5046093521067165,
+     0.5983471770120101
+    ],
+    "point_auroc": 0.626070576139742,
+    "point_auroc_ci": [
+     0.5995593148392783,
+     0.6550365049191632
+    ],
+    "loc_median_dist_mm": 8.029426729253053,
+    "loc_hit_rate": 0.19322033898305085,
+    "loc_hit_rate_ci": [
+     0.14915254237288136,
+     0.24067796610169492
+    ],
+    "loc_median_rank_frac": 0.013123359580052493,
+    "n_defective_items": 295
+   },
+   "z_ds_ref": {
+    "object_auroc_all": 0.5523796161185318,
+    "object_auroc_all_ci": [
+     0.5046090774716622,
+     0.5979407759957319
+    ],
+    "object_auroc_edgefilt": 0.5523796161185318,
+    "object_auroc_edgefilt_ci": [
+     0.5065264364880891,
+     0.5980023312612608
+    ]
+   },
+   "plane_rms": {
+    "object_auroc_all": 0.5280558985295768,
+    "object_auroc_all_ci": [
+     0.4804669291351417,
+     0.5744482097860518
+    ],
+    "object_auroc_edgefilt": 0.5280558985295768,
+    "object_auroc_edgefilt_ci": [
+     0.4827412734039327,
+     0.5747243243657292
+    ],
+    "point_auroc": 0.6284924545992941,
+    "point_auroc_ci": [
+     0.6094255121310828,
+     0.654518288430982
+    ],
+    "loc_median_dist_mm": 8.238305217064152,
+    "loc_hit_rate": 0.1864406779661017,
+    "loc_hit_rate_ci": [
+     0.14576271186440679,
+     0.23389830508474577
+    ],
+    "loc_median_rank_frac": 0.06315789473684211,
+    "n_defective_items": 295
+   },
+   "z_plane_rms": {
+    "object_auroc_all": 0.517145583118195,
+    "object_auroc_all_ci": [
+     0.4718157896499875,
+     0.5637835253445952
+    ],
+    "object_auroc_edgefilt": 0.517145583118195,
+    "object_auroc_edgefilt_ci": [
+     0.471512997033156,
+     0.5620301039033793
+    ]
+   },
+   "rq_rms": {
+    "object_auroc_all": 0.5066618026714558,
+    "object_auroc_all_ci": [
+     0.45871189091807,
+     0.5553326058770808
+    ],
+    "object_auroc_edgefilt": 0.5066618026714558,
+    "object_auroc_edgefilt_ci": [
+     0.4595801319091196,
+     0.5562435946444436
+    ],
+    "point_auroc": 0.6364413129406963,
+    "point_auroc_ci": [
+     0.6106787319077477,
+     0.6600755744209851
+    ],
+    "loc_median_dist_mm": 9.211481977588901,
+    "loc_hit_rate": 0.17966101694915254,
+    "loc_hit_rate_ci": [
+     0.13559322033898305,
+     0.22372881355932203
+    ],
+    "loc_median_rank_frac": 0.0836734693877551,
+    "n_defective_items": 295
+   },
+   "z_rq_rms": {
+    "object_auroc_all": 0.5076832416657313,
+    "object_auroc_all_ci": [
+     0.46213567312021214,
+     0.5535819053253911
+    ],
+    "object_auroc_edgefilt": 0.5076832416657313,
+    "object_auroc_edgefilt_ci": [
+     0.4612731534350698,
+     0.5536159071187304
+    ]
+   },
+   "rq_absmax": {
+    "object_auroc_all": 0.5099618363452689,
+    "object_auroc_all_ci": [
+     0.4645846308515206,
+     0.5573851510726721
+    ],
+    "object_auroc_edgefilt": 0.5099618363452689,
+    "object_auroc_edgefilt_ci": [
+     0.4634626904332063,
+     0.5566476334912897
+    ],
+    "point_auroc": 0.6370796324083077,
+    "point_auroc_ci": [
+     0.6131537911374147,
+     0.6657905963742242
+    ],
+    "loc_median_dist_mm": 9.166870885751745,
+    "loc_hit_rate": 0.18305084745762712,
+    "loc_hit_rate_ci": [
+     0.13559322033898305,
+     0.2271186440677966
+    ],
+    "loc_median_rank_frac": 0.04121475054229935,
+    "n_defective_items": 295
+   },
+   "z_rq_absmax": {
+    "object_auroc_all": 0.5223089011112358,
+    "object_auroc_all_ci": [
+     0.47692951217877133,
+     0.5719661278815888
+    ],
+    "object_auroc_edgefilt": 0.5223089011112358,
+    "object_auroc_edgefilt_ci": [
+     0.47592377007729747,
+     0.5671882347554923
+    ]
+   },
+   "rq_skew": {
+    "object_auroc_all": 0.5507632730946234,
+    "object_auroc_all_ci": [
+     0.5062746842466058,
+     0.5961650658113734
+    ],
+    "object_auroc_edgefilt": 0.5507632730946234,
+    "object_auroc_edgefilt_ci": [
+     0.5056348837633801,
+     0.5981776377046882
+    ],
+    "point_auroc": 0.5573458781791574,
+    "point_auroc_ci": [
+     0.5258648500198315,
+     0.5808584557484253
+    ],
+    "loc_median_dist_mm": 5.70253796070631,
+    "loc_hit_rate": 0.2305084745762712,
+    "loc_hit_rate_ci": [
+     0.18305084745762712,
+     0.28135593220338984
+    ],
+    "loc_median_rank_frac": 0.01078167115902965,
+    "n_defective_items": 295
+   },
+   "z_rq_skew": {
+    "object_auroc_all": 0.5477101807161298,
+    "object_auroc_all_ci": [
+     0.5024690035719447,
+     0.5924421985792852
+    ],
+    "object_auroc_edgefilt": 0.5477101807161298,
+    "object_auroc_edgefilt_ci": [
+     0.502651766261703,
+     0.5912061036854007
+    ]
+   }
+  },
+  "per_category": {
+   "airplane": {
+    "n_items": 50,
+    "n_defective": 25,
+    "sv2": {
+     "object_auroc": 0.41759999999999997,
+     "point_auroc": 0.5663047981532946
+    },
+    "surfvar": {
+     "object_auroc": 0.40959999999999996,
+     "point_auroc": 0.566832775221162
+    },
+    "magd_nb": {
+     "object_auroc": 0.37440000000000007,
+     "point_auroc": 0.6291809872372006
+    },
+    "ds_ref": {
+     "object_auroc": 0.5584,
+     "point_auroc": 0.6667861561209034
+    },
+    "plane_rms": {
+     "object_auroc": 0.4416,
+     "point_auroc": 0.5653359070600528
+    },
+    "rq_rms": {
+     "object_auroc": 0.536,
+     "point_auroc": 0.6242288177523747
+    },
+    "rq_absmax": {
+     "object_auroc": 0.584,
+     "point_auroc": 0.604325313743381
+    },
+    "rq_skew": {
+     "object_auroc": 0.6192,
+     "point_auroc": 0.516001771888014
+    }
+   },
+   "candybar": {
+    "n_items": 50,
+    "n_defective": 25,
+    "sv2": {
+     "object_auroc": 0.5631999999999999,
+     "point_auroc": 0.504231343482468
+    },
+    "surfvar": {
+     "object_auroc": 0.5632,
+     "point_auroc": 0.5084749467760933
+    },
+    "magd_nb": {
+     "object_auroc": 0.4496,
+     "point_auroc": 0.56874289018935
+    },
+    "ds_ref": {
+     "object_auroc": 0.47839999999999994,
+     "point_auroc": 0.6129605937944492
+    },
+    "plane_rms": {
+     "object_auroc": 0.5584,
+     "point_auroc": 0.4963017055682629
+    },
+    "rq_rms": {
+     "object_auroc": 0.40800000000000003,
+     "point_auroc": 0.5639911145309062
+    },
+    "rq_absmax": {
+     "object_auroc": 0.4496,
+     "point_auroc": 0.5588701895447221
+    },
+    "rq_skew": {
+     "object_auroc": 0.4848,
+     "point_auroc": 0.6581657627706099
+    }
+   },
+   "car": {
+    "n_items": 50,
+    "n_defective": 25,
+    "sv2": {
+     "object_auroc": 0.7440000000000001,
+     "point_auroc": 0.5738186705318084
+    },
+    "surfvar": {
+     "object_auroc": 0.7472,
+     "point_auroc": 0.5755546499820265
+    },
+    "magd_nb": {
+     "object_auroc": 0.6208,
+     "point_auroc": 0.5628610519904711
+    },
+    "ds_ref": {
+     "object_auroc": 0.5552,
+     "point_auroc": 0.6395227343111871
+    },
+    "plane_rms": {
+     "object_auroc": 0.7424,
+     "point_auroc": 0.5707263833390261
+    },
+    "rq_rms": {
+     "object_auroc": 0.5615999999999999,
+     "point_auroc": 0.5894752118053055
+    },
+    "rq_absmax": {
+     "object_auroc": 0.3616000000000001,
+     "point_auroc": 0.6053851449223167
+    },
+    "rq_skew": {
+     "object_auroc": 0.3936,
+     "point_auroc": 0.47889429037224873
+    }
+   },
+   "chicken": {
+    "n_items": 50,
+    "n_defective": 24,
+    "sv2": {
+     "object_auroc": 0.5689102564102564,
+     "point_auroc": 0.618629130320413
+    },
+    "surfvar": {
+     "object_auroc": 0.5817307692307692,
+     "point_auroc": 0.6198095755874653
+    },
+    "magd_nb": {
+     "object_auroc": 0.6185897435897436,
+     "point_auroc": 0.5981123003923721
+    },
+    "ds_ref": {
+     "object_auroc": 0.5913461538461539,
+     "point_auroc": 0.610195425346441
+    },
+    "plane_rms": {
+     "object_auroc": 0.5576923076923077,
+     "point_auroc": 0.6163462796209955
+    },
+    "rq_rms": {
+     "object_auroc": 0.5801282051282051,
+     "point_auroc": 0.6303811176526379
+    },
+    "rq_absmax": {
+     "object_auroc": 0.6314102564102564,
+     "point_auroc": 0.5912101060772363
+    },
+    "rq_skew": {
+     "object_auroc": 0.6057692307692308,
+     "point_auroc": 0.5528712633789089
+    }
+   },
+   "diamond": {
+    "n_items": 48,
+    "n_defective": 23,
+    "sv2": {
+     "object_auroc": 0.5756521739130435,
+     "point_auroc": 0.8483883742748084
+    },
+    "surfvar": {
+     "object_auroc": 0.5756521739130435,
+     "point_auroc": 0.848429900775016
+    },
+    "magd_nb": {
+     "object_auroc": 0.648695652173913,
+     "point_auroc": 0.7590651487845606
+    },
+    "ds_ref": {
+     "object_auroc": 0.8086956521739131,
+     "point_auroc": 0.7000941969303348
+    },
+    "plane_rms": {
+     "object_auroc": 0.5756521739130435,
+     "point_auroc": 0.8483306669064639
+    },
+    "rq_rms": {
+     "object_auroc": 0.5182608695652173,
+     "point_auroc": 0.920135218033266
+    },
+    "rq_absmax": {
+     "object_auroc": 0.5547826086956522,
+     "point_auroc": 0.8999680459572271
+    },
+    "rq_skew": {
+     "object_auroc": 0.9217391304347826,
+     "point_auroc": 0.6461666592605719
+    }
+   },
+   "duck": {
+    "n_items": 50,
+    "n_defective": 25,
+    "sv2": {
+     "object_auroc": 0.6736,
+     "point_auroc": 0.734236031840072
+    },
+    "surfvar": {
+     "object_auroc": 0.6784,
+     "point_auroc": 0.7348971445505674
+    },
+    "magd_nb": {
+     "object_auroc": 0.39039999999999997,
+     "point_auroc": 0.7253763442031711
+    },
+    "ds_ref": {
+     "object_auroc": 0.512,
+     "point_auroc": 0.7508621871447071
+    },
+    "plane_rms": {
+     "object_auroc": 0.6464,
+     "point_auroc": 0.7329009841994636
+    },
+    "rq_rms": {
+     "object_auroc": 0.48160000000000003,
+     "point_auroc": 0.7705817477946306
+    },
+    "rq_absmax": {
+     "object_auroc": 0.4496,
+     "point_auroc": 0.7584697695927003
+    },
+    "rq_skew": {
+     "object_auroc": 0.384,
+     "point_auroc": 0.5352564766181349
+    }
+   },
+   "fish": {
+    "n_items": 50,
+    "n_defective": 25,
+    "sv2": {
+     "object_auroc": 0.44,
+     "point_auroc": 0.6157152884022584
+    },
+    "surfvar": {
+     "object_auroc": 0.44160000000000005,
+     "point_auroc": 0.6161538539717325
+    },
+    "magd_nb": {
+     "object_auroc": 0.6752,
+     "point_auroc": 0.6911700507517876
+    },
+    "ds_ref": {
+     "object_auroc": 0.5616000000000001,
+     "point_auroc": 0.700641576631819
+    },
+    "plane_rms": {
+     "object_auroc": 0.43679999999999997,
+     "point_auroc": 0.6148885915588405
+    },
+    "rq_rms": {
+     "object_auroc": 0.3584,
+     "point_auroc": 0.6500176560630447
+    },
+    "rq_absmax": {
+     "object_auroc": 0.5903999999999999,
+     "point_auroc": 0.7091899655389242
+    },
+    "rq_skew": {
+     "object_auroc": 0.8336,
+     "point_auroc": 0.706807195696688
+    }
+   },
+   "gemstone": {
+    "n_items": 50,
+    "n_defective": 25,
+    "sv2": {
+     "object_auroc": 0.52,
+     "point_auroc": 0.6745221801355259
+    },
+    "surfvar": {
+     "object_auroc": 0.5248,
+     "point_auroc": 0.6758768333235567
+    },
+    "magd_nb": {
+     "object_auroc": 0.5168,
+     "point_auroc": 0.5027060931818901
+    },
+    "ds_ref": {
+     "object_auroc": 0.5104,
+     "point_auroc": 0.6107238528326633
+    },
+    "plane_rms": {
+     "object_auroc": 0.5408,
+     "point_auroc": 0.6716060971956296
+    },
+    "rq_rms": {
+     "object_auroc": 0.49760000000000004,
+     "point_auroc": 0.6705939520445138
+    },
+    "rq_absmax": {
+     "object_auroc": 0.47040000000000004,
+     "point_auroc": 0.6385089429449188
+    },
+    "rq_skew": {
+     "object_auroc": 0.4784,
+     "point_auroc": 0.45643059861515073
+    }
+   },
+   "seahorse": {
+    "n_items": 50,
+    "n_defective": 25,
+    "sv2": {
+     "object_auroc": 0.6432,
+     "point_auroc": 0.5979948767238688
+    },
+    "surfvar": {
+     "object_auroc": 0.6432,
+     "point_auroc": 0.5992545543581259
+    },
+    "magd_nb": {
+     "object_auroc": 0.42239999999999994,
+     "point_auroc": 0.4000880456630483
+    },
+    "ds_ref": {
+     "object_auroc": 0.6144000000000001,
+     "point_auroc": 0.5731801074826794
+    },
+    "plane_rms": {
+     "object_auroc": 0.6448,
+     "point_auroc": 0.5953273199988786
+    },
+    "rq_rms": {
+     "object_auroc": 0.5456000000000001,
+     "point_auroc": 0.5025999178925836
+    },
+    "rq_absmax": {
+     "object_auroc": 0.4976,
+     "point_auroc": 0.5077709892721456
+    },
+    "rq_skew": {
+     "object_auroc": 0.3264,
+     "point_auroc": 0.5513651144944826
+    }
+   },
+   "shell": {
+    "n_items": 50,
+    "n_defective": 24,
+    "sv2": {
+     "object_auroc": 0.44631410256410253,
+     "point_auroc": 0.5648240434084024
+    },
+    "surfvar": {
+     "object_auroc": 0.4302884615384615,
+     "point_auroc": 0.5654705618082765
+    },
+    "magd_nb": {
+     "object_auroc": 0.5841346153846154,
+     "point_auroc": 0.5020433465358666
+    },
+    "ds_ref": {
+     "object_auroc": 0.37580128205128205,
+     "point_auroc": 0.5133771784411405
+    },
+    "plane_rms": {
+     "object_auroc": 0.4559294871794872,
+     "point_auroc": 0.5635807638887949
+    },
+    "rq_rms": {
+     "object_auroc": 0.45592948717948717,
+     "point_auroc": 0.5504729154417191
+    },
+    "rq_absmax": {
+     "object_auroc": 0.49118589743589747,
+     "point_auroc": 0.5661967055147423
+    },
+    "rq_skew": {
+     "object_auroc": 0.47516025641025633,
+     "point_auroc": 0.3991405642221255
+    }
+   },
+   "starfish": {
+    "n_items": 50,
+    "n_defective": 25,
+    "sv2": {
+     "object_auroc": 0.6848000000000001,
+     "point_auroc": 0.6503035223520585
+    },
+    "surfvar": {
+     "object_auroc": 0.6816,
+     "point_auroc": 0.6458816267889018
+    },
+    "magd_nb": {
+     "object_auroc": 0.6672,
+     "point_auroc": 0.6672016347732945
+    },
+    "ds_ref": {
+     "object_auroc": 0.7056,
+     "point_auroc": 0.6839963633406092
+    },
+    "plane_rms": {
+     "object_auroc": 0.6880000000000001,
+     "point_auroc": 0.6578437424488246
+    },
+    "rq_rms": {
+     "object_auroc": 0.6751999999999999,
+     "point_auroc": 0.7101880953950652
+    },
+    "rq_absmax": {
+     "object_auroc": 0.5888,
+     "point_auroc": 0.677055215211913
+    },
+    "rq_skew": {
+     "object_auroc": 0.47040000000000004,
+     "point_auroc": 0.5858431235008974
+    }
+   },
+   "toffees": {
+    "n_items": 49,
+    "n_defective": 24,
+    "sv2": {
+     "object_auroc": 0.4916666666666667,
+     "point_auroc": 0.8162873463251614
+    },
+    "surfvar": {
+     "object_auroc": 0.505,
+     "point_auroc": 0.8166241582776713
+    },
+    "magd_nb": {
+     "object_auroc": 0.5016666666666667,
+     "point_auroc": 0.6865695300270982
+    },
+    "ds_ref": {
+     "object_auroc": 0.6233333333333333,
+     "point_auroc": 0.7137133510934703
+    },
+    "plane_rms": {
+     "object_auroc": 0.49666666666666665,
+     "point_auroc": 0.8156093662720172
+    },
+    "rq_rms": {
+     "object_auroc": 0.7016666666666667,
+     "point_auroc": 0.8858025438643385
+    },
+    "rq_absmax": {
+     "object_auroc": 0.7433333333333333,
+     "point_auroc": 0.9014151771575871
+    },
+    "rq_skew": {
+     "object_auroc": 0.4566666666666667,
+     "point_auroc": 0.689440402738277
+    }
+   }
+  }
+ },
+ "r3.6": {
+  "n_items": 597,
+  "n_defective": 295,
+  "n_good": 302,
+  "n_bulge": 213,
+  "n_sink": 82,
+  "median_seeds": 246.0,
+  "prop1_max_abs_diff": 4.884981308350689e-15,
+  "pooled": {
+   "sv2": {
+    "object_auroc_all": 0.5234987091705018,
+    "object_auroc_all_ci": [
+     0.4758456660513593,
+     0.5716197346748433
+    ],
+    "object_auroc_edgefilt": 0.5234987091705018,
+    "object_auroc_edgefilt_ci": [
+     0.47851617529136914,
+     0.5710679332958412
+    ],
+    "point_auroc": 0.5790604948052441,
+    "point_auroc_ci": [
+     0.5531752219771146,
+     0.6026943634133125
+    ],
+    "loc_median_dist_mm": 7.732912131075156,
+    "loc_hit_rate": 0.26101694915254237,
+    "loc_hit_rate_ci": [
+     0.2135593220338983,
+     0.31186440677966104
+    ],
+    "loc_median_rank_frac": 0.04591836734693878,
+    "n_defective_items": 295
+   },
+   "z_sv2": {
+    "object_auroc_all": 0.5263946570883377,
+    "object_auroc_all_ci": [
+     0.48208131032176343,
+     0.5733076450199384
+    ],
+    "object_auroc_edgefilt": 0.5263946570883377,
+    "object_auroc_edgefilt_ci": [
+     0.4805088215170981,
+     0.5724335558386977
+    ]
+   },
+   "surfvar": {
+    "object_auroc_all": 0.5241160624088002,
+    "object_auroc_all_ci": [
+     0.47927872172217173,
+     0.5711249324953102
+    ],
+    "object_auroc_edgefilt": 0.5241160624088002,
+    "object_auroc_edgefilt_ci": [
+     0.4777168974558412,
+     0.5720329875447068
+    ],
+    "point_auroc": 0.5793372864419077,
+    "point_auroc_ci": [
+     0.5522535066806051,
+     0.606402134359334
+    ],
+    "loc_median_dist_mm": 7.792033891026231,
+    "loc_hit_rate": 0.26101694915254237,
+    "loc_hit_rate_ci": [
+     0.2135593220338983,
+     0.3050847457627119
+    ],
+    "loc_median_rank_frac": 0.04245283018867924,
+    "n_defective_items": 295
+   },
+   "z_surfvar": {
+    "object_auroc_all": 0.5297395891794814,
+    "object_auroc_all_ci": [
+     0.48261695650063513,
+     0.5774258421862681
+    ],
+    "object_auroc_edgefilt": 0.5297395891794814,
+    "object_auroc_edgefilt_ci": [
+     0.4762132296543248,
+     0.5777633851776631
+    ]
+   },
+   "magd_nb": {
+    "object_auroc_all": 0.521523178807947,
+    "object_auroc_all_ci": [
+     0.47525867613750417,
+     0.5677474153186302
+    ],
+    "object_auroc_edgefilt": 0.521523178807947,
+    "object_auroc_edgefilt_ci": [
+     0.47364250458234924,
+     0.5651604701286456
+    ],
+    "point_auroc": 0.5207985091072769,
+    "point_auroc_ci": [
+     0.4957627423665764,
+     0.5512471886201574
+    ],
+    "loc_median_dist_mm": 8.95876086934769,
+    "loc_hit_rate": 0.21694915254237288,
+    "loc_hit_rate_ci": [
+     0.1694915254237288,
+     0.26101694915254237
+    ],
+    "loc_median_rank_frac": 0.03389830508474576,
+    "n_defective_items": 295
+   },
+   "z_magd_nb": {
+    "object_auroc_all": 0.521523178807947,
+    "object_auroc_all_ci": [
+     0.47708174339521,
+     0.5665103830902082
+    ],
+    "object_auroc_edgefilt": 0.521523178807947,
+    "object_auroc_edgefilt_ci": [
+     0.47484765949430274,
+     0.5675846117456264
+    ]
+   },
+   "ds_ref": {
+    "object_auroc_all": 0.548664272084409,
+    "object_auroc_all_ci": [
+     0.5017813863106636,
+     0.5942196839779332
+    ],
+    "object_auroc_edgefilt": 0.548664272084409,
+    "object_auroc_edgefilt_ci": [
+     0.5022443870908836,
+     0.5951393650460661
+    ],
+    "point_auroc": 0.513581854054744,
+    "point_auroc_ci": [
+     0.4731987645023142,
+     0.5433693096315042
+    ],
+    "loc_median_dist_mm": 9.528896985021404,
+    "loc_hit_rate": 0.2,
+    "loc_hit_rate_ci": [
+     0.15584745762711866,
+     0.24745762711864408
+    ],
+    "loc_median_rank_frac": 0.027149321266968326,
+    "n_defective_items": 295
+   },
+   "z_ds_ref": {
+    "object_auroc_all": 0.548664272084409,
+    "object_auroc_all_ci": [
+     0.5031371034762371,
+     0.5982452990717344
+    ],
+    "object_auroc_edgefilt": 0.548664272084409,
+    "object_auroc_edgefilt_ci": [
+     0.500859940470949,
+     0.5959580761458667
+    ]
+   },
+   "plane_rms": {
+    "object_auroc_all": 0.5221405320462453,
+    "object_auroc_all_ci": [
+     0.47979545830948356,
+     0.5697358077539197
+    ],
+    "object_auroc_edgefilt": 0.5221405320462453,
+    "object_auroc_edgefilt_ci": [
+     0.47608529856595905,
+     0.5682154996766308
+    ],
+    "point_auroc": 0.5784604852443785,
+    "point_auroc_ci": [
+     0.5517007486563641,
+     0.6058527885980104
+    ],
+    "loc_median_dist_mm": 7.897771079703322,
+    "loc_hit_rate": 0.2542372881355932,
+    "loc_hit_rate_ci": [
+     0.20677966101694914,
+     0.3016949152542373
+    ],
+    "loc_median_rank_frac": 0.04741379310344827,
+    "n_defective_items": 295
+   },
+   "z_plane_rms": {
+    "object_auroc_all": 0.5232180940621843,
+    "object_auroc_all_ci": [
+     0.4783424291047768,
+     0.57158022479851
+    ],
+    "object_auroc_edgefilt": 0.5232180940621843,
+    "object_auroc_edgefilt_ci": [
+     0.47485716050999865,
+     0.5712363823570732
+    ]
+   },
+   "rq_rms": {
+    "object_auroc_all": 0.5196149960713885,
+    "object_auroc_all_ci": [
+     0.4729696363029697,
+     0.5675397434612419
+    ],
+    "object_auroc_edgefilt": 0.5196149960713885,
+    "object_auroc_edgefilt_ci": [
+     0.4742954461578769,
+     0.5669545629228536
+    ],
+    "point_auroc": 0.5611388247749736,
+    "point_auroc_ci": [
+     0.5294263940558837,
+     0.5906103094710773
+    ],
+    "loc_median_dist_mm": 9.042726390602915,
+    "loc_hit_rate": 0.2305084745762712,
+    "loc_hit_rate_ci": [
+     0.18305084745762712,
+     0.27796610169491526
+    ],
+    "loc_median_rank_frac": 0.09144542772861357,
+    "n_defective_items": 295
+   },
+   "z_rq_rms": {
+    "object_auroc_all": 0.5265966999663262,
+    "object_auroc_all_ci": [
+     0.47869310701842893,
+     0.5724587731647987
+    ],
+    "object_auroc_edgefilt": 0.5265966999663262,
+    "object_auroc_edgefilt_ci": [
+     0.4819404277234433,
+     0.5724645315901915
+    ]
+   },
+   "rq_absmax": {
+    "object_auroc_all": 0.5286620271635425,
+    "object_auroc_all_ci": [
+     0.4853019735424747,
+     0.5742892713008291
+    ],
+    "object_auroc_edgefilt": 0.5286620271635425,
+    "object_auroc_edgefilt_ci": [
+     0.4824651807343193,
+     0.573133928536252
+    ],
+    "point_auroc": 0.5705200121451927,
+    "point_auroc_ci": [
+     0.5381571699037339,
+     0.595692601473985
+    ],
+    "loc_median_dist_mm": 7.919582367274227,
+    "loc_hit_rate": 0.23389830508474577,
+    "loc_hit_rate_ci": [
+     0.1864406779661017,
+     0.28135593220338984
+    ],
+    "loc_median_rank_frac": 0.04451038575667656,
+    "n_defective_items": 295
+   },
+   "z_rq_absmax": {
+    "object_auroc_all": 0.5312212369513974,
+    "object_auroc_all_ci": [
+     0.48491557350446257,
+     0.5751696302976257
+    ],
+    "object_auroc_edgefilt": 0.5312212369513974,
+    "object_auroc_edgefilt_ci": [
+     0.48504336052865504,
+     0.5782583985032868
+    ]
+   },
+   "rq_skew": {
+    "object_auroc_all": 0.5489448871927265,
+    "object_auroc_all_ci": [
+     0.5032928493780965,
+     0.5955399506460783
+    ],
+    "object_auroc_edgefilt": 0.5489448871927265,
+    "object_auroc_edgefilt_ci": [
+     0.5049776571877501,
+     0.5956167929078234
+    ],
+    "point_auroc": 0.6131413693334211,
+    "point_auroc_ci": [
+     0.575179224807171,
+     0.6422875185018817
+    ],
+    "loc_median_dist_mm": 5.858139239316009,
+    "loc_hit_rate": 0.36271186440677966,
+    "loc_hit_rate_ci": [
+     0.30847457627118646,
+     0.41703389830508425
+    ],
+    "loc_median_rank_frac": 0.013544018058690745,
+    "n_defective_items": 295
+   },
+   "z_rq_skew": {
+    "object_auroc_all": 0.534285553934224,
+    "object_auroc_all_ci": [
+     0.48866346269673394,
+     0.5821388220151197
+    ],
+    "object_auroc_edgefilt": 0.534285553934224,
+    "object_auroc_edgefilt_ci": [
+     0.4874538202769503,
+     0.5830192214235438
+    ]
+   }
+  },
+  "per_category": {
+   "airplane": {
+    "n_items": 50,
+    "n_defective": 25,
+    "sv2": {
+     "object_auroc": 0.4704,
+     "point_auroc": 0.49535953087059553
+    },
+    "surfvar": {
+     "object_auroc": 0.4896000000000001,
+     "point_auroc": 0.4959044365283794
+    },
+    "magd_nb": {
+     "object_auroc": 0.49439999999999995,
+     "point_auroc": 0.5127326415311221
+    },
+    "ds_ref": {
+     "object_auroc": 0.3504,
+     "point_auroc": 0.5355302802061476
+    },
+    "plane_rms": {
+     "object_auroc": 0.4496,
+     "point_auroc": 0.49421917653999203
+    },
+    "rq_rms": {
+     "object_auroc": 0.5472,
+     "point_auroc": 0.5220316465160357
+    },
+    "rq_absmax": {
+     "object_auroc": 0.5184,
+     "point_auroc": 0.5081254136499538
+    },
+    "rq_skew": {
+     "object_auroc": 0.4592,
+     "point_auroc": 0.5685104014670405
+    }
+   },
+   "candybar": {
+    "n_items": 50,
+    "n_defective": 25,
+    "sv2": {
+     "object_auroc": 0.5024000000000001,
+     "point_auroc": 0.47692173974577795
+    },
+    "surfvar": {
+     "object_auroc": 0.49439999999999995,
+     "point_auroc": 0.4844645213126225
+    },
+    "magd_nb": {
+     "object_auroc": 0.5152000000000001,
+     "point_auroc": 0.39323629284804307
+    },
+    "ds_ref": {
+     "object_auroc": 0.5552,
+     "point_auroc": 0.38565726040431136
+    },
+    "plane_rms": {
+     "object_auroc": 0.5008,
+     "point_auroc": 0.46205293625851585
+    },
+    "rq_rms": {
+     "object_auroc": 0.4496,
+     "point_auroc": 0.40312989948689726
+    },
+    "rq_absmax": {
+     "object_auroc": 0.5424,
+     "point_auroc": 0.38044496410295053
+    },
+    "rq_skew": {
+     "object_auroc": 0.76,
+     "point_auroc": 0.6580377622572086
+    }
+   },
+   "car": {
+    "n_items": 50,
+    "n_defective": 25,
+    "sv2": {
+     "object_auroc": 0.5008,
+     "point_auroc": 0.54651844043164
+    },
+    "surfvar": {
+     "object_auroc": 0.5184,
+     "point_auroc": 0.5477655396926133
+    },
+    "magd_nb": {
+     "object_auroc": 0.5327999999999999,
+     "point_auroc": 0.5543865956202851
+    },
+    "ds_ref": {
+     "object_auroc": 0.5664,
+     "point_auroc": 0.5210483267353808
+    },
+    "plane_rms": {
+     "object_auroc": 0.5296000000000001,
+     "point_auroc": 0.5432916497985915
+    },
+    "rq_rms": {
+     "object_auroc": 0.5424,
+     "point_auroc": 0.5570351864664127
+    },
+    "rq_absmax": {
+     "object_auroc": 0.5632,
+     "point_auroc": 0.5344398681280301
+    },
+    "rq_skew": {
+     "object_auroc": 0.4128,
+     "point_auroc": 0.5567974933112941
+    }
+   },
+   "chicken": {
+    "n_items": 50,
+    "n_defective": 24,
+    "sv2": {
+     "object_auroc": 0.6217948717948718,
+     "point_auroc": 0.5719278740188941
+    },
+    "surfvar": {
+     "object_auroc": 0.6298076923076923,
+     "point_auroc": 0.5719110984404244
+    },
+    "magd_nb": {
+     "object_auroc": 0.5641025641025641,
+     "point_auroc": 0.46039472916658275
+    },
+    "ds_ref": {
+     "object_auroc": 0.5801282051282051,
+     "point_auroc": 0.455685392515043
+    },
+    "plane_rms": {
+     "object_auroc": 0.6169871794871795,
+     "point_auroc": 0.5716336298015365
+    },
+    "rq_rms": {
+     "object_auroc": 0.592948717948718,
+     "point_auroc": 0.5202756660459654
+    },
+    "rq_absmax": {
+     "object_auroc": 0.5849358974358974,
+     "point_auroc": 0.4975490581761243
+    },
+    "rq_skew": {
+     "object_auroc": 0.5801282051282052,
+     "point_auroc": 0.6554708788653228
+    }
+   },
+   "diamond": {
+    "n_items": 48,
+    "n_defective": 23,
+    "sv2": {
+     "object_auroc": 0.4469565217391304,
+     "point_auroc": 0.7210037587411815
+    },
+    "surfvar": {
+     "object_auroc": 0.44347826086956516,
+     "point_auroc": 0.7193998988332566
+    },
+    "magd_nb": {
+     "object_auroc": 0.4626086956521739,
+     "point_auroc": 0.7018089995102876
+    },
+    "ds_ref": {
+     "object_auroc": 0.6904347826086955,
+     "point_auroc": 0.6234504537508369
+    },
+    "plane_rms": {
+     "object_auroc": 0.4469565217391304,
+     "point_auroc": 0.7238538821433503
+    },
+    "rq_rms": {
+     "object_auroc": 0.49043478260869566,
+     "point_auroc": 0.7595862181999459
+    },
+    "rq_absmax": {
+     "object_auroc": 0.4678260869565217,
+     "point_auroc": 0.7392531581153159
+    },
+    "rq_skew": {
+     "object_auroc": 0.7843478260869566,
+     "point_auroc": 0.8142003750943451
+    }
+   },
+   "duck": {
+    "n_items": 50,
+    "n_defective": 25,
+    "sv2": {
+     "object_auroc": 0.7376,
+     "point_auroc": 0.6236319830076131
+    },
+    "surfvar": {
+     "object_auroc": 0.7312000000000001,
+     "point_auroc": 0.6265109630960063
+    },
+    "magd_nb": {
+     "object_auroc": 0.5504,
+     "point_auroc": 0.5368509737621548
+    },
+    "ds_ref": {
+     "object_auroc": 0.6656000000000001,
+     "point_auroc": 0.5593546605736407
+    },
+    "plane_rms": {
+     "object_auroc": 0.744,
+     "point_auroc": 0.6177406325590546
+    },
+    "rq_rms": {
+     "object_auroc": 0.47200000000000003,
+     "point_auroc": 0.5995278812306207
+    },
+    "rq_absmax": {
+     "object_auroc": 0.5199999999999999,
+     "point_auroc": 0.5533578687665078
+    },
+    "rq_skew": {
+     "object_auroc": 0.3456,
+     "point_auroc": 0.6543813673262603
+    }
+   },
+   "fish": {
+    "n_items": 50,
+    "n_defective": 25,
+    "sv2": {
+     "object_auroc": 0.5824,
+     "point_auroc": 0.515083318639439
+    },
+    "surfvar": {
+     "object_auroc": 0.5776,
+     "point_auroc": 0.5145806871948903
+    },
+    "magd_nb": {
+     "object_auroc": 0.6208,
+     "point_auroc": 0.5877301411515155
+    },
+    "ds_ref": {
+     "object_auroc": 0.7008000000000001,
+     "point_auroc": 0.558498235094006
+    },
+    "plane_rms": {
+     "object_auroc": 0.5808,
+     "point_auroc": 0.5159069203485599
+    },
+    "rq_rms": {
+     "object_auroc": 0.5488,
+     "point_auroc": 0.5141734199474522
+    },
+    "rq_absmax": {
+     "object_auroc": 0.5744,
+     "point_auroc": 0.6034932692821442
+    },
+    "rq_skew": {
+     "object_auroc": 0.8112,
+     "point_auroc": 0.81277954641367
+    }
+   },
+   "gemstone": {
+    "n_items": 50,
+    "n_defective": 25,
+    "sv2": {
+     "object_auroc": 0.5871999999999999,
+     "point_auroc": 0.593354470021495
+    },
+    "surfvar": {
+     "object_auroc": 0.592,
+     "point_auroc": 0.5944955180036986
+    },
+    "magd_nb": {
+     "object_auroc": 0.544,
+     "point_auroc": 0.5716933671754798
+    },
+    "ds_ref": {
+     "object_auroc": 0.5056,
+     "point_auroc": 0.5894735835746239
+    },
+    "plane_rms": {
+     "object_auroc": 0.5728,
+     "point_auroc": 0.5911302561427603
+    },
+    "rq_rms": {
+     "object_auroc": 0.49440000000000006,
+     "point_auroc": 0.6450601624741432
+    },
+    "rq_absmax": {
+     "object_auroc": 0.5056,
+     "point_auroc": 0.6193516091411522
+    },
+    "rq_skew": {
+     "object_auroc": 0.48160000000000003,
+     "point_auroc": 0.42246711214051647
+    }
+   },
+   "seahorse": {
+    "n_items": 50,
+    "n_defective": 25,
+    "sv2": {
+     "object_auroc": 0.5808,
+     "point_auroc": 0.6610844519368221
+    },
+    "surfvar": {
+     "object_auroc": 0.5824,
+     "point_auroc": 0.6587691631683308
+    },
+    "magd_nb": {
+     "object_auroc": 0.5104,
+     "point_auroc": 0.40823036869491963
+    },
+    "ds_ref": {
+     "object_auroc": 0.4128,
+     "point_auroc": 0.4146675032590984
+    },
+    "plane_rms": {
+     "object_auroc": 0.5856,
+     "point_auroc": 0.6654222380071728
+    },
+    "rq_rms": {
+     "object_auroc": 0.6176,
+     "point_auroc": 0.5540559041494204
+    },
+    "rq_absmax": {
+     "object_auroc": 0.7344,
+     "point_auroc": 0.5808101612882819
+    },
+    "rq_skew": {
+     "object_auroc": 0.2912,
+     "point_auroc": 0.5173621824107554
+    }
+   },
+   "shell": {
+    "n_items": 50,
+    "n_defective": 24,
+    "sv2": {
+     "object_auroc": 0.5040064102564102,
+     "point_auroc": 0.5729953027103338
+    },
+    "surfvar": {
+     "object_auroc": 0.49599358974358976,
+     "point_auroc": 0.5736794086877188
+    },
+    "magd_nb": {
+     "object_auroc": 0.3501602564102564,
+     "point_auroc": 0.3928677134828543
+    },
+    "ds_ref": {
+     "object_auroc": 0.44310897435897434,
+     "point_auroc": 0.339734203766095
+    },
+    "plane_rms": {
+     "object_auroc": 0.4975961538461538,
+     "point_auroc": 0.5715424084093029
+    },
+    "rq_rms": {
+     "object_auroc": 0.5905448717948718,
+     "point_auroc": 0.49122290907285693
+    },
+    "rq_absmax": {
+     "object_auroc": 0.5953525641025641,
+     "point_auroc": 0.5279009185435716
+    },
+    "rq_skew": {
+     "object_auroc": 0.375801282051282,
+     "point_auroc": 0.4342712475112436
+    }
+   },
+   "starfish": {
+    "n_items": 50,
+    "n_defective": 25,
+    "sv2": {
+     "object_auroc": 0.6848000000000001,
+     "point_auroc": 0.6263272809109237
+    },
+    "surfvar": {
+     "object_auroc": 0.6799999999999999,
+     "point_auroc": 0.6247248861159972
+    },
+    "magd_nb": {
+     "object_auroc": 0.5680000000000001,
+     "point_auroc": 0.6469650271611098
+    },
+    "ds_ref": {
+     "object_auroc": 0.6432,
+     "point_auroc": 0.597248746497824
+    },
+    "plane_rms": {
+     "object_auroc": 0.6976,
+     "point_auroc": 0.6293473085293168
+    },
+    "rq_rms": {
+     "object_auroc": 0.6384,
+     "point_auroc": 0.6581533858104953
+    },
+    "rq_absmax": {
+     "object_auroc": 0.7008,
+     "point_auroc": 0.7027063566837031
+    },
+    "rq_skew": {
+     "object_auroc": 0.5104,
+     "point_auroc": 0.4533699041763346
+    }
+   },
+   "toffees": {
+    "n_items": 49,
+    "n_defective": 24,
+    "sv2": {
+     "object_auroc": 0.565,
+     "point_auroc": 0.7201482118780742
+    },
+    "surfvar": {
+     "object_auroc": 0.5516666666666666,
+     "point_auroc": 0.7209840902162765
+    },
+    "magd_nb": {
+     "object_auroc": 0.5433333333333333,
+     "point_auroc": 0.6006613763891846
+    },
+    "ds_ref": {
+     "object_auroc": 0.6533333333333333,
+     "point_auroc": 0.5215831457655896
+    },
+    "plane_rms": {
+     "object_auroc": 0.6016666666666667,
+     "point_auroc": 0.7184142683695744
+    },
+    "rq_rms": {
+     "object_auroc": 0.6483333333333333,
+     "point_auroc": 0.7098823989676893
+    },
+    "rq_absmax": {
+     "object_auroc": 0.635,
+     "point_auroc": 0.7666987791328632
+    },
+    "rq_skew": {
+     "object_auroc": 0.63,
+     "point_auroc": 0.8404019531103989
+    }
+   }
+  }
+ },
+ "r5.0": {
+  "n_items": 597,
+  "n_defective": 295,
+  "n_good": 302,
+  "n_bulge": 213,
+  "n_sink": 82,
+  "median_seeds": 135.0,
+  "prop1_max_abs_diff": 4.218847493575595e-15,
+  "pooled": {
+   "sv2": {
+    "object_auroc_all": 0.516775171175216,
+    "object_auroc_all_ci": [
+     0.4688111999250037,
+     0.5636526905963603
+    ],
+    "object_auroc_edgefilt": 0.516775171175216,
+    "object_auroc_edgefilt_ci": [
+     0.469771618270552,
+     0.5617956520061308
+    ],
+    "point_auroc": 0.5411265258136604,
+    "point_auroc_ci": [
+     0.513677513827839,
+     0.5693595134159316
+    ],
+    "loc_median_dist_mm": 7.150390049138255,
+    "loc_hit_rate": 0.34576271186440677,
+    "loc_hit_rate_ci": [
+     0.29152542372881357,
+     0.39661016949152544
+    ],
+    "loc_median_rank_frac": 0.022813688212927757,
+    "n_defective_items": 295
+   },
+   "z_sv2": {
+    "object_auroc_all": 0.5150016836906499,
+    "object_auroc_all_ci": [
+     0.4693845608171268,
+     0.5588715133327826
+    ],
+    "object_auroc_edgefilt": 0.5150016836906499,
+    "object_auroc_edgefilt_ci": [
+     0.46957542402713337,
+     0.5614402156765087
+    ]
+   },
+   "surfvar": {
+    "object_auroc_all": 0.5167190481535526,
+    "object_auroc_all_ci": [
+     0.4703302618988986,
+     0.5639036295458189
+    ],
+    "object_auroc_edgefilt": 0.5167190481535526,
+    "object_auroc_edgefilt_ci": [
+     0.46883906894192545,
+     0.5616207176148014
+    ],
+    "point_auroc": 0.5415357896353753,
+    "point_auroc_ci": [
+     0.5143759171058612,
+     0.572999768267968
+    ],
+    "loc_median_dist_mm": 6.9185338678550465,
+    "loc_hit_rate": 0.3593220338983051,
+    "loc_hit_rate_ci": [
+     0.3016949152542373,
+     0.4135593220338983
+    ],
+    "loc_median_rank_frac": 0.02247191011235955,
+    "n_defective_items": 295
+   },
+   "z_surfvar": {
+    "object_auroc_all": 0.5147547423953305,
+    "object_auroc_all_ci": [
+     0.4686914319875791,
+     0.5595480820441554
+    ],
+    "object_auroc_edgefilt": 0.5147547423953305,
+    "object_auroc_edgefilt_ci": [
+     0.46695172090604126,
+     0.5609901364267901
+    ]
+   },
+   "magd_nb": {
+    "object_auroc_all": 0.5073689527444157,
+    "object_auroc_all_ci": [
+     0.46165574160268696,
+     0.5541665864026301
+    ],
+    "object_auroc_edgefilt": 0.5073689527444157,
+    "object_auroc_edgefilt_ci": [
+     0.46395007793604276,
+     0.5556533249854642
+    ],
+    "point_auroc": 0.4939271059126371,
+    "point_auroc_ci": [
+     0.4608786346592069,
+     0.5270160416336431
+    ],
+    "loc_median_dist_mm": 10.280853377753212,
+    "loc_hit_rate": 0.2135593220338983,
+    "loc_hit_rate_ci": [
+     0.16610169491525423,
+     0.26101694915254237
+    ],
+    "loc_median_rank_frac": 0.043243243243243246,
+    "n_defective_items": 295
+   },
+   "z_magd_nb": {
+    "object_auroc_all": 0.5073689527444157,
+    "object_auroc_all_ci": [
+     0.46249066248230625,
+     0.5530393636111791
+    ],
+    "object_auroc_edgefilt": 0.5073689527444157,
+    "object_auroc_edgefilt_ci": [
+     0.4574985032598563,
+     0.5524598628877412
+    ]
+   },
+   "ds_ref": {
+    "object_auroc_all": 0.5208609271523179,
+    "object_auroc_all_ci": [
+     0.47551778294364705,
+     0.5666045331133778
+    ],
+    "object_auroc_edgefilt": 0.5208609271523179,
+    "object_auroc_edgefilt_ci": [
+     0.4747043482053519,
+     0.5661227944970563
+    ],
+    "point_auroc": 0.4808865794855044,
+    "point_auroc_ci": [
+     0.4403442696127339,
+     0.5167022342046484
+    ],
+    "loc_median_dist_mm": 8.870635684182691,
+    "loc_hit_rate": 0.24745762711864408,
+    "loc_hit_rate_ci": [
+     0.2,
+     0.2983050847457627
+    ],
+    "loc_median_rank_frac": 0.029411764705882353,
+    "n_defective_items": 295
+   },
+   "z_ds_ref": {
+    "object_auroc_all": 0.5208609271523179,
+    "object_auroc_all_ci": [
+     0.47664610992848166,
+     0.5661152750717545
+    ],
+    "object_auroc_edgefilt": 0.5208609271523179,
+    "object_auroc_edgefilt_ci": [
+     0.4744175503375615,
+     0.5675863136022811
+    ]
+   },
+   "plane_rms": {
+    "object_auroc_all": 0.5165057806712314,
+    "object_auroc_all_ci": [
+     0.46821678087166174,
+     0.56398624329395
+    ],
+    "object_auroc_edgefilt": 0.5165057806712314,
+    "object_auroc_edgefilt_ci": [
+     0.4719718600039577,
+     0.5622850602478815
+    ],
+    "point_auroc": 0.5404349549267684,
+    "point_auroc_ci": [
+     0.5134034958741995,
+     0.5705123740228443
+    ],
+    "loc_median_dist_mm": 7.38466212447872,
+    "loc_hit_rate": 0.3389830508474576,
+    "loc_hit_rate_ci": [
+     0.2847457627118644,
+     0.39322033898305087
+    ],
+    "loc_median_rank_frac": 0.024390243902439025,
+    "n_defective_items": 295
+   },
+   "z_plane_rms": {
+    "object_auroc_all": 0.5140251431137053,
+    "object_auroc_all_ci": [
+     0.46657278869383834,
+     0.560285927304585
+    ],
+    "object_auroc_edgefilt": 0.5140251431137053,
+    "object_auroc_edgefilt_ci": [
+     0.46746837191245655,
+     0.5615175342916028
+    ]
+   },
+   "rq_rms": {
+    "object_auroc_all": 0.5234089123358402,
+    "object_auroc_all_ci": [
+     0.47543328169015603,
+     0.5694848385940754
+    ],
+    "object_auroc_edgefilt": 0.5234089123358402,
+    "object_auroc_edgefilt_ci": [
+     0.4763877082442041,
+     0.5686109297873213
+    ],
+    "point_auroc": 0.5200782931561632,
+    "point_auroc_ci": [
+     0.4878627203241565,
+     0.5584593138650426
+    ],
+    "loc_median_dist_mm": 8.799986522671313,
+    "loc_hit_rate": 0.2983050847457627,
+    "loc_hit_rate_ci": [
+     0.24745762711864408,
+     0.34915254237288135
+    ],
+    "loc_median_rank_frac": 0.05952380952380952,
+    "n_defective_items": 295
+   },
+   "z_rq_rms": {
+    "object_auroc_all": 0.5271018071612976,
+    "object_auroc_all_ci": [
+     0.48011309731432783,
+     0.5731551875834878
+    ],
+    "object_auroc_edgefilt": 0.5271018071612976,
+    "object_auroc_edgefilt_ci": [
+     0.4792553247200503,
+     0.572654443580884
+    ]
+   },
+   "rq_absmax": {
+    "object_auroc_all": 0.5217925693119317,
+    "object_auroc_all_ci": [
+     0.47524911570034306,
+     0.5692042477345154
+    ],
+    "object_auroc_edgefilt": 0.5217925693119317,
+    "object_auroc_edgefilt_ci": [
+     0.47779108902361384,
+     0.567567089602515
+    ],
+    "point_auroc": 0.5404100345680389,
+    "point_auroc_ci": [
+     0.5047833167619106,
+     0.5725863958468153
+    ],
+    "loc_median_dist_mm": 8.09821272837194,
+    "loc_hit_rate": 0.3220338983050847,
+    "loc_hit_rate_ci": [
+     0.2711864406779661,
+     0.376271186440678
+    ],
+    "loc_median_rank_frac": 0.02666666666666667,
+    "n_defective_items": 295
+   },
+   "z_rq_absmax": {
+    "object_auroc_all": 0.5293355034235043,
+    "object_auroc_all_ci": [
+     0.48161230858648857,
+     0.5750112141953515
+    ],
+    "object_auroc_edgefilt": 0.5293355034235043,
+    "object_auroc_edgefilt_ci": [
+     0.4859828005934047,
+     0.5745619409952051
+    ]
+   },
+   "rq_skew": {
+    "object_auroc_all": 0.5416152205634751,
+    "object_auroc_all_ci": [
+     0.49242048644002656,
+     0.5861277504926223
+    ],
+    "object_auroc_edgefilt": 0.5416152205634751,
+    "object_auroc_edgefilt_ci": [
+     0.4967956026058632,
+     0.5874138736263015
+    ],
+    "point_auroc": 0.6224016797828604,
+    "point_auroc_ci": [
+     0.5937698800123687,
+     0.6562537136857849
+    ],
+    "loc_median_dist_mm": 6.632840485870749,
+    "loc_hit_rate": 0.4067796610169492,
+    "loc_hit_rate_ci": [
+     0.3525423728813559,
+     0.46779661016949153
+    ],
+    "loc_median_rank_frac": 0.01652892561983471,
+    "n_defective_items": 295
+   },
+   "z_rq_skew": {
+    "object_auroc_all": 0.5470367044561679,
+    "object_auroc_all_ci": [
+     0.5000599046015713,
+     0.5922225074067076
+    ],
+    "object_auroc_edgefilt": 0.5470367044561679,
+    "object_auroc_edgefilt_ci": [
+     0.5030362577167202,
+     0.5927197730091502
+    ]
+   }
+  },
+  "per_category": {
+   "airplane": {
+    "n_items": 50,
+    "n_defective": 25,
+    "sv2": {
+     "object_auroc": 0.5104000000000001,
+     "point_auroc": 0.45884091624292533
+    },
+    "surfvar": {
+     "object_auroc": 0.47840000000000005,
+     "point_auroc": 0.4591389376074228
+    },
+    "magd_nb": {
+     "object_auroc": 0.6192,
+     "point_auroc": 0.47398861056961383
+    },
+    "ds_ref": {
+     "object_auroc": 0.5744,
+     "point_auroc": 0.48520706794831536
+    },
+    "plane_rms": {
+     "object_auroc": 0.5136000000000001,
+     "point_auroc": 0.4580933809821419
+    },
+    "rq_rms": {
+     "object_auroc": 0.6,
+     "point_auroc": 0.4651837951847734
+    },
+    "rq_absmax": {
+     "object_auroc": 0.5808,
+     "point_auroc": 0.4464124081937157
+    },
+    "rq_skew": {
+     "object_auroc": 0.5087999999999999,
+     "point_auroc": 0.5691514369972038
+    }
+   },
+   "candybar": {
+    "n_items": 50,
+    "n_defective": 25,
+    "sv2": {
+     "object_auroc": 0.4768,
+     "point_auroc": 0.6260779597830782
+    },
+    "surfvar": {
+     "object_auroc": 0.4768,
+     "point_auroc": 0.6325751850636284
+    },
+    "magd_nb": {
+     "object_auroc": 0.432,
+     "point_auroc": 0.31566826008216187
+    },
+    "ds_ref": {
+     "object_auroc": 0.42719999999999997,
+     "point_auroc": 0.30088975711032234
+    },
+    "plane_rms": {
+     "object_auroc": 0.48,
+     "point_auroc": 0.6119773960965728
+    },
+    "rq_rms": {
+     "object_auroc": 0.5552,
+     "point_auroc": 0.31196193639269054
+    },
+    "rq_absmax": {
+     "object_auroc": 0.3968,
+     "point_auroc": 0.34160345211765386
+    },
+    "rq_skew": {
+     "object_auroc": 0.6688000000000001,
+     "point_auroc": 0.7624799712201784
+    }
+   },
+   "car": {
+    "n_items": 50,
+    "n_defective": 25,
+    "sv2": {
+     "object_auroc": 0.5136000000000001,
+     "point_auroc": 0.4771824758990926
+    },
+    "surfvar": {
+     "object_auroc": 0.5136000000000001,
+     "point_auroc": 0.4783641470062914
+    },
+    "magd_nb": {
+     "object_auroc": 0.45439999999999997,
+     "point_auroc": 0.5482887273236989
+    },
+    "ds_ref": {
+     "object_auroc": 0.45599999999999996,
+     "point_auroc": 0.44694716071081403
+    },
+    "plane_rms": {
+     "object_auroc": 0.4944,
+     "point_auroc": 0.475897910947371
+    },
+    "rq_rms": {
+     "object_auroc": 0.6576000000000001,
+     "point_auroc": 0.4854862683737584
+    },
+    "rq_absmax": {
+     "object_auroc": 0.4448,
+     "point_auroc": 0.42580794843106706
+    },
+    "rq_skew": {
+     "object_auroc": 0.4096,
+     "point_auroc": 0.5527536981081079
+    }
+   },
+   "chicken": {
+    "n_items": 50,
+    "n_defective": 24,
+    "sv2": {
+     "object_auroc": 0.6153846153846154,
+     "point_auroc": 0.543195507995405
+    },
+    "surfvar": {
+     "object_auroc": 0.6121794871794872,
+     "point_auroc": 0.541628289577128
+    },
+    "magd_nb": {
+     "object_auroc": 0.5192307692307693,
+     "point_auroc": 0.4201418617302859
+    },
+    "ds_ref": {
+     "object_auroc": 0.4567307692307692,
+     "point_auroc": 0.38978895999731744
+    },
+    "plane_rms": {
+     "object_auroc": 0.6121794871794871,
+     "point_auroc": 0.5466671983821068
+    },
+    "rq_rms": {
+     "object_auroc": 0.5961538461538461,
+     "point_auroc": 0.5004692077256855
+    },
+    "rq_absmax": {
+     "object_auroc": 0.6618589743589745,
+     "point_auroc": 0.5240565343962421
+    },
+    "rq_skew": {
+     "object_auroc": 0.5336538461538461,
+     "point_auroc": 0.7180391393251943
+    }
+   },
+   "diamond": {
+    "n_items": 48,
+    "n_defective": 23,
+    "sv2": {
+     "object_auroc": 0.48695652173913045,
+     "point_auroc": 0.5857245038997774
+    },
+    "surfvar": {
+     "object_auroc": 0.48869565217391303,
+     "point_auroc": 0.5799821924951954
+    },
+    "magd_nb": {
+     "object_auroc": 0.5582608695652174,
+     "point_auroc": 0.6280667361476497
+    },
+    "ds_ref": {
+     "object_auroc": 0.7008695652173913,
+     "point_auroc": 0.5730261800937981
+    },
+    "plane_rms": {
+     "object_auroc": 0.4869565217391304,
+     "point_auroc": 0.5959783298204155
+    },
+    "rq_rms": {
+     "object_auroc": 0.4782608695652174,
+     "point_auroc": 0.6784349665724093
+    },
+    "rq_absmax": {
+     "object_auroc": 0.39304347826086955,
+     "point_auroc": 0.6888670239290324
+    },
+    "rq_skew": {
+     "object_auroc": 0.47304347826086957,
+     "point_auroc": 0.6997915167368148
+    }
+   },
+   "duck": {
+    "n_items": 50,
+    "n_defective": 25,
+    "sv2": {
+     "object_auroc": 0.6192,
+     "point_auroc": 0.5548318056126729
+    },
+    "surfvar": {
+     "object_auroc": 0.6096,
+     "point_auroc": 0.5607836029926894
+    },
+    "magd_nb": {
+     "object_auroc": 0.4304,
+     "point_auroc": 0.35076658280690814
+    },
+    "ds_ref": {
+     "object_auroc": 0.7504,
+     "point_auroc": 0.3597755892904838
+    },
+    "plane_rms": {
+     "object_auroc": 0.6255999999999999,
+     "point_auroc": 0.5418273983515413
+    },
+    "rq_rms": {
+     "object_auroc": 0.5264,
+     "point_auroc": 0.34743480253954623
+    },
+    "rq_absmax": {
+     "object_auroc": 0.616,
+     "point_auroc": 0.38466030132357526
+    },
+    "rq_skew": {
+     "object_auroc": 0.7072,
+     "point_auroc": 0.7498492750523152
+    }
+   },
+   "fish": {
+    "n_items": 50,
+    "n_defective": 25,
+    "sv2": {
+     "object_auroc": 0.5504,
+     "point_auroc": 0.46911078096428277
+    },
+    "surfvar": {
+     "object_auroc": 0.5504,
+     "point_auroc": 0.468093772990021
+    },
+    "magd_nb": {
+     "object_auroc": 0.4832,
+     "point_auroc": 0.4367700007410253
+    },
+    "ds_ref": {
+     "object_auroc": 0.6096,
+     "point_auroc": 0.41134384126230905
+    },
+    "plane_rms": {
+     "object_auroc": 0.5568,
+     "point_auroc": 0.4712271833392509
+    },
+    "rq_rms": {
+     "object_auroc": 0.6224,
+     "point_auroc": 0.43361393643922563
+    },
+    "rq_absmax": {
+     "object_auroc": 0.5631999999999999,
+     "point_auroc": 0.5156113057652822
+    },
+    "rq_skew": {
+     "object_auroc": 0.8048,
+     "point_auroc": 0.7890226561902982
+    }
+   },
+   "gemstone": {
+    "n_items": 50,
+    "n_defective": 25,
+    "sv2": {
+     "object_auroc": 0.448,
+     "point_auroc": 0.5736703313055838
+    },
+    "surfvar": {
+     "object_auroc": 0.4464,
+     "point_auroc": 0.5747356779119546
+    },
+    "magd_nb": {
+     "object_auroc": 0.504,
+     "point_auroc": 0.6261019099640233
+    },
+    "ds_ref": {
+     "object_auroc": 0.5712,
+     "point_auroc": 0.5718362496330032
+    },
+    "plane_rms": {
+     "object_auroc": 0.43360000000000004,
+     "point_auroc": 0.5715581934036837
+    },
+    "rq_rms": {
+     "object_auroc": 0.46880000000000005,
+     "point_auroc": 0.6065937687291874
+    },
+    "rq_absmax": {
+     "object_auroc": 0.48160000000000003,
+     "point_auroc": 0.6118980110773425
+    },
+    "rq_skew": {
+     "object_auroc": 0.4576,
+     "point_auroc": 0.48541713249685503
+    }
+   },
+   "seahorse": {
+    "n_items": 50,
+    "n_defective": 25,
+    "sv2": {
+     "object_auroc": 0.5936,
+     "point_auroc": 0.7189798748771983
+    },
+    "surfvar": {
+     "object_auroc": 0.592,
+     "point_auroc": 0.7161135740727511
+    },
+    "magd_nb": {
+     "object_auroc": 0.45120000000000005,
+     "point_auroc": 0.37681696888612565
+    },
+    "ds_ref": {
+     "object_auroc": 0.46399999999999997,
+     "point_auroc": 0.34451780407500104
+    },
+    "plane_rms": {
+     "object_auroc": 0.592,
+     "point_auroc": 0.7244788810143399
+    },
+    "rq_rms": {
+     "object_auroc": 0.5664000000000001,
+     "point_auroc": 0.6614599519784198
+    },
+    "rq_absmax": {
+     "object_auroc": 0.64,
+     "point_auroc": 0.6419697530040078
+    },
+    "rq_skew": {
+     "object_auroc": 0.2944,
+     "point_auroc": 0.4799117645447418
+    }
+   },
+   "shell": {
+    "n_items": 50,
+    "n_defective": 24,
+    "sv2": {
+     "object_auroc": 0.46554487179487186,
+     "point_auroc": 0.6613501862367889
+    },
+    "surfvar": {
+     "object_auroc": 0.47836538461538464,
+     "point_auroc": 0.6617544890162788
+    },
+    "magd_nb": {
+     "object_auroc": 0.5665064102564102,
+     "point_auroc": 0.337178020736913
+    },
+    "ds_ref": {
+     "object_auroc": 0.2235576923076923,
+     "point_auroc": 0.3326372213146939
+    },
+    "plane_rms": {
+     "object_auroc": 0.4607371794871795,
+     "point_auroc": 0.6607022872999624
+    },
+    "rq_rms": {
+     "object_auroc": 0.6161858974358975,
+     "point_auroc": 0.44459772163659994
+    },
+    "rq_absmax": {
+     "object_auroc": 0.5953525641025641,
+     "point_auroc": 0.5095336204203952
+    },
+    "rq_skew": {
+     "object_auroc": 0.4206730769230769,
+     "point_auroc": 0.5846696040139183
+    }
+   },
+   "starfish": {
+    "n_items": 50,
+    "n_defective": 25,
+    "sv2": {
+     "object_auroc": 0.6688,
+     "point_auroc": 0.6598705241710839
+    },
+    "surfvar": {
+     "object_auroc": 0.6656,
+     "point_auroc": 0.6589598792245313
+    },
+    "magd_nb": {
+     "object_auroc": 0.5392,
+     "point_auroc": 0.613519229667277
+    },
+    "ds_ref": {
+     "object_auroc": 0.5536,
+     "point_auroc": 0.5168598694592252
+    },
+    "plane_rms": {
+     "object_auroc": 0.6768,
+     "point_auroc": 0.6615152661941923
+    },
+    "rq_rms": {
+     "object_auroc": 0.6304000000000001,
+     "point_auroc": 0.6906842228208601
+    },
+    "rq_absmax": {
+     "object_auroc": 0.6911999999999999,
+     "point_auroc": 0.7605504418241994
+    },
+    "rq_skew": {
+     "object_auroc": 0.5488,
+     "point_auroc": 0.45894456272058815
+    }
+   },
+   "toffees": {
+    "n_items": 49,
+    "n_defective": 24,
+    "sv2": {
+     "object_auroc": 0.6833333333333333,
+     "point_auroc": 0.7028002255253513
+    },
+    "surfvar": {
+     "object_auroc": 0.7000000000000001,
+     "point_auroc": 0.704710140069152
+    },
+    "magd_nb": {
+     "object_auroc": 0.5133333333333334,
+     "point_auroc": 0.4637664083756308
+    },
+    "ds_ref": {
+     "object_auroc": 0.5316666666666666,
+     "point_auroc": 0.4272887637257638
+    },
+    "plane_rms": {
+     "object_auroc": 0.6933333333333334,
+     "point_auroc": 0.6988022971793892
+    },
+    "rq_rms": {
+     "object_auroc": 0.66,
+     "point_auroc": 0.5549713727025983
+    },
+    "rq_absmax": {
+     "object_auroc": 0.5666666666666667,
+     "point_auroc": 0.602205646934198
+    },
+    "rq_skew": {
+     "object_auroc": 0.7433333333333334,
+     "point_auroc": 0.8129805925048603
+    }
+   }
+  }
+ }
+}

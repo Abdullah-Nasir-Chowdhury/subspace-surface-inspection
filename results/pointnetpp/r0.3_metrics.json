@@ -1,0 +1,23 @@
+{
+  "task": "primary fuselage benchmark, same 64x64 stride-32 patches and 0.1 dent-fraction label rule as DentNet and PBSS",
+  "input": "(X, Y, residual) points, 1024 per patch, centred and scaled by mean radius",
+  "norm_radius": 0.3,
+  "n_train_patches": 144500,
+  "n_val_patches": 170000,
+  "n_val_dent_patches": 47729,
+  "best_epoch": 12,
+  "inner_val_auc": 0.9339835708112992,
+  "train_time_sec": 2248.5,
+  "patch": {
+    "auc": 0.9476208806121738,
+    "f1": 0.851580207843305,
+    "precision": 0.8694845315809008,
+    "recall": 0.8343983741540782
+  },
+  "pixel": {
+    "mean_iou_all": 0.7489995606132466,
+    "mean_iou_dented": 0.6965596567730302,
+    "n_samples": 500,
+    "n_dented": 407
+  }
+}

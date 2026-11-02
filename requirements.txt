@@ -1,0 +1,11 @@
+torch>=2.0.0
+torchvision>=0.15.0
+numpy>=1.21.0
+scipy>=1.7.0
+scikit-learn>=1.0.0
+matplotlib>=3.5.0
+tqdm>=4.62.0plyfile>=0.9
+tifffile>=2023.1.1
+Pillow>=9.0
+threadpoolctl>=3.1
+transformers>=4.40

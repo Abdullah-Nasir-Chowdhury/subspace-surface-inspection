@@ -1,0 +1,1175 @@
+{
+ "A": {
+  "dentnet_nom_rec3": {
+   "per_category": {
+    "max": {
+     "airplane": 0.4864,
+     "candybar": 0.8128,
+     "car": 0.7808,
+     "chicken": 0.7227564102564102,
+     "diamond": 0.7321739130434782,
+     "duck": 0.8448,
+     "fish": 0.8624,
+     "gemstone": 0.5872,
+     "seahorse": 0.656,
+     "shell": 0.5600961538461539,
+     "starfish": 0.704,
+     "toffees": 0.9016666666666666
+    },
+    "covered": {
+     "airplane": 0.5952,
+     "candybar": 0.9936,
+     "car": 0.8096,
+     "chicken": 0.5737179487179487,
+     "diamond": 0.9078260869565218,
+     "duck": 0.8992,
+     "fish": 0.9952,
+     "gemstone": 0.6928,
+     "seahorse": 0.968,
+     "shell": 0.6097756410256411,
+     "starfish": 0.8016,
+     "toffees": 1.0
+    }
+   },
+   "median_residual": {
+    "airplane": 0.23260206869564048,
+    "candybar": 0.04591756089043479,
+    "car": 0.039750781182927214,
+    "chicken": 0.15525742261078856,
+    "diamond": 0.22418174371375535,
+    "duck": 0.20711911469011318,
+    "fish": 0.03085242929296879,
+    "gemstone": 0.1387949747803012,
+    "seahorse": 0.027535437466558163,
+    "shell": 0.14194294350307152,
+    "starfish": 0.0282904268792397,
+    "toffees": 0.038554752228270865
+   },
+   "spearman_max": -0.2657342657342658,
+   "spearman_covered": -0.5174825174825175,
+   "bins": {
+    "[0.00, 0.05)": {
+     "n": 301,
+     "n_defective": 146,
+     "max": 0.7588157313300928,
+     "max_ci": [
+      0.7026142622568734,
+      0.811793618963786
+     ],
+     "covered": 0.9343791427308882,
+     "covered_ci": [
+      0.9036963685562055,
+      0.9616932013791192
+     ]
+    },
+    "[0.05, 0.15)": {
+     "n": 112,
+     "n_defective": 47,
+     "max": 0.6885433715220949,
+     "max_ci": [
+      0.5847052258691495,
+      0.783765814201298
+     ],
+     "covered": 0.7088379705400982,
+     "covered_ci": [
+      0.6093467944058274,
+      0.8000618344211609
+     ]
+    },
+    "[0.15, 0.30)": {
+     "n": 126,
+     "n_defective": 63,
+     "max": 0.4897959183673469,
+     "max_ci": [
+      0.39172463149665776,
+      0.5929680311834418
+     ],
+     "covered": 0.5479969765684052,
+     "covered_ci": [
+      0.4398997744286441,
+      0.6490007469056764
+     ]
+    },
+    "[0.30, inf)": {
+     "n": 58,
+     "n_defective": 39,
+     "max": 0.3360323886639676,
+     "max_ci": [
+      0.20077220077220076,
+      0.47672087104072397
+     ],
+     "covered": 0.553306342780027,
+     "covered_ci": [
+      0.37088881461675577,
+      0.7341430499325237
+     ]
+    }
+   }
+  },
+  "dentnet_nom_rec3_norm": {
+   "per_category": {
+    "max": {
+     "airplane": 0.4512,
+     "candybar": 1.0,
+     "car": 0.952,
+     "chicken": 0.6746794871794872,
+     "diamond": 0.8626086956521739,
+     "duck": 0.552,
+     "fish": 1.0,
+     "gemstone": 0.6304,
+     "seahorse": 1.0,
+     "shell": 0.4495192307692308,
+     "starfish": 0.8144,
+     "toffees": 0.9966666666666667
+    },
+    "covered": {
+     "airplane": 0.5968,
+     "candybar": 0.9936,
+     "car": 0.8496,
+     "chicken": 0.7259615384615384,
+     "diamond": 0.8226086956521739,
+     "duck": 0.5712,
+     "fish": 0.9776,
+     "gemstone": 0.6944,
+     "seahorse": 0.9712,
+     "shell": 0.6594551282051282,
+     "starfish": 0.8352,
+     "toffees": 0.9916666666666667
+    }
+   },
+   "median_residual": {
+    "airplane": 0.23260206869564048,
+    "candybar": 0.04591756089043479,
+    "car": 0.039750781182927214,
+    "chicken": 0.15525742261078856,
+    "diamond": 0.22418174371375535,
+    "duck": 0.20711911469011318,
+    "fish": 0.03085242929296879,
+    "gemstone": 0.1387949747803012,
+    "seahorse": 0.027535437466558163,
+    "shell": 0.14194294350307152,
+    "starfish": 0.0282904268792397,
+    "toffees": 0.038554752228270865
+   },
+   "spearman_max": -0.7132867132867133,
+   "spearman_covered": -0.7062937062937064,
+   "bins": {
+    "[0.00, 0.05)": {
+     "n": 301,
+     "n_defective": 146,
+     "max": 0.9280159080866107,
+     "max_ci": [
+      0.8951613132529966,
+      0.9569840281994764
+     ],
+     "covered": 0.8855501546619532,
+     "covered_ci": [
+      0.8442559117421409,
+      0.9244319605065295
+     ]
+    },
+    "[0.05, 0.15)": {
+     "n": 112,
+     "n_defective": 47,
+     "max": 0.6584288052373158,
+     "max_ci": [
+      0.55975579362257,
+      0.755114837174851
+     ],
+     "covered": 0.6574468085106383,
+     "covered_ci": [
+      0.5566849440925795,
+      0.754614578449795
+     ]
+    },
+    "[0.15, 0.30)": {
+     "n": 126,
+     "n_defective": 63,
+     "max": 0.48097757621567144,
+     "max_ci": [
+      0.3859565629264673,
+      0.5863886501850872
+     ],
+     "covered": 0.582514487276392,
+     "covered_ci": [
+      0.4849042024704619,
+      0.6883873571783408
+     ]
+    },
+    "[0.30, inf)": {
+     "n": 58,
+     "n_defective": 39,
+     "max": 0.3292847503373819,
+     "max_ci": [
+      0.1821557205199153,
+      0.4912211697317505
+     ],
+     "covered": 0.5843454790823212,
+     "covered_ci": [
+      0.4152534581646424,
+      0.7426552937576498
+     ]
+    }
+   }
+  },
+  "pnpp_nom_rec3_norm": {
+   "per_category": {
+    "max": {
+     "airplane": 0.5152,
+     "candybar": 0.9952,
+     "car": 0.8912,
+     "chicken": 0.6506410256410257,
+     "diamond": 0.8660869565217392,
+     "duck": 0.6944,
+     "fish": 1.0,
+     "gemstone": 0.6496,
+     "seahorse": 0.9728,
+     "shell": 0.4326923076923077,
+     "starfish": 0.8192,
+     "toffees": 0.96
+    },
+    "covered": {
+     "airplane": 0.6176,
+     "candybar": 0.9984,
+     "car": 0.7776,
+     "chicken": 0.6410256410256411,
+     "diamond": 0.8156521739130435,
+     "duck": 0.6864,
+     "fish": 0.9792,
+     "gemstone": 0.688,
+     "seahorse": 0.9728,
+     "shell": 0.5448717948717948,
+     "starfish": 0.8176,
+     "toffees": 0.9983333333333333
+    }
+   },
+   "median_residual": {
+    "airplane": 0.23260206869564048,
+    "candybar": 0.04591756089043479,
+    "car": 0.039750781182927214,
+    "chicken": 0.15525742261078856,
+    "diamond": 0.22418174371375535,
+    "duck": 0.20711911469011318,
+    "fish": 0.03085242929296879,
+    "gemstone": 0.1387949747803012,
+    "seahorse": 0.027535437466558163,
+    "shell": 0.14194294350307152,
+    "starfish": 0.0282904268792397,
+    "toffees": 0.038554752228270865
+   },
+   "spearman_max": -0.6363636363636365,
+   "spearman_covered": -0.6643356643356644,
+   "bins": {
+    "[0.00, 0.05)": {
+     "n": 301,
+     "n_defective": 146,
+     "max": 0.9160406539991163,
+     "max_ci": [
+      0.8809080368356248,
+      0.9470615271336001
+     ],
+     "covered": 0.9034467520989836,
+     "covered_ci": [
+      0.8644161774392792,
+      0.9399871526265756
+     ]
+    },
+    "[0.05, 0.15)": {
+     "n": 112,
+     "n_defective": 47,
+     "max": 0.692962356792144,
+     "max_ci": [
+      0.5944970583409951,
+      0.7874588078487769
+     ],
+     "covered": 0.6805237315875614,
+     "covered_ci": [
+      0.58061049539433,
+      0.7800125419731371
+     ]
+    },
+    "[0.15, 0.30)": {
+     "n": 126,
+     "n_defective": 63,
+     "max": 0.5023935500125977,
+     "max_ci": [
+      0.3977272727272727,
+      0.6048093019303628
+     ],
+     "covered": 0.5661375661375662,
+     "covered_ci": [
+      0.4651900155710648,
+      0.667901827982655
+     ]
+    },
+    "[0.30, inf)": {
+     "n": 58,
+     "n_defective": 39,
+     "max": 0.33063427800269907,
+     "max_ci": [
+      0.1860375151815033,
+      0.48612351190476183
+     ],
+     "covered": 0.4844804318488529,
+     "covered_ci": [
+      0.30077069490586933,
+      0.6558153657847661
+     ]
+    }
+   }
+  }
+ },
+ "B": {
+  "baseline": {
+   "dentnet_nom_rec3": {
+    "per_category": {
+     "max": {
+      "candybar": 0.8128,
+      "car": 0.7808,
+      "fish": 0.8624,
+      "seahorse": 0.656,
+      "toffees": 0.9016666666666666
+     },
+     "covered": {
+      "candybar": 0.9936,
+      "car": 0.8096,
+      "fish": 0.9952,
+      "seahorse": 0.968,
+      "toffees": 1.0
+     }
+    },
+    "cat_mean": {
+     "max": 0.8027333333333333,
+     "covered": 0.95328
+    },
+    "pooled": {
+     "max": 0.7816129032258065,
+     "covered": 0.9547741935483871
+    },
+    "point_auc": 0.9518937605472295,
+    "hit_rate": 0.8145161290322581,
+    "median_dist_mm": 0.11847911711587725
+   },
+   "dentnet_nom_rec3_norm": {
+    "per_category": {
+     "max": {
+      "candybar": 1.0,
+      "car": 0.952,
+      "fish": 1.0,
+      "seahorse": 1.0,
+      "toffees": 0.9966666666666667
+     },
+     "covered": {
+      "candybar": 0.9936,
+      "car": 0.8496,
+      "fish": 0.9776,
+      "seahorse": 0.9712,
+      "toffees": 0.9916666666666667
+     }
+    },
+    "cat_mean": {
+     "max": 0.9897333333333334,
+     "covered": 0.9567333333333334
+    },
+    "pooled": {
+     "max": 0.9783225806451613,
+     "covered": 0.9581290322580646
+    },
+    "point_auc": 0.9626964732344427,
+    "hit_rate": 0.967741935483871,
+    "median_dist_mm": 0.08733842859695849
+   },
+   "pnpp_nom_rec3_norm": {
+    "per_category": {
+     "max": {
+      "candybar": 0.9952,
+      "car": 0.8912,
+      "fish": 1.0,
+      "seahorse": 0.9728,
+      "toffees": 0.96
+     },
+     "covered": {
+      "candybar": 0.9984,
+      "car": 0.7776,
+      "fish": 0.9792,
+      "seahorse": 0.9728,
+      "toffees": 0.9983333333333333
+     }
+    },
+    "cat_mean": {
+     "max": 0.96384,
+     "covered": 0.9452666666666666
+    },
+    "pooled": {
+     "max": 0.9461935483870968,
+     "covered": 0.9445806451612904
+    },
+    "point_auc": 0.9547156531646277,
+    "hit_rate": 0.9435483870967742,
+    "median_dist_mm": 0.1002902711103186
+   }
+  },
+  "perturbed": [
+   {
+    "items_dir": "items_nominal_feat_pert_t0.1",
+    "kind": "trans",
+    "value": 0.1,
+    "n": 249,
+    "stats": {
+     "dentnet_nom_rec3": {
+      "per_category": {
+       "max": {
+        "candybar": 0.808,
+        "car": 0.7536,
+        "fish": 0.8352,
+        "seahorse": 0.6848,
+        "toffees": 0.9233333333333333
+       },
+       "covered": {
+        "candybar": 0.9904,
+        "car": 0.7744,
+        "fish": 0.9696,
+        "seahorse": 0.9888,
+        "toffees": 0.9983333333333333
+       }
+      },
+      "cat_mean": {
+       "max": 0.8009866666666667,
+       "covered": 0.9443066666666666
+      },
+      "pooled": {
+       "max": 0.7765161290322581,
+       "covered": 0.9484516129032258
+      },
+      "point_auc": 0.949122736697872,
+      "hit_rate": 0.7983870967741935,
+      "median_dist_mm": 0.11928273505490607
+     },
+     "dentnet_nom_rec3_norm": {
+      "per_category": {
+       "max": {
+        "candybar": 1.0,
+        "car": 0.96,
+        "fish": 1.0,
+        "seahorse": 1.0,
+        "toffees": 0.995
+       },
+       "covered": {
+        "candybar": 0.9936,
+        "car": 0.8352,
+        "fish": 0.9712,
+        "seahorse": 0.9712,
+        "toffees": 0.9866666666666667
+       }
+      },
+      "cat_mean": {
+       "max": 0.991,
+       "covered": 0.9515733333333334
+      },
+      "pooled": {
+       "max": 0.9744516129032258,
+       "covered": 0.9544516129032258
+      },
+      "point_auc": 0.9622625196576287,
+      "hit_rate": 0.9758064516129032,
+      "median_dist_mm": 0.08866285209351746
+     },
+     "pnpp_nom_rec3_norm": {
+      "per_category": {
+       "max": {
+        "candybar": 0.9968,
+        "car": 0.8848,
+        "fish": 1.0,
+        "seahorse": 0.9536,
+        "toffees": 0.9483333333333334
+       },
+       "covered": {
+        "candybar": 0.9952,
+        "car": 0.8256,
+        "fish": 0.9632,
+        "seahorse": 0.9888,
+        "toffees": 0.995
+       }
+      },
+      "cat_mean": {
+       "max": 0.9567066666666667,
+       "covered": 0.9535599999999999
+      },
+      "pooled": {
+       "max": 0.9427096774193549,
+       "covered": 0.9489677419354838
+      },
+      "point_auc": 0.960609631504757,
+      "hit_rate": 0.9596774193548387,
+      "median_dist_mm": 0.09891517022252497
+     }
+    }
+   },
+   {
+    "items_dir": "items_nominal_feat_pert_t0.25",
+    "kind": "trans",
+    "value": 0.25,
+    "n": 249,
+    "stats": {
+     "dentnet_nom_rec3": {
+      "per_category": {
+       "max": {
+        "candybar": 0.8336,
+        "car": 0.6688,
+        "fish": 0.864,
+        "seahorse": 0.5056,
+        "toffees": 0.9183333333333333
+       },
+       "covered": {
+        "candybar": 0.9776,
+        "car": 0.808,
+        "fish": 0.9536,
+        "seahorse": 0.9744,
+        "toffees": 0.985
+       }
+      },
+      "cat_mean": {
+       "max": 0.7580666666666667,
+       "covered": 0.9397200000000001
+      },
+      "pooled": {
+       "max": 0.7441935483870967,
+       "covered": 0.9447096774193549
+      },
+      "point_auc": 0.9339824119512682,
+      "hit_rate": 0.7096774193548387,
+      "median_dist_mm": 0.13525718762710115
+     },
+     "dentnet_nom_rec3_norm": {
+      "per_category": {
+       "max": {
+        "candybar": 1.0,
+        "car": 0.9728,
+        "fish": 1.0,
+        "seahorse": 0.9824,
+        "toffees": 0.9566666666666667
+       },
+       "covered": {
+        "candybar": 0.9872,
+        "car": 0.8464,
+        "fish": 0.96,
+        "seahorse": 0.9904,
+        "toffees": 0.955
+       }
+      },
+      "cat_mean": {
+       "max": 0.9823733333333333,
+       "covered": 0.9478
+      },
+      "pooled": {
+       "max": 0.970516129032258,
+       "covered": 0.9456129032258065
+      },
+      "point_auc": 0.9542329861143475,
+      "hit_rate": 0.9758064516129032,
+      "median_dist_mm": 0.08954983918257728
+     },
+     "pnpp_nom_rec3_norm": {
+      "per_category": {
+       "max": {
+        "candybar": 0.9904,
+        "car": 0.848,
+        "fish": 1.0,
+        "seahorse": 0.9088,
+        "toffees": 0.925
+       },
+       "covered": {
+        "candybar": 0.9872,
+        "car": 0.8032,
+        "fish": 0.9536,
+        "seahorse": 0.952,
+        "toffees": 0.9583333333333334
+       }
+      },
+      "cat_mean": {
+       "max": 0.93444,
+       "covered": 0.9308666666666665
+      },
+      "pooled": {
+       "max": 0.9264516129032258,
+       "covered": 0.9164516129032259
+      },
+      "point_auc": 0.9492546305771536,
+      "hit_rate": 0.9516129032258065,
+      "median_dist_mm": 0.09606668055043209
+     }
+    }
+   },
+   {
+    "items_dir": "items_nominal_feat_pert_t0.5",
+    "kind": "trans",
+    "value": 0.5,
+    "n": 249,
+    "stats": {
+     "dentnet_nom_rec3": {
+      "per_category": {
+       "max": {
+        "candybar": 0.6752,
+        "car": 0.712,
+        "fish": 0.9104,
+        "seahorse": 0.7488,
+        "toffees": 0.8083333333333333
+       },
+       "covered": {
+        "candybar": 0.992,
+        "car": 0.8368,
+        "fish": 0.9552,
+        "seahorse": 0.808,
+        "toffees": 0.8
+       }
+      },
+      "cat_mean": {
+       "max": 0.7709466666666668,
+       "covered": 0.8783999999999998
+      },
+      "pooled": {
+       "max": 0.7470322580645161,
+       "covered": 0.8888387096774194
+      },
+      "point_auc": 0.8596636347892072,
+      "hit_rate": 0.5967741935483871,
+      "median_dist_mm": 0.40935792464933163
+     },
+     "dentnet_nom_rec3_norm": {
+      "per_category": {
+       "max": {
+        "candybar": 0.9392,
+        "car": 0.8672,
+        "fish": 0.9616,
+        "seahorse": 0.7792,
+        "toffees": 0.8433333333333334
+       },
+       "covered": {
+        "candybar": 0.9696,
+        "car": 0.8864,
+        "fish": 0.9232,
+        "seahorse": 0.7792,
+        "toffees": 0.8616666666666667
+       }
+      },
+      "cat_mean": {
+       "max": 0.8781066666666666,
+       "covered": 0.8840133333333332
+      },
+      "pooled": {
+       "max": 0.8832258064516129,
+       "covered": 0.8836774193548387
+      },
+      "point_auc": 0.9021311464338335,
+      "hit_rate": 0.8951612903225806,
+      "median_dist_mm": 0.1001782654574373
+     },
+     "pnpp_nom_rec3_norm": {
+      "per_category": {
+       "max": {
+        "candybar": 0.9584,
+        "car": 0.76,
+        "fish": 0.9424,
+        "seahorse": 0.7536,
+        "toffees": 0.8316666666666667
+       },
+       "covered": {
+        "candybar": 0.9632,
+        "car": 0.7104,
+        "fish": 0.8752,
+        "seahorse": 0.7152,
+        "toffees": 0.8433333333333334
+       }
+      },
+      "cat_mean": {
+       "max": 0.8492133333333334,
+       "covered": 0.8214666666666666
+      },
+      "pooled": {
+       "max": 0.8528387096774194,
+       "covered": 0.8103870967741935
+      },
+      "point_auc": 0.8919549063857711,
+      "hit_rate": 0.8709677419354839,
+      "median_dist_mm": 0.09968761921857487
+     }
+    }
+   },
+   {
+    "items_dir": "items_nominal_feat_pert_t1.0",
+    "kind": "trans",
+    "value": 1.0,
+    "n": 249,
+    "stats": {
+     "dentnet_nom_rec3": {
+      "per_category": {
+       "max": {
+        "candybar": 0.6112,
+        "car": 0.6816,
+        "fish": 0.6464,
+        "seahorse": 0.5504,
+        "toffees": 0.7016666666666667
+       },
+       "covered": {
+        "candybar": 0.8704,
+        "car": 0.6368,
+        "fish": 0.8112,
+        "seahorse": 0.6224,
+        "toffees": 0.7933333333333333
+       }
+      },
+      "cat_mean": {
+       "max": 0.6382533333333333,
+       "covered": 0.7468266666666666
+      },
+      "pooled": {
+       "max": 0.6104516129032258,
+       "covered": 0.7268387096774194
+      },
+      "point_auc": 0.7728219637975868,
+      "hit_rate": 0.3467741935483871,
+      "median_dist_mm": 9.336596859743103
+     },
+     "dentnet_nom_rec3_norm": {
+      "per_category": {
+       "max": {
+        "candybar": 0.6272,
+        "car": 0.736,
+        "fish": 0.712,
+        "seahorse": 0.5168,
+        "toffees": 0.6633333333333333
+       },
+       "covered": {
+        "candybar": 0.7264,
+        "car": 0.688,
+        "fish": 0.8352,
+        "seahorse": 0.5904,
+        "toffees": 0.6633333333333333
+       }
+      },
+      "cat_mean": {
+       "max": 0.6510666666666666,
+       "covered": 0.7006666666666665
+      },
+      "pooled": {
+       "max": 0.6303870967741936,
+       "covered": 0.679483870967742
+      },
+      "point_auc": 0.8120432279202929,
+      "hit_rate": 0.5080645161290323,
+      "median_dist_mm": 2.974707537931115
+     },
+     "pnpp_nom_rec3_norm": {
+      "per_category": {
+       "max": {
+        "candybar": 0.5888,
+        "car": 0.6656,
+        "fish": 0.7184,
+        "seahorse": 0.6064,
+        "toffees": 0.6333333333333333
+       },
+       "covered": {
+        "candybar": 0.7296,
+        "car": 0.5728,
+        "fish": 0.8432,
+        "seahorse": 0.624,
+        "toffees": 0.6283333333333333
+       }
+      },
+      "cat_mean": {
+       "max": 0.6425066666666667,
+       "covered": 0.6795866666666667
+      },
+      "pooled": {
+       "max": 0.6376774193548387,
+       "covered": 0.6714193548387096
+      },
+      "point_auc": 0.8067488197487418,
+      "hit_rate": 0.5403225806451613,
+      "median_dist_mm": 2.149612733691386
+     }
+    }
+   },
+   {
+    "items_dir": "items_nominal_feat_pert_r0.25",
+    "kind": "rot",
+    "value": 0.25,
+    "n": 249,
+    "stats": {
+     "dentnet_nom_rec3": {
+      "per_category": {
+       "max": {
+        "candybar": 0.824,
+        "car": 0.7728,
+        "fish": 0.864,
+        "seahorse": 0.6464,
+        "toffees": 0.92
+       },
+       "covered": {
+        "candybar": 0.9904,
+        "car": 0.7968,
+        "fish": 0.9856,
+        "seahorse": 0.9648,
+        "toffees": 1.0
+       }
+      },
+      "cat_mean": {
+       "max": 0.8054399999999999,
+       "covered": 0.9475200000000001
+      },
+      "pooled": {
+       "max": 0.7807096774193548,
+       "covered": 0.9529677419354838
+      },
+      "point_auc": 0.9512116105867436,
+      "hit_rate": 0.8467741935483871,
+      "median_dist_mm": 0.11609723519644988
+     },
+     "dentnet_nom_rec3_norm": {
+      "per_category": {
+       "max": {
+        "candybar": 1.0,
+        "car": 0.9488,
+        "fish": 1.0,
+        "seahorse": 1.0,
+        "toffees": 0.975
+       },
+       "covered": {
+        "candybar": 0.9936,
+        "car": 0.8576,
+        "fish": 0.9776,
+        "seahorse": 0.9728,
+        "toffees": 0.9866666666666667
+       }
+      },
+      "cat_mean": {
+       "max": 0.98476,
+       "covered": 0.9576533333333334
+      },
+      "pooled": {
+       "max": 0.9725806451612903,
+       "covered": 0.9579354838709677
+      },
+      "point_auc": 0.9627608299699908,
+      "hit_rate": 0.967741935483871,
+      "median_dist_mm": 0.08623039182334497
+     },
+     "pnpp_nom_rec3_norm": {
+      "per_category": {
+       "max": {
+        "candybar": 0.9888,
+        "car": 0.8944,
+        "fish": 1.0,
+        "seahorse": 0.976,
+        "toffees": 0.9383333333333334
+       },
+       "covered": {
+        "candybar": 0.9968,
+        "car": 0.8336,
+        "fish": 0.9664,
+        "seahorse": 0.9792,
+        "toffees": 0.9933333333333333
+       }
+      },
+      "cat_mean": {
+       "max": 0.9595066666666666,
+       "covered": 0.9538666666666668
+      },
+      "pooled": {
+       "max": 0.9456129032258065,
+       "covered": 0.949741935483871
+      },
+      "point_auc": 0.9593438148350201,
+      "hit_rate": 0.9516129032258065,
+      "median_dist_mm": 0.09948135764739993
+     }
+    }
+   },
+   {
+    "items_dir": "items_nominal_feat_pert_r0.5",
+    "kind": "rot",
+    "value": 0.5,
+    "n": 249,
+    "stats": {
+     "dentnet_nom_rec3": {
+      "per_category": {
+       "max": {
+        "candybar": 0.8528,
+        "car": 0.7456,
+        "fish": 0.8592,
+        "seahorse": 0.672,
+        "toffees": 0.8883333333333333
+       },
+       "covered": {
+        "candybar": 0.9856,
+        "car": 0.7952,
+        "fish": 0.976,
+        "seahorse": 0.9664,
+        "toffees": 1.0
+       }
+      },
+      "cat_mean": {
+       "max": 0.8035866666666667,
+       "covered": 0.94464
+      },
+      "pooled": {
+       "max": 0.7772258064516129,
+       "covered": 0.950258064516129
+      },
+      "point_auc": 0.9481933226092252,
+      "hit_rate": 0.7741935483870968,
+      "median_dist_mm": 0.1238800537488487
+     },
+     "dentnet_nom_rec3_norm": {
+      "per_category": {
+       "max": {
+        "candybar": 1.0,
+        "car": 0.9536,
+        "fish": 1.0,
+        "seahorse": 0.9968,
+        "toffees": 0.9833333333333333
+       },
+       "covered": {
+        "candybar": 0.9904,
+        "car": 0.8464,
+        "fish": 0.976,
+        "seahorse": 0.968,
+        "toffees": 0.9833333333333333
+       }
+      },
+      "cat_mean": {
+       "max": 0.9867466666666665,
+       "covered": 0.9528266666666667
+      },
+      "pooled": {
+       "max": 0.9721290322580645,
+       "covered": 0.9539354838709677
+      },
+      "point_auc": 0.9608457338152313,
+      "hit_rate": 0.967741935483871,
+      "median_dist_mm": 0.08447677062156272
+     },
+     "pnpp_nom_rec3_norm": {
+      "per_category": {
+       "max": {
+        "candybar": 0.9872,
+        "car": 0.8768,
+        "fish": 1.0,
+        "seahorse": 0.9408,
+        "toffees": 0.9466666666666667
+       },
+       "covered": {
+        "candybar": 0.9952,
+        "car": 0.8368,
+        "fish": 1.0,
+        "seahorse": 0.9792,
+        "toffees": 0.99
+       }
+      },
+      "cat_mean": {
+       "max": 0.9502933333333333,
+       "covered": 0.96024
+      },
+      "pooled": {
+       "max": 0.9370967741935484,
+       "covered": 0.9513548387096774
+      },
+      "point_auc": 0.9588448907787872,
+      "hit_rate": 0.9435483870967742,
+      "median_dist_mm": 0.09510178800842556
+     }
+    }
+   },
+   {
+    "items_dir": "items_nominal_feat_pert_r1.0",
+    "kind": "rot",
+    "value": 1.0,
+    "n": 249,
+    "stats": {
+     "dentnet_nom_rec3": {
+      "per_category": {
+       "max": {
+        "candybar": 0.832,
+        "car": 0.6272,
+        "fish": 0.9104,
+        "seahorse": 0.6448,
+        "toffees": 0.8383333333333334
+       },
+       "covered": {
+        "candybar": 0.9776,
+        "car": 0.8128,
+        "fish": 0.9696,
+        "seahorse": 0.9472,
+        "toffees": 0.9383333333333334
+       }
+      },
+      "cat_mean": {
+       "max": 0.7705466666666667,
+       "covered": 0.9291066666666665
+      },
+      "pooled": {
+       "max": 0.7640645161290323,
+       "covered": 0.933741935483871
+      },
+      "point_auc": 0.9375263133918903,
+      "hit_rate": 0.6854838709677419,
+      "median_dist_mm": 0.15557588139282835
+     },
+     "dentnet_nom_rec3_norm": {
+      "per_category": {
+       "max": {
+        "candybar": 1.0,
+        "car": 0.96,
+        "fish": 1.0,
+        "seahorse": 0.9776,
+        "toffees": 0.975
+       },
+       "covered": {
+        "candybar": 0.9904,
+        "car": 0.84,
+        "fish": 0.9648,
+        "seahorse": 0.96,
+        "toffees": 0.9766666666666667
+       }
+      },
+      "cat_mean": {
+       "max": 0.9825199999999998,
+       "covered": 0.9463733333333334
+      },
+      "pooled": {
+       "max": 0.967741935483871,
+       "covered": 0.9461935483870968
+      },
+      "point_auc": 0.9557134318955702,
+      "hit_rate": 0.967741935483871,
+      "median_dist_mm": 0.08305280346847312
+     },
+     "pnpp_nom_rec3_norm": {
+      "per_category": {
+       "max": {
+        "candybar": 0.9904,
+        "car": 0.8704,
+        "fish": 1.0,
+        "seahorse": 0.9568,
+        "toffees": 0.9133333333333333
+       },
+       "covered": {
+        "candybar": 0.9904,
+        "car": 0.7952,
+        "fish": 0.9808,
+        "seahorse": 0.9504,
+        "toffees": 0.945
+       }
+      },
+      "cat_mean": {
+       "max": 0.9461866666666665,
+       "covered": 0.9323600000000001
+      },
+      "pooled": {
+       "max": 0.9398064516129032,
+       "covered": 0.9210967741935484
+      },
+      "point_auc": 0.9514490524086551,
+      "hit_rate": 0.9274193548387096,
+      "median_dist_mm": 0.09419542848207565
+     }
+    }
+   },
+   {
+    "items_dir": "items_nominal_feat_pert_r2.0",
+    "kind": "rot",
+    "value": 2.0,
+    "n": 249,
+    "stats": {
+     "dentnet_nom_rec3": {
+      "per_category": {
+       "max": {
+        "candybar": 0.8672,
+        "car": 0.5744,
+        "fish": 0.9328,
+        "seahorse": 0.5856,
+        "toffees": 0.44333333333333336
+       },
+       "covered": {
+        "candybar": 0.9568,
+        "car": 0.7744,
+        "fish": 0.9744,
+        "seahorse": 0.8112,
+        "toffees": 0.555
+       }
+      },
+      "cat_mean": {
+       "max": 0.6806666666666666,
+       "covered": 0.81436
+      },
+      "pooled": {
+       "max": 0.6718709677419354,
+       "covered": 0.8310967741935484
+      },
+      "point_auc": 0.9009408435639306,
+      "hit_rate": 0.5564516129032258,
+      "median_dist_mm": 0.7881635642732913
+     },
+     "dentnet_nom_rec3_norm": {
+      "per_category": {
+       "max": {
+        "candybar": 0.9728,
+        "car": 0.8304,
+        "fish": 1.0,
+        "seahorse": 0.8256,
+        "toffees": 0.915
+       },
+       "covered": {
+        "candybar": 0.96,
+        "car": 0.7696,
+        "fish": 0.96,
+        "seahorse": 0.792,
+        "toffees": 0.9416666666666667
+       }
+      },
+      "cat_mean": {
+       "max": 0.90876,
+       "covered": 0.8846533333333333
+      },
+      "pooled": {
+       "max": 0.912,
+       "covered": 0.8945161290322581
+      },
+      "point_auc": 0.9331979313631651,
+      "hit_rate": 0.9032258064516129,
+      "median_dist_mm": 0.09418790299177801
+     },
+     "pnpp_nom_rec3_norm": {
+      "per_category": {
+       "max": {
+        "candybar": 0.9616,
+        "car": 0.7424,
+        "fish": 0.9696,
+        "seahorse": 0.7792,
+        "toffees": 0.8866666666666667
+       },
+       "covered": {
+        "candybar": 0.928,
+        "car": 0.7504,
+        "fish": 0.9264,
+        "seahorse": 0.776,
+        "toffees": 0.92
+       }
+      },
+      "cat_mean": {
+       "max": 0.8678933333333333,
+       "covered": 0.8601599999999999
+      },
+      "pooled": {
+       "max": 0.8729677419354839,
+       "covered": 0.8578064516129033
+      },
+      "point_auc": 0.9247862301975567,
+      "hit_rate": 0.8225806451612904,
+      "median_dist_mm": 0.11744489096652758
+     }
+    }
+   }
+  ]
+ }
+}

@@ -1,0 +1,85 @@
+{
+  "train_dent_patches": 45706,
+  "train_normal_patches": 124294,
+  "label_threshold": 0.1,
+  "patch": 64,
+  "stride": 32,
+  "K": {
+    "10": {
+      "patch": {
+        "accuracy": 0.9372823529411765,
+        "precision": 0.9692856961993265,
+        "recall": 0.8020281170776676,
+        "f1": 0.8777601981151545,
+        "n_patches": 170000,
+        "n_dent_patches": 47729,
+        "auc": 0.9778850163886864
+      },
+      "pixel": {
+        "mean_iou_all": 0.7889463333752554,
+        "mean_iou_dented": 0.7407203112718126,
+        "n_samples": 500,
+        "n_dented": 407
+      },
+      "explained_var_dent": 0.9650614261627197,
+      "explained_var_normal": 0.8715636134147644
+    },
+    "25": {
+      "patch": {
+        "accuracy": 0.9461352941176471,
+        "precision": 0.9905382032760199,
+        "recall": 0.8159399945525782,
+        "f1": 0.8948015394336263,
+        "n_patches": 170000,
+        "n_dent_patches": 47729,
+        "auc": 0.9854048557197083
+      },
+      "pixel": {
+        "mean_iou_all": 0.7879931027956909,
+        "mean_iou_dented": 0.7395492663337726,
+        "n_samples": 500,
+        "n_dented": 407
+      },
+      "explained_var_dent": 0.986788272857666,
+      "explained_var_normal": 0.9488713145256042
+    },
+    "50": {
+      "patch": {
+        "accuracy": 0.9531823529411765,
+        "precision": 0.9881671331074778,
+        "recall": 0.8433447170483354,
+        "f1": 0.9100301821100347,
+        "n_patches": 170000,
+        "n_dent_patches": 47729,
+        "auc": 0.9856173477656645
+      },
+      "pixel": {
+        "mean_iou_all": 0.7945366413066204,
+        "mean_iou_dented": 0.7475880114331945,
+        "n_samples": 500,
+        "n_dented": 407
+      },
+      "explained_var_dent": 0.994278609752655,
+      "explained_var_normal": 0.9738255143165588
+    },
+    "100": {
+      "patch": {
+        "accuracy": 0.957664705882353,
+        "precision": 0.9877262225644975,
+        "recall": 0.8598964989838463,
+        "f1": 0.9193893437573504,
+        "n_patches": 170000,
+        "n_dent_patches": 47729,
+        "auc": 0.9885696775716725
+      },
+      "pixel": {
+        "mean_iou_all": 0.7997687999999736,
+        "mean_iou_dented": 0.7540157248156925,
+        "n_samples": 500,
+        "n_dented": 407
+      },
+      "explained_var_dent": 0.9974972009658813,
+      "explained_var_normal": 0.9872021675109863
+    }
+  }
+}

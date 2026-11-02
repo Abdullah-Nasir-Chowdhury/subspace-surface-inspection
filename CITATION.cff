@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the paper."
+title: "Subspace Representations for Synthetic-to-Real Transfer in 3-D Surface Inspection"
+license: GPL-3.0
+repository-code: "https://github.com/Abdullah-Nasir-Chowdhury/subspace-surface-inspection"
+authors:
+  - family-names: Chowdhury
+    given-names: Abdulla Nasir
+  - family-names: Ibrahim
+    given-names: Naish
+  - family-names: Pratamasunu
+    given-names: Gulpi Qorik Oktagalu
+  - family-names: Fukui
+    given-names: Kazuhiro
+preferred-citation:
+  type: conference-paper
+  title: "Subspace Representations for Synthetic-to-Real Transfer in 3-D Surface Inspection"
+  authors:
+    - family-names: Chowdhury
+      given-names: Abdulla Nasir
+    - family-names: Ibrahim
+      given-names: Naish
+    - family-names: Pratamasunu
+      given-names: Gulpi Qorik Oktagalu
+    - family-names: Fukui
+      given-names: Kazuhiro
+  collection-title: "ACCV 2026 Workshop on Subspaces in the Era of Foundation Models"
+  doi: "10.48550/arXiv.PENDING-ARXIV-ID"
+  url: "https://arxiv.org/abs/PENDING-ARXIV-ID"
+  year: 2026

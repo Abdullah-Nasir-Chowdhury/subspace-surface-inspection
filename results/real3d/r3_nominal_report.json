@@ -1,0 +1,2566 @@
+{
+ "polarity": {
+  "diff_mean_r2.5": {
+   "n": 124,
+   "n_bulge": 96,
+   "auc": 0.8240327380952381,
+   "ci": [
+    0.7334765177548683,
+    0.9069858712715856
+   ],
+   "sign_accuracy": 0.782258064516129
+  },
+  "diff_mean_r3.6": {
+   "n": 124,
+   "n_bulge": 96,
+   "auc": 0.6502976190476191,
+   "ci": [
+    0.5317091789033712,
+    0.7662518256013745
+   ],
+   "sign_accuracy": 0.7661290322580645
+  },
+  "diff_mean_r5.0": {
+   "n": 124,
+   "n_bulge": 96,
+   "auc": 0.49069940476190477,
+   "ci": [
+    0.3600606053020849,
+    0.6232410719155932
+   ],
+   "sign_accuracy": 0.717741935483871
+  }
+ },
+ "reports": {
+  "r3_report_items_nominal": {
+   "r2.5": {
+    "n_items": 249,
+    "n_defective": 124,
+    "n_good": 125,
+    "n_bulge": 96,
+    "n_sink": 28,
+    "median_seeds": 673.0,
+    "prop1_max_abs_diff": 4.440892098500626e-15,
+    "pooled": {
+     "nom_rec_k0": {
+      "object_auroc_all": 0.5135483870967741,
+      "object_auroc_all_ci": [
+       0.4417894224529527,
+       0.5806704125697528
+      ],
+      "object_auroc_edgefilt": 0.7007096774193549,
+      "object_auroc_edgefilt_ci": [
+       0.6381912218023537,
+       0.7601001501288445
+      ],
+      "point_auroc": 0.7879940895595982,
+      "point_auroc_ci": [
+       0.7489319070258373,
+       0.8148919866313633
+      ],
+      "loc_median_dist_mm": 11.699295798417314,
+      "loc_hit_rate": 0.07258064516129033,
+      "loc_hit_rate_ci": [
+       0.03225806451612903,
+       0.12096774193548387
+      ],
+      "loc_median_rank_frac": 0.11337704918032787,
+      "n_defective_items": 124
+     },
+     "z_nom_rec_k0": {
+      "object_auroc_all": 0.5135483870967741,
+      "object_auroc_all_ci": [
+       0.44430198535331383,
+       0.5825205756410472
+      ],
+      "object_auroc_edgefilt": 0.7007096774193549,
+      "object_auroc_edgefilt_ci": [
+       0.6330829156484721,
+       0.7610988554277228
+      ]
+     },
+     "nom_rec_k1": {
+      "object_auroc_all": 0.5161935483870967,
+      "object_auroc_all_ci": [
+       0.44664082731421006,
+       0.5889103573728538
+      ],
+      "object_auroc_edgefilt": 0.7260645161290322,
+      "object_auroc_edgefilt_ci": [
+       0.660401998706973,
+       0.7871079935685379
+      ],
+      "point_auroc": 0.7904070364536958,
+      "point_auroc_ci": [
+       0.7576551420540523,
+       0.8151386125818906
+      ],
+      "loc_median_dist_mm": 11.685139152740938,
+      "loc_hit_rate": 0.08064516129032258,
+      "loc_hit_rate_ci": [
+       0.04032258064516129,
+       0.12903225806451613
+      ],
+      "loc_median_rank_frac": 0.1116782497322947,
+      "n_defective_items": 124
+     },
+     "z_nom_rec_k1": {
+      "object_auroc_all": 0.5161935483870967,
+      "object_auroc_all_ci": [
+       0.4391249364481005,
+       0.586557122525553
+      ],
+      "object_auroc_edgefilt": 0.7260645161290322,
+      "object_auroc_edgefilt_ci": [
+       0.659988603988604,
+       0.7855583210962068
+      ]
+     },
+     "nom_rec_k3": {
+      "object_auroc_all": 0.5176774193548387,
+      "object_auroc_all_ci": [
+       0.44626807851239664,
+       0.5895541069737376
+      ],
+      "object_auroc_edgefilt": 0.7459354838709678,
+      "object_auroc_edgefilt_ci": [
+       0.6829800619434765,
+       0.8016670800767832
+      ],
+      "point_auroc": 0.8088156902382322,
+      "point_auroc_ci": [
+       0.7765343318185363,
+       0.833899290067472
+      ],
+      "loc_median_dist_mm": 11.685139152740938,
+      "loc_hit_rate": 0.07258064516129033,
+      "loc_hit_rate_ci": [
+       0.03225806451612903,
+       0.12096774193548387
+      ],
+      "loc_median_rank_frac": 0.1185644044400333,
+      "n_defective_items": 124
+     },
+     "z_nom_rec_k3": {
+      "object_auroc_all": 0.5176774193548387,
+      "object_auroc_all_ci": [
+       0.4416633764329512,
+       0.589553755416466
+      ],
+      "object_auroc_edgefilt": 0.7459354838709678,
+      "object_auroc_edgefilt_ci": [
+       0.6830249932264817,
+       0.8036410201924358
+      ]
+     },
+     "nom_rec_k6": {
+      "object_auroc_all": 0.5146451612903226,
+      "object_auroc_all_ci": [
+       0.4424196560596349,
+       0.5872695496450188
+      ],
+      "object_auroc_edgefilt": 0.8212903225806452,
+      "object_auroc_edgefilt_ci": [
+       0.7676466653108889,
+       0.871863979285747
+      ],
+      "point_auroc": 0.8351791980466452,
+      "point_auroc_ci": [
+       0.8142469727055688,
+       0.8506090906406139
+      ],
+      "loc_median_dist_mm": 11.300695895131373,
+      "loc_hit_rate": 0.08064516129032258,
+      "loc_hit_rate_ci": [
+       0.03225806451612903,
+       0.12903225806451613
+      ],
+      "loc_median_rank_frac": 0.09542268041237113,
+      "n_defective_items": 124
+     },
+     "z_nom_rec_k6": {
+      "object_auroc_all": 0.5146451612903226,
+      "object_auroc_all_ci": [
+       0.44257156587346613,
+       0.585341217048534
+      ],
+      "object_auroc_edgefilt": 0.8212903225806452,
+      "object_auroc_edgefilt_ci": [
+       0.7674989893218388,
+       0.8714734230780766
+      ]
+     },
+     "nom_nn": {
+      "object_auroc_all": 0.5127741935483872,
+      "object_auroc_all_ci": [
+       0.4443787158435146,
+       0.5834323622763861
+      ],
+      "object_auroc_edgefilt": 0.757225806451613,
+      "object_auroc_edgefilt_ci": [
+       0.697211518753843,
+       0.8121872631549006
+      ],
+      "point_auroc": 0.810405812515859,
+      "point_auroc_ci": [
+       0.7856647662901088,
+       0.833217161496899
+      ],
+      "loc_median_dist_mm": 11.540382848009735,
+      "loc_hit_rate": 0.08064516129032258,
+      "loc_hit_rate_ci": [
+       0.03225806451612903,
+       0.12903225806451613
+      ],
+      "loc_median_rank_frac": 0.1192617296557418,
+      "n_defective_items": 124
+     },
+     "z_nom_nn": {
+      "object_auroc_all": 0.5127741935483872,
+      "object_auroc_all_ci": [
+       0.4416185574027805,
+       0.5887784974039244
+      ],
+      "object_auroc_edgefilt": 0.757225806451613,
+      "object_auroc_edgefilt_ci": [
+       0.6924928047730089,
+       0.8164212546047078
+      ]
+     },
+     "diff_rms": {
+      "object_auroc_all": 0.5205161290322582,
+      "object_auroc_all_ci": [
+       0.4453775684467335,
+       0.5918184597080017
+      ],
+      "object_auroc_edgefilt": 0.7085806451612904,
+      "object_auroc_edgefilt_ci": [
+       0.6426909546671554,
+       0.7788035375440499
+      ],
+      "point_auroc": 0.7790535139254996,
+      "point_auroc_ci": [
+       0.7490746892974877,
+       0.8042739980844194
+      ],
+      "loc_median_dist_mm": 10.979935087311954,
+      "loc_hit_rate": 0.08870967741935484,
+      "loc_hit_rate_ci": [
+       0.04032258064516129,
+       0.14516129032258066
+      ],
+      "loc_median_rank_frac": 0.13777713736791547,
+      "n_defective_items": 124
+     },
+     "z_diff_rms": {
+      "object_auroc_all": 0.5205161290322582,
+      "object_auroc_all_ci": [
+       0.4443130520800524,
+       0.5914790871508515
+      ],
+      "object_auroc_edgefilt": 0.7085806451612904,
+      "object_auroc_edgefilt_ci": [
+       0.6440057073486054,
+       0.7722382772054158
+      ]
+     },
+     "diff_absmean": {
+      "object_auroc_all": 0.5327741935483872,
+      "object_auroc_all_ci": [
+       0.46110714900391553,
+       0.6081818475870099
+      ],
+      "object_auroc_edgefilt": 0.6703870967741936,
+      "object_auroc_edgefilt_ci": [
+       0.6027896916374441,
+       0.7345843093572711
+      ],
+      "point_auroc": 0.7062002701554324,
+      "point_auroc_ci": [
+       0.6583359814987342,
+       0.7402831184374515
+      ],
+      "loc_median_dist_mm": 12.474326708493267,
+      "loc_hit_rate": 0.10483870967741936,
+      "loc_hit_rate_ci": [
+       0.056451612903225805,
+       0.16129032258064516
+      ],
+      "loc_median_rank_frac": 0.14361454655254224,
+      "n_defective_items": 124
+     },
+     "z_diff_absmean": {
+      "object_auroc_all": 0.5327741935483872,
+      "object_auroc_all_ci": [
+       0.46255480757032047,
+       0.6054330659595425
+      ],
+      "object_auroc_edgefilt": 0.6703870967741936,
+      "object_auroc_edgefilt_ci": [
+       0.6042580645161291,
+       0.7363891151928977
+      ]
+     },
+     "magd_tmpl": {
+      "object_auroc_all": 0.595741935483871,
+      "object_auroc_all_ci": [
+       0.5230008845643521,
+       0.6661931909824047
+      ],
+      "object_auroc_edgefilt": 0.7081935483870967,
+      "object_auroc_edgefilt_ci": [
+       0.6438764798290798,
+       0.773596230799019
+      ],
+      "point_auroc": 0.8322757043463915,
+      "point_auroc_ci": [
+       0.80907922775969,
+       0.8507561024367503
+      ],
+      "loc_median_dist_mm": 9.772168316762986,
+      "loc_hit_rate": 0.20967741935483872,
+      "loc_hit_rate_ci": [
+       0.13709677419354838,
+       0.28225806451612906
+      ],
+      "loc_median_rank_frac": 0.029144385026737968,
+      "n_defective_items": 124
+     },
+     "z_magd_tmpl": {
+      "object_auroc_all": 0.595741935483871,
+      "object_auroc_all_ci": [
+       0.5239338751413821,
+       0.6636770541549953
+      ],
+      "object_auroc_edgefilt": 0.7081935483870967,
+      "object_auroc_edgefilt_ci": [
+       0.6431270225653031,
+       0.7684727822125669
+      ]
+     },
+     "magd_nom_min": {
+      "object_auroc_all": 0.6475483870967742,
+      "object_auroc_all_ci": [
+       0.5771802665819136,
+       0.7164802378624958
+      ],
+      "object_auroc_edgefilt": 0.814516129032258,
+      "object_auroc_edgefilt_ci": [
+       0.7608374447778612,
+       0.8644072465646876
+      ],
+      "point_auroc": 0.866532874121261,
+      "point_auroc_ci": [
+       0.8497259002870602,
+       0.8819554809812999
+      ],
+      "loc_median_dist_mm": 8.62776241893068,
+      "loc_hit_rate": 0.31451612903225806,
+      "loc_hit_rate_ci": [
+       0.23387096774193547,
+       0.3951612903225806
+      ],
+      "loc_median_rank_frac": 0.012740289248746709,
+      "n_defective_items": 124
+     },
+     "z_magd_nom_min": {
+      "object_auroc_all": 0.6475483870967742,
+      "object_auroc_all_ci": [
+       0.5788803870171921,
+       0.7197349389165161
+      ],
+      "object_auroc_edgefilt": 0.814516129032258,
+      "object_auroc_edgefilt_ci": [
+       0.7612336855589698,
+       0.8636344642059969
+      ]
+     },
+     "magd_nom_sub": {
+      "object_auroc_all": 0.49148387096774193,
+      "object_auroc_all_ci": [
+       0.42074546635950144,
+       0.5615254291983993
+      ],
+      "object_auroc_edgefilt": 0.47477419354838707,
+      "object_auroc_edgefilt_ci": [
+       0.4009388308168796,
+       0.5504587970090664
+      ],
+      "point_auroc": 0.5893203956935267,
+      "point_auroc_ci": [
+       0.5572197209089235,
+       0.6331885051418443
+      ],
+      "loc_median_dist_mm": 8.688361419561318,
+      "loc_hit_rate": 0.13709677419354838,
+      "loc_hit_rate_ci": [
+       0.08064516129032258,
+       0.20161290322580644
+      ],
+      "loc_median_rank_frac": 0.016391540637912434,
+      "n_defective_items": 124
+     },
+     "z_magd_nom_sub": {
+      "object_auroc_all": 0.49148387096774193,
+      "object_auroc_all_ci": [
+       0.42373823842191966,
+       0.5648280149114122
+      ],
+      "object_auroc_edgefilt": 0.47477419354838707,
+      "object_auroc_edgefilt_ci": [
+       0.40644108398021095,
+       0.546322521826405
+      ]
+     },
+     "nn_p95": {
+      "object_auroc_all": 0.916,
+      "object_auroc_all_ci": [
+       0.8785297237438364,
+       0.9482178472508328
+      ],
+      "object_auroc_edgefilt": 0.9090967741935484,
+      "object_auroc_edgefilt_ci": [
+       0.8656782753578753,
+       0.9438548293846657
+      ],
+      "point_auroc": 0.9747587753896395,
+      "point_auroc_ci": [
+       0.9622686971779548,
+       0.9806091238419288
+      ],
+      "loc_median_dist_mm": 0.619361192391764,
+      "loc_hit_rate": 0.9112903225806451,
+      "loc_hit_rate_ci": [
+       0.8629032258064516,
+       0.9596774193548387
+      ],
+      "loc_median_rank_frac": 0.0015494553502417199,
+      "n_defective_items": 124
+     },
+     "z_nn_p95": {
+      "object_auroc_all": 0.916,
+      "object_auroc_all_ci": [
+       0.8792583826911803,
+       0.9484386016231048
+      ],
+      "object_auroc_edgefilt": 0.9090967741935484,
+      "object_auroc_edgefilt_ci": [
+       0.8665669319330609,
+       0.9445387108331704
+      ]
+     }
+    },
+    "per_category": {
+     "candybar": {
+      "n_items": 50,
+      "n_defective": 25,
+      "nom_rec_k0": {
+       "object_auroc": 0.48800000000000004,
+       "point_auroc": 0.7574129081762078
+      },
+      "nom_rec_k1": {
+       "object_auroc": 0.4928,
+       "point_auroc": 0.7676526034426457
+      },
+      "nom_rec_k3": {
+       "object_auroc": 0.4576,
+       "point_auroc": 0.7711943802615495
+      },
+      "nom_rec_k6": {
+       "object_auroc": 0.4368,
+       "point_auroc": 0.7978435887571999
+      },
+      "nom_nn": {
+       "object_auroc": 0.504,
+       "point_auroc": 0.7819838059190214
+      },
+      "diff_rms": {
+       "object_auroc": 0.5104,
+       "point_auroc": 0.7590166358758026
+      },
+      "diff_absmean": {
+       "object_auroc": 0.5631999999999999,
+       "point_auroc": 0.6287379226712783
+      },
+      "magd_tmpl": {
+       "object_auroc": 0.43679999999999997,
+       "point_auroc": 0.8503903468207545
+      },
+      "magd_nom_min": {
+       "object_auroc": 0.43360000000000004,
+       "point_auroc": 0.8780398996256774
+      },
+      "magd_nom_sub": {
+       "object_auroc": 0.42719999999999997,
+       "point_auroc": 0.5033007624849043
+      },
+      "nn_p95": {
+       "object_auroc": 0.8976,
+       "point_auroc": 0.9779876505402039
+      }
+     },
+     "car": {
+      "n_items": 50,
+      "n_defective": 25,
+      "nom_rec_k0": {
+       "object_auroc": 0.41919999999999996,
+       "point_auroc": 0.8101544071852167
+      },
+      "nom_rec_k1": {
+       "object_auroc": 0.42079999999999995,
+       "point_auroc": 0.8257435418608479
+      },
+      "nom_rec_k3": {
+       "object_auroc": 0.3952,
+       "point_auroc": 0.8505513098897026
+      },
+      "nom_rec_k6": {
+       "object_auroc": 0.35520000000000007,
+       "point_auroc": 0.8917032346791969
+      },
+      "nom_nn": {
+       "object_auroc": 0.3872,
+       "point_auroc": 0.8735516932632096
+      },
+      "diff_rms": {
+       "object_auroc": 0.4864,
+       "point_auroc": 0.8370746343698118
+      },
+      "diff_absmean": {
+       "object_auroc": 0.5008,
+       "point_auroc": 0.789774502882121
+      },
+      "magd_tmpl": {
+       "object_auroc": 0.4688,
+       "point_auroc": 0.8312357846297715
+      },
+      "magd_nom_min": {
+       "object_auroc": 0.6544,
+       "point_auroc": 0.871551751474023
+      },
+      "magd_nom_sub": {
+       "object_auroc": 0.5584,
+       "point_auroc": 0.5811794529592582
+      },
+      "nn_p95": {
+       "object_auroc": 0.7856,
+       "point_auroc": 0.9610882253844434
+      }
+     },
+     "fish": {
+      "n_items": 50,
+      "n_defective": 25,
+      "nom_rec_k0": {
+       "object_auroc": 0.432,
+       "point_auroc": 0.7879181343939222
+      },
+      "nom_rec_k1": {
+       "object_auroc": 0.3888,
+       "point_auroc": 0.7765093276184573
+      },
+      "nom_rec_k3": {
+       "object_auroc": 0.4144,
+       "point_auroc": 0.7862239864169174
+      },
+      "nom_rec_k6": {
+       "object_auroc": 0.4688,
+       "point_auroc": 0.8111491670958328
+      },
+      "nom_nn": {
+       "object_auroc": 0.3152,
+       "point_auroc": 0.7857518413234548
+      },
+      "diff_rms": {
+       "object_auroc": 0.38239999999999996,
+       "point_auroc": 0.7696652022297872
+      },
+      "diff_absmean": {
+       "object_auroc": 0.46399999999999997,
+       "point_auroc": 0.704631326133916
+      },
+      "magd_tmpl": {
+       "object_auroc": 0.8368,
+       "point_auroc": 0.8999773451212507
+      },
+      "magd_nom_min": {
+       "object_auroc": 0.864,
+       "point_auroc": 0.9153615527034842
+      },
+      "magd_nom_sub": {
+       "object_auroc": 0.5776,
+       "point_auroc": 0.6096624042634942
+      },
+      "nn_p95": {
+       "object_auroc": 0.9904000000000001,
+       "point_auroc": 0.9808069035231336
+      }
+     },
+     "seahorse": {
+      "n_items": 50,
+      "n_defective": 25,
+      "nom_rec_k0": {
+       "object_auroc": 0.6752,
+       "point_auroc": 0.8385605405919057
+      },
+      "nom_rec_k1": {
+       "object_auroc": 0.672,
+       "point_auroc": 0.8389872391161082
+      },
+      "nom_rec_k3": {
+       "object_auroc": 0.6704,
+       "point_auroc": 0.8419513360956694
+      },
+      "nom_rec_k6": {
+       "object_auroc": 0.7008,
+       "point_auroc": 0.8519206468810115
+      },
+      "nom_nn": {
+       "object_auroc": 0.6831999999999999,
+       "point_auroc": 0.8404284201752701
+      },
+      "diff_rms": {
+       "object_auroc": 0.712,
+       "point_auroc": 0.823559065339546
+      },
+      "diff_absmean": {
+       "object_auroc": 0.7168,
+       "point_auroc": 0.7701642976079071
+      },
+      "magd_tmpl": {
+       "object_auroc": 0.7792,
+       "point_auroc": 0.8785219487933642
+      },
+      "magd_nom_min": {
+       "object_auroc": 0.7584,
+       "point_auroc": 0.8898904876065612
+      },
+      "magd_nom_sub": {
+       "object_auroc": 0.45439999999999997,
+       "point_auroc": 0.5875470285223128
+      },
+      "nn_p95": {
+       "object_auroc": 1.0,
+       "point_auroc": 0.9799614907632879
+      }
+     },
+     "toffees": {
+      "n_items": 49,
+      "n_defective": 24,
+      "nom_rec_k0": {
+       "object_auroc": 0.5583333333333333,
+       "point_auroc": 0.7542286810082932
+      },
+      "nom_rec_k1": {
+       "object_auroc": 0.61,
+       "point_auroc": 0.7277961712319191
+      },
+      "nom_rec_k3": {
+       "object_auroc": 0.6699999999999999,
+       "point_auroc": 0.8001907805246751
+      },
+      "nom_rec_k6": {
+       "object_auroc": 0.6066666666666667,
+       "point_auroc": 0.8326044498975075
+      },
+      "nom_nn": {
+       "object_auroc": 0.5916666666666667,
+       "point_auroc": 0.7559224958252158
+      },
+      "diff_rms": {
+       "object_auroc": 0.5016666666666667,
+       "point_auroc": 0.6910374265247097
+      },
+      "diff_absmean": {
+       "object_auroc": 0.52,
+       "point_auroc": 0.5693087884030343
+      },
+      "magd_tmpl": {
+       "object_auroc": 0.66,
+       "point_auroc": 0.7476543268320095
+      },
+      "magd_nom_min": {
+       "object_auroc": 0.7816666666666666,
+       "point_auroc": 0.8343415461858232
+      },
+      "magd_nom_sub": {
+       "object_auroc": 0.41999999999999993,
+       "point_auroc": 0.5845488267133423
+      },
+      "nn_p95": {
+       "object_auroc": 0.9016666666666666,
+       "point_auroc": 0.980472569463044
+      }
+     }
+    }
+   },
+   "r3.6": {
+    "n_items": 249,
+    "n_defective": 124,
+    "n_good": 125,
+    "n_bulge": 96,
+    "n_sink": 28,
+    "median_seeds": 336.0,
+    "prop1_max_abs_diff": 4.440892098500626e-15,
+    "pooled": {
+     "nom_rec_k0": {
+      "object_auroc_all": 0.5093548387096773,
+      "object_auroc_all_ci": [
+       0.439308480547263,
+       0.5798997221560234
+      ],
+      "object_auroc_edgefilt": 0.5890082644628098,
+      "object_auroc_edgefilt_ci": [
+       0.5101682471599751,
+       0.667162719979296
+      ],
+      "point_auroc": 0.6020101600715588,
+      "point_auroc_ci": [
+       0.5536548836232446,
+       0.6359345403525191
+      ],
+      "loc_median_dist_mm": 9.794152932361698,
+      "loc_hit_rate": 0.07258064516129033,
+      "loc_hit_rate_ci": [
+       0.03225806451612903,
+       0.12096774193548387
+      ],
+      "loc_median_rank_frac": 0.11285412262156448,
+      "n_defective_items": 124
+     },
+     "z_nom_rec_k0": {
+      "object_auroc_all": 0.5093548387096773,
+      "object_auroc_all_ci": [
+       0.4363029785416889,
+       0.5802114601638193
+      ],
+      "object_auroc_edgefilt": 0.5890082644628098,
+      "object_auroc_edgefilt_ci": [
+       0.5111214198025491,
+       0.6623008570539646
+      ]
+     },
+     "nom_rec_k1": {
+      "object_auroc_all": 0.5123225806451613,
+      "object_auroc_all_ci": [
+       0.4380448097839402,
+       0.582968107825024
+      ],
+      "object_auroc_edgefilt": 0.611900826446281,
+      "object_auroc_edgefilt_ci": [
+       0.5334705609838275,
+       0.6830286541126599
+      ],
+      "point_auroc": 0.6078725158249833,
+      "point_auroc_ci": [
+       0.5635096784458372,
+       0.6448478214063388
+      ],
+      "loc_median_dist_mm": 9.82684034874633,
+      "loc_hit_rate": 0.08064516129032258,
+      "loc_hit_rate_ci": [
+       0.04032258064516129,
+       0.12903225806451613
+      ],
+      "loc_median_rank_frac": 0.12535714285714286,
+      "n_defective_items": 124
+     },
+     "z_nom_rec_k1": {
+      "object_auroc_all": 0.5123225806451613,
+      "object_auroc_all_ci": [
+       0.4384670896611268,
+       0.5847554315076747
+      ],
+      "object_auroc_edgefilt": 0.611900826446281,
+      "object_auroc_edgefilt_ci": [
+       0.5350143730333917,
+       0.6871319568803093
+      ]
+     },
+     "nom_rec_k3": {
+      "object_auroc_all": 0.5083870967741936,
+      "object_auroc_all_ci": [
+       0.43362349484871465,
+       0.5806555684604465
+      ],
+      "object_auroc_edgefilt": 0.6407438016528926,
+      "object_auroc_edgefilt_ci": [
+       0.5671955519695465,
+       0.7137744944891459
+      ],
+      "point_auroc": 0.6214176068390135,
+      "point_auroc_ci": [
+       0.5817705711352035,
+       0.6535656140554874
+      ],
+      "loc_median_dist_mm": 9.82684034874633,
+      "loc_hit_rate": 0.07258064516129033,
+      "loc_hit_rate_ci": [
+       0.03225806451612903,
+       0.12096774193548387
+      ],
+      "loc_median_rank_frac": 0.11234545004945598,
+      "n_defective_items": 124
+     },
+     "z_nom_rec_k3": {
+      "object_auroc_all": 0.5083870967741936,
+      "object_auroc_all_ci": [
+       0.4428227656269512,
+       0.5829058847365298
+      ],
+      "object_auroc_edgefilt": 0.6407438016528926,
+      "object_auroc_edgefilt_ci": [
+       0.5672356160482219,
+       0.7137821727953638
+      ]
+     },
+     "nom_rec_k6": {
+      "object_auroc_all": 0.5016129032258064,
+      "object_auroc_all_ci": [
+       0.42713423690210167,
+       0.5702216708314267
+      ],
+      "object_auroc_edgefilt": 0.7237190082644629,
+      "object_auroc_edgefilt_ci": [
+       0.6537146320157539,
+       0.7879079912726479
+      ],
+      "point_auroc": 0.6719614504243101,
+      "point_auroc_ci": [
+       0.6363522833905813,
+       0.6984861199352397
+      ],
+      "loc_median_dist_mm": 9.549783644570908,
+      "loc_hit_rate": 0.06451612903225806,
+      "loc_hit_rate_ci": [
+       0.024193548387096774,
+       0.10504032258064407
+      ],
+      "loc_median_rank_frac": 0.0971200645589731,
+      "n_defective_items": 124
+     },
+     "z_nom_rec_k6": {
+      "object_auroc_all": 0.5016129032258064,
+      "object_auroc_all_ci": [
+       0.4247231129724119,
+       0.5756031986525382
+      ],
+      "object_auroc_edgefilt": 0.7237190082644629,
+      "object_auroc_edgefilt_ci": [
+       0.6557593118011789,
+       0.7899964946316642
+      ]
+     },
+     "nom_nn": {
+      "object_auroc_all": 0.5054838709677419,
+      "object_auroc_all_ci": [
+       0.43170018403850635,
+       0.5805265195509097
+      ],
+      "object_auroc_edgefilt": 0.6585950413223142,
+      "object_auroc_edgefilt_ci": [
+       0.5841177850362803,
+       0.7292587953778197
+      ],
+      "point_auroc": 0.6167998713216807,
+      "point_auroc_ci": [
+       0.5811559169692462,
+       0.6465506948544564
+      ],
+      "loc_median_dist_mm": 9.735702390972378,
+      "loc_hit_rate": 0.06451612903225806,
+      "loc_hit_rate_ci": [
+       0.024193548387096774,
+       0.11290322580645161
+      ],
+      "loc_median_rank_frac": 0.0798083011559043,
+      "n_defective_items": 124
+     },
+     "z_nom_nn": {
+      "object_auroc_all": 0.5054838709677419,
+      "object_auroc_all_ci": [
+       0.4354618863049096,
+       0.5744940882223998
+      ],
+      "object_auroc_edgefilt": 0.6585950413223142,
+      "object_auroc_edgefilt_ci": [
+       0.5892166472567287,
+       0.7320377059541404
+      ]
+     },
+     "diff_rms": {
+      "object_auroc_all": 0.5109032258064516,
+      "object_auroc_all_ci": [
+       0.4360457233206803,
+       0.5789685064353735
+      ],
+      "object_auroc_edgefilt": 0.6183471074380165,
+      "object_auroc_edgefilt_ci": [
+       0.5435171737006745,
+       0.6894083595595923
+      ],
+      "point_auroc": 0.5887358873368509,
+      "point_auroc_ci": [
+       0.5538610087780043,
+       0.6162291387084672
+      ],
+      "loc_median_dist_mm": 11.031105938044671,
+      "loc_hit_rate": 0.04032258064516129,
+      "loc_hit_rate_ci": [
+       0.008064516129032258,
+       0.08064516129032258
+      ],
+      "loc_median_rank_frac": 0.11607142857142858,
+      "n_defective_items": 124
+     },
+     "z_diff_rms": {
+      "object_auroc_all": 0.5109032258064516,
+      "object_auroc_all_ci": [
+       0.4426127325875345,
+       0.5826132898953613
+      ],
+      "object_auroc_edgefilt": 0.6183471074380165,
+      "object_auroc_edgefilt_ci": [
+       0.5441023361502162,
+       0.6927383359611745
+      ]
+     },
+     "diff_absmean": {
+      "object_auroc_all": 0.4909032258064516,
+      "object_auroc_all_ci": [
+       0.4187335806483936,
+       0.5642284306728685
+      ],
+      "object_auroc_edgefilt": 0.5881818181818181,
+      "object_auroc_edgefilt_ci": [
+       0.5138961050501019,
+       0.657532684684043
+      ],
+      "point_auroc": 0.5389540436003459,
+      "point_auroc_ci": [
+       0.5006048593989605,
+       0.577793028514437
+      ],
+      "loc_median_dist_mm": 11.462063737178813,
+      "loc_hit_rate": 0.08870967741935484,
+      "loc_hit_rate_ci": [
+       0.04032258064516129,
+       0.13709677419354838
+      ],
+      "loc_median_rank_frac": 0.13343299975591896,
+      "n_defective_items": 124
+     },
+     "z_diff_absmean": {
+      "object_auroc_all": 0.4909032258064516,
+      "object_auroc_all_ci": [
+       0.41612540030991735,
+       0.5632389618784784
+      ],
+      "object_auroc_edgefilt": 0.5881818181818181,
+      "object_auroc_edgefilt_ci": [
+       0.515629408347855,
+       0.6593195249890578
+      ]
+     },
+     "magd_tmpl": {
+      "object_auroc_all": 0.5247741935483872,
+      "object_auroc_all_ci": [
+       0.45218427010721884,
+       0.5946425009683635
+      ],
+      "object_auroc_edgefilt": 0.6640495867768595,
+      "object_auroc_edgefilt_ci": [
+       0.5923744454137587,
+       0.7314936506570029
+      ],
+      "point_auroc": 0.6478501703189984,
+      "point_auroc_ci": [
+       0.6188124614411737,
+       0.6735943405443963
+      ],
+      "loc_median_dist_mm": 10.013084112474871,
+      "loc_hit_rate": 0.12903225806451613,
+      "loc_hit_rate_ci": [
+       0.07258064516129033,
+       0.18548387096774194
+      ],
+      "loc_median_rank_frac": 0.07173136461062157,
+      "n_defective_items": 124
+     },
+     "z_magd_tmpl": {
+      "object_auroc_all": 0.5247741935483872,
+      "object_auroc_all_ci": [
+       0.45173352392864585,
+       0.5957145350355212
+      ],
+      "object_auroc_edgefilt": 0.6640495867768595,
+      "object_auroc_edgefilt_ci": [
+       0.5922912459573874,
+       0.7352142661214932
+      ]
+     },
+     "magd_nom_min": {
+      "object_auroc_all": 0.5752258064516129,
+      "object_auroc_all_ci": [
+       0.5027920234939663,
+       0.6493744076742642
+      ],
+      "object_auroc_edgefilt": 0.7218181818181818,
+      "object_auroc_edgefilt_ci": [
+       0.6503503443313804,
+       0.7855682755007751
+      ],
+      "point_auroc": 0.6832659667410397,
+      "point_auroc_ci": [
+       0.6561966748043337,
+       0.7097954467871461
+      ],
+      "loc_median_dist_mm": 9.006453308115269,
+      "loc_hit_rate": 0.18548387096774194,
+      "loc_hit_rate_ci": [
+       0.12096774193548387,
+       0.25806451612903225
+      ],
+      "loc_median_rank_frac": 0.04824290646363491,
+      "n_defective_items": 124
+     },
+     "z_magd_nom_min": {
+      "object_auroc_all": 0.5752258064516129,
+      "object_auroc_all_ci": [
+       0.5034972889800887,
+       0.6430311817074292
+      ],
+      "object_auroc_edgefilt": 0.7218181818181818,
+      "object_auroc_edgefilt_ci": [
+       0.6541290580263226,
+       0.7841530685550082
+      ]
+     },
+     "magd_nom_sub": {
+      "object_auroc_all": 0.5648387096774194,
+      "object_auroc_all_ci": [
+       0.49111462109110376,
+       0.6348188920454545
+      ],
+      "object_auroc_edgefilt": 0.5890909090909091,
+      "object_auroc_edgefilt_ci": [
+       0.5131725762459708,
+       0.6644688623484666
+      ],
+      "point_auroc": 0.5269555151654245,
+      "point_auroc_ci": [
+       0.48231735070335563,
+       0.5743313022845672
+      ],
+      "loc_median_dist_mm": 9.323600030379431,
+      "loc_hit_rate": 0.18548387096774194,
+      "loc_hit_rate_ci": [
+       0.12096774193548387,
+       0.25
+      ],
+      "loc_median_rank_frac": 0.02125420114921759,
+      "n_defective_items": 124
+     },
+     "z_magd_nom_sub": {
+      "object_auroc_all": 0.5648387096774194,
+      "object_auroc_all_ci": [
+       0.4948977698696128,
+       0.6401145895277437
+      ],
+      "object_auroc_edgefilt": 0.5890909090909091,
+      "object_auroc_edgefilt_ci": [
+       0.5180258654773756,
+       0.6647687449985233
+      ]
+     },
+     "nn_p95": {
+      "object_auroc_all": 0.8960645161290323,
+      "object_auroc_all_ci": [
+       0.8569658460695061,
+       0.9316919191919191
+      ],
+      "object_auroc_edgefilt": 0.8106611570247934,
+      "object_auroc_edgefilt_ci": [
+       0.7485814357325901,
+       0.8673551869321461
+      ],
+      "point_auroc": 0.953674179758552,
+      "point_auroc_ci": [
+       0.938764827983012,
+       0.9631395960086255
+      ],
+      "loc_median_dist_mm": 1.5627369078026803,
+      "loc_hit_rate": 0.8790322580645161,
+      "loc_hit_rate_ci": [
+       0.8145161290322581,
+       0.9354838709677419
+      ],
+      "loc_median_rank_frac": 0.004073336651733865,
+      "n_defective_items": 124
+     },
+     "z_nn_p95": {
+      "object_auroc_all": 0.8960645161290323,
+      "object_auroc_all_ci": [
+       0.8544400177569959,
+       0.9306225869307265
+      ],
+      "object_auroc_edgefilt": 0.8106611570247934,
+      "object_auroc_edgefilt_ci": [
+       0.7480076961271103,
+       0.8665962732919251
+      ]
+     }
+    },
+    "per_category": {
+     "candybar": {
+      "n_items": 50,
+      "n_defective": 25,
+      "nom_rec_k0": {
+       "object_auroc": 0.5504,
+       "point_auroc": 0.5721338173278028
+      },
+      "nom_rec_k1": {
+       "object_auroc": 0.5616,
+       "point_auroc": 0.586774361934738
+      },
+      "nom_rec_k3": {
+       "object_auroc": 0.52,
+       "point_auroc": 0.5795362722109032
+      },
+      "nom_rec_k6": {
+       "object_auroc": 0.5296,
+       "point_auroc": 0.6656909881149834
+      },
+      "nom_nn": {
+       "object_auroc": 0.5296,
+       "point_auroc": 0.6358448519238713
+      },
+      "diff_rms": {
+       "object_auroc": 0.5904,
+       "point_auroc": 0.6015096908918286
+      },
+      "diff_absmean": {
+       "object_auroc": 0.4944,
+       "point_auroc": 0.5021872793793418
+      },
+      "magd_tmpl": {
+       "object_auroc": 0.5680000000000001,
+       "point_auroc": 0.6787767485554089
+      },
+      "magd_nom_min": {
+       "object_auroc": 0.5024,
+       "point_auroc": 0.7195711775131589
+      },
+      "magd_nom_sub": {
+       "object_auroc": 0.4816,
+       "point_auroc": 0.4744811627171681
+      },
+      "nn_p95": {
+       "object_auroc": 0.8464,
+       "point_auroc": 0.9560887422588338
+      }
+     },
+     "car": {
+      "n_items": 50,
+      "n_defective": 25,
+      "nom_rec_k0": {
+       "object_auroc": 0.47520000000000007,
+       "point_auroc": 0.6318771631800963
+      },
+      "nom_rec_k1": {
+       "object_auroc": 0.46399999999999997,
+       "point_auroc": 0.64277602461295
+      },
+      "nom_rec_k3": {
+       "object_auroc": 0.4848,
+       "point_auroc": 0.6852747977513165
+      },
+      "nom_rec_k6": {
+       "object_auroc": 0.46399999999999997,
+       "point_auroc": 0.7717225210669375
+      },
+      "nom_nn": {
+       "object_auroc": 0.4736,
+       "point_auroc": 0.7347672298669876
+      },
+      "diff_rms": {
+       "object_auroc": 0.4576,
+       "point_auroc": 0.7075326482155011
+      },
+      "diff_absmean": {
+       "object_auroc": 0.4576,
+       "point_auroc": 0.6459391030093303
+      },
+      "magd_tmpl": {
+       "object_auroc": 0.5616,
+       "point_auroc": 0.7384398844757457
+      },
+      "magd_nom_min": {
+       "object_auroc": 0.6624,
+       "point_auroc": 0.7709652950929609
+      },
+      "magd_nom_sub": {
+       "object_auroc": 0.6816,
+       "point_auroc": 0.5352856500808038
+      },
+      "nn_p95": {
+       "object_auroc": 0.7536,
+       "point_auroc": 0.9304109882379823
+      }
+     },
+     "fish": {
+      "n_items": 50,
+      "n_defective": 25,
+      "nom_rec_k0": {
+       "object_auroc": 0.4576,
+       "point_auroc": 0.557844807189912
+      },
+      "nom_rec_k1": {
+       "object_auroc": 0.4432,
+       "point_auroc": 0.5559684685541157
+      },
+      "nom_rec_k3": {
+       "object_auroc": 0.4496,
+       "point_auroc": 0.5523042933389362
+      },
+      "nom_rec_k6": {
+       "object_auroc": 0.4336,
+       "point_auroc": 0.5714914088550829
+      },
+      "nom_nn": {
+       "object_auroc": 0.46399999999999997,
+       "point_auroc": 0.5227820405528861
+      },
+      "diff_rms": {
+       "object_auroc": 0.4304,
+       "point_auroc": 0.5218926849787789
+      },
+      "diff_absmean": {
+       "object_auroc": 0.39680000000000004,
+       "point_auroc": 0.5109528459364032
+      },
+      "magd_tmpl": {
+       "object_auroc": 0.43999999999999995,
+       "point_auroc": 0.6830059787370159
+      },
+      "magd_nom_min": {
+       "object_auroc": 0.6144,
+       "point_auroc": 0.7005955295096593
+      },
+      "magd_nom_sub": {
+       "object_auroc": 0.5296,
+       "point_auroc": 0.4528027849005754
+      },
+      "nn_p95": {
+       "object_auroc": 0.984,
+       "point_auroc": 0.9719573204478988
+      }
+     },
+     "seahorse": {
+      "n_items": 50,
+      "n_defective": 25,
+      "nom_rec_k0": {
+       "object_auroc": 0.46880000000000005,
+       "point_auroc": 0.6493630599684184
+      },
+      "nom_rec_k1": {
+       "object_auroc": 0.48479999999999995,
+       "point_auroc": 0.6596411220905345
+      },
+      "nom_rec_k3": {
+       "object_auroc": 0.4752,
+       "point_auroc": 0.6537208782160329
+      },
+      "nom_rec_k6": {
+       "object_auroc": 0.48479999999999995,
+       "point_auroc": 0.6621490358857443
+      },
+      "nom_nn": {
+       "object_auroc": 0.464,
+       "point_auroc": 0.5968715464333768
+      },
+      "diff_rms": {
+       "object_auroc": 0.4992,
+       "point_auroc": 0.5581114824729757
+      },
+      "diff_absmean": {
+       "object_auroc": 0.4256,
+       "point_auroc": 0.5144521470972778
+      },
+      "magd_tmpl": {
+       "object_auroc": 0.4256,
+       "point_auroc": 0.5675139265700468
+      },
+      "magd_nom_min": {
+       "object_auroc": 0.5648,
+       "point_auroc": 0.6097270094750386
+      },
+      "magd_nom_sub": {
+       "object_auroc": 0.6416,
+       "point_auroc": 0.5560012288673655
+      },
+      "nn_p95": {
+       "object_auroc": 1.0,
+       "point_auroc": 0.9638946063726836
+      }
+     },
+     "toffees": {
+      "n_items": 49,
+      "n_defective": 24,
+      "nom_rec_k0": {
+       "object_auroc": 0.6299999999999999,
+       "point_auroc": 0.6204087090214068
+      },
+      "nom_rec_k1": {
+       "object_auroc": 0.6333333333333333,
+       "point_auroc": 0.6170370416308482
+      },
+      "nom_rec_k3": {
+       "object_auroc": 0.6166666666666667,
+       "point_auroc": 0.6226717734596653
+      },
+      "nom_rec_k6": {
+       "object_auroc": 0.5133333333333333,
+       "point_auroc": 0.7023984867936772
+      },
+      "nom_nn": {
+       "object_auroc": 0.64,
+       "point_auroc": 0.574221121876698
+      },
+      "diff_rms": {
+       "object_auroc": 0.6966666666666667,
+       "point_auroc": 0.5311130907096386
+      },
+      "diff_absmean": {
+       "object_auroc": 0.5483333333333333,
+       "point_auroc": 0.4202977820324073
+      },
+      "magd_tmpl": {
+       "object_auroc": 0.6866666666666666,
+       "point_auroc": 0.6106929894584197
+      },
+      "magd_nom_min": {
+       "object_auroc": 0.7366666666666667,
+       "point_auroc": 0.665052446683203
+      },
+      "magd_nom_sub": {
+       "object_auroc": 0.4916666666666666,
+       "point_auroc": 0.5400824836433102
+      },
+      "nn_p95": {
+       "object_auroc": 0.8933333333333333,
+       "point_auroc": 0.9651901019299667
+      }
+     }
+    }
+   },
+   "r5.0": {
+    "n_items": 249,
+    "n_defective": 124,
+    "n_good": 125,
+    "n_bulge": 96,
+    "n_sink": 28,
+    "median_seeds": 179.0,
+    "prop1_max_abs_diff": 4.218847493575595e-15,
+    "pooled": {
+     "nom_rec_k0": {
+      "object_auroc_all": 0.5146451612903226,
+      "object_auroc_all_ci": [
+       0.44486871695012203,
+       0.5878113164356503
+      ],
+      "object_auroc_edgefilt": 0.6122522522522522,
+      "object_auroc_edgefilt_ci": [
+       0.5185520554707649,
+       0.7016777352525441
+      ],
+      "point_auroc": 0.44533834837088937,
+      "point_auroc_ci": [
+       0.3972798962844974,
+       0.486341207569761
+      ],
+      "loc_median_dist_mm": 9.6260183460114,
+      "loc_hit_rate": 0.18548387096774194,
+      "loc_hit_rate_ci": [
+       0.12096774193548387,
+       0.25806451612903225
+      ],
+      "loc_median_rank_frac": 0.08127466117687425,
+      "n_defective_items": 124
+     },
+     "z_nom_rec_k0": {
+      "object_auroc_all": 0.5146451612903226,
+      "object_auroc_all_ci": [
+       0.4380929356629204,
+       0.5854575620511093
+      ],
+      "object_auroc_edgefilt": 0.6122522522522522,
+      "object_auroc_edgefilt_ci": [
+       0.5163436027820218,
+       0.7
+      ]
+     },
+     "nom_rec_k1": {
+      "object_auroc_all": 0.5132903225806452,
+      "object_auroc_all_ci": [
+       0.4421736290113493,
+       0.5844776203328834
+      ],
+      "object_auroc_edgefilt": 0.5956756756756757,
+      "object_auroc_edgefilt_ci": [
+       0.5036147554645459,
+       0.6907875491968939
+      ],
+      "point_auroc": 0.44962103730068176,
+      "point_auroc_ci": [
+       0.4037784026725261,
+       0.48613465238776965
+      ],
+      "loc_median_dist_mm": 9.20916886769232,
+      "loc_hit_rate": 0.1935483870967742,
+      "loc_hit_rate_ci": [
+       0.12883064516129034,
+       0.2661290322580645
+      ],
+      "loc_median_rank_frac": 0.07741996770209936,
+      "n_defective_items": 124
+     },
+     "z_nom_rec_k1": {
+      "object_auroc_all": 0.5132903225806452,
+      "object_auroc_all_ci": [
+       0.44452494208591775,
+       0.5846530165241156
+      ],
+      "object_auroc_edgefilt": 0.5956756756756757,
+      "object_auroc_edgefilt_ci": [
+       0.5001770152505446,
+       0.6804347826086957
+      ]
+     },
+     "nom_rec_k3": {
+      "object_auroc_all": 0.5114193548387097,
+      "object_auroc_all_ci": [
+       0.44010347608453837,
+       0.5858230183529943
+      ],
+      "object_auroc_edgefilt": 0.598018018018018,
+      "object_auroc_edgefilt_ci": [
+       0.510435606060606,
+       0.6864948036271566
+      ],
+      "point_auroc": 0.4619515504106876,
+      "point_auroc_ci": [
+       0.41401850836801735,
+       0.49525714070191273
+      ],
+      "loc_median_dist_mm": 9.20916886769232,
+      "loc_hit_rate": 0.1774193548387097,
+      "loc_hit_rate_ci": [
+       0.11290322580645161,
+       0.25
+      ],
+      "loc_median_rank_frac": 0.07467198954101882,
+      "n_defective_items": 124
+     },
+     "z_nom_rec_k3": {
+      "object_auroc_all": 0.5114193548387097,
+      "object_auroc_all_ci": [
+       0.4406813520429396,
+       0.5816567428451923
+      ],
+      "object_auroc_edgefilt": 0.598018018018018,
+      "object_auroc_edgefilt_ci": [
+       0.5055818155111634,
+       0.6858702237035723
+      ]
+     },
+     "nom_rec_k6": {
+      "object_auroc_all": 0.5134193548387097,
+      "object_auroc_all_ci": [
+       0.4422092560871269,
+       0.5899876321935146
+      ],
+      "object_auroc_edgefilt": 0.6093693693693694,
+      "object_auroc_edgefilt_ci": [
+       0.5216809784379762,
+       0.7042508525149189
+      ],
+      "point_auroc": 0.5071109580838062,
+      "point_auroc_ci": [
+       0.4766947768856749,
+       0.5550611665078589
+      ],
+      "loc_median_dist_mm": 9.190983916522349,
+      "loc_hit_rate": 0.1935483870967742,
+      "loc_hit_rate_ci": [
+       0.12903225806451613,
+       0.2661290322580645
+      ],
+      "loc_median_rank_frac": 0.06079749103942653,
+      "n_defective_items": 124
+     },
+     "z_nom_rec_k6": {
+      "object_auroc_all": 0.5134193548387097,
+      "object_auroc_all_ci": [
+       0.4397448497926147,
+       0.5872947833084001
+      ],
+      "object_auroc_edgefilt": 0.6093693693693694,
+      "object_auroc_edgefilt_ci": [
+       0.5132049445942134,
+       0.6986347979179425
+      ]
+     },
+     "nom_nn": {
+      "object_auroc_all": 0.5153548387096774,
+      "object_auroc_all_ci": [
+       0.4408537440015996,
+       0.5854672676937754
+      ],
+      "object_auroc_edgefilt": 0.5437837837837838,
+      "object_auroc_edgefilt_ci": [
+       0.4476037695170661,
+       0.6343618552147302
+      ],
+      "point_auroc": 0.47248779477534436,
+      "point_auroc_ci": [
+       0.43866769782611686,
+       0.5150268167761815
+      ],
+      "loc_median_dist_mm": 9.553340999646181,
+      "loc_hit_rate": 0.1693548387096774,
+      "loc_hit_rate_ci": [
+       0.10483870967741936,
+       0.24193548387096775
+      ],
+      "loc_median_rank_frac": 0.06521739130434782,
+      "n_defective_items": 124
+     },
+     "z_nom_nn": {
+      "object_auroc_all": 0.5153548387096774,
+      "object_auroc_all_ci": [
+       0.44136497688506293,
+       0.5859471270161289
+      ],
+      "object_auroc_edgefilt": 0.5437837837837838,
+      "object_auroc_edgefilt_ci": [
+       0.44691053296523325,
+       0.6370026807103881
+      ]
+     },
+     "diff_rms": {
+      "object_auroc_all": 0.5156129032258066,
+      "object_auroc_all_ci": [
+       0.44226430568153824,
+       0.5889872886824106
+      ],
+      "object_auroc_edgefilt": 0.5594594594594595,
+      "object_auroc_edgefilt_ci": [
+       0.4653643968643969,
+       0.6497891131939438
+      ],
+      "point_auroc": 0.45955303497899275,
+      "point_auroc_ci": [
+       0.42158663868481855,
+       0.49380988461825015
+      ],
+      "loc_median_dist_mm": 9.906012106176735,
+      "loc_hit_rate": 0.1532258064516129,
+      "loc_hit_rate_ci": [
+       0.0967741935483871,
+       0.21774193548387097
+      ],
+      "loc_median_rank_frac": 0.07756264996001067,
+      "n_defective_items": 124
+     },
+     "z_diff_rms": {
+      "object_auroc_all": 0.5156129032258066,
+      "object_auroc_all_ci": [
+       0.44556697922220745,
+       0.5897143072339809
+      ],
+      "object_auroc_edgefilt": 0.5594594594594595,
+      "object_auroc_edgefilt_ci": [
+       0.457677704920352,
+       0.6522729561399555
+      ]
+     },
+     "diff_absmean": {
+      "object_auroc_all": 0.5015483870967742,
+      "object_auroc_all_ci": [
+       0.4294916125696368,
+       0.5701355938511461
+      ],
+      "object_auroc_edgefilt": 0.5666666666666667,
+      "object_auroc_edgefilt_ci": [
+       0.47590574253535883,
+       0.6615071935670349
+      ],
+      "point_auroc": 0.44651140273464857,
+      "point_auroc_ci": [
+       0.40004796066143317,
+       0.4821630462542153
+      ],
+      "loc_median_dist_mm": 10.62875386892265,
+      "loc_hit_rate": 0.1532258064516129,
+      "loc_hit_rate_ci": [
+       0.0967741935483871,
+       0.21774193548387097
+      ],
+      "loc_median_rank_frac": 0.08588419693896368,
+      "n_defective_items": 124
+     },
+     "z_diff_absmean": {
+      "object_auroc_all": 0.5015483870967742,
+      "object_auroc_all_ci": [
+       0.42981223743980324,
+       0.5726612482047265
+      ],
+      "object_auroc_edgefilt": 0.5666666666666667,
+      "object_auroc_edgefilt_ci": [
+       0.46737504239531996,
+       0.6595962248535778
+      ]
+     },
+     "magd_tmpl": {
+      "object_auroc_all": 0.5029032258064516,
+      "object_auroc_all_ci": [
+       0.42873246118694075,
+       0.5740840967360932
+      ],
+      "object_auroc_edgefilt": 0.5558558558558558,
+      "object_auroc_edgefilt_ci": [
+       0.4602038473303533,
+       0.6551367822318526
+      ],
+      "point_auroc": 0.49741487997782796,
+      "point_auroc_ci": [
+       0.4641001398675752,
+       0.5311597223422602
+      ],
+      "loc_median_dist_mm": 9.781210868883658,
+      "loc_hit_rate": 0.14516129032258066,
+      "loc_hit_rate_ci": [
+       0.08850806451612905,
+       0.20967741935483872
+      ],
+      "loc_median_rank_frac": 0.07744954335325291,
+      "n_defective_items": 124
+     },
+     "z_magd_tmpl": {
+      "object_auroc_all": 0.5029032258064516,
+      "object_auroc_all_ci": [
+       0.4257546808273553,
+       0.5777164618500382
+      ],
+      "object_auroc_edgefilt": 0.5558558558558558,
+      "object_auroc_edgefilt_ci": [
+       0.4605641952983726,
+       0.6481450811211656
+      ]
+     },
+     "magd_nom_min": {
+      "object_auroc_all": 0.5273548387096775,
+      "object_auroc_all_ci": [
+       0.45656506929762747,
+       0.6025626109949641
+      ],
+      "object_auroc_edgefilt": 0.5513513513513514,
+      "object_auroc_edgefilt_ci": [
+       0.46015624510203446,
+       0.6399756493506492
+      ],
+      "point_auroc": 0.5113827965537714,
+      "point_auroc_ci": [
+       0.47361951182869844,
+       0.541775776075463
+      ],
+      "loc_median_dist_mm": 10.60377337107548,
+      "loc_hit_rate": 0.1693548387096774,
+      "loc_hit_rate_ci": [
+       0.10483870967741936,
+       0.23387096774193547
+      ],
+      "loc_median_rank_frac": 0.06559139784946236,
+      "n_defective_items": 124
+     },
+     "z_magd_nom_min": {
+      "object_auroc_all": 0.5273548387096775,
+      "object_auroc_all_ci": [
+       0.4604895763049745,
+       0.5974887645082151
+      ],
+      "object_auroc_edgefilt": 0.5513513513513514,
+      "object_auroc_edgefilt_ci": [
+       0.45869449416678443,
+       0.646672408990447
+      ]
+     },
+     "magd_nom_sub": {
+      "object_auroc_all": 0.5292903225806451,
+      "object_auroc_all_ci": [
+       0.4600833510147781,
+       0.595941907012781
+      ],
+      "object_auroc_edgefilt": 0.595135135135135,
+      "object_auroc_edgefilt_ci": [
+       0.5007029560201876,
+       0.6863987986894793
+      ],
+      "point_auroc": 0.4835399483937737,
+      "point_auroc_ci": [
+       0.425142301525776,
+       0.5196650451322339
+      ],
+      "loc_median_dist_mm": 9.788751914248227,
+      "loc_hit_rate": 0.25806451612903225,
+      "loc_hit_rate_ci": [
+       0.18548387096774194,
+       0.3387096774193548
+      ],
+      "loc_median_rank_frac": 0.019324122479462285,
+      "n_defective_items": 124
+     },
+     "z_magd_nom_sub": {
+      "object_auroc_all": 0.5292903225806451,
+      "object_auroc_all_ci": [
+       0.4588069701020905,
+       0.601315510814338
+      ],
+      "object_auroc_edgefilt": 0.595135135135135,
+      "object_auroc_edgefilt_ci": [
+       0.5066885302721851,
+       0.6864885034288019
+      ]
+     },
+     "nn_p95": {
+      "object_auroc_all": 0.8596774193548388,
+      "object_auroc_all_ci": [
+       0.8103953425856465,
+       0.9046746003376751
+      ],
+      "object_auroc_edgefilt": 0.7504504504504504,
+      "object_auroc_edgefilt_ci": [
+       0.672494922639489,
+       0.8278500969323754
+      ],
+      "point_auroc": 0.9100861921227354,
+      "point_auroc_ci": [
+       0.8872523239837055,
+       0.9328906152180064
+      ],
+      "loc_median_dist_mm": 2.791937662005606,
+      "loc_hit_rate": 0.8548387096774194,
+      "loc_hit_rate_ci": [
+       0.7903225806451613,
+       0.9112903225806451
+      ],
+      "loc_median_rank_frac": 0.0072992700729927005,
+      "n_defective_items": 124
+     },
+     "z_nn_p95": {
+      "object_auroc_all": 0.8596774193548388,
+      "object_auroc_all_ci": [
+       0.811375699331223,
+       0.9030322580645161
+      ],
+      "object_auroc_edgefilt": 0.7504504504504504,
+      "object_auroc_edgefilt_ci": [
+       0.6636979877541612,
+       0.8293405101889036
+      ]
+     }
+    },
+    "per_category": {
+     "candybar": {
+      "n_items": 50,
+      "n_defective": 25,
+      "nom_rec_k0": {
+       "object_auroc": 0.43040000000000006,
+       "point_auroc": 0.3900755901549571
+      },
+      "nom_rec_k1": {
+       "object_auroc": 0.4736,
+       "point_auroc": 0.39296106691850546
+      },
+      "nom_rec_k3": {
+       "object_auroc": 0.42879999999999996,
+       "point_auroc": 0.3974874212147398
+      },
+      "nom_rec_k6": {
+       "object_auroc": 0.49759999999999993,
+       "point_auroc": 0.4799362685058412
+      },
+      "nom_nn": {
+       "object_auroc": 0.5184,
+       "point_auroc": 0.4539815063886955
+      },
+      "diff_rms": {
+       "object_auroc": 0.5104,
+       "point_auroc": 0.4286609123841097
+      },
+      "diff_absmean": {
+       "object_auroc": 0.4992,
+       "point_auroc": 0.38872523261070063
+      },
+      "magd_tmpl": {
+       "object_auroc": 0.4528,
+       "point_auroc": 0.4646364536282702
+      },
+      "magd_nom_min": {
+       "object_auroc": 0.5104,
+       "point_auroc": 0.4873083840948323
+      },
+      "magd_nom_sub": {
+       "object_auroc": 0.5264,
+       "point_auroc": 0.43057187902016336
+      },
+      "nn_p95": {
+       "object_auroc": 0.76,
+       "point_auroc": 0.8664824524798616
+      }
+     },
+     "car": {
+      "n_items": 50,
+      "n_defective": 25,
+      "nom_rec_k0": {
+       "object_auroc": 0.43679999999999997,
+       "point_auroc": 0.47422277543398267
+      },
+      "nom_rec_k1": {
+       "object_auroc": 0.5008,
+       "point_auroc": 0.4853138298109456
+      },
+      "nom_rec_k3": {
+       "object_auroc": 0.5072,
+       "point_auroc": 0.525398395976646
+      },
+      "nom_rec_k6": {
+       "object_auroc": 0.48,
+       "point_auroc": 0.6286364715758876
+      },
+      "nom_nn": {
+       "object_auroc": 0.528,
+       "point_auroc": 0.5948075610566639
+      },
+      "diff_rms": {
+       "object_auroc": 0.43200000000000005,
+       "point_auroc": 0.5799683556332984
+      },
+      "diff_absmean": {
+       "object_auroc": 0.472,
+       "point_auroc": 0.5272168024001503
+      },
+      "magd_tmpl": {
+       "object_auroc": 0.4752,
+       "point_auroc": 0.6311097243455066
+      },
+      "magd_nom_min": {
+       "object_auroc": 0.664,
+       "point_auroc": 0.6503777558912262
+      },
+      "magd_nom_sub": {
+       "object_auroc": 0.4688,
+       "point_auroc": 0.5344966828599427
+      },
+      "nn_p95": {
+       "object_auroc": 0.712,
+       "point_auroc": 0.8676539418164323
+      }
+     },
+     "fish": {
+      "n_items": 50,
+      "n_defective": 25,
+      "nom_rec_k0": {
+       "object_auroc": 0.4976,
+       "point_auroc": 0.37674283674534625
+      },
+      "nom_rec_k1": {
+       "object_auroc": 0.4768,
+       "point_auroc": 0.386484067578292
+      },
+      "nom_rec_k3": {
+       "object_auroc": 0.4608,
+       "point_auroc": 0.38950513760676575
+      },
+      "nom_rec_k6": {
+       "object_auroc": 0.432,
+       "point_auroc": 0.3871675951264033
+      },
+      "nom_nn": {
+       "object_auroc": 0.43840000000000007,
+       "point_auroc": 0.3525349917697218
+      },
+      "diff_rms": {
+       "object_auroc": 0.4016,
+       "point_auroc": 0.3630790504670234
+      },
+      "diff_absmean": {
+       "object_auroc": 0.35359999999999997,
+       "point_auroc": 0.37240954870412146
+      },
+      "magd_tmpl": {
+       "object_auroc": 0.4144,
+       "point_auroc": 0.4341938820078808
+      },
+      "magd_nom_min": {
+       "object_auroc": 0.5216000000000001,
+       "point_auroc": 0.44139102794711876
+      },
+      "magd_nom_sub": {
+       "object_auroc": 0.6255999999999999,
+       "point_auroc": 0.36484389472604806
+      },
+      "nn_p95": {
+       "object_auroc": 0.9696,
+       "point_auroc": 0.9508475872123888
+      }
+     },
+     "seahorse": {
+      "n_items": 50,
+      "n_defective": 25,
+      "nom_rec_k0": {
+       "object_auroc": 0.7136,
+       "point_auroc": 0.26533582510069575
+      },
+      "nom_rec_k1": {
+       "object_auroc": 0.5712,
+       "point_auroc": 0.26730347707357077
+      },
+      "nom_rec_k3": {
+       "object_auroc": 0.5760000000000001,
+       "point_auroc": 0.2695194420869141
+      },
+      "nom_rec_k6": {
+       "object_auroc": 0.5584,
+       "point_auroc": 0.2752967690859708
+      },
+      "nom_nn": {
+       "object_auroc": 0.6095999999999999,
+       "point_auroc": 0.2662614279148675
+      },
+      "diff_rms": {
+       "object_auroc": 0.6624,
+       "point_auroc": 0.25100408301037835
+      },
+      "diff_absmean": {
+       "object_auroc": 0.6768000000000001,
+       "point_auroc": 0.25666147330841876
+      },
+      "magd_tmpl": {
+       "object_auroc": 0.44799999999999995,
+       "point_auroc": 0.21468832703116195
+      },
+      "magd_nom_min": {
+       "object_auroc": 0.44320000000000004,
+       "point_auroc": 0.2160085940793039
+      },
+      "magd_nom_sub": {
+       "object_auroc": 0.46399999999999997,
+       "point_auroc": 0.3526359331718266
+      },
+      "nn_p95": {
+       "object_auroc": 1.0,
+       "point_auroc": 0.9433249737647724
+      }
+     },
+     "toffees": {
+      "n_items": 49,
+      "n_defective": 24,
+      "nom_rec_k0": {
+       "object_auroc": 0.6116666666666667,
+       "point_auroc": 0.46617777577648944
+      },
+      "nom_rec_k1": {
+       "object_auroc": 0.6283333333333333,
+       "point_auroc": 0.47479190248706893
+      },
+      "nom_rec_k3": {
+       "object_auroc": 0.63,
+       "point_auroc": 0.43959440685722817
+      },
+      "nom_rec_k6": {
+       "object_auroc": 0.5633333333333334,
+       "point_auroc": 0.4868712829897725
+      },
+      "nom_nn": {
+       "object_auroc": 0.6416666666666666,
+       "point_auroc": 0.377876205133814
+      },
+      "diff_rms": {
+       "object_auroc": 0.6866666666666666,
+       "point_auroc": 0.362003851657916
+      },
+      "diff_absmean": {
+       "object_auroc": 0.5833333333333333,
+       "point_auroc": 0.30037118018221726
+      },
+      "magd_tmpl": {
+       "object_auroc": 0.7450000000000001,
+       "point_auroc": 0.429570695716866
+      },
+      "magd_nom_min": {
+       "object_auroc": 0.6433333333333333,
+       "point_auroc": 0.44032608401176515
+      },
+      "magd_nom_sub": {
+       "object_auroc": 0.63,
+       "point_auroc": 0.4731810368214826
+      },
+      "nn_p95": {
+       "object_auroc": 0.865,
+       "point_auroc": 0.9295747444017729
+      }
+     }
+    }
+   }
+  },
+  "r3_report_items_nominal_feat": {
+   "r3.6": {
+    "n_items": 249,
+    "n_defective": 124,
+    "n_good": 125,
+    "n_bulge": 96,
+    "n_sink": 28,
+    "median_seeds": 333.0,
+    "prop1_max_abs_diff": 4.440892098500626e-15,
+    "pooled": {
+     "dentnet_nom_nn": {
+      "object_auroc_all": 0.7219354838709677,
+      "object_auroc_all_ci": [
+       0.6610193643863954,
+       0.779541020372313
+      ],
+      "object_auroc_edgefilt": 0.8401935483870968,
+      "object_auroc_edgefilt_ci": [
+       0.7866161349221602,
+       0.8878284830610362
+      ],
+      "point_auroc": 0.9406946469507093,
+      "point_auroc_ci": [
+       0.9326636811841942,
+       0.9473096837663445
+      ],
+      "loc_median_dist_mm": 0.22474042709179487,
+      "loc_hit_rate": 0.5645161290322581,
+      "loc_hit_rate_ci": [
+       0.47580645161290325,
+       0.6532258064516129
+      ],
+      "loc_median_rank_frac": 0.004352603510500241,
+      "n_defective_items": 124
+     },
+     "z_dentnet_nom_nn": {
+      "object_auroc_all": 0.7219354838709677,
+      "object_auroc_all_ci": [
+       0.6589520551523392,
+       0.7845193427351532
+      ],
+      "object_auroc_edgefilt": 0.8401935483870968,
+      "object_auroc_edgefilt_ci": [
+       0.7897919656039502,
+       0.8882279820963525
+      ]
+     },
+     "dentnet_nom_mean": {
+      "object_auroc_all": 0.6934193548387096,
+      "object_auroc_all_ci": [
+       0.6249540135033758,
+       0.7544321285439868
+      ],
+      "object_auroc_edgefilt": 0.7777419354838709,
+      "object_auroc_edgefilt_ci": [
+       0.7152521306818183,
+       0.8301779546601065
+      ],
+      "point_auroc": 0.9244290620147755,
+      "point_auroc_ci": [
+       0.918355173981146,
+       0.933144047755915
+      ],
+      "loc_median_dist_mm": 4.689329330823577,
+      "loc_hit_rate": 0.4838709677419355,
+      "loc_hit_rate_ci": [
+       0.3951612903225806,
+       0.5725806451612904
+      ],
+      "loc_median_rank_frac": 0.005681818181818182,
+      "n_defective_items": 124
+     },
+     "z_dentnet_nom_mean": {
+      "object_auroc_all": 0.6934193548387096,
+      "object_auroc_all_ci": [
+       0.6226208390332878,
+       0.7575975556435989
+      ],
+      "object_auroc_edgefilt": 0.7777419354838709,
+      "object_auroc_edgefilt_ci": [
+       0.7164186803939505,
+       0.8352305224415346
+      ]
+     },
+     "dentnet_nom_rec3": {
+      "object_auroc_all": 0.7103870967741935,
+      "object_auroc_all_ci": [
+       0.6410923900690619,
+       0.7733975155270686
+      ],
+      "object_auroc_edgefilt": 0.8632903225806451,
+      "object_auroc_edgefilt_ci": [
+       0.815792786945411,
+       0.9058752152060455
+      ],
+      "point_auroc": 0.9570405898539867,
+      "point_auroc_ci": [
+       0.9496374160342514,
+       0.9623504375813206
+      ],
+      "loc_median_dist_mm": 0.16215090078501732,
+      "loc_hit_rate": 0.7016129032258065,
+      "loc_hit_rate_ci": [
+       0.6209677419354839,
+       0.782258064516129
+      ],
+      "loc_median_rank_frac": 0.004149377593360996,
+      "n_defective_items": 124
+     },
+     "z_dentnet_nom_rec3": {
+      "object_auroc_all": 0.7103870967741935,
+      "object_auroc_all_ci": [
+       0.6419210662191817,
+       0.7734310036344767
+      ],
+      "object_auroc_edgefilt": 0.8632903225806451,
+      "object_auroc_edgefilt_ci": [
+       0.8150462877842672,
+       0.9073044602456367
+      ]
+     },
+     "dentnet_cat_rec50": {
+      "object_auroc_all": 0.6078064516129033,
+      "object_auroc_all_ci": [
+       0.5382293957821194,
+       0.6779332169645236
+      ],
+      "object_auroc_edgefilt": 0.6523870967741935,
+      "object_auroc_edgefilt_ci": [
+       0.5854634436513088,
+       0.7205590858372306
+      ],
+      "point_auroc": 0.8019739149724244,
+      "point_auroc_ci": [
+       0.781290770320515,
+       0.827474106533995
+      ],
+      "loc_median_dist_mm": 7.679397488895237,
+      "loc_hit_rate": 0.4435483870967742,
+      "loc_hit_rate_ci": [
+       0.3548387096774194,
+       0.532258064516129
+      ],
+      "loc_median_rank_frac": 0.005805820988590593,
+      "n_defective_items": 124
+     },
+     "z_dentnet_cat_rec50": {
+      "object_auroc_all": 0.6078064516129033,
+      "object_auroc_all_ci": [
+       0.5393581593927893,
+       0.6760940289187869
+      ],
+      "object_auroc_edgefilt": 0.6523870967741935,
+      "object_auroc_edgefilt_ci": [
+       0.5819957642578382,
+       0.7201008228447253
+      ]
+     },
+     "dentnet_pbss_k50": {
+      "object_auroc_all": 0.5300645161290323,
+      "object_auroc_all_ci": [
+       0.46277592347122437,
+       0.5993737726485215
+      ],
+      "object_auroc_edgefilt": 0.5556774193548386,
+      "object_auroc_edgefilt_ci": [
+       0.48520326776954564,
+       0.6307983682983682
+      ],
+      "point_auroc": 0.6953023650548662,
+      "point_auroc_ci": [
+       0.6769147961076707,
+       0.7208899135046366
+      ],
+      "loc_median_dist_mm": 8.818676860608653,
+      "loc_hit_rate": 0.28225806451612906,
+      "loc_hit_rate_ci": [
+       0.20967741935483872,
+       0.3629032258064516
+      ],
+      "loc_median_rank_frac": 0.020449983271997322,
+      "n_defective_items": 124
+     },
+     "z_dentnet_pbss_k50": {
+      "object_auroc_all": 0.5300645161290323,
+      "object_auroc_all_ci": [
+       0.45941899902879935,
+       0.602740449695757
+      ],
+      "object_auroc_edgefilt": 0.5556774193548386,
+      "object_auroc_edgefilt_ci": [
+       0.4825400070783594,
+       0.6244854193852398
+      ]
+     },
+     "pnpp_nom_nn": {
+      "object_auroc_all": 0.691483870967742,
+      "object_auroc_all_ci": [
+       0.6243225192370354,
+       0.7559079263480352
+      ],
+      "object_auroc_edgefilt": 0.7894838709677419,
+      "object_auroc_edgefilt_ci": [
+       0.7310215865038288,
+       0.8455368604437924
+      ],
+      "point_auroc": 0.9369689358824247,
+      "point_auroc_ci": [
+       0.9267270013986342,
+       0.9443774217483157
+      ],
+      "loc_median_dist_mm": 0.17675521422036422,
+      "loc_hit_rate": 0.6370967741935484,
+      "loc_hit_rate_ci": [
+       0.5564516129032258,
+       0.7179435483870957
+      ],
+      "loc_median_rank_frac": 0.00423728813559322,
+      "n_defective_items": 124
+     },
+     "z_pnpp_nom_nn": {
+      "object_auroc_all": 0.691483870967742,
+      "object_auroc_all_ci": [
+       0.6240365766223889,
+       0.7547902540200906
+      ],
+      "object_auroc_edgefilt": 0.7894838709677419,
+      "object_auroc_edgefilt_ci": [
+       0.7331502717921303,
+       0.845099310291707
+      ]
+     },
+     "pnpp_nom_mean": {
+      "object_auroc_all": 0.633741935483871,
+      "object_auroc_all_ci": [
+       0.5644441989699105,
+       0.7006162310794362
+      ],
+      "object_auroc_edgefilt": 0.7140645161290322,
+      "object_auroc_edgefilt_ci": [
+       0.6464675761411643,
+       0.7782225272690166
+      ],
+      "point_auroc": 0.9247896153029189,
+      "point_auroc_ci": [
+       0.909601202835478,
+       0.9329858793378186
+      ],
+      "loc_median_dist_mm": 5.531744705341185,
+      "loc_hit_rate": 0.45161290322580644,
+      "loc_hit_rate_ci": [
+       0.3629032258064516,
+       0.5403225806451613
+      ],
+      "loc_median_rank_frac": 0.0058823529411764705,
+      "n_defective_items": 124
+     },
+     "z_pnpp_nom_mean": {
+      "object_auroc_all": 0.633741935483871,
+      "object_auroc_all_ci": [
+       0.5672239048347426,
+       0.6999479520830498
+      ],
+      "object_auroc_edgefilt": 0.7140645161290322,
+      "object_auroc_edgefilt_ci": [
+       0.6468225917947024,
+       0.7798123875214963
+      ]
+     },
+     "pnpp_nom_rec3": {
+      "object_auroc_all": 0.7485161290322581,
+      "object_auroc_all_ci": [
+       0.6870913005400672,
+       0.8080620191910483
+      ],
+      "object_auroc_edgefilt": 0.8248387096774193,
+      "object_auroc_edgefilt_ci": [
+       0.7676151215155324,
+       0.8763271180180218
+      ],
+      "point_auroc": 0.9476628492218798,
+      "point_auroc_ci": [
+       0.9384630727133126,
+       0.9527748894267172
+      ],
+      "loc_median_dist_mm": 0.12892471734088928,
+      "loc_hit_rate": 0.782258064516129,
+      "loc_hit_rate_ci": [
+       0.7096774193548387,
+       0.8548387096774194
+      ],
+      "loc_median_rank_frac": 0.004081632653061225,
+      "n_defective_items": 124
+     },
+     "z_pnpp_nom_rec3": {
+      "object_auroc_all": 0.7485161290322581,
+      "object_auroc_all_ci": [
+       0.6853036781901253,
+       0.8080200692846702
+      ],
+      "object_auroc_edgefilt": 0.8248387096774193,
+      "object_auroc_edgefilt_ci": [
+       0.7688650692362404,
+       0.8721935964682226
+      ]
+     },
+     "pnpp_cat_rec50": {
+      "object_auroc_all": 0.5658709677419355,
+      "object_auroc_all_ci": [
+       0.4945687855787476,
+       0.6385171979138896
+      ],
+      "object_auroc_edgefilt": 0.5745806451612903,
+      "object_auroc_edgefilt_ci": [
+       0.5029223514639123,
+       0.644143691960317
+      ],
+      "point_auroc": 0.7770099110103943,
+      "point_auroc_ci": [
+       0.7519732717330756,
+       0.8003266527951169
+      ],
+      "loc_median_dist_mm": 10.763815134410233,
+      "loc_hit_rate": 0.29838709677419356,
+      "loc_hit_rate_ci": [
+       0.21774193548387097,
+       0.3870967741935484
+      ],
+      "loc_median_rank_frac": 0.012110472931687644,
+      "n_defective_items": 124
+     },
+     "z_pnpp_cat_rec50": {
+      "object_auroc_all": 0.5658709677419355,
+      "object_auroc_all_ci": [
+       0.4972803605313093,
+       0.6343628360547584
+      ],
+      "object_auroc_edgefilt": 0.5745806451612903,
+      "object_auroc_edgefilt_ci": [
+       0.4986330956690275,
+       0.6463730842892665
+      ]
+     }
+    },
+    "per_category": {
+     "candybar": {
+      "n_items": 50,
+      "n_defective": 25,
+      "dentnet_nom_nn": {
+       "object_auroc": 0.6688000000000001,
+       "point_auroc": 0.9562291416631227
+      },
+      "dentnet_nom_mean": {
+       "object_auroc": 0.6,
+       "point_auroc": 0.9396775378928655
+      },
+      "dentnet_nom_rec3": {
+       "object_auroc": 0.7088,
+       "point_auroc": 0.9649818584422845
+      },
+      "dentnet_cat_rec50": {
+       "object_auroc": 0.5871999999999999,
+       "point_auroc": 0.8626037848863419
+      },
+      "dentnet_pbss_k50": {
+       "object_auroc": 0.5248,
+       "point_auroc": 0.7505543290729495
+      },
+      "pnpp_nom_nn": {
+       "object_auroc": 0.8416000000000001,
+       "point_auroc": 0.9634892733983175
+      },
+      "pnpp_nom_mean": {
+       "object_auroc": 0.7632000000000001,
+       "point_auroc": 0.9606785860237708
+      },
+      "pnpp_nom_rec3": {
+       "object_auroc": 0.8928,
+       "point_auroc": 0.9671864420937897
+      },
+      "pnpp_cat_rec50": {
+       "object_auroc": 0.488,
+       "point_auroc": 0.8272281393997677
+      }
+     },
+     "car": {
+      "n_items": 50,
+      "n_defective": 25,
+      "dentnet_nom_nn": {
+       "object_auroc": 0.6911999999999999,
+       "point_auroc": 0.9266261640562896
+      },
+      "dentnet_nom_mean": {
+       "object_auroc": 0.6928,
+       "point_auroc": 0.9082425984953513
+      },
+      "dentnet_nom_rec3": {
+       "object_auroc": 0.648,
+       "point_auroc": 0.9436805653865876
+      },
+      "dentnet_cat_rec50": {
+       "object_auroc": 0.5344,
+       "point_auroc": 0.7648288911970083
+      },
+      "dentnet_pbss_k50": {
+       "object_auroc": 0.5392,
+       "point_auroc": 0.6237616645713115
+      },
+      "pnpp_nom_nn": {
+       "object_auroc": 0.7024,
+       "point_auroc": 0.9324596613091474
+      },
+      "pnpp_nom_mean": {
+       "object_auroc": 0.5872,
+       "point_auroc": 0.9221880685958505
+      },
+      "pnpp_nom_rec3": {
+       "object_auroc": 0.6991999999999999,
+       "point_auroc": 0.9382370115715594
+      },
+      "pnpp_cat_rec50": {
+       "object_auroc": 0.4032,
+       "point_auroc": 0.7294813876002993
+      }
+     },
+     "fish": {
+      "n_items": 50,
+      "n_defective": 25,
+      "dentnet_nom_nn": {
+       "object_auroc": 0.7824,
+       "point_auroc": 0.9563872772063979
+      },
+      "dentnet_nom_mean": {
+       "object_auroc": 0.752,
+       "point_auroc": 0.9461459013041017
+      },
+      "dentnet_nom_rec3": {
+       "object_auroc": 0.8336,
+       "point_auroc": 0.9704786880051803
+      },
+      "dentnet_cat_rec50": {
+       "object_auroc": 0.5952000000000001,
+       "point_auroc": 0.8481088269749664
+      },
+      "dentnet_pbss_k50": {
+       "object_auroc": 0.5472,
+       "point_auroc": 0.7745977682010422
+      },
+      "pnpp_nom_nn": {
+       "object_auroc": 0.824,
+       "point_auroc": 0.9600224741589154
+      },
+      "pnpp_nom_mean": {
+       "object_auroc": 0.7312,
+       "point_auroc": 0.9530733355806329
+      },
+      "pnpp_nom_rec3": {
+       "object_auroc": 0.9008,
+       "point_auroc": 0.9663007320875148
+      },
+      "pnpp_cat_rec50": {
+       "object_auroc": 0.47200000000000003,
+       "point_auroc": 0.8117838893170614
+      }
+     },
+     "seahorse": {
+      "n_items": 50,
+      "n_defective": 25,
+      "dentnet_nom_nn": {
+       "object_auroc": 0.776,
+       "point_auroc": 0.9271023202272586
+      },
+      "dentnet_nom_mean": {
+       "object_auroc": 0.7583999999999999,
+       "point_auroc": 0.9128613743066264
+      },
+      "dentnet_nom_rec3": {
+       "object_auroc": 0.7056000000000001,
+       "point_auroc": 0.9407922620499867
+      },
+      "dentnet_cat_rec50": {
+       "object_auroc": 0.5088,
+       "point_auroc": 0.6510295477928881
+      },
+      "dentnet_pbss_k50": {
+       "object_auroc": 0.5216000000000001,
+       "point_auroc": 0.5184522371192694
+      },
+      "pnpp_nom_nn": {
+       "object_auroc": 0.5631999999999999,
+       "point_auroc": 0.9047474809909719
+      },
+      "pnpp_nom_mean": {
+       "object_auroc": 0.5824,
+       "point_auroc": 0.9002186965599395
+      },
+      "pnpp_nom_rec3": {
+       "object_auroc": 0.6672,
+       "point_auroc": 0.9206126237480476
+      },
+      "pnpp_cat_rec50": {
+       "object_auroc": 0.7312,
+       "point_auroc": 0.638178323936075
+      }
+     },
+     "toffees": {
+      "n_items": 49,
+      "n_defective": 24,
+      "dentnet_nom_nn": {
+       "object_auroc": 0.8133333333333334,
+       "point_auroc": 0.9363720523422355
+      },
+      "dentnet_nom_mean": {
+       "object_auroc": 0.8200000000000001,
+       "point_auroc": 0.9179080430434117
+      },
+      "dentnet_nom_rec3": {
+       "object_auroc": 0.7833333333333334,
+       "point_auroc": 0.9621884846987592
+      },
+      "dentnet_cat_rec50": {
+       "object_auroc": 0.8483333333333334,
+       "point_auroc": 0.8812123197990737
+      },
+      "dentnet_pbss_k50": {
+       "object_auroc": 0.7033333333333334,
+       "point_auroc": 0.8146679125171273
+      },
+      "pnpp_nom_nn": {
+       "object_auroc": 0.6616666666666667,
+       "point_auroc": 0.9271099564665759
+      },
+      "pnpp_nom_mean": {
+       "object_auroc": 0.7033333333333334,
+       "point_auroc": 0.8979066166342224
+      },
+      "pnpp_nom_rec3": {
+       "object_auroc": 0.7116666666666667,
+       "point_auroc": 0.9445661867452732
+      },
+      "pnpp_cat_rec50": {
+       "object_auroc": 0.8133333333333334,
+       "point_auroc": 0.8700728501398973
+      }
+     }
+    }
+   }
+  }
+ }
+}

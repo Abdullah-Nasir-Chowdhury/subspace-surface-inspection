@@ -1,0 +1,135 @@
+{
+ "proto": "sim",
+ "encoders": {
+  "dentnet_1024": {
+   "delta_norm": 27.062091827392578,
+   "feature_sigma": 2.5451643466949463,
+   "delta_norm_over_feature_sigma": 10.6327486038208,
+   "pbss_k50": {
+    "sigma_val": 2.0853439044817503,
+    "measured_shift_sigma": 2.983399781942824,
+    "measured_shift_max_sigma": 3.2174393183906718,
+    "leak_normal": 9.516637802124023,
+    "leak_dent": 3.6892595291137695,
+    "leak_normal_over_sigma_f": 3.7391054194523696,
+    "leak_dent_over_sigma_f": 1.44951721247569,
+    "bound_sigma": 6.3327191754108885
+   },
+   "nearest_mean": {
+    "sigma_val": 5.949764251708984,
+    "measured_shift_sigma": 3.0568745136260986,
+    "measured_shift_max_sigma": 3.3272011280059814,
+    "bound_sigma": 9.096861886458571
+   },
+   "logistic": {
+    "sigma_val": 11.74693775177002,
+    "measured_shift_sigma": 9.371624946594238,
+    "measured_shift_max_sigma": 9.371631622314453
+   }
+  },
+  "pnpp_r0.3_128": {
+   "delta_norm": 13.89710807800293,
+   "feature_sigma": 3.969376802444458,
+   "delta_norm_over_feature_sigma": 3.5010805130004883,
+   "pbss_k25": {
+    "sigma_val": 0.7544224576450262,
+    "measured_shift_sigma": 2.3317906545093035,
+    "measured_shift_max_sigma": 3.9818026282897425,
+    "leak_normal": 4.195017337799072,
+    "leak_dent": 2.0040221214294434,
+    "leak_normal_over_sigma_f": 1.056845330283499,
+    "leak_dent_over_sigma_f": 0.5048707193016566,
+    "bound_sigma": 8.21693388950692
+   },
+   "nearest_mean": {
+    "sigma_val": 2.5617105960845947,
+    "measured_shift_sigma": 3.392700672149658,
+    "measured_shift_max_sigma": 4.130028247833252,
+    "bound_sigma": 10.849865788308595
+   },
+   "logistic": {
+    "sigma_val": 5.39944314956665,
+    "measured_shift_sigma": 3.2269442081451416,
+    "measured_shift_max_sigma": 3.226944923400879
+   }
+  },
+  "pnpp_r0.6_128": {
+   "delta_norm": 14.782876014709473,
+   "feature_sigma": 4.061787128448486,
+   "delta_norm_over_feature_sigma": 3.639500379562378,
+   "pbss_k25": {
+    "sigma_val": 0.8744688475812135,
+    "measured_shift_sigma": 1.766555602208179,
+    "measured_shift_max_sigma": 3.185063152465383,
+    "leak_normal": 3.725270986557007,
+    "leak_dent": 1.684274673461914,
+    "leak_normal_over_sigma_f": 0.9171507193140322,
+    "leak_dent_over_sigma_f": 0.4146634523669068,
+    "bound_sigma": 6.186093049491425
+   },
+   "nearest_mean": {
+    "sigma_val": 2.6153228282928467,
+    "measured_shift_sigma": 3.5322248935699463,
+    "measured_shift_max_sigma": 4.313046455383301,
+    "bound_sigma": 11.304819316978167
+   },
+   "logistic": {
+    "sigma_val": 6.173696994781494,
+    "measured_shift_sigma": 2.7544260025024414,
+    "measured_shift_max_sigma": 2.754426956176758
+   }
+  },
+  "pnpp_r2.0_128": {
+   "delta_norm": 7.582375526428223,
+   "feature_sigma": 5.875565052032471,
+   "delta_norm_over_feature_sigma": 1.2904930114746094,
+   "pbss_k25": {
+    "sigma_val": 1.009467464190689,
+    "measured_shift_sigma": 0.5604843019931739,
+    "measured_shift_max_sigma": 1.4163998554017867,
+    "leak_normal": 2.5659756660461426,
+    "leak_dent": 1.3789597749710083,
+    "leak_normal_over_sigma_f": 0.4367198121921095,
+    "leak_dent_over_sigma_f": 0.23469398479283277,
+    "bound_sigma": 3.907937185652524
+   },
+   "nearest_mean": {
+    "sigma_val": 1.323997974395752,
+    "measured_shift_sigma": 2.584716796875,
+    "measured_shift_max_sigma": 3.51029372215271,
+    "bound_sigma": 11.453756989150497
+   },
+   "logistic": {
+    "sigma_val": 3.965575695037842,
+    "measured_shift_sigma": 0.9302568435668945,
+    "measured_shift_max_sigma": 0.9302573204040527
+   }
+  },
+  "dinov2_1024": {
+   "delta_norm": 5.509776592254639,
+   "feature_sigma": 0.7037657499313354,
+   "delta_norm_over_feature_sigma": 7.8289923667907715,
+   "pbss_k50": {
+    "sigma_val": 0.22730276704919358,
+    "measured_shift_sigma": 2.9217735401443052,
+    "measured_shift_max_sigma": 3.5634697379604128,
+    "leak_normal": 4.746859550476074,
+    "leak_dent": 4.151599407196045,
+    "leak_normal_over_sigma_f": 6.744942547913439,
+    "leak_dent_over_sigma_f": 5.899121131713366,
+    "bound_sigma": 39.148045020262714
+   },
+   "nearest_mean": {
+    "sigma_val": 0.4918457865715027,
+    "measured_shift_sigma": 1.6658556461334229,
+    "measured_shift_max_sigma": 2.1973495483398438,
+    "bound_sigma": 22.404488328187185
+   },
+   "logistic": {
+    "sigma_val": 12.408092498779297,
+    "measured_shift_sigma": 5.646433353424072,
+    "measured_shift_max_sigma": 5.646437168121338
+   }
+  }
+ }
+}

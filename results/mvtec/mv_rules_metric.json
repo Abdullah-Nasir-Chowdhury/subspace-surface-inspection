@@ -1,0 +1,5733 @@
+{
+ "proto": "metric",
+ "encoders": {
+  "dentnet_1024": {
+   "dim": 1024,
+   "selected": {
+    "sm": {
+     "K": 50,
+     "auc": 0.9898490952685418,
+     "f1": 0.9352263594963836
+    },
+    "gds": {
+     "K": 50,
+     "R": 5,
+     "Q": 25,
+     "auc": 0.9882934428024961,
+     "f1": 0.9263278722738182
+    }
+   },
+   "rules": {
+    "pbss_k50": {
+     "auc_val": 0.9856084966470907,
+     "f1_val": 0.9100097225676623,
+     "sigma_val": 2.0861491797425264,
+     "categories": {
+      "bagel": {
+       "n_test": 110,
+       "n_defective": 88,
+       "n_windows": 17708,
+       "n_defect_windows": 653,
+       "window_auc": 0.8826263826203217,
+       "window_auc_ci": [
+        0.866073725667744,
+        0.8979319028799113
+       ],
+       "image_auroc": 0.49586776859504134,
+       "image_auroc_ci": [
+        0.35738362760834674,
+        0.6271476992440258
+       ],
+       "pixel_auroc": 0.8212874924737467,
+       "good_flagged": 0.9327641408751334,
+       "defective_flagged": 0.9311891779971012
+      },
+      "cable_gland": {
+       "n_test": 108,
+       "n_defective": 87,
+       "n_windows": 1275,
+       "n_defect_windows": 129,
+       "window_auc": 0.327685106267841,
+       "window_auc_ci": [
+        0.262086447371496,
+        0.3958509634709308
+       ],
+       "image_auroc": 0.5511767925561029,
+       "image_auroc_ci": [
+        0.4106770833333333,
+        0.6943801285014213
+       ],
+       "pixel_auroc": 0.4059946368142022,
+       "good_flagged": 0.9894366197183099,
+       "defective_flagged": 0.994142259414226
+      },
+      "carrot": {
+       "n_test": 159,
+       "n_defective": 132,
+       "n_windows": 100810,
+       "n_defect_windows": 484,
+       "window_auc": 0.9590037098892322,
+       "window_auc_ci": [
+        0.9562937175348453,
+        0.9615379857281934
+       ],
+       "image_auroc": 0.4609988776655443,
+       "image_auroc_ci": [
+        0.34110992002552804,
+        0.5788348255405124
+       ],
+       "pixel_auroc": 0.9414620743751655,
+       "good_flagged": 0.5415722503050375,
+       "defective_flagged": 0.591179579765058
+      },
+      "cookie": {
+       "n_test": 131,
+       "n_defective": 103,
+       "n_windows": 8783,
+       "n_defect_windows": 631,
+       "window_auc": 0.9120192958199907,
+       "window_auc_ci": [
+        0.8998394232172291,
+        0.9230451242783158
+       ],
+       "image_auroc": 0.3949375866851595,
+       "image_auroc_ci": [
+        0.2667317787352834,
+        0.5344471583462409
+       ],
+       "pixel_auroc": 0.8638829486860724,
+       "good_flagged": 0.9068085106382979,
+       "defective_flagged": 0.9883539269990058
+      },
+      "dowel": {
+       "n_test": 130,
+       "n_defective": 104,
+       "n_windows": 17269,
+       "n_defect_windows": 188,
+       "window_auc": 0.9103838157863596,
+       "window_auc_ci": [
+        0.8996689010434195,
+        0.9197595231289207
+       ],
+       "image_auroc": 0.4796597633136095,
+       "image_auroc_ci": [
+        0.3687214633587942,
+        0.5982564042486723
+       ],
+       "pixel_auroc": 0.8850928231813535,
+       "good_flagged": 0.6443284811864872,
+       "defective_flagged": 0.6176183844011142
+      },
+      "foam": {
+       "n_test": 100,
+       "n_defective": 80,
+       "n_windows": 87809,
+       "n_defect_windows": 511,
+       "window_auc": 0.8631599910673291,
+       "window_auc_ci": [
+        0.8566141127996545,
+        0.8691566705966199
+       ],
+       "image_auroc": 0.65375,
+       "image_auroc_ci": [
+        0.520871722182849,
+        0.7838862984218078
+       ],
+       "pixel_auroc": 0.8171557549206347,
+       "good_flagged": 0.3812920899440703,
+       "defective_flagged": 0.380639775894512
+      },
+      "peach": {
+       "n_test": 132,
+       "n_defective": 106,
+       "n_windows": 6426,
+       "n_defect_windows": 425,
+       "window_auc": 0.7404565905682386,
+       "window_auc_ci": [
+        0.7184933754347382,
+        0.7614661097216588
+       ],
+       "image_auroc": 0.43287373004354135,
+       "image_auroc_ci": [
+        0.316274688673014,
+        0.5498372058366162
+       ],
+       "pixel_auroc": 0.6533805568429039,
+       "good_flagged": 0.952146375791696,
+       "defective_flagged": 0.9619202310052337
+      },
+      "potato": {
+       "n_test": 114,
+       "n_defective": 92,
+       "n_windows": 44246,
+       "n_defect_windows": 574,
+       "window_auc": 0.9630650212895241,
+       "window_auc_ci": [
+        0.959621430732957,
+        0.9661496878778809
+       ],
+       "image_auroc": 0.5074110671936759,
+       "image_auroc_ci": [
+        0.37778915637300725,
+        0.6327265597365904
+       ],
+       "pixel_auroc": 0.9340396694455738,
+       "good_flagged": 0.6054227012462109,
+       "defective_flagged": 0.5372555067211556
+      },
+      "rope": {
+       "n_test": 101,
+       "n_defective": 69,
+       "n_windows": 39510,
+       "n_defect_windows": 329,
+       "window_auc": 0.8910591395292784,
+       "window_auc_ci": [
+        0.8811685976180761,
+        0.899881632719033
+       ],
+       "image_auroc": 0.5276268115942029,
+       "image_auroc_ci": [
+        0.42135909346846845,
+        0.6360286847255124
+       ],
+       "pixel_auroc": 0.8848636087700875,
+       "good_flagged": 0.6717810819360962,
+       "defective_flagged": 0.6990046109931933
+      },
+      "tire": {
+       "n_test": 112,
+       "n_defective": 87,
+       "n_windows": 45158,
+       "n_defect_windows": 400,
+       "window_auc": 0.9171300102774923,
+       "window_auc_ci": [
+        0.9117617158652093,
+        0.9223114953014401
+       ],
+       "image_auroc": 0.44275862068965516,
+       "image_auroc_ci": [
+        0.3246625801187139,
+        0.5764841108857336
+       ],
+       "pixel_auroc": 0.8773844979429796,
+       "good_flagged": 0.5718186250609458,
+       "defective_flagged": 0.5849275526375368
+      }
+     },
+     "shift_of_margin_in_sigma": 4.750228978749094,
+     "flagged_synthetic_bg_before": 0.003909348905300521,
+     "flagged_synthetic_bg_after_shift": 1.0,
+     "train_good_flagged": 0.5749122307619319,
+     "delta_energy_in_normal_subspace": 0.8477140665054321,
+     "delta_energy_in_dent_subspace": 0.9774314761161804
+    },
+    "nearest_mean": {
+     "auc_val": 0.9535837354634735,
+     "f1_val": 0.7140101374273284,
+     "sigma_val": 5.949764251708984,
+     "categories": {
+      "bagel": {
+       "n_test": 110,
+       "n_defective": 88,
+       "n_windows": 17708,
+       "n_defect_windows": 653,
+       "window_auc": 0.849448972179459,
+       "window_auc_ci": [
+        0.833776904469313,
+        0.8645341817008918
+       ],
+       "image_auroc": 0.5382231404958677,
+       "image_auroc_ci": [
+        0.39846420704440816,
+        0.6673659320477503
+       ],
+       "pixel_auroc": 0.8081437586055721,
+       "good_flagged": 0.8105656350053362,
+       "defective_flagged": 0.8260059355373042
+      },
+      "cable_gland": {
+       "n_test": 108,
+       "n_defective": 87,
+       "n_windows": 1275,
+       "n_defect_windows": 129,
+       "window_auc": 0.349933032996469,
+       "window_auc_ci": [
+        0.2853463191676036,
+        0.4242329895847253
+       ],
+       "image_auroc": 0.488232074438971,
+       "image_auroc_ci": [
+        0.3606803774646262,
+        0.6230504715473146
+       ],
+       "pixel_auroc": 0.44791213434920457,
+       "good_flagged": 0.9577464788732394,
+       "defective_flagged": 0.9757322175732217
+      },
+      "carrot": {
+       "n_test": 159,
+       "n_defective": 132,
+       "n_windows": 100810,
+       "n_defect_windows": 484,
+       "window_auc": 0.9745192449474218,
+       "window_auc_ci": [
+        0.9723052596662298,
+        0.9766577999878563
+       ],
+       "image_auroc": 0.7278338945005611,
+       "image_auroc_ci": [
+        0.637630339809093,
+        0.812350469872858
+       ],
+       "pixel_auroc": 0.9661854048602996,
+       "good_flagged": 0.24025332636104818,
+       "defective_flagged": 0.2712760271287905
+      },
+      "cookie": {
+       "n_test": 131,
+       "n_defective": 103,
+       "n_windows": 8783,
+       "n_defect_windows": 631,
+       "window_auc": 0.8238246494107986,
+       "window_auc_ci": [
+        0.8113914279490578,
+        0.8362927805058817
+       ],
+       "image_auroc": 0.5235783633841886,
+       "image_auroc_ci": [
+        0.40095466277396974,
+        0.6641441589811155
+       ],
+       "pixel_auroc": 0.7662049654865434,
+       "good_flagged": 0.8489361702127659,
+       "defective_flagged": 0.970032665814515
+      },
+      "dowel": {
+       "n_test": 130,
+       "n_defective": 104,
+       "n_windows": 17269,
+       "n_defect_windows": 188,
+       "window_auc": 0.9078291855950434,
+       "window_auc_ci": [
+        0.8991505736405405,
+        0.9168029994220905
+       ],
+       "image_auroc": 0.5196005917159763,
+       "image_auroc_ci": [
+        0.3914327422627908,
+        0.6540188728702491
+       ],
+       "pixel_auroc": 0.8926195502931591,
+       "good_flagged": 0.3776435045317221,
+       "defective_flagged": 0.34289693593314763
+      },
+      "foam": {
+       "n_test": 100,
+       "n_defective": 80,
+       "n_windows": 87809,
+       "n_defect_windows": 511,
+       "window_auc": 0.8514430675161342,
+       "window_auc_ci": [
+        0.8437976574286162,
+        0.8590821123260839
+       ],
+       "image_auroc": 0.506875,
+       "image_auroc_ci": [
+        0.3638238753712986,
+        0.6653316857088837
+       ],
+       "pixel_auroc": 0.8170748555222005,
+       "good_flagged": 0.3359776281246433,
+       "defective_flagged": 0.3356913456232934
+      },
+      "peach": {
+       "n_test": 132,
+       "n_defective": 106,
+       "n_windows": 6426,
+       "n_defect_windows": 425,
+       "window_auc": 0.7252183459619476,
+       "window_auc_ci": [
+        0.7040580021724834,
+        0.7448927498654704
+       ],
+       "image_auroc": 0.6090348330914369,
+       "image_auroc_ci": [
+        0.5001944555245313,
+        0.7140134321430858
+       ],
+       "pixel_auroc": 0.6711965165733751,
+       "good_flagged": 0.8550316678395496,
+       "defective_flagged": 0.8846778559826746
+      },
+      "potato": {
+       "n_test": 114,
+       "n_defective": 92,
+       "n_windows": 44246,
+       "n_defect_windows": 574,
+       "window_auc": 0.9725280448232085,
+       "window_auc_ci": [
+        0.969541830241263,
+        0.9750723953682439
+       ],
+       "image_auroc": 0.5523715415019763,
+       "image_auroc_ci": [
+        0.4087906746031746,
+        0.6996717171717172
+       ],
+       "pixel_auroc": 0.9648561510038536,
+       "good_flagged": 0.29488043112158974,
+       "defective_flagged": 0.2367440306371604
+      },
+      "rope": {
+       "n_test": 101,
+       "n_defective": 69,
+       "n_windows": 39510,
+       "n_defect_windows": 329,
+       "window_auc": 0.8943278521341488,
+       "window_auc_ci": [
+        0.8843930189931004,
+        0.9049427694134546
+       ],
+       "image_auroc": 0.5321557971014492,
+       "image_auroc_ci": [
+        0.41195419621868967,
+        0.6594947318007662
+       ],
+       "pixel_auroc": 0.8632676347000993,
+       "good_flagged": 0.4359379943055995,
+       "defective_flagged": 0.45436580546000144
+      },
+      "tire": {
+       "n_test": 112,
+       "n_defective": 87,
+       "n_windows": 45158,
+       "n_defect_windows": 400,
+       "window_auc": 0.9431175432324947,
+       "window_auc_ci": [
+        0.9383409309144227,
+        0.9476728779545899
+       ],
+       "image_auroc": 0.47954022988505746,
+       "image_auroc_ci": [
+        0.3585731145906638,
+        0.5896286925761941
+       ],
+       "pixel_auroc": 0.9402352107324514,
+       "good_flagged": 0.26796684544124816,
+       "defective_flagged": 0.27159270998415214
+      }
+     },
+     "shift_of_margin_in_sigma": 3.076319932937622,
+     "flagged_synthetic_bg_before": 0.004931668179699193,
+     "flagged_synthetic_bg_after_shift": 1.0,
+     "train_good_flagged": 0.3776133092956321
+    },
+    "logistic": {
+     "auc_val": 0.9922011452375171,
+     "f1_val": 0.9515557559750049,
+     "sigma_val": 11.74693775177002,
+     "categories": {
+      "bagel": {
+       "n_test": 110,
+       "n_defective": 88,
+       "n_windows": 17708,
+       "n_defect_windows": 653,
+       "window_auc": 0.8801625943988978,
+       "window_auc_ci": [
+        0.8618494574699112,
+        0.8970007020146151
+       ],
+       "image_auroc": 0.5036157024793388,
+       "image_auroc_ci": [
+        0.37919165417291356,
+        0.6207166239664654
+       ],
+       "pixel_auroc": 0.8155987646135832,
+       "good_flagged": 0.9978655282817502,
+       "defective_flagged": 0.9982745531092553
+      },
+      "cable_gland": {
+       "n_test": 108,
+       "n_defective": 87,
+       "n_windows": 1275,
+       "n_defect_windows": 129,
+       "window_auc": 0.34283723635970076,
+       "window_auc_ci": [
+        0.2741166133985767,
+        0.41358058284088306
+       ],
+       "image_auroc": 0.5500821018062397,
+       "image_auroc_ci": [
+        0.4067216824286393,
+        0.693268293597241
+       ],
+       "pixel_auroc": 0.4177140290307499,
+       "good_flagged": 1.0,
+       "defective_flagged": 1.0
+      },
+      "carrot": {
+       "n_test": 159,
+       "n_defective": 132,
+       "n_windows": 100810,
+       "n_defect_windows": 484,
+       "window_auc": 0.9578716153933219,
+       "window_auc_ci": [
+        0.9547072223375195,
+        0.9608877682273933
+       ],
+       "image_auroc": 0.4551066217732884,
+       "image_auroc_ci": [
+        0.3440988466536712,
+        0.5709900506096158
+       ],
+       "pixel_auroc": 0.9408371392502088,
+       "good_flagged": 0.9920980768113415,
+       "defective_flagged": 0.9943224335142711
+      },
+      "cookie": {
+       "n_test": 131,
+       "n_defective": 103,
+       "n_windows": 8783,
+       "n_defect_windows": 631,
+       "window_auc": 0.9123631975041564,
+       "window_auc_ci": [
+        0.8972949209334672,
+        0.9256188624743478
+       ],
+       "image_auroc": 0.3776005547850208,
+       "image_auroc_ci": [
+        0.2437186214198598,
+        0.5102358490566037
+       ],
+       "pixel_auroc": 0.8601179938693353,
+       "good_flagged": 0.997872340425532,
+       "defective_flagged": 0.9997159494390001
+      },
+      "dowel": {
+       "n_test": 130,
+       "n_defective": 104,
+       "n_windows": 17269,
+       "n_defect_windows": 188,
+       "window_auc": 0.9092540299225094,
+       "window_auc_ci": [
+        0.8970206617982055,
+        0.920133965534517
+       ],
+       "image_auroc": 0.4093934911242604,
+       "image_auroc_ci": [
+        0.2931285301237224,
+        0.5241042707719047
+       ],
+       "pixel_auroc": 0.886687189844191,
+       "good_flagged": 0.99423235374897,
+       "defective_flagged": 0.9959610027855154
+      },
+      "foam": {
+       "n_test": 100,
+       "n_defective": 80,
+       "n_windows": 87809,
+       "n_defect_windows": 511,
+       "window_auc": 0.8591323199626768,
+       "window_auc_ci": [
+        0.8517457088837687,
+        0.8660526601692481
+       ],
+       "image_auroc": 0.655,
+       "image_auroc_ci": [
+        0.5291800872247634,
+        0.7739536665569842
+       ],
+       "pixel_auroc": 0.809489546040016,
+       "good_flagged": 0.8955027964844195,
+       "defective_flagged": 0.8978226114514509
+      },
+      "peach": {
+       "n_test": 132,
+       "n_defective": 106,
+       "n_windows": 6426,
+       "n_defect_windows": 425,
+       "window_auc": 0.7496107511493183,
+       "window_auc_ci": [
+        0.7252935727412227,
+        0.7734058057979668
+       ],
+       "image_auroc": 0.4426705370101596,
+       "image_auroc_ci": [
+        0.32835511982570803,
+        0.560626964017589
+       ],
+       "pixel_auroc": 0.6743976615780188,
+       "good_flagged": 1.0,
+       "defective_flagged": 1.0
+      },
+      "potato": {
+       "n_test": 114,
+       "n_defective": 92,
+       "n_windows": 44246,
+       "n_defect_windows": 574,
+       "window_auc": 0.9615963999609378,
+       "window_auc_ci": [
+        0.9576353797250965,
+        0.965112727191891
+       ],
+       "image_auroc": 0.5098814229249012,
+       "image_auroc_ci": [
+        0.3707421654432524,
+        0.6391825661034746
+       ],
+       "pixel_auroc": 0.9309757833186867,
+       "good_flagged": 0.9962950488379926,
+       "defective_flagged": 0.9928290538977562
+      },
+      "rope": {
+       "n_test": 101,
+       "n_defective": 69,
+       "n_windows": 39510,
+       "n_defect_windows": 329,
+       "window_auc": 0.8823561354912036,
+       "window_auc_ci": [
+        0.8721851280503113,
+        0.8924757906111446
+       ],
+       "image_auroc": 0.7622282608695652,
+       "image_auroc_ci": [
+        0.66941829004329,
+        0.8452700765999506
+       ],
+       "pixel_auroc": 0.8692504277211875,
+       "good_flagged": 0.9897184435305283,
+       "defective_flagged": 0.991839273951548
+      },
+      "tire": {
+       "n_test": 112,
+       "n_defective": 87,
+       "n_windows": 45158,
+       "n_defect_windows": 400,
+       "window_auc": 0.9138650632289199,
+       "window_auc_ci": [
+        0.9085302605608169,
+        0.9189460662703283
+       ],
+       "image_auroc": 0.4772413793103448,
+       "image_auroc_ci": [
+        0.3532598402503294,
+        0.6105083664208735
+       ],
+       "pixel_auroc": 0.8776510765853471,
+       "good_flagged": 0.9955143832276938,
+       "defective_flagged": 0.995556939098936
+      }
+     },
+     "shift_of_margin_in_sigma": 14.903779983520508,
+     "flagged_synthetic_bg_before": 0.008963695397927554,
+     "flagged_synthetic_bg_after_shift": 1.0,
+     "train_good_flagged": 0.9672960748964164
+    },
+    "sm_k50": {
+     "auc_val": 0.9855551917647694,
+     "f1_val": 0.9282416396979504,
+     "sigma_val": 0.029168741581499555,
+     "categories": {
+      "bagel": {
+       "n_test": 110,
+       "n_defective": 88,
+       "n_windows": 17708,
+       "n_defect_windows": 653,
+       "window_auc": 0.883619206934775,
+       "window_auc_ci": [
+        0.8664439056540266,
+        0.9005646213161995
+       ],
+       "image_auroc": 0.7241735537190083,
+       "image_auroc_ci": [
+        0.5996691729323308,
+        0.8314837714716188
+       ],
+       "pixel_auroc": 0.8847939396847938,
+       "good_flagged": 0.9573105656350054,
+       "defective_flagged": 0.95437918420871
+      },
+      "cable_gland": {
+       "n_test": 108,
+       "n_defective": 87,
+       "n_windows": 1275,
+       "n_defect_windows": 129,
+       "window_auc": 0.3222803955788249,
+       "window_auc_ci": [
+        0.2609196907354305,
+        0.3858969829771277
+       ],
+       "image_auroc": 0.47071702244116037,
+       "image_auroc_ci": [
+        0.33606442577030815,
+        0.6102579179223429
+       ],
+       "pixel_auroc": 0.3959435412319048,
+       "good_flagged": 0.9964788732394366,
+       "defective_flagged": 1.0
+      },
+      "carrot": {
+       "n_test": 159,
+       "n_defective": 132,
+       "n_windows": 100810,
+       "n_defect_windows": 484,
+       "window_auc": 0.9597506344193961,
+       "window_auc_ci": [
+        0.9571068612789317,
+        0.9622112376876234
+       ],
+       "image_auroc": 0.3658810325476992,
+       "image_auroc_ci": [
+        0.2585260025062657,
+        0.49470265305119315
+       ],
+       "pixel_auroc": 0.9425154859928608,
+       "good_flagged": 0.6427865899715298,
+       "defective_flagged": 0.6928056443087741
+      },
+      "cookie": {
+       "n_test": 131,
+       "n_defective": 103,
+       "n_windows": 8783,
+       "n_defect_windows": 631,
+       "window_auc": 0.8840396180961105,
+       "window_auc_ci": [
+        0.8724530995918173,
+        0.8954135622315893
+       ],
+       "image_auroc": 0.7128987517337032,
+       "image_auroc_ci": [
+        0.5949983169053268,
+        0.8030828373015872
+       ],
+       "pixel_auroc": 0.8683348935716403,
+       "good_flagged": 0.9340425531914893,
+       "defective_flagged": 0.9947450646215026
+      },
+      "dowel": {
+       "n_test": 130,
+       "n_defective": 104,
+       "n_windows": 17269,
+       "n_defect_windows": 188,
+       "window_auc": 0.9095660600866708,
+       "window_auc_ci": [
+        0.8994448971131156,
+        0.9186200316431813
+       ],
+       "image_auroc": 0.6050295857988166,
+       "image_auroc_ci": [
+        0.4874449376524803,
+        0.7182191366325981
+       ],
+       "pixel_auroc": 0.8940519436855207,
+       "good_flagged": 0.7275473770942049,
+       "defective_flagged": 0.6979108635097493
+      },
+      "foam": {
+       "n_test": 100,
+       "n_defective": 80,
+       "n_windows": 87809,
+       "n_defect_windows": 511,
+       "window_auc": 0.8599692646897357,
+       "window_auc_ci": [
+        0.8531501474440621,
+        0.8661856142880054
+       ],
+       "image_auroc": 0.509375,
+       "image_auroc_ci": [
+        0.34122296022067367,
+        0.6932262780323125
+       ],
+       "pixel_auroc": 0.8285848897768088,
+       "good_flagged": 0.4131948407716014,
+       "defective_flagged": 0.41353404733945476
+      },
+      "peach": {
+       "n_test": 132,
+       "n_defective": 106,
+       "n_windows": 6426,
+       "n_defect_windows": 425,
+       "window_auc": 0.7253057823696051,
+       "window_auc_ci": [
+        0.7030927776204443,
+        0.7466116440349179
+       ],
+       "image_auroc": 0.5243105950653121,
+       "image_auroc_ci": [
+        0.3763831775700935,
+        0.6493055555555556
+       ],
+       "pixel_auroc": 0.6772279522502759,
+       "good_flagged": 0.971850809289233,
+       "defective_flagged": 0.9756361667569031
+      },
+      "potato": {
+       "n_test": 114,
+       "n_defective": 92,
+       "n_windows": 44246,
+       "n_defect_windows": 574,
+       "window_auc": 0.9666997344155003,
+       "window_auc_ci": [
+        0.963375490602267,
+        0.9696351716799071
+       ],
+       "image_auroc": 0.5340909090909091,
+       "image_auroc_ci": [
+        0.40908524301183585,
+        0.6564739608217869
+       ],
+       "pixel_auroc": 0.9617169473846445,
+       "good_flagged": 0.7071404513304143,
+       "defective_flagged": 0.6386511424679363
+      },
+      "rope": {
+       "n_test": 101,
+       "n_defective": 69,
+       "n_windows": 39510,
+       "n_defect_windows": 329,
+       "window_auc": 0.8671407245727083,
+       "window_auc_ci": [
+        0.8565016201954223,
+        0.8766266724232854
+       ],
+       "image_auroc": 0.5194746376811594,
+       "image_auroc_ci": [
+        0.40712182971014493,
+        0.6287692307692307
+       ],
+       "pixel_auroc": 0.8495030794798549,
+       "good_flagged": 0.7514236001265422,
+       "defective_flagged": 0.7820756788406645
+      },
+      "tire": {
+       "n_test": 112,
+       "n_defective": 87,
+       "n_windows": 45158,
+       "n_defect_windows": 400,
+       "window_auc": 0.9311382322713257,
+       "window_auc_ci": [
+        0.9269524329023686,
+        0.9352793447254323
+       ],
+       "image_auroc": 0.5057471264367817,
+       "image_auroc_ci": [
+        0.3742341897233202,
+        0.6444446929039953
+       ],
+       "pixel_auroc": 0.912137903905743,
+       "good_flagged": 0.674305216967333,
+       "defective_flagged": 0.6835804844917365
+      }
+     },
+     "shift_of_margin_in_sigma": 4.566691672685009,
+     "flagged_synthetic_bg_before": 0.015923645018033714,
+     "flagged_synthetic_bg_after_shift": 1.0,
+     "train_good_flagged": 0.645001106999399
+    },
+    "gds_k50_r5_q25": {
+     "auc_val": 0.9840455852901705,
+     "f1_val": 0.9180362146112993,
+     "sigma_val": 0.21859669883677452,
+     "categories": {
+      "bagel": {
+       "n_test": 110,
+       "n_defective": 88,
+       "n_windows": 17708,
+       "n_defect_windows": 653,
+       "window_auc": 0.8389965264168757,
+       "window_auc_ci": [
+        0.8187377865796122,
+        0.8599890648668406
+       ],
+       "image_auroc": 0.6079545454545454,
+       "image_auroc_ci": [
+        0.4907327206841923,
+        0.7325150191356141
+       ],
+       "pixel_auroc": 0.8371992673567678,
+       "good_flagged": 0.9567769477054429,
+       "defective_flagged": 0.9533439160742633
+      },
+      "cable_gland": {
+       "n_test": 108,
+       "n_defective": 87,
+       "n_windows": 1275,
+       "n_defect_windows": 129,
+       "window_auc": 0.33502441928108556,
+       "window_auc_ci": [
+        0.27393575219068356,
+        0.401779910305234
+       ],
+       "image_auroc": 0.3968253968253968,
+       "image_auroc_ci": [
+        0.26597359258003883,
+        0.5350572904557079
+       ],
+       "pixel_auroc": 0.42785713333065056,
+       "good_flagged": 1.0,
+       "defective_flagged": 0.999163179916318
+      },
+      "carrot": {
+       "n_test": 159,
+       "n_defective": 132,
+       "n_windows": 100810,
+       "n_defect_windows": 484,
+       "window_auc": 0.968338958795978,
+       "window_auc_ci": [
+        0.9650587427774424,
+        0.9711513121319386
+       ],
+       "image_auroc": 0.4388327721661055,
+       "image_auroc_ci": [
+        0.31780054695466764,
+        0.566325576944597
+       ],
+       "pixel_auroc": 0.9568606524624718,
+       "good_flagged": 0.6250072627970484,
+       "defective_flagged": 0.6797757480015678
+      },
+      "cookie": {
+       "n_test": 131,
+       "n_defective": 103,
+       "n_windows": 8783,
+       "n_defect_windows": 631,
+       "window_auc": 0.8173897609445885,
+       "window_auc_ci": [
+        0.7985882053275534,
+        0.8339246606970726
+       ],
+       "image_auroc": 0.5915395284327323,
+       "image_auroc_ci": [
+        0.46774611500105845,
+        0.6933085961657389
+       ],
+       "pixel_auroc": 0.7798976590173474,
+       "good_flagged": 0.936595744680851,
+       "defective_flagged": 0.9941769634995029
+      },
+      "dowel": {
+       "n_test": 130,
+       "n_defective": 104,
+       "n_windows": 17269,
+       "n_defect_windows": 188,
+       "window_auc": 0.9168240311805951,
+       "window_auc_ci": [
+        0.9078740340960878,
+        0.9254507778462732
+       ],
+       "image_auroc": 0.5887573964497042,
+       "image_auroc_ci": [
+        0.45774846768657446,
+        0.7123795685727121
+       ],
+       "pixel_auroc": 0.9053688900336704,
+       "good_flagged": 0.7176599835210107,
+       "defective_flagged": 0.6841225626740947
+      },
+      "foam": {
+       "n_test": 100,
+       "n_defective": 80,
+       "n_windows": 87809,
+       "n_defect_windows": 511,
+       "window_auc": 0.8490811709617896,
+       "window_auc_ci": [
+        0.8391323062453723,
+        0.8576775459968866
+       ],
+       "image_auroc": 0.398125,
+       "image_auroc_ci": [
+        0.25972674242424243,
+        0.5516569200779727
+       ],
+       "pixel_auroc": 0.8285672536577057,
+       "good_flagged": 0.4079442985960507,
+       "defective_flagged": 0.4095584386185821
+      },
+      "peach": {
+       "n_test": 132,
+       "n_defective": 106,
+       "n_windows": 6426,
+       "n_defect_windows": 425,
+       "window_auc": 0.6974406226413244,
+       "window_auc_ci": [
+        0.6740894088309057,
+        0.7196203625866591
+       ],
+       "image_auroc": 0.5043541364296081,
+       "image_auroc_ci": [
+        0.37428335748479047,
+        0.6238432079782723
+       ],
+       "pixel_auroc": 0.6650978657007739,
+       "good_flagged": 0.9669247009148487,
+       "defective_flagged": 0.9711243457859592
+      },
+      "potato": {
+       "n_test": 114,
+       "n_defective": 92,
+       "n_windows": 44246,
+       "n_defect_windows": 574,
+       "window_auc": 0.9715249822401136,
+       "window_auc_ci": [
+        0.9678703068616435,
+        0.9746510136381855
+       ],
+       "image_auroc": 0.6457509881422925,
+       "image_auroc_ci": [
+        0.51189135118498,
+        0.7737401691731985
+       ],
+       "pixel_auroc": 0.9726200536478236,
+       "good_flagged": 0.6923206466823847,
+       "defective_flagged": 0.6234096692111959
+      },
+      "rope": {
+       "n_test": 101,
+       "n_defective": 69,
+       "n_windows": 39510,
+       "n_defect_windows": 329,
+       "window_auc": 0.8937741131118621,
+       "window_auc_ci": [
+        0.8823583083085956,
+        0.903623588650196
+       ],
+       "image_auroc": 0.7273550724637681,
+       "image_auroc_ci": [
+        0.622538065382893,
+        0.8277904678161527
+       ],
+       "pixel_auroc": 0.8678301164630007,
+       "good_flagged": 0.7473109775387535,
+       "defective_flagged": 0.7717924321159335
+      },
+      "tire": {
+       "n_test": 112,
+       "n_defective": 87,
+       "n_windows": 45158,
+       "n_defect_windows": 400,
+       "window_auc": 0.9401274632467939,
+       "window_auc_ci": [
+        0.935917505659808,
+        0.9441853084677716
+       ],
+       "image_auroc": 0.44413793103448274,
+       "image_auroc_ci": [
+        0.32023452844635303,
+        0.5908657182444431
+       ],
+       "pixel_auroc": 0.9348536999972449,
+       "good_flagged": 0.6603607996099463,
+       "defective_flagged": 0.665185646366312
+      }
+     },
+     "shift_of_margin_in_sigma": 2.7133774216635502,
+     "flagged_synthetic_bg_before": 0.03285325220207572,
+     "flagged_synthetic_bg_after_shift": 1.0,
+     "train_good_flagged": 0.636493025903786,
+     "delta_u_energy_in_removed_principal": 0.6581591333203795,
+     "delta_u_energy_in_gds": 0.3250849423035043,
+     "delta_u_energy_outside_sumspace": 0.01675592437611617
+    }
+   },
+   "delta_norm_over_bg_feature_std": 15.538898468017578
+  },
+  "pnpp_r0.3_128": {
+   "dim": 128,
+   "selected": {
+    "sm": {
+     "K": 10,
+     "auc": 0.8838725668820415,
+     "f1": 0.7342262056322248
+    },
+    "gds": {
+     "K": 25,
+     "R": 1,
+     "Q": 5,
+     "auc": 0.9019058303549917,
+     "f1": 0.700484368119771
+    }
+   },
+   "rules": {
+    "pbss_k25": {
+     "auc_val": 0.8753635210250998,
+     "f1_val": 0.7174472666764548,
+     "sigma_val": 0.7544224576450262,
+     "categories": {
+      "bagel": {
+       "n_test": 110,
+       "n_defective": 88,
+       "n_windows": 17708,
+       "n_defect_windows": 653,
+       "window_auc": 0.8763147604161475,
+       "window_auc_ci": [
+        0.8647279105982519,
+        0.8869216264069115
+       ],
+       "image_auroc": 0.5542355371900827,
+       "image_auroc_ci": [
+        0.42328667127110603,
+        0.6795399114484504
+       ],
+       "pixel_auroc": 0.7670708154577762,
+       "good_flagged": 0.652614727854856,
+       "defective_flagged": 0.6823107184760853
+      },
+      "cable_gland": {
+       "n_test": 108,
+       "n_defective": 87,
+       "n_windows": 1275,
+       "n_defect_windows": 129,
+       "window_auc": 0.3320684010444147,
+       "window_auc_ci": [
+        0.27055288824444795,
+        0.3981742804540658
+       ],
+       "image_auroc": 0.5599343185550082,
+       "image_auroc_ci": [
+        0.4136468684131286,
+        0.7003284160141428
+       ],
+       "pixel_auroc": 0.40404053463523726,
+       "good_flagged": 0.8943661971830986,
+       "defective_flagged": 0.9288702928870293
+      },
+      "carrot": {
+       "n_test": 159,
+       "n_defective": 132,
+       "n_windows": 100810,
+       "n_defect_windows": 484,
+       "window_auc": 0.9662155505284179,
+       "window_auc_ci": [
+        0.9630422359798159,
+        0.9692616732917022
+       ],
+       "image_auroc": 0.45286195286195285,
+       "image_auroc_ci": [
+        0.3391894596002652,
+        0.5680045099879113
+       ],
+       "pixel_auroc": 0.9559183172058291,
+       "good_flagged": 0.20237057695659752,
+       "defective_flagged": 0.20567519093489803
+      },
+      "cookie": {
+       "n_test": 131,
+       "n_defective": 103,
+       "n_windows": 8783,
+       "n_defect_windows": 631,
+       "window_auc": 0.870544441662299,
+       "window_auc_ci": [
+        0.8555619616838426,
+        0.8840026070744863
+       ],
+       "image_auroc": 0.3460471567267684,
+       "image_auroc_ci": [
+        0.2451933911646716,
+        0.4540940216292702
+       ],
+       "pixel_auroc": 0.7343595145429963,
+       "good_flagged": 0.7638297872340426,
+       "defective_flagged": 0.8845334469535577
+      },
+      "dowel": {
+       "n_test": 130,
+       "n_defective": 104,
+       "n_windows": 17269,
+       "n_defect_windows": 188,
+       "window_auc": 0.9145959115951904,
+       "window_auc_ci": [
+        0.904403346590314,
+        0.9245879603287599
+       ],
+       "image_auroc": 0.46523668639053256,
+       "image_auroc_ci": [
+        0.344587785717666,
+        0.6034329472329473
+       ],
+       "pixel_auroc": 0.9104261914991201,
+       "good_flagged": 0.3823125514968415,
+       "defective_flagged": 0.3610724233983287
+      },
+      "foam": {
+       "n_test": 100,
+       "n_defective": 80,
+       "n_windows": 87809,
+       "n_defect_windows": 511,
+       "window_auc": 0.8597323408820918,
+       "window_auc_ci": [
+        0.8527776422573541,
+        0.8666968475773474
+       ],
+       "image_auroc": 0.448125,
+       "image_auroc_ci": [
+        0.3170890188434048,
+        0.578140625
+       ],
+       "pixel_auroc": 0.8282687697973918,
+       "good_flagged": 0.37164707225202603,
+       "defective_flagged": 0.3711039741939135
+      },
+      "peach": {
+       "n_test": 132,
+       "n_defective": 106,
+       "n_windows": 6426,
+       "n_defect_windows": 425,
+       "window_auc": 0.7549222188458786,
+       "window_auc_ci": [
+        0.7347630565772625,
+        0.7740263901521724
+       ],
+       "image_auroc": 0.3581277213352685,
+       "image_auroc_ci": [
+        0.23048806907909317,
+        0.49581219875337523
+       ],
+       "pixel_auroc": 0.6189705806363389,
+       "good_flagged": 0.6868402533427164,
+       "defective_flagged": 0.7567226132467064
+      },
+      "potato": {
+       "n_test": 114,
+       "n_defective": 92,
+       "n_windows": 44246,
+       "n_defect_windows": 574,
+       "window_auc": 0.961680133117768,
+       "window_auc_ci": [
+        0.957469875911495,
+        0.9652016091510114
+       ],
+       "image_auroc": 0.4965415019762846,
+       "image_auroc_ci": [
+        0.3547054074397824,
+        0.6404931794756168
+       ],
+       "pixel_auroc": 0.928462178953432,
+       "good_flagged": 0.2324014819804648,
+       "defective_flagged": 0.20052946770504024
+      },
+      "rope": {
+       "n_test": 101,
+       "n_defective": 69,
+       "n_windows": 39510,
+       "n_defect_windows": 329,
+       "window_auc": 0.9076430724556417,
+       "window_auc_ci": [
+        0.8920411889133331,
+        0.9213031991411788
+       ],
+       "image_auroc": 0.4365942028985507,
+       "image_auroc_ci": [
+        0.31965277777777773,
+        0.5555819746376811
+       ],
+       "pixel_auroc": 0.9113018041962795,
+       "good_flagged": 0.37907307813982916,
+       "defective_flagged": 0.38831149820683597
+      },
+      "tire": {
+       "n_test": 112,
+       "n_defective": 87,
+       "n_windows": 45158,
+       "n_defect_windows": 400,
+       "window_auc": 0.919725188793065,
+       "window_auc_ci": [
+        0.9146956151098833,
+        0.9243921709217291
+       ],
+       "image_auroc": 0.46942528735632183,
+       "image_auroc_ci": [
+        0.34517045454545453,
+        0.5996655500045798
+       ],
+       "pixel_auroc": 0.891115563619269,
+       "good_flagged": 0.25821550463188686,
+       "defective_flagged": 0.2565372424722662
+      }
+     },
+     "shift_of_margin_in_sigma": 9.790870192026064,
+     "flagged_synthetic_bg_before": 0.14547194346983341,
+     "flagged_synthetic_bg_after_shift": 1.0,
+     "train_good_flagged": 0.3371287598443875,
+     "delta_energy_in_normal_subspace": 0.7759963274002075,
+     "delta_energy_in_dent_subspace": 0.9809231758117676
+    },
+    "nearest_mean": {
+     "auc_val": 0.9395394107851354,
+     "f1_val": 0.7920876262878863,
+     "sigma_val": 2.5617105960845947,
+     "categories": {
+      "bagel": {
+       "n_test": 110,
+       "n_defective": 88,
+       "n_windows": 17708,
+       "n_defect_windows": 653,
+       "window_auc": 0.8795406986584705,
+       "window_auc_ci": [
+        0.8611708282107384,
+        0.8970449518522174
+       ],
+       "image_auroc": 0.6363636363636364,
+       "image_auroc_ci": [
+        0.48292434883048413,
+        0.7868317183462532
+       ],
+       "pixel_auroc": 0.8285986897060169,
+       "good_flagged": 0.8353788687299893,
+       "defective_flagged": 0.8436054938229002
+      },
+      "cable_gland": {
+       "n_test": 108,
+       "n_defective": 87,
+       "n_windows": 1275,
+       "n_defect_windows": 129,
+       "window_auc": 0.4077140576592665,
+       "window_auc_ci": [
+        0.32746587568579794,
+        0.4879638276288255
+       ],
+       "image_auroc": 0.4756431308155446,
+       "image_auroc_ci": [
+        0.3338217052188192,
+        0.6208264677651576
+       ],
+       "pixel_auroc": 0.49002188302858435,
+       "good_flagged": 0.9823943661971831,
+       "defective_flagged": 0.9874476987447699
+      },
+      "carrot": {
+       "n_test": 159,
+       "n_defective": 132,
+       "n_windows": 100810,
+       "n_defect_windows": 484,
+       "window_auc": 0.963941208684482,
+       "window_auc_ci": [
+        0.9612347170185233,
+        0.9664082883682488
+       ],
+       "image_auroc": 0.6815375982042648,
+       "image_auroc_ci": [
+        0.5648321591818518,
+        0.7834383289124668
+       ],
+       "pixel_auroc": 0.9511492194524798,
+       "good_flagged": 0.22410086572540816,
+       "defective_flagged": 0.25066812367117625
+      },
+      "cookie": {
+       "n_test": 131,
+       "n_defective": 103,
+       "n_windows": 8783,
+       "n_defect_windows": 631,
+       "window_auc": 0.8159365867845328,
+       "window_auc_ci": [
+        0.794712694247015,
+        0.8355004312715716
+       ],
+       "image_auroc": 0.576629680998613,
+       "image_auroc_ci": [
+        0.4501938392912024,
+        0.6916722972972973
+       ],
+       "pixel_auroc": 0.7354189799538957,
+       "good_flagged": 0.8523404255319149,
+       "defective_flagged": 0.9794063343275103
+      },
+      "dowel": {
+       "n_test": 130,
+       "n_defective": 104,
+       "n_windows": 17269,
+       "n_defect_windows": 188,
+       "window_auc": 0.8931562941030659,
+       "window_auc_ci": [
+        0.8829676422761478,
+        0.9030704546473685
+       ],
+       "image_auroc": 0.4900147928994083,
+       "image_auroc_ci": [
+        0.3845112574341546,
+        0.594082432615468
+       ],
+       "pixel_auroc": 0.8694618535575913,
+       "good_flagged": 0.3542982697061247,
+       "defective_flagged": 0.32583565459610025
+      },
+      "foam": {
+       "n_test": 100,
+       "n_defective": 80,
+       "n_windows": 87809,
+       "n_defect_windows": 511,
+       "window_auc": 0.823622610525102,
+       "window_auc_ci": [
+        0.8149843939010021,
+        0.8325764231208079
+       ],
+       "image_auroc": 0.579375,
+       "image_auroc_ci": [
+        0.42981228070175437,
+        0.7125953903525483
+       ],
+       "pixel_auroc": 0.7940397260390538,
+       "good_flagged": 0.3368336947837005,
+       "defective_flagged": 0.33781355668425744
+      },
+      "peach": {
+       "n_test": 132,
+       "n_defective": 106,
+       "n_windows": 6426,
+       "n_defect_windows": 425,
+       "window_auc": 0.764156758187361,
+       "window_auc_ci": [
+        0.7413225821393395,
+        0.7867937366094447
+       ],
+       "image_auroc": 0.5442670537010159,
+       "image_auroc_ci": [
+        0.4127798154410872,
+        0.6672852244933613
+       ],
+       "pixel_auroc": 0.7229247652351162,
+       "good_flagged": 0.8592540464461647,
+       "defective_flagged": 0.8956866991517777
+      },
+      "potato": {
+       "n_test": 114,
+       "n_defective": 92,
+       "n_windows": 44246,
+       "n_defect_windows": 574,
+       "window_auc": 0.9807462407442749,
+       "window_auc_ci": [
+        0.9779256210843055,
+        0.9830848869379031
+       ],
+       "image_auroc": 0.7747035573122529,
+       "image_auroc_ci": [
+        0.6755654582680959,
+        0.8576225811891427
+       ],
+       "pixel_auroc": 0.9725004407018195,
+       "good_flagged": 0.2611990569215224,
+       "defective_flagged": 0.20091500244172
+      },
+      "rope": {
+       "n_test": 101,
+       "n_defective": 69,
+       "n_windows": 39510,
+       "n_defect_windows": 329,
+       "window_auc": 0.8253128706930946,
+       "window_auc_ci": [
+        0.8134336626937629,
+        0.8382548604765993
+       ],
+       "image_auroc": 0.3632246376811594,
+       "image_auroc_ci": [
+        0.2448650234741784,
+        0.4919897504456328
+       ],
+       "pixel_auroc": 0.7601748075211312,
+       "good_flagged": 0.38184118949699464,
+       "defective_flagged": 0.40214447778672324
+      },
+      "tire": {
+       "n_test": 112,
+       "n_defective": 87,
+       "n_windows": 45158,
+       "n_defect_windows": 400,
+       "window_auc": 0.9456832577416328,
+       "window_auc_ci": [
+        0.9413319504797859,
+        0.9499106110351682
+       ],
+       "image_auroc": 0.48367816091954025,
+       "image_auroc_ci": [
+        0.3520671688472646,
+        0.608691278931307
+       ],
+       "pixel_auroc": 0.9394356508223219,
+       "good_flagged": 0.26572403705509506,
+       "defective_flagged": 0.26785714285714285
+      }
+     },
+     "shift_of_margin_in_sigma": 3.334716796875,
+     "flagged_synthetic_bg_before": 0.004686311553843511,
+     "flagged_synthetic_bg_after_shift": 1.0,
+     "train_good_flagged": 0.3665433153050574
+    },
+    "logistic": {
+     "auc_val": 0.9387058971244406,
+     "f1_val": 0.8365942610730096,
+     "sigma_val": 5.39944314956665,
+     "categories": {
+      "bagel": {
+       "n_test": 110,
+       "n_defective": 88,
+       "n_windows": 17708,
+       "n_defect_windows": 653,
+       "window_auc": 0.88706603220012,
+       "window_auc_ci": [
+        0.8772307197335014,
+        0.896400408789103
+       ],
+       "image_auroc": 0.559400826446281,
+       "image_auroc_ci": [
+        0.43265042749658,
+        0.6833170278637771
+       ],
+       "pixel_auroc": 0.7732405150585955,
+       "good_flagged": 0.8676627534685165,
+       "defective_flagged": 0.8741113948512664
+      },
+      "cable_gland": {
+       "n_test": 108,
+       "n_defective": 87,
+       "n_windows": 1275,
+       "n_defect_windows": 129,
+       "window_auc": 0.324647915905678,
+       "window_auc_ci": [
+        0.2618049132541406,
+        0.39175775468878066
+       ],
+       "image_auroc": 0.5659551176792557,
+       "image_auroc_ci": [
+        0.42035984848484853,
+        0.7071436651583711
+       ],
+       "pixel_auroc": 0.3996838900914963,
+       "good_flagged": 0.9859154929577465,
+       "defective_flagged": 0.9916317991631799
+      },
+      "carrot": {
+       "n_test": 159,
+       "n_defective": 132,
+       "n_windows": 100810,
+       "n_defect_windows": 484,
+       "window_auc": 0.9655199874854256,
+       "window_auc_ci": [
+        0.9624925605675847,
+        0.9684854354597138
+       ],
+       "image_auroc": 0.4430415263748597,
+       "image_auroc_ci": [
+        0.32894719842241266,
+        0.5566953689904509
+       ],
+       "pixel_auroc": 0.9544557658428551,
+       "good_flagged": 0.30811690198129105,
+       "defective_flagged": 0.34723426494518417
+      },
+      "cookie": {
+       "n_test": 131,
+       "n_defective": 103,
+       "n_windows": 8783,
+       "n_defect_windows": 631,
+       "window_auc": 0.8880593213880797,
+       "window_auc_ci": [
+        0.8760073681865597,
+        0.8990943504443143
+       ],
+       "image_auroc": 0.3509015256588072,
+       "image_auroc_ci": [
+        0.2535426901636708,
+        0.4561569768579197
+       ],
+       "pixel_auroc": 0.7442884317892833,
+       "good_flagged": 0.8617021276595744,
+       "defective_flagged": 0.9846612697060076
+      },
+      "dowel": {
+       "n_test": 130,
+       "n_defective": 104,
+       "n_windows": 17269,
+       "n_defect_windows": 188,
+       "window_auc": 0.9137672566382705,
+       "window_auc_ci": [
+        0.9029501763400367,
+        0.924315434859442
+       ],
+       "image_auroc": 0.4718934911242604,
+       "image_auroc_ci": [
+        0.35878787944988416,
+        0.6081813422273948
+       ],
+       "pixel_auroc": 0.9091507868882932,
+       "good_flagged": 0.41170008239494643,
+       "defective_flagged": 0.37506963788300834
+      },
+      "foam": {
+       "n_test": 100,
+       "n_defective": 80,
+       "n_windows": 87809,
+       "n_defect_windows": 511,
+       "window_auc": 0.8567367420741487,
+       "window_auc_ci": [
+        0.8493979421816575,
+        0.8640298915883491
+       ],
+       "image_auroc": 0.449375,
+       "image_auroc_ci": [
+        0.3237877468060395,
+        0.5804896586799276
+       ],
+       "pixel_auroc": 0.8198275028222626,
+       "good_flagged": 0.3390594680972492,
+       "defective_flagged": 0.34011969270383835
+      },
+      "peach": {
+       "n_test": 132,
+       "n_defective": 106,
+       "n_windows": 6426,
+       "n_defect_windows": 425,
+       "window_auc": 0.7683813482066715,
+       "window_auc_ci": [
+        0.7494312846188989,
+        0.7855696892827655
+       ],
+       "image_auroc": 0.3530478955007257,
+       "image_auroc_ci": [
+        0.22546894385474311,
+        0.484717242752957
+       ],
+       "pixel_auroc": 0.6286896998388739,
+       "good_flagged": 0.8909218859957776,
+       "defective_flagged": 0.9184262768453347
+      },
+      "potato": {
+       "n_test": 114,
+       "n_defective": 92,
+       "n_windows": 44246,
+       "n_defect_windows": 574,
+       "window_auc": 0.9633445041369525,
+       "window_auc_ci": [
+        0.960675378109932,
+        0.9659951700610523
+       ],
+       "image_auroc": 0.5,
+       "image_auroc_ci": [
+        0.35763383365652196,
+        0.6464304503367003
+       ],
+       "pixel_auroc": 0.9260734758176754,
+       "good_flagged": 0.35567531155271137,
+       "defective_flagged": 0.28347084072274914
+      },
+      "rope": {
+       "n_test": 101,
+       "n_defective": 69,
+       "n_windows": 39510,
+       "n_defect_windows": 329,
+       "window_auc": 0.9107861891685141,
+       "window_auc_ci": [
+        0.897067599433762,
+        0.9231678731905115
+       ],
+       "image_auroc": 0.4628623188405797,
+       "image_auroc_ci": [
+        0.3451184210526316,
+        0.5876917514025246
+       ],
+       "pixel_auroc": 0.9129174202608596,
+       "good_flagged": 0.4189338816830117,
+       "defective_flagged": 0.4510722388933616
+      },
+      "tire": {
+       "n_test": 112,
+       "n_defective": 87,
+       "n_windows": 45158,
+       "n_defect_windows": 400,
+       "window_auc": 0.9181394387595514,
+       "window_auc_ci": [
+        0.9122245608519018,
+        0.923347017611629
+       ],
+       "image_auroc": 0.43908045977011495,
+       "image_auroc_ci": [
+        0.32321578275349255,
+        0.5679783745036094
+       ],
+       "pixel_auroc": 0.8845660888869986,
+       "good_flagged": 0.36196977084349097,
+       "defective_flagged": 0.363623500113199
+      }
+     },
+     "shift_of_margin_in_sigma": 4.933374881744385,
+     "flagged_synthetic_bg_before": 0.02447023415200661,
+     "flagged_synthetic_bg_after_shift": 1.0,
+     "train_good_flagged": 0.4188569440490875
+    },
+    "sm_k10": {
+     "auc_val": 0.8741599422236458,
+     "f1_val": 0.7316210115307181,
+     "sigma_val": 0.009419422167916363,
+     "categories": {
+      "bagel": {
+       "n_test": 110,
+       "n_defective": 88,
+       "n_windows": 17708,
+       "n_defect_windows": 653,
+       "window_auc": 0.873252960986054,
+       "window_auc_ci": [
+        0.8621275807605251,
+        0.8837027063415669
+       ],
+       "image_auroc": 0.5408057851239669,
+       "image_auroc_ci": [
+        0.39044850970507866,
+        0.674125744047619
+       ],
+       "pixel_auroc": 0.7654766591316275,
+       "good_flagged": 0.67982924226254,
+       "defective_flagged": 0.7014286700255367
+      },
+      "cable_gland": {
+       "n_test": 108,
+       "n_defective": 87,
+       "n_windows": 1275,
+       "n_defect_windows": 129,
+       "window_auc": 0.3328327718927987,
+       "window_auc_ci": [
+        0.27397311858199114,
+        0.3981711839267484
+       ],
+       "image_auroc": 0.5758073344280241,
+       "image_auroc_ci": [
+        0.44181276749342546,
+        0.7103709728034127
+       ],
+       "pixel_auroc": 0.40530561375230123,
+       "good_flagged": 0.8943661971830986,
+       "defective_flagged": 0.907112970711297
+      },
+      "carrot": {
+       "n_test": 159,
+       "n_defective": 132,
+       "n_windows": 100810,
+       "n_defect_windows": 484,
+       "window_auc": 0.9656307009397299,
+       "window_auc_ci": [
+        0.9605532162073978,
+        0.9697341805091926
+       ],
+       "image_auroc": 0.515993265993266,
+       "image_auroc_ci": [
+        0.39479472657012377,
+        0.6447678170594837
+       ],
+       "pixel_auroc": 0.9558402014941443,
+       "good_flagged": 0.22235779443379233,
+       "defective_flagged": 0.22881305602736635
+      },
+      "cookie": {
+       "n_test": 131,
+       "n_defective": 103,
+       "n_windows": 8783,
+       "n_defect_windows": 631,
+       "window_auc": 0.8624181362356121,
+       "window_auc_ci": [
+        0.8468725386788228,
+        0.8759413637369492
+       ],
+       "image_auroc": 0.329750346740638,
+       "image_auroc_ci": [
+        0.22079063119512887,
+        0.44720033535611625
+       ],
+       "pixel_auroc": 0.728933606660846,
+       "good_flagged": 0.7804255319148936,
+       "defective_flagged": 0.8922028121005539
+      },
+      "dowel": {
+       "n_test": 130,
+       "n_defective": 104,
+       "n_windows": 17269,
+       "n_defect_windows": 188,
+       "window_auc": 0.9146466709931528,
+       "window_auc_ci": [
+        0.905436749145072,
+        0.923634282662717
+       ],
+       "image_auroc": 0.48298816568047337,
+       "image_auroc_ci": [
+        0.35681439393939396,
+        0.618177117463958
+       ],
+       "pixel_auroc": 0.9077472295078345,
+       "good_flagged": 0.37544630595990114,
+       "defective_flagged": 0.3625348189415042
+      },
+      "foam": {
+       "n_test": 100,
+       "n_defective": 80,
+       "n_windows": 87809,
+       "n_defect_windows": 511,
+       "window_auc": 0.8623147408931389,
+       "window_auc_ci": [
+        0.8548580888393266,
+        0.869888429224014
+       ],
+       "image_auroc": 0.42125,
+       "image_auroc_ci": [
+        0.30237856818606634,
+        0.5449567811940752
+       ],
+       "pixel_auroc": 0.8415670369134086,
+       "good_flagged": 0.38026480995320167,
+       "defective_flagged": 0.3824790254806808
+      },
+      "peach": {
+       "n_test": 132,
+       "n_defective": 106,
+       "n_windows": 6426,
+       "n_defect_windows": 425,
+       "window_auc": 0.7538269112010744,
+       "window_auc_ci": [
+        0.732309444880483,
+        0.7742246856187284
+       ],
+       "image_auroc": 0.3559506531204644,
+       "image_auroc_ci": [
+        0.2403401380906769,
+        0.48045606007893416
+       ],
+       "pixel_auroc": 0.6196188281268332,
+       "good_flagged": 0.7213230119634061,
+       "defective_flagged": 0.7760332070023461
+      },
+      "potato": {
+       "n_test": 114,
+       "n_defective": 92,
+       "n_windows": 44246,
+       "n_defect_windows": 574,
+       "window_auc": 0.9644396173438614,
+       "window_auc_ci": [
+        0.9596381617093829,
+        0.968400532467216
+       ],
+       "image_auroc": 0.5503952569169961,
+       "image_auroc_ci": [
+        0.41929873447114824,
+        0.6811503291450679
+       ],
+       "pixel_auroc": 0.9360006484378729,
+       "good_flagged": 0.2649040080835298,
+       "defective_flagged": 0.21852108875009638
+      },
+      "rope": {
+       "n_test": 101,
+       "n_defective": 69,
+       "n_windows": 39510,
+       "n_defect_windows": 329,
+       "window_auc": 0.9007340183882006,
+       "window_auc_ci": [
+        0.8848968158089676,
+        0.9154658161471488
+       ],
+       "image_auroc": 0.4216485507246377,
+       "image_auroc_ci": [
+        0.30562559037911147,
+        0.5480865036231883
+       ],
+       "pixel_auroc": 0.8997682230009453,
+       "good_flagged": 0.4108668142992724,
+       "defective_flagged": 0.41487960184439726
+      },
+      "tire": {
+       "n_test": 112,
+       "n_defective": 87,
+       "n_windows": 45158,
+       "n_defect_windows": 400,
+       "window_auc": 0.9283095759417311,
+       "window_auc_ci": [
+        0.9237463531918433,
+        0.9325548890916203
+       ],
+       "image_auroc": 0.41977011494252875,
+       "image_auroc_ci": [
+        0.3023784513805522,
+        0.5418563179347825
+       ],
+       "pixel_auroc": 0.9128918849696372,
+       "good_flagged": 0.27606045831301806,
+       "defective_flagged": 0.27266810052071544
+      }
+     },
+     "shift_of_margin_in_sigma": 9.118768712600048,
+     "flagged_synthetic_bg_before": 0.11974221197176763,
+     "flagged_synthetic_bg_after_shift": 1.0,
+     "train_good_flagged": 0.35626403517095234
+    },
+    "gds_k25_r1_q5": {
+     "auc_val": 0.8914320459203845,
+     "f1_val": 0.6981276304112887,
+     "sigma_val": 0.07124656308973892,
+     "categories": {
+      "bagel": {
+       "n_test": 110,
+       "n_defective": 88,
+       "n_windows": 17708,
+       "n_defect_windows": 653,
+       "window_auc": 0.816814530774456,
+       "window_auc_ci": [
+        0.7974054816204024,
+        0.8362017098420358
+       ],
+       "image_auroc": 0.5211776859504132,
+       "image_auroc_ci": [
+        0.3953962023803507,
+        0.6308405685980318
+       ],
+       "pixel_auroc": 0.7385122906263252,
+       "good_flagged": 0.7841515474919958,
+       "defective_flagged": 0.7999171785492443
+      },
+      "cable_gland": {
+       "n_test": 108,
+       "n_defective": 87,
+       "n_windows": 1275,
+       "n_defect_windows": 129,
+       "window_auc": 0.349121311741548,
+       "window_auc_ci": [
+        0.28646227175346317,
+        0.41791886920729515
+       ],
+       "image_auroc": 0.5435139573070608,
+       "image_auroc_ci": [
+        0.40306348226447,
+        0.6943457798585646
+       ],
+       "pixel_auroc": 0.42023689977087336,
+       "good_flagged": 0.9295774647887324,
+       "defective_flagged": 0.9338912133891213
+      },
+      "carrot": {
+       "n_test": 159,
+       "n_defective": 132,
+       "n_windows": 100810,
+       "n_defect_windows": 484,
+       "window_auc": 0.9645219188750459,
+       "window_auc_ci": [
+        0.9602315799175816,
+        0.9682952732338515
+       ],
+       "image_auroc": 0.5126262626262627,
+       "image_auroc_ci": [
+        0.38730868600850354,
+        0.6389664064006169
+       ],
+       "pixel_auroc": 0.9550029578934585,
+       "good_flagged": 0.3647667189588054,
+       "defective_flagged": 0.3748856766162654
+      },
+      "cookie": {
+       "n_test": 131,
+       "n_defective": 103,
+       "n_windows": 8783,
+       "n_defect_windows": 631,
+       "window_auc": 0.7742035633580046,
+       "window_auc_ci": [
+        0.7527041909194715,
+        0.795003793881375
+       ],
+       "image_auroc": 0.3536754507628294,
+       "image_auroc_ci": [
+        0.23645833333333333,
+        0.47754917412684394
+       ],
+       "pixel_auroc": 0.664427820394712,
+       "good_flagged": 0.8404255319148937,
+       "defective_flagged": 0.9421957108365289
+      },
+      "dowel": {
+       "n_test": 130,
+       "n_defective": 104,
+       "n_windows": 17269,
+       "n_defect_windows": 188,
+       "window_auc": 0.9165397162705358,
+       "window_auc_ci": [
+        0.907035147573735,
+        0.925170428026841
+       ],
+       "image_auroc": 0.5014792899408284,
+       "image_auroc_ci": [
+        0.3748291486291486,
+        0.6504822864568011
+       ],
+       "pixel_auroc": 0.9008100225172228,
+       "good_flagged": 0.4608624004394397,
+       "defective_flagged": 0.44867688022284125
+      },
+      "foam": {
+       "n_test": 100,
+       "n_defective": 80,
+       "n_windows": 87809,
+       "n_defect_windows": 511,
+       "window_auc": 0.8574086538679241,
+       "window_auc_ci": [
+        0.8506580254110865,
+        0.8641322683176105
+       ],
+       "image_auroc": 0.439375,
+       "image_auroc_ci": [
+        0.30098249625588364,
+        0.5762565111518916
+       ],
+       "pixel_auroc": 0.8471785194961551,
+       "good_flagged": 0.4550279648441959,
+       "defective_flagged": 0.4585673660531119
+      },
+      "peach": {
+       "n_test": 132,
+       "n_defective": 106,
+       "n_windows": 6426,
+       "n_defect_windows": 425,
+       "window_auc": 0.7108732858249115,
+       "window_auc_ci": [
+        0.6789141401678446,
+        0.7408585214347441
+       ],
+       "image_auroc": 0.41872278664731494,
+       "image_auroc_ci": [
+        0.30632720037745986,
+        0.5359325886712792
+       ],
+       "pixel_auroc": 0.619107931004545,
+       "good_flagged": 0.7923997185080929,
+       "defective_flagged": 0.8370330265295073
+      },
+      "potato": {
+       "n_test": 114,
+       "n_defective": 92,
+       "n_windows": 44246,
+       "n_defect_windows": 574,
+       "window_auc": 0.9563103205842987,
+       "window_auc_ci": [
+        0.9500995643558037,
+        0.9617049886566192
+       ],
+       "image_auroc": 0.6235177865612648,
+       "image_auroc_ci": [
+        0.49257024265644955,
+        0.7553453137312844
+       ],
+       "pixel_auroc": 0.9420602068061859,
+       "good_flagged": 0.41731222633883464,
+       "defective_flagged": 0.3572107846917007
+      },
+      "rope": {
+       "n_test": 101,
+       "n_defective": 69,
+       "n_windows": 39510,
+       "n_defect_windows": 329,
+       "window_auc": 0.8759868179392515,
+       "window_auc_ci": [
+        0.8622279643420655,
+        0.8894675298127565
+       ],
+       "image_auroc": 0.3179347826086957,
+       "image_auroc_ci": [
+        0.20138358085328992,
+        0.4378611971104231
+       ],
+       "pixel_auroc": 0.8606669805441474,
+       "good_flagged": 0.47959506485289466,
+       "defective_flagged": 0.48744785186269485
+      },
+      "tire": {
+       "n_test": 112,
+       "n_defective": 87,
+       "n_windows": 45158,
+       "n_defect_windows": 400,
+       "window_auc": 0.9334961906251397,
+       "window_auc_ci": [
+        0.9290582838326779,
+        0.9377557309900043
+       ],
+       "image_auroc": 0.48229885057471267,
+       "image_auroc_ci": [
+        0.3446722736192879,
+        0.6218696943972835
+       ],
+       "pixel_auroc": 0.9299191758770461,
+       "good_flagged": 0.3970745977571916,
+       "defective_flagged": 0.40598822730359974
+      }
+     },
+     "shift_of_margin_in_sigma": 3.392529372304603,
+     "flagged_synthetic_bg_before": 0.21555397436841114,
+     "flagged_synthetic_bg_after_shift": 1.0,
+     "train_good_flagged": 0.4640225195306323,
+     "delta_u_energy_in_removed_principal": 0.11986962727401052,
+     "delta_u_energy_in_gds": 0.855692667906513,
+     "delta_u_energy_outside_sumspace": 0.024437704819476602
+    }
+   },
+   "delta_norm_over_bg_feature_std": 5.910378932952881
+  },
+  "pnpp_r0.6_128": {
+   "dim": 128,
+   "selected": {
+    "sm": {
+     "K": 10,
+     "auc": 0.8684944277397721,
+     "f1": 0.7124597423510467
+    },
+    "gds": {
+     "K": 25,
+     "R": 1,
+     "Q": 5,
+     "auc": 0.8772105176236422,
+     "f1": 0.6193907506957947
+    }
+   },
+   "rules": {
+    "pbss_k25": {
+     "auc_val": 0.8399188572822294,
+     "f1_val": 0.6796128071481757,
+     "sigma_val": 0.8744688475812135,
+     "categories": {
+      "bagel": {
+       "n_test": 110,
+       "n_defective": 88,
+       "n_windows": 17708,
+       "n_defect_windows": 653,
+       "window_auc": 0.8854419738320711,
+       "window_auc_ci": [
+        0.8757399672798203,
+        0.8946689024102945
+       ],
+       "image_auroc": 0.5516528925619835,
+       "image_auroc_ci": [
+        0.41954675653803564,
+        0.6764129204996804
+       ],
+       "pixel_auroc": 0.7713107228507117,
+       "good_flagged": 0.6029882604055496,
+       "defective_flagged": 0.6249568638277314
+      },
+      "cable_gland": {
+       "n_test": 108,
+       "n_defective": 87,
+       "n_windows": 1275,
+       "n_defect_windows": 129,
+       "window_auc": 0.3350717696876226,
+       "window_auc_ci": [
+        0.2771802241686312,
+        0.39825628069322233
+       ],
+       "image_auroc": 0.5675971538040504,
+       "image_auroc_ci": [
+        0.42175640250050417,
+        0.7143269599080694
+       ],
+       "pixel_auroc": 0.40784015623819736,
+       "good_flagged": 0.8591549295774648,
+       "defective_flagged": 0.8845188284518829
+      },
+      "carrot": {
+       "n_test": 159,
+       "n_defective": 132,
+       "n_windows": 100810,
+       "n_defect_windows": 484,
+       "window_auc": 0.9622116404653063,
+       "window_auc_ci": [
+        0.9583944642490158,
+        0.965678071489298
+       ],
+       "image_auroc": 0.45342312008978675,
+       "image_auroc_ci": [
+        0.3379154721914723,
+        0.5713679958642612
+       ],
+       "pixel_auroc": 0.9523328119614137,
+       "good_flagged": 0.18191854046830516,
+       "defective_flagged": 0.18478222137758193
+      },
+      "cookie": {
+       "n_test": 131,
+       "n_defective": 103,
+       "n_windows": 8783,
+       "n_defect_windows": 631,
+       "window_auc": 0.8840020980141184,
+       "window_auc_ci": [
+        0.8703206179363104,
+        0.8965081755030868
+       ],
+       "image_auroc": 0.34500693481276007,
+       "image_auroc_ci": [
+        0.2419465317067421,
+        0.4554994144575748
+       ],
+       "pixel_auroc": 0.7391771259554614,
+       "good_flagged": 0.7102127659574468,
+       "defective_flagged": 0.8416418122425792
+      },
+      "dowel": {
+       "n_test": 130,
+       "n_defective": 104,
+       "n_windows": 17269,
+       "n_defect_windows": 188,
+       "window_auc": 0.9076175843010835,
+       "window_auc_ci": [
+        0.8959518017326497,
+        0.9191391397893238
+       ],
+       "image_auroc": 0.46782544378698226,
+       "image_auroc_ci": [
+        0.34904875376800265,
+        0.6095266672177
+       ],
+       "pixel_auroc": 0.9068927900524109,
+       "good_flagged": 0.3650096127437517,
+       "defective_flagged": 0.3556406685236769
+      },
+      "foam": {
+       "n_test": 100,
+       "n_defective": 80,
+       "n_windows": 87809,
+       "n_defect_windows": 511,
+       "window_auc": 0.8543202492539781,
+       "window_auc_ci": [
+        0.8469561292296461,
+        0.861605395824039
+       ],
+       "image_auroc": 0.446875,
+       "image_auroc_ci": [
+        0.3162202380952381,
+        0.5764801616849271
+       ],
+       "pixel_auroc": 0.8165461004706586,
+       "good_flagged": 0.39978312977970554,
+       "defective_flagged": 0.3980984988893762
+      },
+      "peach": {
+       "n_test": 132,
+       "n_defective": 106,
+       "n_windows": 6426,
+       "n_defect_windows": 425,
+       "window_auc": 0.7706182302949508,
+       "window_auc_ci": [
+        0.7522030592276069,
+        0.789432884887997
+       ],
+       "image_auroc": 0.3588534107402032,
+       "image_auroc_ci": [
+        0.23351034712950602,
+        0.492516628778311
+       ],
+       "pixel_auroc": 0.6326337154376984,
+       "good_flagged": 0.6467276565798733,
+       "defective_flagged": 0.7188233170907778
+      },
+      "potato": {
+       "n_test": 114,
+       "n_defective": 92,
+       "n_windows": 44246,
+       "n_defect_windows": 574,
+       "window_auc": 0.9574668673602968,
+       "window_auc_ci": [
+        0.9519105398268278,
+        0.9624116808440325
+       ],
+       "image_auroc": 0.5,
+       "image_auroc_ci": [
+        0.3578540157004831,
+        0.6380002366663095
+       ],
+       "pixel_auroc": 0.9225880215574838,
+       "good_flagged": 0.2030986864264062,
+       "defective_flagged": 0.17821985760917058
+      },
+      "rope": {
+       "n_test": 101,
+       "n_defective": 69,
+       "n_windows": 39510,
+       "n_defect_windows": 329,
+       "window_auc": 0.9076943115456138,
+       "window_auc_ci": [
+        0.8899346733248871,
+        0.922250648327272
+       ],
+       "image_auroc": 0.4492753623188406,
+       "image_auroc_ci": [
+        0.3311939340303238,
+        0.5693614149008884
+       ],
+       "pixel_auroc": 0.915237952147847,
+       "good_flagged": 0.3695033217336286,
+       "defective_flagged": 0.37349044865695674
+      },
+      "tire": {
+       "n_test": 112,
+       "n_defective": 87,
+       "n_windows": 45158,
+       "n_defect_windows": 400,
+       "window_auc": 0.9179461492917467,
+       "window_auc_ci": [
+        0.9122439803105789,
+        0.9228524013268771
+       ],
+       "image_auroc": 0.45839080459770115,
+       "image_auroc_ci": [
+        0.3314213316445459,
+        0.6006928410794601
+       ],
+       "pixel_auroc": 0.8851602223211718,
+       "good_flagged": 0.23627498781082398,
+       "defective_flagged": 0.2299354765678062
+      }
+     },
+     "shift_of_margin_in_sigma": 7.300113164491161,
+     "flagged_synthetic_bg_before": 0.15350328368950936,
+     "flagged_synthetic_bg_after_shift": 1.0,
+     "train_good_flagged": 0.3288104500743271,
+     "delta_energy_in_normal_subspace": 0.9004531502723694,
+     "delta_energy_in_dent_subspace": 0.987748920917511
+    },
+    "nearest_mean": {
+     "auc_val": 0.9186935432186157,
+     "f1_val": 0.7467529093931837,
+     "sigma_val": 2.6153228282928467,
+     "categories": {
+      "bagel": {
+       "n_test": 110,
+       "n_defective": 88,
+       "n_windows": 17708,
+       "n_defect_windows": 653,
+       "window_auc": 0.8989129844306076,
+       "window_auc_ci": [
+        0.8859586130092805,
+        0.9120526851553608
+       ],
+       "image_auroc": 0.6503099173553719,
+       "image_auroc_ci": [
+        0.5022090513102198,
+        0.7694535617890882
+       ],
+       "pixel_auroc": 0.8813183529882591,
+       "good_flagged": 0.7003735325506937,
+       "defective_flagged": 0.7170957277934985
+      },
+      "cable_gland": {
+       "n_test": 108,
+       "n_defective": 87,
+       "n_windows": 1275,
+       "n_defect_windows": 129,
+       "window_auc": 0.3393468349635402,
+       "window_auc_ci": [
+        0.27411456898483666,
+        0.4087966511085432
+       ],
+       "image_auroc": 0.5424192665571976,
+       "image_auroc_ci": [
+        0.3953880521612832,
+        0.6818290776573851
+       ],
+       "pixel_auroc": 0.42056061322584876,
+       "good_flagged": 0.9014084507042254,
+       "defective_flagged": 0.9355648535564853
+      },
+      "carrot": {
+       "n_test": 159,
+       "n_defective": 132,
+       "n_windows": 100810,
+       "n_defect_windows": 484,
+       "window_auc": 0.9595853056226783,
+       "window_auc_ci": [
+        0.9569433223856694,
+        0.9621060667832655
+       ],
+       "image_auroc": 0.47797418630751964,
+       "image_auroc_ci": [
+        0.3702464002175695,
+        0.5902567094081255
+       ],
+       "pixel_auroc": 0.9405011070264906,
+       "good_flagged": 0.10911626285515078,
+       "defective_flagged": 0.1134800631896521
+      },
+      "cookie": {
+       "n_test": 131,
+       "n_defective": 103,
+       "n_windows": 8783,
+       "n_defect_windows": 631,
+       "window_auc": 0.9116949317951007,
+       "window_auc_ci": [
+        0.8977711015675327,
+        0.924453982034193
+       ],
+       "image_auroc": 0.769244105409154,
+       "image_auroc_ci": [
+        0.6553214931162227,
+        0.8648393635571056
+       ],
+       "pixel_auroc": 0.8869896120428258,
+       "good_flagged": 0.7982978723404255,
+       "defective_flagged": 0.9336741940065332
+      },
+      "dowel": {
+       "n_test": 130,
+       "n_defective": 104,
+       "n_windows": 17269,
+       "n_defect_windows": 188,
+       "window_auc": 0.9023845394970398,
+       "window_auc_ci": [
+        0.8944838350730394,
+        0.9099156694041968
+       ],
+       "image_auroc": 0.4047707100591716,
+       "image_auroc_ci": [
+        0.2820880721220527,
+        0.5307919810287375
+       ],
+       "pixel_auroc": 0.8811700647279488,
+       "good_flagged": 0.3032134029112881,
+       "defective_flagged": 0.28969359331476324
+      },
+      "foam": {
+       "n_test": 100,
+       "n_defective": 80,
+       "n_windows": 87809,
+       "n_defect_windows": 511,
+       "window_auc": 0.8543403347617506,
+       "window_auc_ci": [
+        0.8465094704701833,
+        0.8622253518950633
+       ],
+       "image_auroc": 0.59375,
+       "image_auroc_ci": [
+        0.46652963280211784,
+        0.7167885191341877
+       ],
+       "pixel_auroc": 0.8336273230188149,
+       "good_flagged": 0.3341513525853213,
+       "defective_flagged": 0.3345736477978523
+      },
+      "peach": {
+       "n_test": 132,
+       "n_defective": 106,
+       "n_windows": 6426,
+       "n_defect_windows": 425,
+       "window_auc": 0.7561212346961781,
+       "window_auc_ci": [
+        0.7314118245122738,
+        0.7789020156012112
+       ],
+       "image_auroc": 0.4898403483309144,
+       "image_auroc_ci": [
+        0.3632929804804805,
+        0.6127925499213063
+       ],
+       "pixel_auroc": 0.6823380186571586,
+       "good_flagged": 0.7311752287121746,
+       "defective_flagged": 0.7933585995307706
+      },
+      "potato": {
+       "n_test": 114,
+       "n_defective": 92,
+       "n_windows": 44246,
+       "n_defect_windows": 574,
+       "window_auc": 0.9714559293127801,
+       "window_auc_ci": [
+        0.968482958657954,
+        0.9741168752179562
+       ],
+       "image_auroc": 0.674901185770751,
+       "image_auroc_ci": [
+        0.573350678287147,
+        0.7708385942760944
+       ],
+       "pixel_auroc": 0.9577709018973873,
+       "good_flagged": 0.15156618390030313,
+       "defective_flagged": 0.11380985426786953
+      },
+      "rope": {
+       "n_test": 101,
+       "n_defective": 69,
+       "n_windows": 39510,
+       "n_defect_windows": 329,
+       "window_auc": 0.8462260994469669,
+       "window_auc_ci": [
+        0.8352044510434418,
+        0.8569125529329137
+       ],
+       "image_auroc": 0.5011322463768116,
+       "image_auroc_ci": [
+        0.3785868890926745,
+        0.6203589597425214
+       ],
+       "pixel_auroc": 0.7876519038707467,
+       "good_flagged": 0.33873774122113254,
+       "defective_flagged": 0.34443387250237867
+      },
+      "tire": {
+       "n_test": 112,
+       "n_defective": 87,
+       "n_windows": 45158,
+       "n_defect_windows": 400,
+       "window_auc": 0.9324267449394522,
+       "window_auc_ci": [
+        0.9278551534562927,
+        0.9366988509501698
+       ],
+       "image_auroc": 0.47908045977011493,
+       "image_auroc_ci": [
+        0.34588647959183677,
+        0.6151020162898081
+       ],
+       "pixel_auroc": 0.9211987009922401,
+       "good_flagged": 0.16538274012676743,
+       "defective_flagged": 0.16014829069504188
+      }
+     },
+     "shift_of_margin_in_sigma": 3.667847156524658,
+     "flagged_synthetic_bg_before": 0.004220133964717717,
+     "flagged_synthetic_bg_after_shift": 1.0,
+     "train_good_flagged": 0.2814625043489262
+    },
+    "logistic": {
+     "auc_val": 0.9204994332365097,
+     "f1_val": 0.8166472574137464,
+     "sigma_val": 6.173696994781494,
+     "categories": {
+      "bagel": {
+       "n_test": 110,
+       "n_defective": 88,
+       "n_windows": 17708,
+       "n_defect_windows": 653,
+       "window_auc": 0.8880836389610588,
+       "window_auc_ci": [
+        0.8784033003786407,
+        0.8973047920000887
+       ],
+       "image_auroc": 0.5599173553719008,
+       "image_auroc_ci": [
+        0.4339895096056623,
+        0.6846576711644178
+       ],
+       "pixel_auroc": 0.773194004103271,
+       "good_flagged": 0.7729455709711847,
+       "defective_flagged": 0.7859065497963973
+      },
+      "cable_gland": {
+       "n_test": 108,
+       "n_defective": 87,
+       "n_windows": 1275,
+       "n_defect_windows": 129,
+       "window_auc": 0.32453968640502184,
+       "window_auc_ci": [
+        0.26321972945756344,
+        0.3892175312458386
+       ],
+       "image_auroc": 0.578544061302682,
+       "image_auroc_ci": [
+        0.4301067440493682,
+        0.7243036550507815
+       ],
+       "pixel_auroc": 0.4013848839062553,
+       "good_flagged": 0.954225352112676,
+       "defective_flagged": 0.9656903765690377
+      },
+      "carrot": {
+       "n_test": 159,
+       "n_defective": 132,
+       "n_windows": 100810,
+       "n_defect_windows": 484,
+       "window_auc": 0.9636949865751699,
+       "window_auc_ci": [
+        0.9605766776603368,
+        0.9666473635392664
+       ],
+       "image_auroc": 0.43574635241301907,
+       "image_auroc_ci": [
+        0.32517168486041514,
+        0.5493009587601786
+       ],
+       "pixel_auroc": 0.9521048657940709,
+       "good_flagged": 0.15193771425251293,
+       "defective_flagged": 0.1674050670499222
+      },
+      "cookie": {
+       "n_test": 131,
+       "n_defective": 103,
+       "n_windows": 8783,
+       "n_defect_windows": 631,
+       "window_auc": 0.8919841552499342,
+       "window_auc_ci": [
+        0.8798954479839763,
+        0.9026727631589117
+       ],
+       "image_auroc": 0.35124826629681,
+       "image_auroc_ci": [
+        0.2523716759431045,
+        0.4541336633663366
+       ],
+       "pixel_auroc": 0.7464847155777393,
+       "good_flagged": 0.8327659574468085,
+       "defective_flagged": 0.9581025422525209
+      },
+      "dowel": {
+       "n_test": 130,
+       "n_defective": 104,
+       "n_windows": 17269,
+       "n_defect_windows": 188,
+       "window_auc": 0.9099300952781927,
+       "window_auc_ci": [
+        0.898153935541675,
+        0.9212321405559758
+       ],
+       "image_auroc": 0.47928994082840237,
+       "image_auroc_ci": [
+        0.36098006000539373,
+        0.6165998773566472
+       ],
+       "pixel_auroc": 0.9062711958856687,
+       "good_flagged": 0.3221642405932436,
+       "defective_flagged": 0.30410863509749303
+      },
+      "foam": {
+       "n_test": 100,
+       "n_defective": 80,
+       "n_windows": 87809,
+       "n_defect_windows": 511,
+       "window_auc": 0.8540996449213996,
+       "window_auc_ci": [
+        0.8466865067125856,
+        0.8612409640009263
+       ],
+       "image_auroc": 0.451875,
+       "image_auroc_ci": [
+        0.32112127371273713,
+        0.5799739778591276
+       ],
+       "pixel_auroc": 0.812214460632842,
+       "good_flagged": 0.33620591256705856,
+       "defective_flagged": 0.3368514876699537
+      },
+      "peach": {
+       "n_test": 132,
+       "n_defective": 106,
+       "n_windows": 6426,
+       "n_defect_windows": 425,
+       "window_auc": 0.7664820569120833,
+       "window_auc_ci": [
+        0.7480485098962019,
+        0.7850364348639297
+       ],
+       "image_auroc": 0.3490566037735849,
+       "image_auroc_ci": [
+        0.22221571253208347,
+        0.4808705692299442
+       ],
+       "pixel_auroc": 0.6260249126107618,
+       "good_flagged": 0.8022519352568613,
+       "defective_flagged": 0.8476809240209349
+      },
+      "potato": {
+       "n_test": 114,
+       "n_defective": 92,
+       "n_windows": 44246,
+       "n_defect_windows": 574,
+       "window_auc": 0.9620930943562177,
+       "window_auc_ci": [
+        0.9591746608645115,
+        0.9649148506676293
+       ],
+       "image_auroc": 0.4965415019762846,
+       "image_auroc_ci": [
+        0.3518184421534937,
+        0.6421311556231688
+       ],
+       "pixel_auroc": 0.9227460167995207,
+       "good_flagged": 0.1913102054563826,
+       "defective_flagged": 0.14629758141208524
+      },
+      "rope": {
+       "n_test": 101,
+       "n_defective": 69,
+       "n_windows": 39510,
+       "n_defect_windows": 329,
+       "window_auc": 0.9109399452265377,
+       "window_auc_ci": [
+        0.8975193149563436,
+        0.9233912245353535
+       ],
+       "image_auroc": 0.5208333333333334,
+       "image_auroc_ci": [
+        0.3983832763244528,
+        0.6426426963129749
+       ],
+       "pixel_auroc": 0.9135621181153707,
+       "good_flagged": 0.36562796583359697,
+       "defective_flagged": 0.37773549000951473
+      },
+      "tire": {
+       "n_test": 112,
+       "n_defective": 87,
+       "n_windows": 45158,
+       "n_defect_windows": 400,
+       "window_auc": 0.917650196612896,
+       "window_auc_ci": [
+        0.9117341866717716,
+        0.9227287300003393
+       ],
+       "image_auroc": 0.4868965517241379,
+       "image_auroc_ci": [
+        0.36210775544118773,
+        0.6221398262147235
+       ],
+       "pixel_auroc": 0.8829646125614875,
+       "good_flagged": 0.1971721111652852,
+       "defective_flagged": 0.19535318089200815
+      }
+     },
+     "shift_of_margin_in_sigma": 5.996891498565674,
+     "flagged_synthetic_bg_before": 0.02101888428163669,
+     "flagged_synthetic_bg_after_shift": 1.0,
+     "train_good_flagged": 0.31827814150615175
+    },
+    "sm_k10": {
+     "auc_val": 0.8604806650987733,
+     "f1_val": 0.7106651846956452,
+     "sigma_val": 0.017536179599558582,
+     "categories": {
+      "bagel": {
+       "n_test": 110,
+       "n_defective": 88,
+       "n_windows": 17708,
+       "n_defect_windows": 653,
+       "window_auc": 0.8950096144219472,
+       "window_auc_ci": [
+        0.8830894522842682,
+        0.9065482423979032
+       ],
+       "image_auroc": 0.6761363636363636,
+       "image_auroc_ci": [
+        0.5639547499601847,
+        0.7727373233809159
+       ],
+       "pixel_auroc": 0.8128755860988018,
+       "good_flagged": 0.5832443970117396,
+       "defective_flagged": 0.6053557871488715
+      },
+      "cable_gland": {
+       "n_test": 108,
+       "n_defective": 87,
+       "n_windows": 1275,
+       "n_defect_windows": 129,
+       "window_auc": 0.33327245423921426,
+       "window_auc_ci": [
+        0.2749424133460408,
+        0.3976119813454607
+       ],
+       "image_auroc": 0.5911330049261084,
+       "image_auroc_ci": [
+        0.44256426137243976,
+        0.7333423913043478
+       ],
+       "pixel_auroc": 0.4103895891341504,
+       "good_flagged": 0.8697183098591549,
+       "defective_flagged": 0.8928870292887029
+      },
+      "carrot": {
+       "n_test": 159,
+       "n_defective": 132,
+       "n_windows": 100810,
+       "n_defect_windows": 484,
+       "window_auc": 0.955410382813186,
+       "window_auc_ci": [
+        0.9527796839777818,
+        0.9580370344776876
+       ],
+       "image_auroc": 0.5707070707070707,
+       "image_auroc_ci": [
+        0.4520159932659933,
+        0.6829865685843947
+       ],
+       "pixel_auroc": 0.9242083779027171,
+       "good_flagged": 0.139097089070943,
+       "defective_flagged": 0.13598840731194545
+      },
+      "cookie": {
+       "n_test": 131,
+       "n_defective": 103,
+       "n_windows": 8783,
+       "n_defect_windows": 631,
+       "window_auc": 0.8955409812609547,
+       "window_auc_ci": [
+        0.8816584622004454,
+        0.9079312508765264
+       ],
+       "image_auroc": 0.5870319001386962,
+       "image_auroc_ci": [
+        0.47931452462933033,
+        0.7049628063566624
+       ],
+       "pixel_auroc": 0.7942962279253468,
+       "good_flagged": 0.7093617021276596,
+       "defective_flagged": 0.842067888084079
+      },
+      "dowel": {
+       "n_test": 130,
+       "n_defective": 104,
+       "n_windows": 17269,
+       "n_defect_windows": 188,
+       "window_auc": 0.8725462657899097,
+       "window_auc_ci": [
+        0.8601332527789655,
+        0.8841728535613609
+       ],
+       "image_auroc": 0.4500739644970414,
+       "image_auroc_ci": [
+        0.3294931327699546,
+        0.578527836525762
+       ],
+       "pixel_auroc": 0.8200791809054491,
+       "good_flagged": 0.3268332875583631,
+       "defective_flagged": 0.31706128133704736
+      },
+      "foam": {
+       "n_test": 100,
+       "n_defective": 80,
+       "n_windows": 87809,
+       "n_defect_windows": 511,
+       "window_auc": 0.8440114408486952,
+       "window_auc_ci": [
+        0.8364236567776335,
+        0.8510999977642734
+       ],
+       "image_auroc": 0.39625,
+       "image_auroc_ci": [
+        0.25690498737373735,
+        0.5314831002331002
+       ],
+       "pixel_auroc": 0.792578609971547,
+       "good_flagged": 0.3438534413879694,
+       "defective_flagged": 0.34381233994991584
+      },
+      "peach": {
+       "n_test": 132,
+       "n_defective": 106,
+       "n_windows": 6426,
+       "n_defect_windows": 425,
+       "window_auc": 0.7715498397325936,
+       "window_auc_ci": [
+        0.7513570477782648,
+        0.7923538744824322
+       ],
+       "image_auroc": 0.5682148040638607,
+       "image_auroc_ci": [
+        0.4415726647876181,
+        0.6910106376851659
+       ],
+       "pixel_auroc": 0.64002890030171,
+       "good_flagged": 0.6326530612244898,
+       "defective_flagged": 0.7036635986284064
+      },
+      "potato": {
+       "n_test": 114,
+       "n_defective": 92,
+       "n_windows": 44246,
+       "n_defect_windows": 574,
+       "window_auc": 0.9626320343032284,
+       "window_auc_ci": [
+        0.9597725019146695,
+        0.9653708612618206
+       ],
+       "image_auroc": 0.7055335968379447,
+       "image_auroc_ci": [
+        0.5806226647626128,
+        0.817980217547215
+       ],
+       "pixel_auroc": 0.9216554356633978,
+       "good_flagged": 0.16857527787133714,
+       "defective_flagged": 0.1333436142596448
+      },
+      "rope": {
+       "n_test": 101,
+       "n_defective": 69,
+       "n_windows": 39510,
+       "n_defect_windows": 329,
+       "window_auc": 0.8784124710281929,
+       "window_auc_ci": [
+        0.869311599657468,
+        0.8872077711198528
+       ],
+       "image_auroc": 0.442481884057971,
+       "image_auroc_ci": [
+        0.32521597512817885,
+        0.5693346246702968
+       ],
+       "pixel_auroc": 0.8478947560333481,
+       "good_flagged": 0.3511546978804176,
+       "defective_flagged": 0.3485325331186416
+      },
+      "tire": {
+       "n_test": 112,
+       "n_defective": 87,
+       "n_windows": 45158,
+       "n_defect_windows": 400,
+       "window_auc": 0.9178970239957103,
+       "window_auc_ci": [
+        0.9123050570681913,
+        0.92347550037482
+       ],
+       "image_auroc": 0.5636781609195403,
+       "image_auroc_ci": [
+        0.43936615709871524,
+        0.6798583410636981
+       ],
+       "pixel_auroc": 0.881933763040283,
+       "good_flagged": 0.1946367625548513,
+       "defective_flagged": 0.1924949060448268
+      }
+     },
+     "shift_of_margin_in_sigma": 4.973855121834866,
+     "flagged_synthetic_bg_before": 0.13618928445829345,
+     "flagged_synthetic_bg_after_shift": 1.0,
+     "train_good_flagged": 0.2857007306196034
+    },
+    "gds_k25_r1_q5": {
+     "auc_val": 0.8729192597161374,
+     "f1_val": 0.6264946189836978,
+     "sigma_val": 0.1500611451416115,
+     "categories": {
+      "bagel": {
+       "n_test": 110,
+       "n_defective": 88,
+       "n_windows": 17708,
+       "n_defect_windows": 653,
+       "window_auc": 0.8414095824561829,
+       "window_auc_ci": [
+        0.821992088615216,
+        0.8606323762616717
+       ],
+       "image_auroc": 0.49586776859504134,
+       "image_auroc_ci": [
+        0.352775080348944,
+        0.6255658914728682
+       ],
+       "pixel_auroc": 0.760361359964924,
+       "good_flagged": 0.7900213447171825,
+       "defective_flagged": 0.8012285181862102
+      },
+      "cable_gland": {
+       "n_test": 108,
+       "n_defective": 87,
+       "n_windows": 1275,
+       "n_defect_windows": 129,
+       "window_auc": 0.4266339272427182,
+       "window_auc_ci": [
+        0.3623124953033155,
+        0.49543831238085284
+       ],
+       "image_auroc": 0.4876847290640394,
+       "image_auroc_ci": [
+        0.3335076061544462,
+        0.6496019423890063
+       ],
+       "pixel_auroc": 0.5239854876140875,
+       "good_flagged": 0.9436619718309859,
+       "defective_flagged": 0.9640167364016736
+      },
+      "carrot": {
+       "n_test": 159,
+       "n_defective": 132,
+       "n_windows": 100810,
+       "n_defect_windows": 484,
+       "window_auc": 0.9599410879211456,
+       "window_auc_ci": [
+        0.9571316216045672,
+        0.9623577100221145
+       ],
+       "image_auroc": 0.41835016835016836,
+       "image_auroc_ci": [
+        0.30618396190403485,
+        0.5341577734659229
+       ],
+       "pixel_auroc": 0.9380206101241855,
+       "good_flagged": 0.3611062692464122,
+       "defective_flagged": 0.3539214405340238
+      },
+      "cookie": {
+       "n_test": 131,
+       "n_defective": 103,
+       "n_windows": 8783,
+       "n_defect_windows": 631,
+       "window_auc": 0.7690380395310029,
+       "window_auc_ci": [
+        0.7484341952658458,
+        0.7897755861771729
+       ],
+       "image_auroc": 0.647364771151179,
+       "image_auroc_ci": [
+        0.5377070517202096,
+        0.7571459963295663
+       ],
+       "pixel_auroc": 0.6691966913356316,
+       "good_flagged": 0.8634042553191489,
+       "defective_flagged": 0.9576764664110211
+      },
+      "dowel": {
+       "n_test": 130,
+       "n_defective": 104,
+       "n_windows": 17269,
+       "n_defect_windows": 188,
+       "window_auc": 0.8794915839049734,
+       "window_auc_ci": [
+        0.8690481283840963,
+        0.8899305289231383
+       ],
+       "image_auroc": 0.521819526627219,
+       "image_auroc_ci": [
+        0.390028431372549,
+        0.654100494027018
+       ],
+       "pixel_auroc": 0.8530404104952625,
+       "good_flagged": 0.4778906893710519,
+       "defective_flagged": 0.47061281337047356
+      },
+      "foam": {
+       "n_test": 100,
+       "n_defective": 80,
+       "n_windows": 87809,
+       "n_defect_windows": 511,
+       "window_auc": 0.8226719786856895,
+       "window_auc_ci": [
+        0.8148333443393984,
+        0.830759548572092
+       ],
+       "image_auroc": 0.55375,
+       "image_auroc_ci": [
+        0.4144588902812587,
+        0.6827451650228068
+       ],
+       "pixel_auroc": 0.7778393648499679,
+       "good_flagged": 0.6356009587946582,
+       "defective_flagged": 0.6391816754148922
+      },
+      "peach": {
+       "n_test": 132,
+       "n_defective": 106,
+       "n_windows": 6426,
+       "n_defect_windows": 425,
+       "window_auc": 0.7567256437652549,
+       "window_auc_ci": [
+        0.7286945281464453,
+        0.7834832131998937
+       ],
+       "image_auroc": 0.6509433962264151,
+       "image_auroc_ci": [
+        0.5248367442719072,
+        0.7747428628411875
+       ],
+       "pixel_auroc": 0.6909570021341329,
+       "good_flagged": 0.8156228008444757,
+       "defective_flagged": 0.8550803104132828
+      },
+      "potato": {
+       "n_test": 114,
+       "n_defective": 92,
+       "n_windows": 44246,
+       "n_defect_windows": 574,
+       "window_auc": 0.9701901185460445,
+       "window_auc_ci": [
+        0.9668522911096809,
+        0.9731147431000409
+       ],
+       "image_auroc": 0.6521739130434783,
+       "image_auroc_ci": [
+        0.5078667896598162,
+        0.7923643915849868
+       ],
+       "pixel_auroc": 0.9503396374729699,
+       "good_flagged": 0.36998989558774,
+       "defective_flagged": 0.34921736448454005
+      },
+      "rope": {
+       "n_test": 101,
+       "n_defective": 69,
+       "n_windows": 39510,
+       "n_defect_windows": 329,
+       "window_auc": 0.8349008254031695,
+       "window_auc_ci": [
+        0.8221168769677787,
+        0.8473012427154786
+       ],
+       "image_auroc": 0.40851449275362317,
+       "image_auroc_ci": [
+        0.2957504115602707,
+        0.5369071098811192
+       ],
+       "pixel_auroc": 0.7871922588749979,
+       "good_flagged": 0.5173995571021829,
+       "defective_flagged": 0.5094049623069604
+      },
+      "tire": {
+       "n_test": 112,
+       "n_defective": 87,
+       "n_windows": 45158,
+       "n_defect_windows": 400,
+       "window_auc": 0.9366809844050226,
+       "window_auc_ci": [
+        0.9323927846220387,
+        0.9407925521664599
+       ],
+       "image_auroc": 0.5255172413793103,
+       "image_auroc_ci": [
+        0.39474464785914365,
+        0.6570218061809882
+       ],
+       "pixel_auroc": 0.9267375792655301,
+       "good_flagged": 0.38664066309117506,
+       "defective_flagged": 0.38617840163006567
+      }
+     },
+     "shift_of_margin_in_sigma": 3.2255286423583653,
+     "flagged_synthetic_bg_before": 0.3335132615256275,
+     "flagged_synthetic_bg_after_shift": 1.0,
+     "train_good_flagged": 0.5172217477939084,
+     "delta_u_energy_in_removed_principal": 0.18005537223087345,
+     "delta_u_energy_in_gds": 0.8022852750194889,
+     "delta_u_energy_outside_sumspace": 0.017659352749637702
+    }
+   },
+   "delta_norm_over_bg_feature_std": 8.149953842163086
+  },
+  "pnpp_r2.0_128": {
+   "dim": 128,
+   "selected": {
+    "sm": {
+     "K": 25,
+     "auc": 0.8401796461241721,
+     "f1": 0.6697461878507922
+    },
+    "gds": {
+     "K": 25,
+     "R": 1,
+     "Q": 5,
+     "auc": 0.8472226529667384,
+     "f1": 0.6145930397439533
+    }
+   },
+   "rules": {
+    "pbss_k25": {
+     "auc_val": 0.8321777092288283,
+     "f1_val": 0.6768682186337935,
+     "sigma_val": 1.009467464190689,
+     "categories": {
+      "bagel": {
+       "n_test": 110,
+       "n_defective": 88,
+       "n_windows": 17708,
+       "n_defect_windows": 653,
+       "window_auc": 0.8881811525004905,
+       "window_auc_ci": [
+        0.8779719289843754,
+        0.8981289583594316
+       ],
+       "image_auroc": 0.6368801652892562,
+       "image_auroc_ci": [
+        0.5048219096334186,
+        0.7605595238095237
+       ],
+       "pixel_auroc": 0.7876587031856558,
+       "good_flagged": 0.48745997865528284,
+       "defective_flagged": 0.5321968389812961
+      },
+      "cable_gland": {
+       "n_test": 108,
+       "n_defective": 87,
+       "n_windows": 1275,
+       "n_defect_windows": 129,
+       "window_auc": 0.33656668966543557,
+       "window_auc_ci": [
+        0.2771314364787397,
+        0.40124605555948156
+       ],
+       "image_auroc": 0.5774493705528189,
+       "image_auroc_ci": [
+        0.42932676925538066,
+        0.7166405597326649
+       ],
+       "pixel_auroc": 0.40183847278244317,
+       "good_flagged": 0.8380281690140845,
+       "defective_flagged": 0.8569037656903765
+      },
+      "carrot": {
+       "n_test": 159,
+       "n_defective": 132,
+       "n_windows": 100810,
+       "n_defect_windows": 484,
+       "window_auc": 0.9595422023377344,
+       "window_auc_ci": [
+        0.954387062424443,
+        0.9638738585944083
+       ],
+       "image_auroc": 0.5471380471380471,
+       "image_auroc_ci": [
+        0.4220245372342006,
+        0.6687829555462846
+       ],
+       "pixel_auroc": 0.9466661676139584,
+       "good_flagged": 0.13642437975713206,
+       "defective_flagged": 0.13895784585050658
+      },
+      "cookie": {
+       "n_test": 131,
+       "n_defective": 103,
+       "n_windows": 8783,
+       "n_defect_windows": 631,
+       "window_auc": 0.898509927852576,
+       "window_auc_ci": [
+        0.8839897678753991,
+        0.9111999374322192
+       ],
+       "image_auroc": 0.5332871012482663,
+       "image_auroc_ci": [
+        0.424252206327177,
+        0.6487187288708587
+       ],
+       "pixel_auroc": 0.7861717955600962,
+       "good_flagged": 0.6212765957446809,
+       "defective_flagged": 0.7537281636131231
+      },
+      "dowel": {
+       "n_test": 130,
+       "n_defective": 104,
+       "n_windows": 17269,
+       "n_defect_windows": 188,
+       "window_auc": 0.9048768882184635,
+       "window_auc_ci": [
+        0.8922115565639259,
+        0.916681322246816
+       ],
+       "image_auroc": 0.40976331360946744,
+       "image_auroc_ci": [
+        0.2890916272455584,
+        0.543683670649335
+       ],
+       "pixel_auroc": 0.8912519492857288,
+       "good_flagged": 0.3273825872013183,
+       "defective_flagged": 0.31706128133704736
+      },
+      "foam": {
+       "n_test": 100,
+       "n_defective": 80,
+       "n_windows": 87809,
+       "n_defect_windows": 511,
+       "window_auc": 0.8577564626802523,
+       "window_auc_ci": [
+        0.8506987244497743,
+        0.8646621157827613
+       ],
+       "image_auroc": 0.50125,
+       "image_auroc_ci": [
+        0.3703943965517241,
+        0.6446078153357532
+       ],
+       "pixel_auroc": 0.815745080438727,
+       "good_flagged": 0.3450519347106495,
+       "defective_flagged": 0.34691076809892335
+      },
+      "peach": {
+       "n_test": 132,
+       "n_defective": 106,
+       "n_windows": 6426,
+       "n_defect_windows": 425,
+       "window_auc": 0.7489763470794083,
+       "window_auc_ci": [
+        0.7279765605468626,
+        0.770619018092073
+       ],
+       "image_auroc": 0.3624818577648766,
+       "image_auroc_ci": [
+        0.25159546401970645,
+        0.4741760226903179
+       ],
+       "pixel_auroc": 0.6347469505311685,
+       "good_flagged": 0.5770584095707249,
+       "defective_flagged": 0.6764121999639054
+      },
+      "potato": {
+       "n_test": 114,
+       "n_defective": 92,
+       "n_windows": 44246,
+       "n_defect_windows": 574,
+       "window_auc": 0.9563670867978143,
+       "window_auc_ci": [
+        0.9491113372808305,
+        0.9624773782913617
+       ],
+       "image_auroc": 0.4955533596837945,
+       "image_auroc_ci": [
+        0.3616650323213295,
+        0.6296304619225968
+       ],
+       "pixel_auroc": 0.9279416658434851,
+       "good_flagged": 0.1527450319973055,
+       "defective_flagged": 0.1363764875215257
+      },
+      "rope": {
+       "n_test": 101,
+       "n_defective": 69,
+       "n_windows": 39510,
+       "n_defect_windows": 329,
+       "window_auc": 0.9000919976333048,
+       "window_auc_ci": [
+        0.8885626221548528,
+        0.9108263252618773
+       ],
+       "image_auroc": 0.41440217391304346,
+       "image_auroc_ci": [
+        0.29382632093933464,
+        0.5414640920388643
+       ],
+       "pixel_auroc": 0.8905841396341502,
+       "good_flagged": 0.3452230306864916,
+       "defective_flagged": 0.3460806557856986
+      },
+      "tire": {
+       "n_test": 112,
+       "n_defective": 87,
+       "n_windows": 45158,
+       "n_defect_windows": 400,
+       "window_auc": 0.918849479422673,
+       "window_auc_ci": [
+        0.9120457132059621,
+        0.924765468099567
+       ],
+       "image_auroc": 0.4868965517241379,
+       "image_auroc_ci": [
+        0.3588936237373737,
+        0.6137073863636363
+       ],
+       "pixel_auroc": 0.8883401161869315,
+       "good_flagged": 0.2029254022428084,
+       "defective_flagged": 0.19139121575730134
+      }
+     },
+     "shift_of_margin_in_sigma": 1.9364736137817158,
+     "flagged_synthetic_bg_before": 0.14072838203662358,
+     "flagged_synthetic_bg_after_shift": 1.0,
+     "train_good_flagged": 0.2787740772369295,
+     "delta_energy_in_normal_subspace": 0.7269278764724731,
+     "delta_energy_in_dent_subspace": 0.8860382437705994
+    },
+    "nearest_mean": {
+     "auc_val": 0.8627295591360086,
+     "f1_val": 0.7126116834217688,
+     "sigma_val": 1.323997974395752,
+     "categories": {
+      "bagel": {
+       "n_test": 110,
+       "n_defective": 88,
+       "n_windows": 17708,
+       "n_defect_windows": 653,
+       "window_auc": 0.8798316679259921,
+       "window_auc_ci": [
+        0.8698604147988559,
+        0.8894401123062432
+       ],
+       "image_auroc": 0.5650826446280992,
+       "image_auroc_ci": [
+        0.4347973599156262,
+        0.6920092610241368
+       ],
+       "pixel_auroc": 0.7720191195901525,
+       "good_flagged": 0.6077908217716115,
+       "defective_flagged": 0.636482849057906
+      },
+      "cable_gland": {
+       "n_test": 108,
+       "n_defective": 87,
+       "n_windows": 1275,
+       "n_defect_windows": 129,
+       "window_auc": 0.35324079711027234,
+       "window_auc_ci": [
+        0.29135085173821074,
+        0.42154150544990754
+       ],
+       "image_auroc": 0.5987958401751505,
+       "image_auroc_ci": [
+        0.45523973349221114,
+        0.7384627161865496
+       ],
+       "pixel_auroc": 0.43401836063977545,
+       "good_flagged": 0.9330985915492958,
+       "defective_flagged": 0.9573221757322176
+      },
+      "carrot": {
+       "n_test": 159,
+       "n_defective": 132,
+       "n_windows": 100810,
+       "n_defect_windows": 484,
+       "window_auc": 0.9639260102973397,
+       "window_auc_ci": [
+        0.9610761625248037,
+        0.9667667849001603
+       ],
+       "image_auroc": 0.3546576879910213,
+       "image_auroc_ci": [
+        0.25636758250742064,
+        0.4577861993693912
+       ],
+       "pixel_auroc": 0.9512698054115195,
+       "good_flagged": 0.09708907094300157,
+       "defective_flagged": 0.09986815692888788
+      },
+      "cookie": {
+       "n_test": 131,
+       "n_defective": 103,
+       "n_windows": 8783,
+       "n_defect_windows": 631,
+       "window_auc": 0.8750165243884421,
+       "window_auc_ci": [
+        0.8609384582776763,
+        0.8869752029101344
+       ],
+       "image_auroc": 0.40048543689320387,
+       "image_auroc_ci": [
+        0.2897640306122449,
+        0.5117519807236788
+       ],
+       "pixel_auroc": 0.7459692523994476,
+       "good_flagged": 0.7531914893617021,
+       "defective_flagged": 0.8967476210765516
+      },
+      "dowel": {
+       "n_test": 130,
+       "n_defective": 104,
+       "n_windows": 17269,
+       "n_defect_windows": 188,
+       "window_auc": 0.9016328021554371,
+       "window_auc_ci": [
+        0.8919930311080679,
+        0.9112287746468214
+       ],
+       "image_auroc": 0.5070266272189349,
+       "image_auroc_ci": [
+        0.38217688793836435,
+        0.6301031144781145
+       ],
+       "pixel_auroc": 0.8919962125724337,
+       "good_flagged": 0.3012908541609448,
+       "defective_flagged": 0.2873259052924791
+      },
+      "foam": {
+       "n_test": 100,
+       "n_defective": 80,
+       "n_windows": 87809,
+       "n_defect_windows": 511,
+       "window_auc": 0.8426449201890244,
+       "window_auc_ci": [
+        0.8345644406741471,
+        0.8509595530984382
+       ],
+       "image_auroc": 0.548125,
+       "image_auroc_ci": [
+        0.39699325419333925,
+        0.679546655003972
+       ],
+       "pixel_auroc": 0.8135727587304571,
+       "good_flagged": 0.33529277479739755,
+       "defective_flagged": 0.3356489014020741
+      },
+      "peach": {
+       "n_test": 132,
+       "n_defective": 106,
+       "n_windows": 6426,
+       "n_defect_windows": 425,
+       "window_auc": 0.742147289177294,
+       "window_auc_ci": [
+        0.7220222648094389,
+        0.7617674230686649
+       ],
+       "image_auroc": 0.6186502177068215,
+       "image_auroc_ci": [
+        0.504338912727961,
+        0.7230009992977907
+       ],
+       "pixel_auroc": 0.6253677312084169,
+       "good_flagged": 0.6741731175228712,
+       "defective_flagged": 0.7574445046020574
+      },
+      "potato": {
+       "n_test": 114,
+       "n_defective": 92,
+       "n_windows": 44246,
+       "n_defect_windows": 574,
+       "window_auc": 0.9644437661043713,
+       "window_auc_ci": [
+        0.9618143814378879,
+        0.9671363440159668
+       ],
+       "image_auroc": 0.575592885375494,
+       "image_auroc_ci": [
+        0.4599678853754941,
+        0.7066569591123162
+       ],
+       "pixel_auroc": 0.9319227568095957,
+       "good_flagged": 0.13287302121926575,
+       "defective_flagged": 0.10358033258796617
+      },
+      "rope": {
+       "n_test": 101,
+       "n_defective": 69,
+       "n_windows": 39510,
+       "n_defect_windows": 329,
+       "window_auc": 0.8930711950282335,
+       "window_auc_ci": [
+        0.88053472640981,
+        0.9048453695540831
+       ],
+       "image_auroc": 0.4696557971014493,
+       "image_auroc_ci": [
+        0.348862363127069,
+        0.5847470442410373
+       ],
+       "pixel_auroc": 0.8757140371349372,
+       "good_flagged": 0.3322524517557735,
+       "defective_flagged": 0.3337846739369099
+      },
+      "tire": {
+       "n_test": 112,
+       "n_defective": 87,
+       "n_windows": 45158,
+       "n_defect_windows": 400,
+       "window_auc": 0.9256775604361231,
+       "window_auc_ci": [
+        0.9209065588118481,
+        0.9301532483065212
+       ],
+       "image_auroc": 0.44666666666666666,
+       "image_auroc_ci": [
+        0.325102858683018,
+        0.5716895258386321
+       ],
+       "pixel_auroc": 0.9057049679517408,
+       "good_flagged": 0.16031204290589957,
+       "defective_flagged": 0.1546864387593389
+      }
+     },
+     "shift_of_margin_in_sigma": 2.935675621032715,
+     "flagged_synthetic_bg_before": 0.03329489412861594,
+     "flagged_synthetic_bg_after_shift": 1.0,
+     "train_good_flagged": 0.266502198184521
+    },
+    "logistic": {
+     "auc_val": 0.878172915307488,
+     "f1_val": 0.7551251323105374,
+     "sigma_val": 3.965575695037842,
+     "categories": {
+      "bagel": {
+       "n_test": 110,
+       "n_defective": 88,
+       "n_windows": 17708,
+       "n_defect_windows": 653,
+       "window_auc": 0.8852651744221807,
+       "window_auc_ci": [
+        0.8743395717151683,
+        0.8958154318813385
+       ],
+       "image_auroc": 0.5728305785123967,
+       "image_auroc_ci": [
+        0.4495936839323467,
+        0.691817566211878
+       ],
+       "pixel_auroc": 0.7817405423550031,
+       "good_flagged": 0.5170757737459979,
+       "defective_flagged": 0.5567672027055007
+      },
+      "cable_gland": {
+       "n_test": 108,
+       "n_defective": 87,
+       "n_windows": 1275,
+       "n_defect_windows": 129,
+       "window_auc": 0.32973470243651665,
+       "window_auc_ci": [
+        0.268379003324414,
+        0.3950340731670971
+       ],
+       "image_auroc": 0.5763546798029556,
+       "image_auroc_ci": [
+        0.43558796416328177,
+        0.7165107492550021
+       ],
+       "pixel_auroc": 0.40475745586606426,
+       "good_flagged": 0.8767605633802817,
+       "defective_flagged": 0.8903765690376569
+      },
+      "carrot": {
+       "n_test": 159,
+       "n_defective": 132,
+       "n_windows": 100810,
+       "n_defect_windows": 484,
+       "window_auc": 0.9611309898326497,
+       "window_auc_ci": [
+        0.9583482807873315,
+        0.9638096313547065
+       ],
+       "image_auroc": 0.3622334455667789,
+       "image_auroc_ci": [
+        0.26357471020638956,
+        0.46186809875540286
+       ],
+       "pixel_auroc": 0.9465388851174532,
+       "good_flagged": 0.08901284062518157,
+       "defective_flagged": 0.0891187894192966
+      },
+      "cookie": {
+       "n_test": 131,
+       "n_defective": 103,
+       "n_windows": 8783,
+       "n_defect_windows": 631,
+       "window_auc": 0.8974206790473865,
+       "window_auc_ci": [
+        0.8851384974558225,
+        0.9086226089455273
+       ],
+       "image_auroc": 0.39042995839112343,
+       "image_auroc_ci": [
+        0.28077736275708015,
+        0.49967038539553754
+       ],
+       "pixel_auroc": 0.7773042580631863,
+       "good_flagged": 0.6663829787234042,
+       "defective_flagged": 0.8102542252520949
+      },
+      "dowel": {
+       "n_test": 130,
+       "n_defective": 104,
+       "n_windows": 17269,
+       "n_defect_windows": 188,
+       "window_auc": 0.9077060239883309,
+       "window_auc_ci": [
+        0.8952278864744294,
+        0.9189065306672198
+       ],
+       "image_auroc": 0.4604289940828402,
+       "image_auroc_ci": [
+        0.3344097681009556,
+        0.6029379244864475
+       ],
+       "pixel_auroc": 0.894438133302161,
+       "good_flagged": 0.294699258445482,
+       "defective_flagged": 0.28231197771587746
+      },
+      "foam": {
+       "n_test": 100,
+       "n_defective": 80,
+       "n_windows": 87809,
+       "n_defect_windows": 511,
+       "window_auc": 0.8572726059363704,
+       "window_auc_ci": [
+        0.8499466579305056,
+        0.8645503784272941
+       ],
+       "image_auroc": 0.453125,
+       "image_auroc_ci": [
+        0.32399209724005135,
+        0.5775292832167832
+       ],
+       "pixel_auroc": 0.8180632373473085,
+       "good_flagged": 0.3341513525853213,
+       "defective_flagged": 0.3345170555028933
+      },
+      "peach": {
+       "n_test": 132,
+       "n_defective": 106,
+       "n_windows": 6426,
+       "n_defect_windows": 425,
+       "window_auc": 0.7478326161326053,
+       "window_auc_ci": [
+        0.7262024798559226,
+        0.76931532093928
+       ],
+       "image_auroc": 0.352322206095791,
+       "image_auroc_ci": [
+        0.23025048866898787,
+        0.47450581649610774
+       ],
+       "pixel_auroc": 0.6398556517710989,
+       "good_flagged": 0.6220971147079521,
+       "defective_flagged": 0.7043854899837575
+      },
+      "potato": {
+       "n_test": 114,
+       "n_defective": 92,
+       "n_windows": 44246,
+       "n_defect_windows": 574,
+       "window_auc": 0.9625232889075548,
+       "window_auc_ci": [
+        0.9596043981052338,
+        0.9654578639898493
+       ],
+       "image_auroc": 0.4782608695652174,
+       "image_auroc_ci": [
+        0.3413777736800049,
+        0.6163748479902713
+       ],
+       "pixel_auroc": 0.9284622740265306,
+       "good_flagged": 0.1092960592792186,
+       "defective_flagged": 0.09142313722466394
+      },
+      "rope": {
+       "n_test": 101,
+       "n_defective": 69,
+       "n_windows": 39510,
+       "n_defect_windows": 329,
+       "window_auc": 0.900537556623849,
+       "window_auc_ci": [
+        0.8882724364553846,
+        0.9115550327332355
+       ],
+       "image_auroc": 0.45652173913043476,
+       "image_auroc_ci": [
+        0.33999765258215964,
+        0.5788214186176143
+       ],
+       "pixel_auroc": 0.8890994120827508,
+       "good_flagged": 0.32632078456184754,
+       "defective_flagged": 0.3288809192710239
+      },
+      "tire": {
+       "n_test": 112,
+       "n_defective": 87,
+       "n_windows": 45158,
+       "n_defect_windows": 400,
+       "window_auc": 0.9170646588319407,
+       "window_auc_ci": [
+        0.9108431261669069,
+        0.9225225868888938
+       ],
+       "image_auroc": 0.4588505747126437,
+       "image_auroc_ci": [
+        0.328923712703674,
+        0.5906595600530474
+       ],
+       "pixel_auroc": 0.8826481708696877,
+       "good_flagged": 0.1539736713798147,
+       "defective_flagged": 0.1476964002716776
+      }
+     },
+     "shift_of_margin_in_sigma": 1.3924931287765503,
+     "flagged_synthetic_bg_before": 0.028060619443694743,
+     "flagged_synthetic_bg_after_shift": 0.9996646792779972,
+     "train_good_flagged": 0.25128886358604546
+    },
+    "sm_k25": {
+     "auc_val": 0.8294714624182046,
+     "f1_val": 0.6633877514740304,
+     "sigma_val": 0.011503599578830471,
+     "categories": {
+      "bagel": {
+       "n_test": 110,
+       "n_defective": 88,
+       "n_windows": 17708,
+       "n_defect_windows": 653,
+       "window_auc": 0.8940786564322346,
+       "window_auc_ci": [
+        0.8815443860372772,
+        0.9057168615709689
+       ],
+       "image_auroc": 0.6508264462809917,
+       "image_auroc_ci": [
+        0.5255462454212454,
+        0.7661112568715642
+       ],
+       "pixel_auroc": 0.8411220363283339,
+       "good_flagged": 0.48986125933831376,
+       "defective_flagged": 0.5353716612602664
+      },
+      "cable_gland": {
+       "n_test": 108,
+       "n_defective": 87,
+       "n_windows": 1275,
+       "n_defect_windows": 129,
+       "window_auc": 0.34239755401328514,
+       "window_auc_ci": [
+        0.2816452943453661,
+        0.4079789864450375
+       ],
+       "image_auroc": 0.5303776683087028,
+       "image_auroc_ci": [
+        0.3932383632697556,
+        0.6664843287995269
+       ],
+       "pixel_auroc": 0.40553156688226516,
+       "good_flagged": 0.8380281690140845,
+       "defective_flagged": 0.8476987447698745
+      },
+      "carrot": {
+       "n_test": 159,
+       "n_defective": 132,
+       "n_windows": 100810,
+       "n_defect_windows": 484,
+       "window_auc": 0.953766094432975,
+       "window_auc_ci": [
+        0.9476709618606372,
+        0.9589115415690767
+       ],
+       "image_auroc": 0.5162738496071829,
+       "image_auroc_ci": [
+        0.4047936563592244,
+        0.6303188976551772
+       ],
+       "pixel_auroc": 0.9375218835472039,
+       "good_flagged": 0.167218639242345,
+       "defective_flagged": 0.17193049138268937
+      },
+      "cookie": {
+       "n_test": 131,
+       "n_defective": 103,
+       "n_windows": 8783,
+       "n_defect_windows": 631,
+       "window_auc": 0.901931448282941,
+       "window_auc_ci": [
+        0.8854848013644034,
+        0.9163172799811832
+       ],
+       "image_auroc": 0.6529126213592233,
+       "image_auroc_ci": [
+        0.5287690518904903,
+        0.7641680662759672
+       ],
+       "pixel_auroc": 0.8306622167379026,
+       "good_flagged": 0.5885106382978723,
+       "defective_flagged": 0.7251810822326374
+      },
+      "dowel": {
+       "n_test": 130,
+       "n_defective": 104,
+       "n_windows": 17269,
+       "n_defect_windows": 188,
+       "window_auc": 0.907180991197137,
+       "window_auc_ci": [
+        0.8942201856596866,
+        0.9175586235382324
+       ],
+       "image_auroc": 0.5011094674556213,
+       "image_auroc_ci": [
+        0.37711930411222594,
+        0.631003606990449
+       ],
+       "pixel_auroc": 0.8833811217655635,
+       "good_flagged": 0.35704476792090084,
+       "defective_flagged": 0.3408774373259053
+      },
+      "foam": {
+       "n_test": 100,
+       "n_defective": 80,
+       "n_windows": 87809,
+       "n_defect_windows": 511,
+       "window_auc": 0.8648314819172819,
+       "window_auc_ci": [
+        0.8566879905803509,
+        0.8720969322591989
+       ],
+       "image_auroc": 0.405,
+       "image_auroc_ci": [
+        0.2612061403508772,
+        0.5393704744069912
+       ],
+       "pixel_auroc": 0.8346877858736088,
+       "good_flagged": 0.3568656546056386,
+       "defective_flagged": 0.35876685389284246
+      },
+      "peach": {
+       "n_test": 132,
+       "n_defective": 106,
+       "n_windows": 6426,
+       "n_defect_windows": 425,
+       "window_auc": 0.7398751188527403,
+       "window_auc_ci": [
+        0.7166045790865773,
+        0.7623637269755289
+       ],
+       "image_auroc": 0.5634978229317852,
+       "image_auroc_ci": [
+        0.449448732088451,
+        0.6706205163843728
+       ],
+       "pixel_auroc": 0.6510930273861775,
+       "good_flagged": 0.5932441942294159,
+       "defective_flagged": 0.6753293629308789
+      },
+      "potato": {
+       "n_test": 114,
+       "n_defective": 92,
+       "n_windows": 44246,
+       "n_defect_windows": 574,
+       "window_auc": 0.9536476540674129,
+       "window_auc_ci": [
+        0.9467463885825204,
+        0.9602870442409388
+       ],
+       "image_auroc": 0.6047430830039525,
+       "image_auroc_ci": [
+        0.49292044872690033,
+        0.7238438735177866
+       ],
+       "pixel_auroc": 0.9363666066622142,
+       "good_flagged": 0.18221623442236443,
+       "defective_flagged": 0.1677333127714807
+      },
+      "rope": {
+       "n_test": 101,
+       "n_defective": 69,
+       "n_windows": 39510,
+       "n_defect_windows": 329,
+       "window_auc": 0.8837937003303739,
+       "window_auc_ci": [
+        0.8730638611202389,
+        0.8935274906421553
+       ],
+       "image_auroc": 0.5855978260869565,
+       "image_auroc_ci": [
+        0.46930585408277337,
+        0.7131246268099716
+       ],
+       "pixel_auroc": 0.8458513442833078,
+       "good_flagged": 0.36246440999683643,
+       "defective_flagged": 0.36891605064773475
+      },
+      "tire": {
+       "n_test": 112,
+       "n_defective": 87,
+       "n_windows": 45158,
+       "n_defect_windows": 400,
+       "window_auc": 0.9206629541087626,
+       "window_auc_ci": [
+        0.9133395512290374,
+        0.9271679736789623
+       ],
+       "image_auroc": 0.534712643678161,
+       "image_auroc_ci": [
+        0.40830611315894655,
+        0.6498367012278973
+       ],
+       "pixel_auroc": 0.9003121480635805,
+       "good_flagged": 0.2295465626523647,
+       "defective_flagged": 0.22195494679646818
+      }
+     },
+     "shift_of_margin_in_sigma": 2.484415587412537,
+     "flagged_synthetic_bg_before": 0.16307219209788093,
+     "flagged_synthetic_bg_after_shift": 1.0,
+     "train_good_flagged": 0.29933263750513966
+    },
+    "gds_k25_r1_q5": {
+     "auc_val": 0.8330480869570339,
+     "f1_val": 0.6059011616141174,
+     "sigma_val": 0.16629059125963214,
+     "categories": {
+      "bagel": {
+       "n_test": 110,
+       "n_defective": 88,
+       "n_windows": 17708,
+       "n_defect_windows": 653,
+       "window_auc": 0.7337068658600698,
+       "window_auc_ci": [
+        0.7193697858538886,
+        0.7481518448189312
+       ],
+       "image_auroc": 0.35330578512396693,
+       "image_auroc_ci": [
+        0.22210709446056337,
+        0.48088842975206614
+       ],
+       "pixel_auroc": 0.5649983040005375,
+       "good_flagged": 0.8022945570971185,
+       "defective_flagged": 0.8219338808751466
+      },
+      "cable_gland": {
+       "n_test": 108,
+       "n_defective": 87,
+       "n_windows": 1275,
+       "n_defect_windows": 129,
+       "window_auc": 0.4587307385310551,
+       "window_auc_ci": [
+        0.40613401340291694,
+        0.5180037442797683
+       ],
+       "image_auroc": 0.48111658456486045,
+       "image_auroc_ci": [
+        0.35038986072275646,
+        0.6075960135011859
+       ],
+       "pixel_auroc": 0.5218203224518327,
+       "good_flagged": 0.9225352112676056,
+       "defective_flagged": 0.9623430962343096
+      },
+      "carrot": {
+       "n_test": 159,
+       "n_defective": 132,
+       "n_windows": 100810,
+       "n_defect_windows": 484,
+       "window_auc": 0.9663516770040412,
+       "window_auc_ci": [
+        0.9628937566970659,
+        0.9696110760339876
+       ],
+       "image_auroc": 0.5145903479236813,
+       "image_auroc_ci": [
+        0.3882046186103604,
+        0.6381486735761775
+       ],
+       "pixel_auroc": 0.9531983703629574,
+       "good_flagged": 0.49050026146069375,
+       "defective_flagged": 0.49028993597890513
+      },
+      "cookie": {
+       "n_test": 131,
+       "n_defective": 103,
+       "n_windows": 8783,
+       "n_defect_windows": 631,
+       "window_auc": 0.6518381340893856,
+       "window_auc_ci": [
+        0.6330683689787159,
+        0.6692129067571971
+       ],
+       "image_auroc": 0.37170596393897365,
+       "image_auroc_ci": [
+        0.26706776438106805,
+        0.4799896627465419
+       ],
+       "pixel_auroc": 0.45032948384846233,
+       "good_flagged": 0.8714893617021277,
+       "defective_flagged": 0.9311177389575345
+      },
+      "dowel": {
+       "n_test": 130,
+       "n_defective": 104,
+       "n_windows": 17269,
+       "n_defect_windows": 188,
+       "window_auc": 0.8908887814879541,
+       "window_auc_ci": [
+        0.8811145742647528,
+        0.9001065122685623
+       ],
+       "image_auroc": 0.46264792899408286,
+       "image_auroc_ci": [
+        0.3382306940700809,
+        0.6021183153977776
+       ],
+       "pixel_auroc": 0.8633982867411191,
+       "good_flagged": 0.6242790442186212,
+       "defective_flagged": 0.6031337047353761
+      },
+      "foam": {
+       "n_test": 100,
+       "n_defective": 80,
+       "n_windows": 87809,
+       "n_defect_windows": 511,
+       "window_auc": 0.8273293282173273,
+       "window_auc_ci": [
+        0.8188011962649157,
+        0.8367813375011047
+       ],
+       "image_auroc": 0.441875,
+       "image_auroc_ci": [
+        0.3008208455165692,
+        0.5669098942208463
+       ],
+       "pixel_auroc": 0.7907304183711252,
+       "good_flagged": 0.7999086862230339,
+       "defective_flagged": 0.7992105374853213
+      },
+      "peach": {
+       "n_test": 132,
+       "n_defective": 106,
+       "n_windows": 6426,
+       "n_defect_windows": 425,
+       "window_auc": 0.6530778203632728,
+       "window_auc_ci": [
+        0.6312623080013532,
+        0.6722966219504605
+       ],
+       "image_auroc": 0.46407837445573297,
+       "image_auroc_ci": [
+        0.34077574936193056,
+        0.588256043158004
+       ],
+       "pixel_auroc": 0.5572676177564226,
+       "good_flagged": 0.8304011259676284,
+       "defective_flagged": 0.8770979967514889
+      },
+      "potato": {
+       "n_test": 114,
+       "n_defective": 92,
+       "n_windows": 44246,
+       "n_defect_windows": 574,
+       "window_auc": 0.9496918508131251,
+       "window_auc_ci": [
+        0.9434370919492528,
+        0.9553413232305016
+       ],
+       "image_auroc": 0.5350790513833992,
+       "image_auroc_ci": [
+        0.3820478950919687,
+        0.6846309878117914
+       ],
+       "pixel_auroc": 0.9291289454715181,
+       "good_flagged": 0.49343213203098685,
+       "defective_flagged": 0.49924178168452976
+      },
+      "rope": {
+       "n_test": 101,
+       "n_defective": 69,
+       "n_windows": 39510,
+       "n_defect_windows": 329,
+       "window_auc": 0.873801108083139,
+       "window_auc_ci": [
+        0.8621922405667494,
+        0.8841944579915247
+       ],
+       "image_auroc": 0.447463768115942,
+       "image_auroc_ci": [
+        0.326582301797819,
+        0.5672892191860842
+       ],
+       "pixel_auroc": 0.8305632571809307,
+       "good_flagged": 0.7973742486554888,
+       "defective_flagged": 0.7827709873380663
+      },
+      "tire": {
+       "n_test": 112,
+       "n_defective": 87,
+       "n_windows": 45158,
+       "n_defect_windows": 400,
+       "window_auc": 0.92401012109567,
+       "window_auc_ci": [
+        0.9194506207276928,
+        0.9284716139982366
+       ],
+       "image_auroc": 0.5337931034482759,
+       "image_auroc_ci": [
+        0.3930701375609154,
+        0.666280487804878
+       ],
+       "pixel_auroc": 0.9018819560643908,
+       "good_flagged": 0.5311555338859093,
+       "defective_flagged": 0.5249603803486529
+      }
+     },
+     "shift_of_margin_in_sigma": 1.9028686653783735,
+     "flagged_synthetic_bg_before": 0.31390108856556337,
+     "flagged_synthetic_bg_after_shift": 0.9998855002412673,
+     "train_good_flagged": 0.6647373248568808,
+     "delta_u_energy_in_removed_principal": 0.1870911949026272,
+     "delta_u_energy_in_gds": 0.7214834382961132,
+     "delta_u_energy_outside_sumspace": 0.09142536680125957
+    }
+   },
+   "delta_norm_over_bg_feature_std": 2.138368606567383
+  },
+  "dinov2_1024": {
+   "dim": 1024,
+   "selected": {
+    "sm": {
+     "K": 50,
+     "auc": 0.9751399083049666,
+     "f1": 0.9067438237257957
+    },
+    "gds": {
+     "K": 50,
+     "R": 1,
+     "Q": 25,
+     "auc": 0.9771773417566683,
+     "f1": 0.9005381908507555
+    }
+   },
+   "rules": {
+    "pbss_k50": {
+     "auc_val": 0.9699215344020332,
+     "f1_val": 0.9042818065092391,
+     "sigma_val": 0.22733707370775905,
+     "categories": {
+      "bagel": {
+       "n_test": 110,
+       "n_defective": 88,
+       "n_windows": 17708,
+       "n_defect_windows": 653,
+       "window_auc": 0.8864862486604235,
+       "window_auc_ci": [
+        0.8692863961059764,
+        0.9029102245464797
+       ],
+       "image_auroc": 0.5852272727272727,
+       "image_auroc_ci": [
+        0.45785851509142983,
+        0.704112851444837
+       ],
+       "pixel_auroc": 0.8150975609904171,
+       "good_flagged": 1.0,
+       "defective_flagged": 1.0
+      },
+      "cable_gland": {
+       "n_test": 108,
+       "n_defective": 87,
+       "n_windows": 1275,
+       "n_defect_windows": 129,
+       "window_auc": 0.24536304233126344,
+       "window_auc_ci": [
+        0.18849212613365873,
+        0.31216283962400937
+       ],
+       "image_auroc": 0.4756431308155446,
+       "image_auroc_ci": [
+        0.32866754999537795,
+        0.6263744270560503
+       ],
+       "pixel_auroc": 0.34150003410017776,
+       "good_flagged": 1.0,
+       "defective_flagged": 1.0
+      },
+      "carrot": {
+       "n_test": 159,
+       "n_defective": 132,
+       "n_windows": 100810,
+       "n_defect_windows": 484,
+       "window_auc": 0.9573237938535251,
+       "window_auc_ci": [
+        0.9546150629222852,
+        0.9598792731205449
+       ],
+       "image_auroc": 0.45819304152637486,
+       "image_auroc_ci": [
+        0.34434889462462126,
+        0.5763322477560856
+       ],
+       "pixel_auroc": 0.9357222450252405,
+       "good_flagged": 0.9960490384056708,
+       "defective_flagged": 0.9960922188832535
+      },
+      "cookie": {
+       "n_test": 131,
+       "n_defective": 103,
+       "n_windows": 8783,
+       "n_defect_windows": 631,
+       "window_auc": 0.9145568586709881,
+       "window_auc_ci": [
+        0.8986593096001724,
+        0.9298291415373493
+       ],
+       "image_auroc": 0.4497226074895978,
+       "image_auroc_ci": [
+        0.31817630185348633,
+        0.5794186885396562
+       ],
+       "pixel_auroc": 0.8634951634164082,
+       "good_flagged": 1.0,
+       "defective_flagged": 1.0
+      },
+      "dowel": {
+       "n_test": 130,
+       "n_defective": 104,
+       "n_windows": 17269,
+       "n_defect_windows": 188,
+       "window_auc": 0.8976628255608134,
+       "window_auc_ci": [
+        0.8877884286262339,
+        0.9076511404371589
+       ],
+       "image_auroc": 0.3916420118343195,
+       "image_auroc_ci": [
+        0.2800880978065444,
+        0.514174606591002
+       ],
+       "pixel_auroc": 0.8778115926671683,
+       "good_flagged": 0.9920351551771491,
+       "defective_flagged": 0.9895543175487466
+      },
+      "foam": {
+       "n_test": 100,
+       "n_defective": 80,
+       "n_windows": 87809,
+       "n_defect_windows": 511,
+       "window_auc": 0.8576777570800406,
+       "window_auc_ci": [
+        0.8495946986376199,
+        0.8654390196647681
+       ],
+       "image_auroc": 0.4575,
+       "image_auroc_ci": [
+        0.30149112333887046,
+        0.6130700228848593
+       ],
+       "pixel_auroc": 0.8224798791607013,
+       "good_flagged": 1.0,
+       "defective_flagged": 1.0
+      },
+      "peach": {
+       "n_test": 132,
+       "n_defective": 106,
+       "n_windows": 6426,
+       "n_defect_windows": 425,
+       "window_auc": 0.6490030093023712,
+       "window_auc_ci": [
+        0.6234797344972268,
+        0.6750677590196461
+       ],
+       "image_auroc": 0.489477503628447,
+       "image_auroc_ci": [
+        0.37535496674127256,
+        0.6001591461182656
+       ],
+       "pixel_auroc": 0.5505217727361097,
+       "good_flagged": 1.0,
+       "defective_flagged": 1.0
+      },
+      "potato": {
+       "n_test": 114,
+       "n_defective": 92,
+       "n_windows": 44246,
+       "n_defect_windows": 574,
+       "window_auc": 0.9625886717775141,
+       "window_auc_ci": [
+        0.9593688604354303,
+        0.965588736707822
+       ],
+       "image_auroc": 0.5405138339920948,
+       "image_auroc_ci": [
+        0.4138879315023882,
+        0.6717988533205924
+       ],
+       "pixel_auroc": 0.9347954473686392,
+       "good_flagged": 1.0,
+       "defective_flagged": 1.0
+      },
+      "rope": {
+       "n_test": 101,
+       "n_defective": 69,
+       "n_windows": 39510,
+       "n_defect_windows": 329,
+       "window_auc": 0.8489958030491952,
+       "window_auc_ci": [
+        0.8358214465065344,
+        0.861629756536216
+       ],
+       "image_auroc": 0.5366847826086957,
+       "image_auroc_ci": [
+        0.4115156957211037,
+        0.6701700898587932
+       ],
+       "pixel_auroc": 0.7994200914702652,
+       "good_flagged": 1.0,
+       "defective_flagged": 1.0
+      },
+      "tire": {
+       "n_test": 112,
+       "n_defective": 87,
+       "n_windows": 45158,
+       "n_defect_windows": 400,
+       "window_auc": 0.9222367230439251,
+       "window_auc_ci": [
+        0.9168442829717667,
+        0.9272095477180208
+       ],
+       "image_auroc": 0.4064367816091954,
+       "image_auroc_ci": [
+        0.2853110764804603,
+        0.5271334170201033
+       ],
+       "pixel_auroc": 0.9044845937773556,
+       "good_flagged": 0.9990248659190639,
+       "defective_flagged": 0.9992925062259452
+      }
+     },
+     "shift_of_margin_in_sigma": 1.5304672329733302,
+     "flagged_synthetic_bg_before": 0.010959262621553762,
+     "flagged_synthetic_bg_after_shift": 1.0,
+     "train_good_flagged": 0.9989246291552013,
+     "delta_energy_in_normal_subspace": 0.2779107689857483,
+     "delta_energy_in_dent_subspace": 0.40170183777809143
+    },
+    "nearest_mean": {
+     "auc_val": 0.968456796710526,
+     "f1_val": 0.860268163973766,
+     "sigma_val": 0.4918457865715027,
+     "categories": {
+      "bagel": {
+       "n_test": 110,
+       "n_defective": 88,
+       "n_windows": 17708,
+       "n_defect_windows": 653,
+       "window_auc": 0.85904575010225,
+       "window_auc_ci": [
+        0.8341435734294265,
+        0.8813321493236315
+       ],
+       "image_auroc": 0.6973140495867769,
+       "image_auroc_ci": [
+        0.5754685655253836,
+        0.8166617697493893
+       ],
+       "pixel_auroc": 0.7787274450111866,
+       "good_flagged": 1.0,
+       "defective_flagged": 0.999033749741183
+      },
+      "cable_gland": {
+       "n_test": 108,
+       "n_defective": 87,
+       "n_windows": 1275,
+       "n_defect_windows": 129,
+       "window_auc": 0.3013109298266975,
+       "window_auc_ci": [
+        0.23352209712414929,
+        0.38213298659890704
+       ],
+       "image_auroc": 0.5856595511767926,
+       "image_auroc_ci": [
+        0.453430564362714,
+        0.7155535675581246
+       ],
+       "pixel_auroc": 0.38797987379281734,
+       "good_flagged": 1.0,
+       "defective_flagged": 1.0
+      },
+      "carrot": {
+       "n_test": 159,
+       "n_defective": 132,
+       "n_windows": 100810,
+       "n_defect_windows": 484,
+       "window_auc": 0.9807849036109226,
+       "window_auc_ci": [
+        0.9787215936304717,
+        0.9826039227680302
+       ],
+       "image_auroc": 0.5998877665544332,
+       "image_auroc_ci": [
+        0.4750241875465145,
+        0.7147429435483871
+       ],
+       "pixel_auroc": 0.971693416026499,
+       "good_flagged": 0.314391958631108,
+       "defective_flagged": 0.3803494435272179
+      },
+      "cookie": {
+       "n_test": 131,
+       "n_defective": 103,
+       "n_windows": 8783,
+       "n_defect_windows": 631,
+       "window_auc": 0.8608861310224591,
+       "window_auc_ci": [
+        0.8352597427168481,
+        0.8839809277369393
+       ],
+       "image_auroc": 0.6040221914008321,
+       "image_auroc_ci": [
+        0.4769399584060799,
+        0.7177956648295496
+       ],
+       "pixel_auroc": 0.780605620138236,
+       "good_flagged": 0.8876595744680851,
+       "defective_flagged": 0.9902002556455048
+      },
+      "dowel": {
+       "n_test": 130,
+       "n_defective": 104,
+       "n_windows": 17269,
+       "n_defect_windows": 188,
+       "window_auc": 0.8665304986129917,
+       "window_auc_ci": [
+        0.8551162334387798,
+        0.8774751198032703
+       ],
+       "image_auroc": 0.3868343195266272,
+       "image_auroc_ci": [
+        0.28059129907243596,
+        0.4980444182389937
+       ],
+       "pixel_auroc": 0.8211347204981622,
+       "good_flagged": 0.482834386157649,
+       "defective_flagged": 0.42096100278551535
+      },
+      "foam": {
+       "n_test": 100,
+       "n_defective": 80,
+       "n_windows": 87809,
+       "n_defect_windows": 511,
+       "window_auc": 0.8433263591488748,
+       "window_auc_ci": [
+        0.8334958987726713,
+        0.8539361678727845
+       ],
+       "image_auroc": 0.524375,
+       "image_auroc_ci": [
+        0.3845480723263351,
+        0.6870018224785708
+       ],
+       "pixel_auroc": 0.8088191433171129,
+       "good_flagged": 0.3566944412738272,
+       "defective_flagged": 0.3541262857062011
+      },
+      "peach": {
+       "n_test": 132,
+       "n_defective": 106,
+       "n_windows": 6426,
+       "n_defect_windows": 425,
+       "window_auc": 0.644540615779723,
+       "window_auc_ci": [
+        0.6138611417874067,
+        0.6762440958327728
+       ],
+       "image_auroc": 0.4949201741654572,
+       "image_auroc_ci": [
+        0.3722756470561672,
+        0.6140598991356567
+       ],
+       "pixel_auroc": 0.5697079434889523,
+       "good_flagged": 1.0,
+       "defective_flagged": 0.9974733802562714
+      },
+      "potato": {
+       "n_test": 114,
+       "n_defective": 92,
+       "n_windows": 44246,
+       "n_defect_windows": 574,
+       "window_auc": 0.9810961727365161,
+       "window_auc_ci": [
+        0.9775689217902055,
+        0.9841088487516011
+       ],
+       "image_auroc": 0.6556324110671937,
+       "image_auroc_ci": [
+        0.5355791437318654,
+        0.7761516534967646
+       ],
+       "pixel_auroc": 0.9683377485530097,
+       "good_flagged": 0.38901987201077803,
+       "defective_flagged": 0.3296836044927648
+      },
+      "rope": {
+       "n_test": 101,
+       "n_defective": 69,
+       "n_windows": 39510,
+       "n_defect_windows": 329,
+       "window_auc": 0.8257674285245725,
+       "window_auc_ci": [
+        0.8083965699293308,
+        0.8433807076039993
+       ],
+       "image_auroc": 0.3967391304347826,
+       "image_auroc_ci": [
+        0.290586268754077,
+        0.5087264492753624
+       ],
+       "pixel_auroc": 0.7415404826314337,
+       "good_flagged": 0.9304808604871876,
+       "defective_flagged": 0.9418868476908439
+      },
+      "tire": {
+       "n_test": 112,
+       "n_defective": 87,
+       "n_windows": 45158,
+       "n_defect_windows": 400,
+       "window_auc": 0.9469854830421377,
+       "window_auc_ci": [
+        0.9417918442780051,
+        0.9519007959130944
+       ],
+       "image_auroc": 0.44091954022988505,
+       "image_auroc_ci": [
+        0.3118728741496599,
+        0.5812115711669282
+       ],
+       "pixel_auroc": 0.9379306171301142,
+       "good_flagged": 0.45314480741101903,
+       "defective_flagged": 0.4517772243604256
+      }
+     },
+     "shift_of_margin_in_sigma": 1.4324167966842651,
+     "flagged_synthetic_bg_before": 0.009732479492275356,
+     "flagged_synthetic_bg_after_shift": 1.0,
+     "train_good_flagged": 0.5212702027390328
+    },
+    "logistic": {
+     "auc_val": 0.9868537990293013,
+     "f1_val": 0.9397434515468363,
+     "sigma_val": 12.408092498779297,
+     "categories": {
+      "bagel": {
+       "n_test": 110,
+       "n_defective": 88,
+       "n_windows": 17708,
+       "n_defect_windows": 653,
+       "window_auc": 0.8535686049502936,
+       "window_auc_ci": [
+        0.8366611967578149,
+        0.8686452112929153
+       ],
+       "image_auroc": 0.42458677685950413,
+       "image_auroc_ci": [
+        0.2946659150477952,
+        0.5463692209528439
+       ],
+       "pixel_auroc": 0.7711713584956865,
+       "good_flagged": 0.9997331910352187,
+       "defective_flagged": 0.9997239284974808
+      },
+      "cable_gland": {
+       "n_test": 108,
+       "n_defective": 87,
+       "n_windows": 1275,
+       "n_defect_windows": 129,
+       "window_auc": 0.3431822178930422,
+       "window_auc_ci": [
+        0.2895374176007314,
+        0.40093864602715523
+       ],
+       "image_auroc": 0.47783251231527096,
+       "image_auroc_ci": [
+        0.34167068426571023,
+        0.6125038808397398
+       ],
+       "pixel_auroc": 0.42719460731806996,
+       "good_flagged": 1.0,
+       "defective_flagged": 1.0
+      },
+      "carrot": {
+       "n_test": 159,
+       "n_defective": 132,
+       "n_windows": 100810,
+       "n_defect_windows": 484,
+       "window_auc": 0.9658347156039905,
+       "window_auc_ci": [
+        0.9624482155671207,
+        0.968712912937463
+       ],
+       "image_auroc": 0.44135802469135804,
+       "image_auroc_ci": [
+        0.3346029735045702,
+        0.5558493153172787
+       ],
+       "pixel_auroc": 0.9560012313230036,
+       "good_flagged": 1.0,
+       "defective_flagged": 1.0
+      },
+      "cookie": {
+       "n_test": 131,
+       "n_defective": 103,
+       "n_windows": 8783,
+       "n_defect_windows": 631,
+       "window_auc": 0.8575273060658891,
+       "window_auc_ci": [
+        0.8420294754681081,
+        0.8708258633016945
+       ],
+       "image_auroc": 0.5374479889042996,
+       "image_auroc_ci": [
+        0.41508452620835845,
+        0.6487372185027388
+       ],
+       "pixel_auroc": 0.7908893802785344,
+       "good_flagged": 0.9991489361702127,
+       "defective_flagged": 1.0
+      },
+      "dowel": {
+       "n_test": 130,
+       "n_defective": 104,
+       "n_windows": 17269,
+       "n_defect_windows": 188,
+       "window_auc": 0.8988153441611745,
+       "window_auc_ci": [
+        0.8913605891827558,
+        0.9061787462166028
+       ],
+       "image_auroc": 0.45710059171597633,
+       "image_auroc_ci": [
+        0.3360455974842767,
+        0.5939058063791555
+       ],
+       "pixel_auroc": 0.8711882437797627,
+       "good_flagged": 1.0,
+       "defective_flagged": 1.0
+      },
+      "foam": {
+       "n_test": 100,
+       "n_defective": 80,
+       "n_windows": 87809,
+       "n_defect_windows": 511,
+       "window_auc": 0.8395413617768035,
+       "window_auc_ci": [
+        0.8320155806894558,
+        0.8473318751839422
+       ],
+       "image_auroc": 0.499375,
+       "image_auroc_ci": [
+        0.3670735382760699,
+        0.6342459491984808
+       ],
+       "pixel_auroc": 0.8329343837174407,
+       "good_flagged": 0.9998858577787924,
+       "defective_flagged": 0.9998726673363422
+      },
+      "peach": {
+       "n_test": 132,
+       "n_defective": 106,
+       "n_windows": 6426,
+       "n_defect_windows": 425,
+       "window_auc": 0.7155519178176186,
+       "window_auc_ci": [
+        0.6950637996875197,
+        0.7367294725356273
+       ],
+       "image_auroc": 0.5620464441219158,
+       "image_auroc_ci": [
+        0.4432537615740741,
+        0.6750015523041838
+       ],
+       "pixel_auroc": 0.5993312384381517,
+       "good_flagged": 1.0,
+       "defective_flagged": 1.0
+      },
+      "potato": {
+       "n_test": 114,
+       "n_defective": 92,
+       "n_windows": 44246,
+       "n_defect_windows": 574,
+       "window_auc": 0.9668288645863717,
+       "window_auc_ci": [
+        0.96329783298314,
+        0.9700884759423225
+       ],
+       "image_auroc": 0.5103754940711462,
+       "image_auroc_ci": [
+        0.3740098758715637,
+        0.6422663760795176
+       ],
+       "pixel_auroc": 0.9476520787706995,
+       "good_flagged": 0.9998315931289997,
+       "defective_flagged": 0.9997686791579922
+      },
+      "rope": {
+       "n_test": 101,
+       "n_defective": 69,
+       "n_windows": 39510,
+       "n_defect_windows": 329,
+       "window_auc": 0.8622624218720242,
+       "window_auc_ci": [
+        0.8494757489339163,
+        0.874822573872453
+       ],
+       "image_auroc": 0.6580615942028986,
+       "image_auroc_ci": [
+        0.5363540491766299,
+        0.7722054100790513
+       ],
+       "pixel_auroc": 0.8112996823862438,
+       "good_flagged": 0.999841822208162,
+       "defective_flagged": 0.9998170240796311
+      },
+      "tire": {
+       "n_test": 112,
+       "n_defective": 87,
+       "n_windows": 45158,
+       "n_defect_windows": 400,
+       "window_auc": 0.9420225434559185,
+       "window_auc_ci": [
+        0.9369676240890443,
+        0.9466066577243613
+       ],
+       "image_auroc": 0.56,
+       "image_auroc_ci": [
+        0.4293320190330157,
+        0.682212497963506
+       ],
+       "pixel_auroc": 0.9356366472756299,
+       "good_flagged": 1.0,
+       "defective_flagged": 1.0
+      }
+     },
+     "shift_of_margin_in_sigma": 2.959963083267212,
+     "flagged_synthetic_bg_before": 0.011867082137219782,
+     "flagged_synthetic_bg_after_shift": 1.0,
+     "train_good_flagged": 0.9999367428914824
+    },
+    "sm_k50": {
+     "auc_val": 0.9659902012949354,
+     "f1_val": 0.9035543197882818,
+     "sigma_val": 0.01072434515616456,
+     "categories": {
+      "bagel": {
+       "n_test": 110,
+       "n_defective": 88,
+       "n_windows": 17708,
+       "n_defect_windows": 653,
+       "window_auc": 0.8768222618202617,
+       "window_auc_ci": [
+        0.8561248925245819,
+        0.8962249119058548
+       ],
+       "image_auroc": 0.6342975206611571,
+       "image_auroc_ci": [
+        0.5095727236783215,
+        0.7458804946700204
+       ],
+       "pixel_auroc": 0.8198801150590257,
+       "good_flagged": 0.9989327641408752,
+       "defective_flagged": 0.9993788391193319
+      },
+      "cable_gland": {
+       "n_test": 108,
+       "n_defective": 87,
+       "n_windows": 1275,
+       "n_defect_windows": 129,
+       "window_auc": 0.26213861493296536,
+       "window_auc_ci": [
+        0.20032250420082842,
+        0.3351649934281519
+       ],
+       "image_auroc": 0.5287356321839081,
+       "image_auroc_ci": [
+        0.37394689472174414,
+        0.6835372406126482
+       ],
+       "pixel_auroc": 0.3590781331425097,
+       "good_flagged": 1.0,
+       "defective_flagged": 1.0
+      },
+      "carrot": {
+       "n_test": 159,
+       "n_defective": 132,
+       "n_windows": 100810,
+       "n_defect_windows": 484,
+       "window_auc": 0.957588694739447,
+       "window_auc_ci": [
+        0.9548358132502913,
+        0.9601640635067568
+       ],
+       "image_auroc": 0.44753086419753085,
+       "image_auroc_ci": [
+        0.3466028692502987,
+        0.5587131846164829
+       ],
+       "pixel_auroc": 0.9370167078681535,
+       "good_flagged": 0.16582418220905235,
+       "defective_flagged": 0.17892648857953938
+      },
+      "cookie": {
+       "n_test": 131,
+       "n_defective": 103,
+       "n_windows": 8783,
+       "n_defect_windows": 631,
+       "window_auc": 0.9094078592324285,
+       "window_auc_ci": [
+        0.8924681827935474,
+        0.9259623645942247
+       ],
+       "image_auroc": 0.4507628294036061,
+       "image_auroc_ci": [
+        0.32489046148026735,
+        0.5748406792292132
+       ],
+       "pixel_auroc": 0.8697644865372426,
+       "good_flagged": 0.9868085106382979,
+       "defective_flagged": 0.9992898735975003
+      },
+      "dowel": {
+       "n_test": 130,
+       "n_defective": 104,
+       "n_windows": 17269,
+       "n_defect_windows": 188,
+       "window_auc": 0.8941003254829617,
+       "window_auc_ci": [
+        0.8843325517221182,
+        0.9031040942665938
+       ],
+       "image_auroc": 0.3842455621301775,
+       "image_auroc_ci": [
+        0.270325,
+        0.4967165813926135
+       ],
+       "pixel_auroc": 0.8686042930993796,
+       "good_flagged": 0.32793188684427355,
+       "defective_flagged": 0.3115598885793872
+      },
+      "foam": {
+       "n_test": 100,
+       "n_defective": 80,
+       "n_windows": 87809,
+       "n_defect_windows": 511,
+       "window_auc": 0.8598564630434055,
+       "window_auc_ci": [
+        0.8520085603892182,
+        0.86627078669569
+       ],
+       "image_auroc": 0.463125,
+       "image_auroc_ci": [
+        0.3055940326340326,
+        0.618043796182266
+       ],
+       "pixel_auroc": 0.8236366316051043,
+       "good_flagged": 0.8650268234219838,
+       "defective_flagged": 0.8683097296303108
+      },
+      "peach": {
+       "n_test": 132,
+       "n_defective": 106,
+       "n_windows": 6426,
+       "n_defect_windows": 425,
+       "window_auc": 0.6302110432574963,
+       "window_auc_ci": [
+        0.6012919055304692,
+        0.6592532126393873
+       ],
+       "image_auroc": 0.45718432510885343,
+       "image_auroc_ci": [
+        0.3411212709672703,
+        0.5802631405649088
+       ],
+       "pixel_auroc": 0.5569455878626595,
+       "good_flagged": 1.0,
+       "defective_flagged": 0.9996390543223245
+      },
+      "potato": {
+       "n_test": 114,
+       "n_defective": 92,
+       "n_windows": 44246,
+       "n_defect_windows": 574,
+       "window_auc": 0.9600305221119361,
+       "window_auc_ci": [
+        0.9564896079216103,
+        0.9631297452817882
+       ],
+       "image_auroc": 0.5227272727272727,
+       "image_auroc_ci": [
+        0.3879577664399093,
+        0.6732083134257046
+       ],
+       "pixel_auroc": 0.9300562267622488,
+       "good_flagged": 0.8140788144156281,
+       "defective_flagged": 0.7815560181972395
+      },
+      "rope": {
+       "n_test": 101,
+       "n_defective": 69,
+       "n_windows": 39510,
+       "n_defect_windows": 329,
+       "window_auc": 0.8586692467481408,
+       "window_auc_ci": [
+        0.8453575487323187,
+        0.8707051668724225
+       ],
+       "image_auroc": 0.5389492753623188,
+       "image_auroc_ci": [
+        0.41664959016393444,
+        0.6580240457070877
+       ],
+       "pixel_auroc": 0.8331219253747025,
+       "good_flagged": 0.9014552356849098,
+       "defective_flagged": 0.917551050281783
+      },
+      "tire": {
+       "n_test": 112,
+       "n_defective": 87,
+       "n_windows": 45158,
+       "n_defect_windows": 400,
+       "window_auc": 0.9185122212788775,
+       "window_auc_ci": [
+        0.9129863876883186,
+        0.9236097178691843
+       ],
+       "image_auroc": 0.35908045977011493,
+       "image_auroc_ci": [
+        0.25134590763856596,
+        0.47070322364267675
+       ],
+       "pixel_auroc": 0.8959180441128746,
+       "good_flagged": 0.3295953193564115,
+       "defective_flagged": 0.33461625537695266
+      }
+     },
+     "shift_of_margin_in_sigma": 2.4064866148694217,
+     "flagged_synthetic_bg_before": 0.011171905030628685,
+     "flagged_synthetic_bg_after_shift": 1.0,
+     "train_good_flagged": 0.6599614131638043
+    },
+    "gds_k50_r1_q25": {
+     "auc_val": 0.9672090990566814,
+     "f1_val": 0.8928203902165213,
+     "sigma_val": 0.17224828527521144,
+     "categories": {
+      "bagel": {
+       "n_test": 110,
+       "n_defective": 88,
+       "n_windows": 17708,
+       "n_defect_windows": 653,
+       "window_auc": 0.8712442359486446,
+       "window_auc_ci": [
+        0.8523562135703053,
+        0.8905553996247457
+       ],
+       "image_auroc": 0.6580578512396694,
+       "image_auroc_ci": [
+        0.5372302412196791,
+        0.7684736995624696
+       ],
+       "pixel_auroc": 0.8203241037927735,
+       "good_flagged": 1.0,
+       "defective_flagged": 0.9991027676168127
+      },
+      "cable_gland": {
+       "n_test": 108,
+       "n_defective": 87,
+       "n_windows": 1275,
+       "n_defect_windows": 129,
+       "window_auc": 0.2896221437558342,
+       "window_auc_ci": [
+        0.2190486318919186,
+        0.37924359403434477
+       ],
+       "image_auroc": 0.48549534756431306,
+       "image_auroc_ci": [
+        0.3555690383015438,
+        0.6187789875565611
+       ],
+       "pixel_auroc": 0.3705409703260936,
+       "good_flagged": 1.0,
+       "defective_flagged": 1.0
+      },
+      "carrot": {
+       "n_test": 159,
+       "n_defective": 132,
+       "n_windows": 100810,
+       "n_defect_windows": 484,
+       "window_auc": 0.9616164938663593,
+       "window_auc_ci": [
+        0.9590091714941138,
+        0.9640314543554301
+       ],
+       "image_auroc": 0.4775533108866442,
+       "image_auroc_ci": [
+        0.35164903947849163,
+        0.5896192130265253
+       ],
+       "pixel_auroc": 0.9404461924507999,
+       "good_flagged": 0.43931206786357563,
+       "defective_flagged": 0.48805691819790714
+      },
+      "cookie": {
+       "n_test": 131,
+       "n_defective": 103,
+       "n_windows": 8783,
+       "n_defect_windows": 631,
+       "window_auc": 0.8794769428403907,
+       "window_auc_ci": [
+        0.8549810217424039,
+        0.9017420983129479
+       ],
+       "image_auroc": 0.6074895977808599,
+       "image_auroc_ci": [
+        0.5058190183841504,
+        0.7080891504329004
+       ],
+       "pixel_auroc": 0.8209731556867047,
+       "good_flagged": 0.8842553191489362,
+       "defective_flagged": 0.9866496236330067
+      },
+      "dowel": {
+       "n_test": 130,
+       "n_defective": 104,
+       "n_windows": 17269,
+       "n_defect_windows": 188,
+       "window_auc": 0.8694761007315581,
+       "window_auc_ci": [
+        0.8586992415590379,
+        0.8790137220684778
+       ],
+       "image_auroc": 0.46634615384615385,
+       "image_auroc_ci": [
+        0.348627557516302,
+        0.5832472183695484
+       ],
+       "pixel_auroc": 0.8251371041289559,
+       "good_flagged": 0.7514419115627575,
+       "defective_flagged": 0.6901810584958217
+      },
+      "foam": {
+       "n_test": 100,
+       "n_defective": 80,
+       "n_windows": 87809,
+       "n_defect_windows": 511,
+       "window_auc": 0.8600183800329608,
+       "window_auc_ci": [
+        0.8532523042529034,
+        0.8657820861828216
+       ],
+       "image_auroc": 0.54875,
+       "image_auroc_ci": [
+        0.38499038461538465,
+        0.7037948210416565
+       ],
+       "pixel_auroc": 0.819558484716996,
+       "good_flagged": 0.8685652322794202,
+       "defective_flagged": 0.8573591205557364
+      },
+      "peach": {
+       "n_test": 132,
+       "n_defective": 106,
+       "n_windows": 6426,
+       "n_defect_windows": 425,
+       "window_auc": 0.6306854739896292,
+       "window_auc_ci": [
+        0.603170611685087,
+        0.6608772405084234
+       ],
+       "image_auroc": 0.44702467343976776,
+       "image_auroc_ci": [
+        0.3322158590073029,
+        0.5744330214283344
+       ],
+       "pixel_auroc": 0.5470957006781824,
+       "good_flagged": 0.9992962702322308,
+       "defective_flagged": 0.9981952716116225
+      },
+      "potato": {
+       "n_test": 114,
+       "n_defective": 92,
+       "n_windows": 44246,
+       "n_defect_windows": 574,
+       "window_auc": 0.9658294521146871,
+       "window_auc_ci": [
+        0.9621052645871346,
+        0.9690282649049943
+       ],
+       "image_auroc": 0.5765810276679841,
+       "image_auroc_ci": [
+        0.4317766955266955,
+        0.7153059123847167
+       ],
+       "pixel_auroc": 0.9441283500768687,
+       "good_flagged": 0.2684405523745369,
+       "defective_flagged": 0.21587375022489527
+      },
+      "rope": {
+       "n_test": 101,
+       "n_defective": 69,
+       "n_windows": 39510,
+       "n_defect_windows": 329,
+       "window_auc": 0.7965501702060944,
+       "window_auc_ci": [
+        0.7771166286625817,
+        0.815500915307667
+       ],
+       "image_auroc": 0.6227355072463768,
+       "image_auroc_ci": [
+        0.5051803196803197,
+        0.7373531839312518
+       ],
+       "pixel_auroc": 0.7468031469148594,
+       "good_flagged": 1.0,
+       "defective_flagged": 1.0
+      },
+      "tire": {
+       "n_test": 112,
+       "n_defective": 87,
+       "n_windows": 45158,
+       "n_defect_windows": 400,
+       "window_auc": 0.9273332700299388,
+       "window_auc_ci": [
+        0.922015744365344,
+        0.9321457197290972
+       ],
+       "image_auroc": 0.3696551724137931,
+       "image_auroc_ci": [
+        0.25340593375980214,
+        0.4906469566993464
+       ],
+       "pixel_auroc": 0.9096629427883293,
+       "good_flagged": 0.863481228668942,
+       "defective_flagged": 0.8595483359746434
+      }
+     },
+     "shift_of_margin_in_sigma": 1.0868374880792881,
+     "flagged_synthetic_bg_before": 0.04521104759100686,
+     "flagged_synthetic_bg_after_shift": 0.9991412518095051,
+     "train_good_flagged": 0.7370401998924629,
+     "delta_u_energy_in_removed_principal": 0.19867144810541268,
+     "delta_u_energy_in_gds": 0.31439219951553754,
+     "delta_u_energy_outside_sumspace": 0.4869363523790494
+    }
+   },
+   "delta_norm_over_bg_feature_std": 5.307285308837891
+  }
+ },
+ "end_to_end": {
+  "dentnet_prob_mean": {
+   "bagel": {
+    "n_test": 110,
+    "n_defective": 88,
+    "n_windows": 17708,
+    "n_defect_windows": 653,
+    "window_auc": 0.8628482393912498,
+    "window_auc_ci": [
+     0.8424132373002525,
+     0.8812129598867098
+    ],
+    "image_auroc": 0.6317148760330579,
+    "image_auroc_ci": [
+     0.5121878443526171,
+     0.740010366506153
+    ],
+    "pixel_auroc": 0.7974819994358576,
+    "good_flagged": 0.18996798292422626,
+    "defective_flagged": 0.225412381806888
+   },
+   "cable_gland": {
+    "n_test": 108,
+    "n_defective": 87,
+    "n_windows": 1275,
+    "n_defect_windows": 129,
+    "window_auc": 0.35564213915608045,
+    "window_auc_ci": [
+     0.28920184825807227,
+     0.43156723507937805
+    ],
+    "image_auroc": 0.48330596606458676,
+    "image_auroc_ci": [
+     0.3464921020569564,
+     0.625970394736842
+    ],
+    "pixel_auroc": 0.41436557208693975,
+    "good_flagged": 0.5704225352112676,
+    "defective_flagged": 0.6175732217573222
+   },
+   "carrot": {
+    "n_test": 159,
+    "n_defective": 132,
+    "n_windows": 100810,
+    "n_defect_windows": 484,
+    "window_auc": 0.9601210178784106,
+    "window_auc_ci": [
+     0.9564695969205484,
+     0.963316570938535
+    ],
+    "image_auroc": 0.43574635241301907,
+    "image_auroc_ci": [
+     0.32445753981492226,
+     0.5543810234491856
+    ],
+    "pixel_auroc": 0.9460028393832888,
+    "good_flagged": 0.07076869443960258,
+    "defective_flagged": 0.06827333087859748
+   },
+   "cookie": {
+    "n_test": 131,
+    "n_defective": 103,
+    "n_windows": 8783,
+    "n_defect_windows": 631,
+    "window_auc": 0.8904660499635297,
+    "window_auc_ci": [
+     0.8698531643437811,
+     0.9074036125276534
+    ],
+    "image_auroc": 0.5114424410540915,
+    "image_auroc_ci": [
+     0.39653363705935807,
+     0.6287045493886415
+    ],
+    "pixel_auroc": 0.8408121186866471,
+    "good_flagged": 0.22893617021276597,
+    "defective_flagged": 0.3445533304928277
+   },
+   "dowel": {
+    "n_test": 130,
+    "n_defective": 104,
+    "n_windows": 17269,
+    "n_defect_windows": 188,
+    "window_auc": 0.9091618533470684,
+    "window_auc_ci": [
+     0.8991156894057339,
+     0.9184165996742482
+    ],
+    "image_auroc": 0.34726331360946744,
+    "image_auroc_ci": [
+     0.23997319665173375,
+     0.45546524064171123
+    ],
+    "pixel_auroc": 0.9015079550451719,
+    "good_flagged": 0.2546003845097501,
+    "defective_flagged": 0.24171309192200557
+   },
+   "foam": {
+    "n_test": 100,
+    "n_defective": 80,
+    "n_windows": 87809,
+    "n_defect_windows": 511,
+    "window_auc": 0.8482982620790231,
+    "window_auc_ci": [
+     0.8405100633869342,
+     0.8560002960070087
+    ],
+    "image_auroc": 0.551875,
+    "image_auroc_ci": [
+     0.3967331331480378,
+     0.6934596671747967
+    ],
+    "pixel_auroc": 0.8248762592152052,
+    "good_flagged": 0.3257618993265609,
+    "defective_flagged": 0.32701857642082033
+   },
+   "peach": {
+    "n_test": 132,
+    "n_defective": 106,
+    "n_windows": 6426,
+    "n_defect_windows": 425,
+    "window_auc": 0.7184980934550124,
+    "window_auc_ci": [
+     0.6921755501346196,
+     0.7440505037707777
+    ],
+    "image_auroc": 0.4169085631349782,
+    "image_auroc_ci": [
+     0.30296429147115456,
+     0.5404994362412887
+    ],
+    "pixel_auroc": 0.6677446660275603,
+    "good_flagged": 0.2660098522167488,
+    "defective_flagged": 0.33766468146543943
+   },
+   "potato": {
+    "n_test": 114,
+    "n_defective": 92,
+    "n_windows": 44246,
+    "n_defect_windows": 574,
+    "window_auc": 0.9577161919101723,
+    "window_auc_ci": [
+     0.9535186103549335,
+     0.9614333505404344
+    ],
+    "image_auroc": 0.5395256916996047,
+    "image_auroc_ci": [
+     0.4065997154516176,
+     0.6831706810631228
+    ],
+    "pixel_auroc": 0.929974173922715,
+    "good_flagged": 0.056247894914112494,
+    "defective_flagged": 0.05091628755750893
+   },
+   "rope": {
+    "n_test": 101,
+    "n_defective": 69,
+    "n_windows": 39510,
+    "n_defect_windows": 329,
+    "window_auc": 0.875524347333849,
+    "window_auc_ci": [
+     0.8641552934106365,
+     0.886439251179963
+    ],
+    "image_auroc": 0.6068840579710145,
+    "image_auroc_ci": [
+     0.48704124500249873,
+     0.7136163275952008
+    ],
+    "pixel_auroc": 0.8583045900187525,
+    "good_flagged": 0.3000632711167352,
+    "defective_flagged": 0.30425236038937276
+   },
+   "tire": {
+    "n_test": 112,
+    "n_defective": 87,
+    "n_windows": 45158,
+    "n_defect_windows": 400,
+    "window_auc": 0.9209516734438536,
+    "window_auc_ci": [
+     0.9160857085042474,
+     0.9251038155013181
+    ],
+    "image_auroc": 0.5997701149425287,
+    "image_auroc_ci": [
+     0.47718942813367016,
+     0.7202634270491413
+    ],
+    "pixel_auroc": 0.8931595846279059,
+    "good_flagged": 0.14588005850804486,
+    "defective_flagged": 0.13920647498302016
+   }
+  },
+  "dentnet_prob_max": {
+   "bagel": {
+    "n_test": 110,
+    "n_defective": 88,
+    "n_windows": 17708,
+    "n_defect_windows": 653,
+    "window_auc": 0.7649004683972177,
+    "window_auc_ci": [
+     0.7483245307020774,
+     0.7793890497895217
+    ],
+    "image_auroc": 0.5,
+    "image_auroc_ci": [
+     0.5,
+     0.5
+    ],
+    "pixel_auroc": 0.6230627637930521,
+    "good_flagged": 0.7572038420490929,
+    "defective_flagged": 0.7784526192283802
+   },
+   "cable_gland": {
+    "n_test": 108,
+    "n_defective": 87,
+    "n_windows": 1275,
+    "n_defect_windows": 129,
+    "window_auc": 0.4253284088910535,
+    "window_auc_ci": [
+     0.3689189956908283,
+     0.48480562645525677
+    ],
+    "image_auroc": 0.5,
+    "image_auroc_ci": [
+     0.5,
+     0.5
+    ],
+    "pixel_auroc": 0.49822187461510037,
+    "good_flagged": 0.9330985915492958,
+    "defective_flagged": 0.9581589958158996
+   },
+   "carrot": {
+    "n_test": 159,
+    "n_defective": 132,
+    "n_windows": 100810,
+    "n_defect_windows": 484,
+    "window_auc": 0.9596981299640857,
+    "window_auc_ci": [
+     0.9565796400520267,
+     0.9621106136037098
+    ],
+    "image_auroc": 0.5,
+    "image_auroc_ci": [
+     0.5,
+     0.5
+    ],
+    "pixel_auroc": 0.9257857596557091,
+    "good_flagged": 0.23426878159316716,
+    "defective_flagged": 0.2588281407751422
+   },
+   "cookie": {
+    "n_test": 131,
+    "n_defective": 103,
+    "n_windows": 8783,
+    "n_defect_windows": 631,
+    "window_auc": 0.6662786027443705,
+    "window_auc_ci": [
+     0.6566554086060724,
+     0.6764168847564943
+    ],
+    "image_auroc": 0.5,
+    "image_auroc_ci": [
+     0.5,
+     0.5
+    ],
+    "pixel_auroc": 0.537693083020203,
+    "good_flagged": 0.8395744680851064,
+    "defective_flagged": 0.9444681153245278
+   },
+   "dowel": {
+    "n_test": 130,
+    "n_defective": 104,
+    "n_windows": 17269,
+    "n_defect_windows": 188,
+    "window_auc": 0.8833499209648147,
+    "window_auc_ci": [
+     0.8799251928964984,
+     0.8868855095806295
+    ],
+    "image_auroc": 0.5,
+    "image_auroc_ci": [
+     0.5,
+     0.5
+    ],
+    "pixel_auroc": 0.822431917408399,
+    "good_flagged": 0.37434770667399064,
+    "defective_flagged": 0.354108635097493
+   },
+   "foam": {
+    "n_test": 100,
+    "n_defective": 80,
+    "n_windows": 87809,
+    "n_defect_windows": 511,
+    "window_auc": 0.837516323398016,
+    "window_auc_ci": [
+     0.8349007736565709,
+     0.8402583943745363
+    ],
+    "image_auroc": 0.5,
+    "image_auroc_ci": [
+     0.5,
+     0.5
+    ],
+    "pixel_auroc": 0.8013223496770256,
+    "good_flagged": 0.3408286725259674,
+    "defective_flagged": 0.3412939828242385
+   },
+   "peach": {
+    "n_test": 132,
+    "n_defective": 106,
+    "n_windows": 6426,
+    "n_defect_windows": 425,
+    "window_auc": 0.6875483497848398,
+    "window_auc_ci": [
+     0.6712192238238158,
+     0.7033576837907081
+    ],
+    "image_auroc": 0.5,
+    "image_auroc_ci": [
+     0.5,
+     0.5
+    ],
+    "pixel_auroc": 0.5602706018366895,
+    "good_flagged": 0.7994370161857847,
+    "defective_flagged": 0.8464176141490706
+   },
+   "potato": {
+    "n_test": 114,
+    "n_defective": 92,
+    "n_windows": 44246,
+    "n_defect_windows": 574,
+    "window_auc": 0.9607801512765736,
+    "window_auc_ci": [
+     0.9572531628826554,
+     0.9637013823803844
+    ],
+    "image_auroc": 0.5,
+    "image_auroc_ci": [
+     0.5,
+     0.5
+    ],
+    "pixel_auroc": 0.9212368126345784,
+    "good_flagged": 0.2803974402155608,
+    "defective_flagged": 0.2289305266404503
+   },
+   "rope": {
+    "n_test": 101,
+    "n_defective": 69,
+    "n_windows": 39510,
+    "n_defect_windows": 329,
+    "window_auc": 0.8470304484316378,
+    "window_auc_ci": [
+     0.84500716621861,
+     0.8491954526392181
+    ],
+    "image_auroc": 0.5,
+    "image_auroc_ci": [
+     0.5,
+     0.5
+    ],
+    "pixel_auroc": 0.8087443929861354,
+    "good_flagged": 0.43506801645049037,
+    "defective_flagged": 0.44938886042596793
+   },
+   "tire": {
+    "n_test": 112,
+    "n_defective": 87,
+    "n_windows": 45158,
+    "n_defect_windows": 400,
+    "window_auc": 0.9342799052683319,
+    "window_auc_ci": [
+     0.9322815173123832,
+     0.9361787685604064
+    ],
+    "image_auroc": 0.5,
+    "image_auroc_ci": [
+     0.5,
+     0.5
+    ],
+    "pixel_auroc": 0.9024278127240822,
+    "good_flagged": 0.2771331058020478,
+    "defective_flagged": 0.2763470681458003
+   }
+  },
+  "pnpp_prob": {
+   "bagel": {
+    "n_test": 110,
+    "n_defective": 88,
+    "n_windows": 17708,
+    "n_defect_windows": 653,
+    "window_auc": 0.8759702305351168,
+    "window_auc_ci": [
+     0.8662078731382261,
+     0.8858231913739958
+    ],
+    "image_auroc": 0.5,
+    "image_auroc_ci": [
+     0.5,
+     0.5
+    ],
+    "pixel_auroc": 0.750553575573264,
+    "good_flagged": 0.8551227321237994,
+    "defective_flagged": 0.8658292497756919
+   },
+   "cable_gland": {
+    "n_test": 108,
+    "n_defective": 87,
+    "n_windows": 1275,
+    "n_defect_windows": 129,
+    "window_auc": 0.3896634062529594,
+    "window_auc_ci": [
+     0.32627737338156376,
+     0.4529684561481398
+    ],
+    "image_auroc": 0.5,
+    "image_auroc_ci": [
+     0.5,
+     0.5
+    ],
+    "pixel_auroc": 0.4804515881245281,
+    "good_flagged": 0.9894366197183099,
+    "defective_flagged": 0.9907949790794979
+   },
+   "carrot": {
+    "n_test": 159,
+    "n_defective": 132,
+    "n_windows": 100810,
+    "n_defect_windows": 484,
+    "window_auc": 0.9652783784367096,
+    "window_auc_ci": [
+     0.9638314687661094,
+     0.9665845171650403
+    ],
+    "image_auroc": 0.5,
+    "image_auroc_ci": [
+     0.5,
+     0.5
+    ],
+    "pixel_auroc": 0.9396112054158404,
+    "good_flagged": 0.3211318342920225,
+    "defective_flagged": 0.3611787483222672
+   },
+   "cookie": {
+    "n_test": 131,
+    "n_defective": 103,
+    "n_windows": 8783,
+    "n_defect_windows": 631,
+    "window_auc": 0.7981168806931378,
+    "window_auc_ci": [
+     0.7870289561784929,
+     0.8080078706778842
+    ],
+    "image_auroc": 0.5,
+    "image_auroc_ci": [
+     0.5,
+     0.5
+    ],
+    "pixel_auroc": 0.6369163698258933,
+    "good_flagged": 0.8689361702127659,
+    "defective_flagged": 0.9832410169010084
+   },
+   "dowel": {
+    "n_test": 130,
+    "n_defective": 104,
+    "n_windows": 17269,
+    "n_defect_windows": 188,
+    "window_auc": 0.8783150869387039,
+    "window_auc_ci": [
+     0.8749610210280231,
+     0.8817449788245535
+    ],
+    "image_auroc": 0.5,
+    "image_auroc_ci": [
+     0.5,
+     0.5
+    ],
+    "pixel_auroc": 0.8186369008852546,
+    "good_flagged": 0.41746772864597637,
+    "defective_flagged": 0.39192200557103063
+   },
+   "foam": {
+    "n_test": 100,
+    "n_defective": 80,
+    "n_windows": 87809,
+    "n_defect_windows": 511,
+    "window_auc": 0.8373990495878458,
+    "window_auc_ci": [
+     0.8346367322512471,
+     0.8401955849058708
+    ],
+    "image_auroc": 0.5,
+    "image_auroc_ci": [
+     0.5,
+     0.5
+    ],
+    "pixel_auroc": 0.8014511133515085,
+    "good_flagged": 0.3422554502910627,
+    "defective_flagged": 0.34376989572869654
+   },
+   "peach": {
+    "n_test": 132,
+    "n_defective": 106,
+    "n_windows": 6426,
+    "n_defect_windows": 425,
+    "window_auc": 0.7926290716253174,
+    "window_auc_ci": [
+     0.7784265995499217,
+     0.8054816139677642
+    ],
+    "image_auroc": 0.5,
+    "image_auroc_ci": [
+     0.5,
+     0.5
+    ],
+    "pixel_auroc": 0.6606166309447429,
+    "good_flagged": 0.8817733990147784,
+    "defective_flagged": 0.9124706731636889
+   },
+   "potato": {
+    "n_test": 114,
+    "n_defective": 92,
+    "n_windows": 44246,
+    "n_defect_windows": 574,
+    "window_auc": 0.9762882380086461,
+    "window_auc_ci": [
+     0.9745009002626592,
+     0.9779547825739732
+    ],
+    "image_auroc": 0.5,
+    "image_auroc_ci": [
+     0.5,
+     0.5
+    ],
+    "pixel_auroc": 0.9439353861277757,
+    "good_flagged": 0.3777366116537555,
+    "defective_flagged": 0.3037499678721053
+   },
+   "rope": {
+    "n_test": 101,
+    "n_defective": 69,
+    "n_windows": 39510,
+    "n_defect_windows": 329,
+    "window_auc": 0.8469273496419741,
+    "window_auc_ci": [
+     0.8438420864357821,
+     0.8496782936754775
+    ],
+    "image_auroc": 0.5,
+    "image_auroc_ci": [
+     0.5,
+     0.5
+    ],
+    "pixel_auroc": 0.8153605957153156,
+    "good_flagged": 0.4343562163872192,
+    "defective_flagged": 0.45802532386737904
+   },
+   "tire": {
+    "n_test": 112,
+    "n_defective": 87,
+    "n_windows": 45158,
+    "n_defect_windows": 400,
+    "window_auc": 0.9359151436614683,
+    "window_auc_ci": [
+     0.9339405747031176,
+     0.9377994935296208
+    ],
+    "image_auroc": 0.5,
+    "image_auroc_ci": [
+     0.5,
+     0.5
+    ],
+    "pixel_auroc": 0.9088114240408551,
+    "good_flagged": 0.3734763529985373,
+    "defective_flagged": 0.3756791940230926
+   }
+  }
+ }
+}

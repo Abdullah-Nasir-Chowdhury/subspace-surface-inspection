@@ -1,0 +1,32 @@
+{
+  "dir": "pointnetpp_fuselage_r0.3",
+  "ckpt": "/home/abdulla/accv_results_real/pointnetpp_fuselage_r0.3/best.pth",
+  "norm_radius": 0.3,
+  "inner_val_auc": 0.9339835708112992,
+  "candidates": [
+    {
+      "dir": "pointnetpp_fuselage",
+      "norm_radius": 2.0,
+      "inner_val_auc": 0.8596867330690308,
+      "val_patch_auc": 0.8862030421696191,
+      "val_f1": 0.7528845951019891,
+      "pixel_iou_dented": 0.6525225870622264
+    },
+    {
+      "dir": "pointnetpp_fuselage_r0.3",
+      "norm_radius": 0.3,
+      "inner_val_auc": 0.9339835708112992,
+      "val_patch_auc": 0.9476208806121738,
+      "val_f1": 0.851580207843305,
+      "pixel_iou_dented": 0.6965596567730302
+    },
+    {
+      "dir": "pointnetpp_fuselage_r0.6",
+      "norm_radius": 0.6,
+      "inner_val_auc": 0.9161710470918338,
+      "val_patch_auc": 0.9314661078602214,
+      "val_f1": 0.83019936195464,
+      "pixel_iou_dented": 0.6911103667166172
+    }
+  ]
+}
