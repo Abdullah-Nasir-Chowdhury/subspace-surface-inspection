@@ -3,7 +3,8 @@
 Abdulla Nasir Chowdhury, Naish Ibrahim, Gulpi Qorik Oktagalu Pratamasunu, Kazuhiro Fukui.
 ACCV 2026 Workshop on Subspaces in the Era of Foundation Models.
 
-[Paper (arXiv:PENDING-ARXIV-ID)](https://arxiv.org/abs/PENDING-ARXIV-ID) ·
+[Paper (arXiv:2611.02744)](https://arxiv.org/abs/2611.02744) ·
+[DOI 10.48550/arXiv.2611.02744](https://doi.org/10.48550/arXiv.2611.02744) ·
 [Project page](https://abdullah-nasir-chowdhury.github.io/projects/accv2026/)
 
 ![Qualitative results on Real3D-AD](figures/fig_qualitative.png)
@@ -111,7 +112,9 @@ already exist, so an interrupted run resumes. Set `PY` to choose the interpreter
                and Fukui, Kazuhiro},
   booktitle = {ACCV 2026 Workshop on Subspaces in the Era of Foundation Models},
   year      = {2026},
-  note      = {arXiv:PENDING-ARXIV-ID}
+  eprint    = {2611.02744},
+  archivePrefix = {arXiv},
+  doi       = {10.48550/arXiv.2611.02744}
 }
 ```
 
